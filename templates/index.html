@@ -2,16 +2,16 @@
 
 {% block content %}
 <div class="container">
-    <a href="/my" class="container-headline"><img style="width: 18px" src="/static/img/stern_filled.png"> Mein Programm</a>
+    <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline"><img style="width: 18px" src="/static/img/stern_filled.png"> Mein Programm</a>
 
 </div>
 
 <div class="container">
-    <a href="/programm" class="container-headline">Porgramm suchen</a>
+    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">Porgramm suchen</a>
 </div>
 
 <div class="container">
-    <a href="/gd" class="container-headline">Gottesdienst</a>
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Gottesdienst</a>
 </div>
 
 <a href="/now" class="a-link">
