@@ -11,14 +11,28 @@
 </head>
 <body>
 <div class="head">
-    <a href="/"><img class="logo" src="/static/img/logo.png"></a>
-    <img class="lang" src="/static/img/logo_2_round_3.png">
+    <a href="/{{lang}}"><img class="logo" src="/static/img/logo.png"></a>
+
+    <select id="language-select">
+        <option value="de" title="Deutsch">Deutsch</option>
+        <option value="hu" title="Magyar">Magyar</option>
+        <option value="sk" title="Slovenský">Slovenský</option>
+        <option value="pl" title="Polski">Polski</option>
+        <option value="cz" title="Český">Český</option>
+    </select>
+    <img id="lang" class="lang" src="/static/img/{{lang}}.png">
+
 </div>
 
 {% block content %}
 {% endblock %}
 
 <script>
+
+    window.onload = function () {
+        document.getElementById('language-select').value = '{{lang}}';
+    }
+
     function setCookie(cname, cvalue, exdays) {
         const d = new Date();
         d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -40,6 +54,21 @@
         }
         return "";
     }
+
+    document.getElementById('language-select').addEventListener('change', function () {
+        let path = window.location.pathname
+        let split_path = path.split('/')
+        if (split_path.length == 0) {
+            location = this.value
+            return
+        }
+        split_path.shift()
+        if (split_path[0].length === 2) {
+            split_path.shift()
+        }
+        split_path.unshift(this.value)
+        location = '/' + split_path.join('/')
+    })
 </script>
 
 </body>
