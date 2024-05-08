@@ -2,21 +2,21 @@
 
 {% block content %}
 <div class="container">
-    <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline"><img style="width: 18px" src="/static/img/stern_filled.png"> Mein Programm</a>
+    <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline"><img style="width: 18px" src="/static/img/stern_filled.png"> {{translate["my_program"][lang]}}</a>
 
 </div>
 
 <div class="container">
-    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">Porgramm suchen</a>
+    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">{{translate["search"][lang]}}</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Gottesdienst</a>
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">{{translate["service"][lang]}}</a>
 </div>
 
 <a href="/now" class="a-link">
     <div class="container">
-        <p class="container-headline">Jetzt</p><br>
+        <p class="container-headline">{{translate["now"][lang]}}</p><br>
 
         <div class="container-inline">
             <p class="container-inline-headline">Gottesdienst</p>
