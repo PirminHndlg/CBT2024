@@ -22,6 +22,10 @@ def not_found(e):
 @app.route('/')
 @app.route('/<lang>')
 def index(lang=None):
+    with open('static/json/translate_index.json') as f:
+        translate = json.load(f)
+        f.close()
+
     if not lang:
         device_lang = request.accept_languages.best_match(['de', 'hu', 'pl', 'cz', 'sk'])
         if device_lang:
@@ -30,7 +34,7 @@ def index(lang=None):
     if len(lang) != 2:
         abort(404)
 
-    return render_template('index.html', lang=lang)
+    return render_template('index.html', lang=lang, translate=translate)
 
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
@@ -53,7 +57,10 @@ def programm_section(lang='de', section=None):
 @app.route('/<lang>/section')
 @app.route('/<lang>/programm')
 def programm(lang='de'):
-    return render_template('programm.html', lang=lang)
+    with open('static/json/translate_programm.json') as f:
+        translate = json.load(f)
+        f.close()
+    return render_template('programm.html', lang=lang, translate=translate)
 
 @app.route('/<lang>/my-program')
 def my_programm(lang='de'):
