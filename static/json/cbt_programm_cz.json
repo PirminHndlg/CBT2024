@@ -1,0 +1,1198 @@
+{
+    "1": {
+        "tag": 0,
+        "zeit": "15-15.30",
+        "location": {
+            "name": "Zvon míru, Uferstraße 1",
+            "address": ""
+        },
+        "titel-cz": "Modlitba za mír u zvonu",
+        "content-cz": "Jsme velmi znepokojeni válkami a konflikty v Evropě a po celém světě, například na Ukrajině a na Blízkém východě. Jako křesťané z různých zemí, sjednocení ve víře, začínáme Setkání křesťanů ekumenickou modlitbou za mír.\nBiskup Sándor Zán Fábián, Berehove/Ukrajina\nBiskup Pavlo Shvarts, Charkov/Ukrajina\nZemský biskup Friedrich Kramer, Magdeburg\nProboštka Barbara Hustedt, tajemnice pro ekumenické vztahy, Berlín/Německo\nKněz Dr. Tadeusz Kuźmicki, Gorzów/Polsko\nFarář Sławomir Sikora, Štětín/Polsko\nRené Pachmann, univerzitní kaplan, Evropská univerzita Viadrina, Frankfurt nad Odrou/Německo\nFarářka Susanne Noack, Frankfurt nad Odrou/Německo"
+    },
+    "2": {
+        "tag": 0,
+        "zeit": "15.30-16.30",
+        "location": {
+            "name": "Friedenskirche, presbytář 1. patro, Schulstraße 4A",
+            "address": ""
+        },
+        "titel-cz": "Víra znamená poznání – Karl Barth, stačí číst\nWorkshop",
+        "content-cz": "Anna Lena Schwarz, Katedra systematické a ekumenické teologie, Univerzita v Siegen/Německo\nVikář Abel Veres, Reformovaná církev v Maďarsku, Szigetszentmiklós/Maďarsko",
+        "lang": [
+            "HU"
+        ]
+    },
+    "3": {
+        "tag": 0,
+        "zeit": "16-17",
+        "location": {
+            "name": "Kostel sv. Jiří (St. Georg-Kirche), Bergstraße 156",
+            "address": ""
+        },
+        "titel-cz": "Nic nas njebuźo wótźěliś wót Bóžeje lubosći – Nic nás nemůže odloučit\nBohoslužba v lužické srbštině",
+        "content-cz": "Liturgie v lužické srbštině se zpěvy a tradicemi lužických Srbů a Vendů. Lužice je domovem nejmenšího slovanského národa. Pojďte s námi slavit vendskou bohoslužbu!\nPójź namšu a módli se a spiwaj z nami.\nFarářka Katharina Köhler, Dissen-Sielow"
+    },
+    "4": {
+        "tag": 0,
+        "zeit": "16-17:30",
+        "location": {
+            "name": "Kleist Forum, konferenční místnost 2, Platz der Einheit 1",
+            "address": ""
+        },
+        "titel-cz": "Setkat se nově\nPanelová diskuse: od sborových dnů ke Kirchentagu střední a východní Evropy",
+        "content-cz": "Nové tváře, nové pohledy, nové názory: Účastníci z Polska, Česka a Německa mluví o Setkáních křesťanů od roku 1991.\nFarář Cezary Królewicz, Lubaň/Polsko\nFarář v důchodu Albrecht Naumann, Görlitz/Německo\nFarářka Ulrike Menzel, teologická ředitelka Samariteranstalten Fürstenwalde/Spree/Německo\nGerhard Frey-Reininghaus, emeritní ekumenický referent Českobratrská církev evangelická, Praha/Česko\nModerace: Farář Wolfgang Iskraut, Chotěbuz/Německo",
+        "lang": [
+            "PL"
+        ]
+    },
+    "5": {
+        "tag": 0,
+        "zeit": "17.30-18",
+        "location": {
+            "name": "Kleist Forum, konferenční místnost 2, Platz der Einheit 1",
+            "address": ""
+        },
+        "titel-cz": "Willkommen/Witamy/Vitajte/Vítejte/Üdvözöljük\nHudba a slovo na úvod",
+        "content-cz": "Hudba: Žesťové soubory zúčastněných církví, dirigentka: Ulrike Gäbel, , vedoucí žesťových souborů v církevní oblasti Frankfurt nad Odrou/Německo\nModerace: Attila Weidemann, Berlín/Německo a farář Paweł Mikołajczyk, Wroclaw/Polsko\nOpen-Air podium, Brunnenplatz",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "6": {
+        "tag": 0,
+        "zeit": "18-19",
+        "location": {
+            "name": "Čtení a modlitby: Zástupci diakonie a mládeže",
+            "address": ""
+        },
+        "titel-cz": "Nic nás nemůže odloučit: Současnost a budoucnost\nZahajovací bohoslužba",
+        "content-cz": "Kázání:\nBiskup Dr. Christian Stäblein, Berlín/Německo\nVedení a liturgie:\nGenerální superintendentka Theresa Rinecker, Görlitz/Německo\nBiskup Waldemar Pytel, Wroclaw/Polsko\nFarářka Halina Radacz, Żyrardów/Polsko\nHudba:\nFrankfurtský ekumenický sbor, dirigent: církevní kantor Stephan Hardt, Frankfurt nad Odrou/Německo\nPěvecký sbor, sbormistryně: Natalia Karolak, Piła/Polsko\nŽesťové soubory zúčastněných církví, dirigent: Ulrike Gäbel, vedoucí žesťových souborů v církevní oblasti, Frankfurt nad Odrou/Německo\nKenya Music Project, Nairobi/Keňa a hudebníci z církevní oblasti Oderland-Spree/Německo\nOpen-Air pódium, Brunnenplatz",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "7": {
+        "tag": 0,
+        "zeit": "19-19:30",
+        "location": {
+            "name": "Čtení a modlitby: Zástupci diakonie a mládeže",
+            "address": ""
+        },
+        "titel-cz": "Zahájení večera setkání",
+        "content-cz": "Pozdravy z politiky, společnosti a ekumeny\nModerace: Attila Weidemann, Berlín/Německo a farář Paweł Mikołajczyk, Wroclaw/Polsko\nOpen-Air pódium, Brunnenplatz",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "8": {
+        "tag": 0,
+        "zeit": "19.30-22",
+        "location": {
+            "name": "Marktplatz, Bischofsstraße, Promenáda u řeky Odry až na náměstí před Collegiem Polonicem",
+            "address": ""
+        },
+        "titel-cz": "Večer setkání v ulicích města",
+        "content-cz": "Večer setkání začíná pestrou pouliční slavností. Od náměstí Markplatz až po městský most jsou všichni zváni ke společné procházce, jídlu, zpěvu, poslechu a oslavě. Celý region se podílí na tomto večeru a dělá z něj nezapomenutelný zážitek. Hosté jsou srdečně vítáni farnostmi všech denominací, iniciativ, asociací a organizací z Německa a Polska. Na impozantních březích Odry – symbolického centra hostitelského regionu – vytvářejí různé společné aktivity, hudba a kulinářské speciality prostor k setkávání."
+    },
+    "9": {
+        "tag": 0,
+        "zeit": "20-21",
+        "location": {
+            "name": "Open-Air pódium, Brunnenplatz",
+            "address": ""
+        },
+        "titel-cz": "Hudební projekt Keňa\nVelký koncert s hudbou z Afriky",
+        "content-cz": "Od roku 2005jsou hudební skupina Mamlaka Hill Chapel a církevní oblast Oderland-Spree propojeny spoluprací na keňském hudebním projektu. Prostřednictvím ekumenických, hudebních a kulturních setkání projekt podporuje víru a osobní rozvoj mladých křesťanů z obou zemí.\nMamlaka Hill Chepel, Nairobi/Keňa"
+    },
+    "10": {
+        "tag": 0,
+        "zeit": "20-21.30",
+        "location": {
+            "name": "Kostel míru – Friedenskirche, Schulstraße 4A",
+            "address": ""
+        },
+        "titel-cz": "Sjednoceni v hudbě\nTechnobohoslužba",
+        "content-cz": "Jazyku hudby rozumí každý. S výraznými basy a elektronickou hudbou chceme slavit bohoslužbu, která není jen pro mladé lidi!\nKázání: Biskup Tobias Bilz, Drážďany/Německo\nVedení a hudba: farář Jiří Šamšula, Třebenice/Česko a farář Viktor Weber, Berlín",
+        "lang": [
+            "CZ"
+        ]
+    },
+    "11": {
+        "tag": 0,
+        "zeit": "21.45",
+        "location": {
+            "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice",
+            "address": ""
+        },
+        "titel-cz": "Večerní požehnání a společné zakončení",
+        "content-cz": "S mořem světel, dechové hudby a překvapením zakončíme večer společného setkání na obou stranách Odry.\nFarářka Gabriele Neumann, Frankfurt nad Odrou/Německo\nSuperintendant Frank Schürer-Behrmann, Frankfurt nad Odrou/Německo\nBiskup Mirosław Wola, Gorzów Wielkopolski/Polsko\nSrdečně zveme naše hosty, kteří jsou ubytováni v rodinách a ve společných prostorách, na společnou biblickou snídani. Liturgie je připravena v polštině, maďarštině, češtině, slovenštině a němčině. Viz stránka (Biblické snídaně/liturgie)",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "12": {
+        "tag": 1,
+        "zeit": "8-10",
+        "location": {
+            "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice",
+            "address": ""
+        },
+        "titel-cz": "Biblické práce",
+        "content-cz": "Naše hosty ubytované v hotelech se snídaní a jednodenní hosty srdečně zveme na biblickou práci a biblické pobožnosti."
+    },
+    "13": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
+            "address": ""
+        },
+        "titel-cz": "Dialogická biblická prácev polštině a němčině",
+        "content-cz": "Krajská biskupka Kristina Kühnbaum-Schmidt, Schwerin\nBiskup Adrian Korczago, Bielsko-Biała/Polsko\nHudba: Sbor, vedoucí: Farář Piotr Sztwiertnia, Goleszów/Polsko",
+        "lang": [
+            "PL"
+        ]
+    },
+    "14": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kleist Forum, Velký sál, Platz der Einheit 1",
+            "address": ""
+        },
+        "titel-cz": "Biblická práce v maďarštině",
+        "content-cz": "Farář György Gregersen-Labossa, Budapešť/Maďarsko"
+    },
+    "15": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kleist Forum, konferenční místnost 2, 2. patro, Platz der Einheit 1",
+            "address": ""
+        },
+        "titel-cz": "Biblická práce v češtině",
+        "content-cz": "Farář Jiří Tengler, Polička/Česko\nHudba: Pěvecký sbor ECHO Zlín, vedoucí: celocírkevní kantor Ladislav Moravetz, Zlín/Česko"
+    },
+    "16": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kostel sv. Jiří (St.-Georg-Kirche), Bergstraße 156",
+            "address": ""
+        },
+        "titel-cz": "Biblická práce ve slovenštině",
+        "content-cz": "Farář Tomáš German, Blatnica/Slovensko\nHudba: Ján Hegeduš, Zvolen/Slovensko"
+    },
+    "17": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche), Gertraudenplatz 6",
+            "address": ""
+        },
+        "titel-cz": "Biblická práce v češtině a němčině",
+        "content-cz": "Biskup Lukáš Bujna, Plzeň/Česko\nGenerální superintendant Kristóf Bálint, Postupim/Německo\nHudba: Pěvecký sbor Církve československé husitské farář a církevní hudebník PaedDr. Zdeněk Kovalčík, Zlín/Česko",
+        "lang": [
+            "CZ"
+        ]
+    },
+    "18": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kostel míru (Friedenskirche), Schulstraße 4A",
+            "address": ""
+        },
+        "titel-cz": "Dialogická biblická práce vněmčině",
+        "content-cz": "Proboštka Dr. Christina-Maria Bammel, Berlín/Německo\nMons. Dr. Hansjörg Günther, Berlín/Německo"
+    },
+    "19": {
+        "tag": 1,
+        "zeit": "9-10",
+        "location": {
+            "name": "Kleist Forum, Foyer, Platz der Einheit 1",
+            "address": ""
+        },
+        "titel-cz": "Biblická práce s antisemitsko-kritickým výkladem: Ježíš a cizoložnice",
+        "content-cz": "Prof. em. Katharina von Kellenbach PhD, Berlín/Německo"
+    },
+    "20": {
+        "tag": 1,
+        "zeit": "9.00-10.00",
+        "location": {
+            "name": "Luisenstrasse 25D",
+            "address": ""
+        },
+        "titel-cz": "Ranní pobožnost v biblické zahradě",
+        "content-cz": "Evangelická základní škola, Frankfurt nad Odrou/Německo\nHudba: Markus Nicolaus, varhaník, Frankfurt nad Odrou/Německo"
+    },
+    "21": {
+        "tag": 1,
+        "zeit": "9.30",
+        "location": {
+            "name": "Diakonia Wichern, kaple, Luisenstraße 21-24",
+            "address": ""
+        },
+        "titel-cz": "Ranní pobožnost",
+        "content-cz": "Dr. Ursula Schoen, ředitelka Diakonie, Berlín/Německo\nOpen-Air pódium, Brunnenplatz"
+    },
+    "22": {
+        "tag": 1,
+        "zeit": "10.30-11",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Life´n´Rhythm",
+        "content-cz": "Kreativní hudba a tanec pro každého. Určitě se přidejte a přijďte si zazpívat!\nProjekt Ten Sing, Praha/Česko"
+    },
+    "23": {
+        "tag": 1,
+        "zeit": "11-11.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Církve obnovují Evropu!?\nJak může církev přispět k prosperující, sociální a pokojné Evropě",
+        "content-cz": "Prezes Harald Geywitz, Berlín/Německo\nPrezes Adam Malina, Katowice-Szopienice/Polsko",
+        "lang": [
+            "PL"
+        ]
+    },
+    "24": {
+        "tag": 1,
+        "zeit": "11.30-12",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Všechno, co děláte, dělejte v lásce\nTanec a písně z Polska",
+        "content-cz": "Pestrý tanec a písně s vějířovitými závoji v podání dětí a mládeže\nDivadelní a taneční skupina evangelicko-augsburské církve, vedoucí: Agnieszka Borski, Skoczów/Polsko"
+    },
+    "25": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Polední pobožnost v němčině",
+        "content-cz": "Prezes Harald Geywitz, Berlín/Německo\nMons. Dr. Hansjörg Günther, Berlín/Německo\nHudba: Žesťové soubory zúčastněných církví, vedení: Ulrike Gäbel, vedoucí žesťových souborů v církevní oblasti, Frankfurt nad Odrou/Německo"
+    },
+    "26": {
+        "tag": 1,
+        "zeit": "12.30-13",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Mír ano, ale jak?\nO výzvách, cestách a impulsech pro udržitelné budování míru",
+        "content-cz": "Biskup Sándor Zán Fábián, Berehove/Ukrajina\nBiskup Jerzy Samiec, Varšava/Polsko\nBiskup Dr. Christian Stäblein, Berlín/Německo",
+        "lang": [
+            "PL",
+            "HU"
+        ]
+    },
+    "27": {
+        "tag": 1,
+        "zeit": "13-14",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Přijďte si zazpívat písně ve všech jazycích zemí Setkání křesťanů!\nSpolečné zpívání",
+        "content-cz": "Vedení: Kantor Tobias Brommann, Berlín/Německo"
+    },
+    "28": {
+        "tag": 1,
+        "zeit": "14-14.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Má církev budoucnost?\nCírkev v menšině, mezi společenským významem a církví pro všechny",
+        "content-cz": "Mateusz Sikora, zástupce mládeže, Štětín/Polsko\nDr. Viola Vogel, předsedkyně konzistoře, Berlín",
+        "lang": [
+            "PL"
+        ]
+    },
+    "29": {
+        "tag": 1,
+        "zeit": "14.30-15",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Young Jazz\nPocta kreativní spravedlnosti skrze hudbu",
+        "content-cz": "Jazz Youngs, mládežnická jazzová skupina luterských středních škol, Budapešť/Maďarsko"
+    },
+    "30": {
+        "tag": 1,
+        "zeit": "15-15.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Vždy používané, nikdy nevysvětlené: Co znamená dvojměstí?\nZástupci měst Frankfurt nad Odrou a Słubice hovoří o tom, jak se obě města společně rozvíjela, a o úspěších i překážkách přeshraniční spolupráce.",
+        "content-cz": "Starosta Mariusz Olejniczak, Słubice/Polsko\nOberbürgermeister René Wilke, Frankfurt (Oder)/Německo PL"
+    },
+    "31": {
+        "tag": 1,
+        "zeit": "15.30-16",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Hudba z Česka\nTóny a písně s historickými a lidovými nástroji",
+        "content-cz": "Tomáš Najbrt, multiinstrumentalista, Praha/Česko"
+    },
+    "32": {
+        "tag": 1,
+        "zeit": "16-16.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Jak se může církev stát inkluzivnější?\nPodle Bible mají všichni lidé stejnou důstojnost. Ale diskriminace a násilí v církvi jsou skutečné. Jak se mohou církve stát bezpečnými místy pro všechny? ",
+        "content-cz": "Prezes Anna-Nicole Heinrich, Hannover/Německo"
+    },
+    "33": {
+        "tag": 1,
+        "zeit": "16.30-17",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Srdcem i duší\nLidové tance v maďarském kroji",
+        "content-cz": "Soubor lidových tanců Evangelického luterského gymnázia v Aszódu, Vedení: Erzsébet Lányi, Aszód/Maďarsko"
+    },
+    "34": {
+        "tag": 1,
+        "zeit": "17-17.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Čerpání síly v diaspoře?\nProtestantští křesťané v Polsku a východním Německu jsou v menšině, a proto se zaměřují na spolupráci",
+        "content-cz": "Generální superintendantka Theresa Rinecker, Görlitz/Německo\nBiskup Waldemar Pytel, Wroclaw/Polsko",
+        "lang": [
+            "PL"
+        ]
+    },
+    "35": {
+        "tag": 1,
+        "zeit": "17.30-18",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Písně pro mír",
+        "content-cz": "Parents & Friends (Rodiče a přátelé), vedení: Jochen Silex, Seelow/Německo"
+    },
+    "36": {
+        "tag": 1,
+        "zeit": "20-21.45",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Nebezpečně cizí dechovka\nKoncert",
+        "content-cz": "Banda Comunale, Drážďany/Německo"
+    },
+    "37": {
+        "tag": 1,
+        "zeit": "21.45-22",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Večerní požehnání v němčině",
+        "content-cz": "Generální superintendent Kristóf Bálint, Postupim/Německo\nHudba: Žesťové soubory zúčastněných církví, vedení: Ulrike Gäbel, vedoucí žesťových souborů v církevní oblasti, Frankfurt nad Odrou\nModerování dne: Attila Weidemann, Berlín a farář Paweł Meler, Wroclaw/Polsko\nZ náměstí Marktplatz přes Bischofsstraße na promenádu u řeky Odry"
+    },
+    "38": {
+        "tag": 1,
+        "zeit": "18.30-19.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Nasycení 4 000",
+        "content-cz": "Společná večerní tabule\nU kilometr dlouhého stolu z náměstí až na promenádu u řeky Odry se společně najíme a napijeme , seznámíme se a zažijeme příjemné chvíle – ve všech jazycích a všemi smysly. Přineste si zvonky, hlavně ať jsou hlasité!"
+    },
+    "39": {
+        "tag": 1,
+        "zeit": "10-12 a 14-18",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "Kdo se ptá, ten se dozví v BibelMobilu",
+        "content-cz": "V mobilní společnosti je důležitější než kdy jindy, aby se církev sama stala mobilní. Dvoupatrový autobus nabízí spoustu informací, výstavní prostor, biblické knihkupectví a tiskárnu. Workshopy trvající 30 minut:\nBibelMobil v Sedmihradsku: Zprávy o návštěvách maďarské reformované a luterské evangelické církve v Rumunsku\nBibelMobil v Polsku: cestopis ve fotografiích\nGutenbergův tisk: Kdo byl Gutenberg? Co změnil? Tisk jako tehdy.\nReformace – a jakou roli v ní hrál Martin Luther"
+    },
+    "40": {
+        "tag": 1,
+        "zeit": "12.30-13.30",
+        "location": {
+            "name": "Centrum města",
+            "address": "Open-Air pódium, Brunnenplatz"
+        },
+        "titel-cz": "S Bohem venku – společně pod širým nebem dýcháme zhluboka na čerstvém vzduchu\nRodinné bohoslužby v přírodě",
+        "content-cz": "Zveme rodiny a všechny lidi, kteří chtějí objevovat Boha v přírodě. Společně připravíme prostor pro bohoslužby, ke kterému potřebujeme jen to, co nám dává příroda. Vydáme se na cestu hledání a nalézání Boha a společenství.\nFarářka Susanne Noack, Frankfurt nad Odrou/Německo\nPoloostrov Ziegenwerder, kemp za dětským hřištěm\nCollegium Polonicum, Kościuszki 1, Słubice/Polsko\nBiblický dialog v polštině a němčině Viz str."
+    },
+    "41": {
+        "tag": 1,
+        "zeit": "10.30-12",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "Překonávání hranic, podpora komunity, hledání odpovědí\nPanelová diskuse o německo-polských vztazích",
+        "content-cz": "Polsko a Německo společně čelí mnoha otázkám ohledně budoucnosti. Problematika klimatické změny a odpovědnosti za ekosystém na Odře, obrana liberální demokracie, podpora Ukrajiny, jednání s Ruskem. Lidé z politiky a církve diskutují o perspektivách a spolupráci.\nBiskup Jerzy Samiec, Varšava/Polsko\nBiskup Semko Koroza, Varšava/Polsko\nBiskup Dr. Christian Stäblein, Berlín/Berlín\nHosté z oblasti politiky a společnosti\nModerace: Stephan Bickhardt, ředitel Saské evangelické akademie v Drážďanech/Německo",
+        "lang": [
+            "PL"
+        ]
+    },
+    "42": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "Polední pobožnost v polštině",
+        "content-cz": "Farář Marcin Orawski, Wroclaw/Polsko\nHudba: Sbor, dirigent: Mikołaj Szczęsny, Wroclaw/Polsko"
+    },
+    "43": {
+        "tag": 1,
+        "zeit": "14-15.30",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "„(...) Bůh však zamýšlel dobro (...)“ (Gn 50,20)\nPříběhy sousedství Polska a Německa",
+        "content-cz": "Naše hranice je oblastí kultury a víry, kterou chceme utvářet společně. Panelová diskuse představí historii iniciativ smíření a informuje o konkrétních iniciativách a současných výzvách a projektech mírové práce ve střední a východní Evropě.\nZemská biskupka Kristina Kühnbaum-Schmidt, Schwerin\nBiskup Waldemar Pytel, Wroclaw/Polsko\nPomocný biskup Adrian Put, Zielona Góra/Polsko\nGenerální superintendentka Theresa Rinecker, Görlitz/Německo\nDr. Robert Żurek, Nadace Kreisau, Krzyżowa/Polsko\nDr. Annemarie Franke, vedoucí kulturního sekretariátu Horní Lužice – Dolní Slezsko, Krzyżowa/Polsko a Görlitz/Německo\nFarář Dr. Piotr Gaś, Varšava/Polsko\nFarářv důchodu Markus Meckel, bývalý ministr zahraničí NDR, Berlín/Německo\nHudba: Berlínský státní a katedrální sbor, dirigent: Profesor Kai-Uwe Jirka, Berlín/Německo\nModerace: Superintendant Frank Schürer-Behrmann a Adrianna Rosa-Zarzycka, Frankfurt nad Odrou/Německo",
+        "lang": [
+            "PL"
+        ]
+    },
+    "44": {
+        "tag": 1,
+        "zeit": "16-17:30",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "Můžeme být ještě zachráněni? Úloha církví v ekologické transformaci\nPřednáška a panelová diskuse",
+        "content-cz": "„Doba člověka“ se nachází na křižovatce. Jak vypadá úspěšný život ve stále užších ekologických hranicích? A jak k tomu mohou církve přispět?\nProf. Dr. Wolfgang Lucht, Institut pro výzkum klimatických dopadů, Postupim/Německo\nBiskup Michael Chalupka, Vídeň/Rakousko\nPomocný biskup Adrian Put, Zielona Góra/Polsko\nProboštka Dr. Christina-Maria Bammel, Berlín/Německo\nModerace: Hans-Joachim Ditz, Berlín/Německo",
+        "lang": [
+            "PL"
+        ]
+    },
+    "45": {
+        "tag": 1,
+        "zeit": "19.30-21.45",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "Sjednoceni v hudbě\nKoncert pěveckých sborů z pěti zemí",
+        "content-cz": "Pěvecký sbor Církve československé husitské, dirigent: církevní hudebník farář Zdeněk Kovalčík, Zlín/Česko\nECHO Zlín, dirigent: celocírkevní kantor Ladislav Moravetz, Zlín/Česko\nPax et Bonum, dirigent: Boldizsár Kiss, Budapešť/Maďarsko\nJubilate Deo, dirigentka: Joanna Bliwert-Hoderna, Mysłowice/Polsko\nPěvecký sbor Collegium Canorum Lobaviense, dirigent: kantor Christian Kühne, Löbau/Německo\nModerace: vedoucí kantor Markus Leidenberger, Drážďany/Německo"
+    },
+    "46": {
+        "tag": 1,
+        "zeit": "21.45-22",
+        "location": {
+            "name": "Centrum německo-polského přátelství",
+            "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
+        },
+        "titel-cz": "Večerní požehnání v polštině",
+        "content-cz": "Farář Piotr Sztwiertnia, Goleszów/Polsko\nSbor, dirigent: Małgorzata Konarzewska, Goleszów/Polsko\nAudimax, Evropská univerzita Viadrina, Logenstraße 4"
+    },
+    "47": {
+        "tag": 1,
+        "zeit": "10.30-12",
+        "location": {
+            "name": "Centrum pro mír a demokracii v Evropě",
+            "address": "Audimax, Evropská univerzita Viadrina, Logenstraße 4"
+        },
+        "titel-cz": "Přínos církví pro budoucnost Evropy\nPanelová diskuse o náboženství a demokracii",
+        "content-cz": "Ve střední a východní Evropě se znovu otevírá otázka vztahu mezi náboženstvím a demokracií. Po demokratických převratech po roce 1989 se v zemi objevily silné nacionalistické síly a sociální polarizace. Jak se protestantské církve zapojují do debat v politice a ve společnosti?\nProf. Dr. Eduard Mühle, rektor Evropské univerzity Viadrina, Frankfurt nad Odrou/Německo\nProf. Detlef Pollack, odborník na sociologii, Univerzita v Münsteru/Německo\nBiskup Tamás Fabiny, Budapešť/Maďarsko\nProf. Hanna Suchocka, bývalá předsedkyně vlády Polska, Poznaň/Polsko\nBiskup Tomáš Tyrlík, Český Těšín/Česko\nPraeses Anna-Nicole Heinrich, Hannover/Německo\nModerace: Generální konzulka Cornelia Pieper, Gdaňsk/Polsko a Carsten Rentzing, Drážďany/Německo",
+        "lang": [
+            "PL",
+            "CZ",
+            "HU"
+        ]
+    },
+    "48": {
+        "tag": 1,
+        "zeit": "14-15.30",
+        "location": {
+            "name": "Centrum pro mír a demokracii v Evropě",
+            "address": "Audimax, Evropská univerzita Viadrina, Logenstraße 4"
+        },
+        "titel-cz": "Mezi válkou a mírem\nPanelová diskuse: Kostely a válka na Ukrajině",
+        "content-cz": "Ruská agresivní válka se dotýká i evangelických církví na Ukrajině. Jakým výzvám a úkolům čelí církve v regionu? Příspěvky budou doplněny o mírovo-etickou a vědeckou perspektivu.\nBiskup Pavlo Švarc, Charkov/Ukrajina\nBiskup Sándor Zán Fábián, Berehove/Ukrajina\nBiskup Friedrich Kramer, Magdeburg/Německo\nDr. Anne Holper, Institut pro řízení konfliktů a Centrum pro mírovou mediaci, Evropská univerzita Viadrina, Frankfurt nad Odrou/Německo\nDr. Ana Raffai, katolická teoložka a mírová aktivistka, Záhřeb/Chorvatsko\nModerace: Anna Wrzesińska, Varšava/Polsko a Jens Lattke, pověřenec Evangelické církve ve středním Německu pro otázky míru, Magdeburg/Německo\nHudba: Lukáš Michel, klavírista, Praha/Česko\nAkce organizované Ekumenickým evropským centrem Frankfurt nad Odrou ve spolupráci s Centrem polských a ukrajinských studií Viadrina, Evropská univerzita Viadrina, Frankfurt nad Odrou\nKleist Forum, Velký sál, Platz der Einheit 1\nBiblická práce v maďarštině Viz str.",
+        "lang": [
+            "PL",
+            "HU"
+        ]
+    },
+    "49": {
+        "tag": 1,
+        "zeit": "10.30-12",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Rozmanitá cesta\nŽivý rozhovor o jedinečné historii ordinace žen v jednotlivých zemích ",
+        "content-cz": "Co vedlo k zavedení ordinace žen a jak vypadaly začátky? Jakým výzvám v současné době čelí ženy v církvi?\nGenerální superintendantka Ulrike Trautwein, Berlín/Německo\nFarářka ThDr. Helena Smolová, Th.D., Tábor/Česko\nFarářka Mária Hroboňová, Lučenec/Slovensko\nDr. Klára Tarr Cselovszky, Budapešť/Maďarsko\nFarářka Dr. Elfriede Dörr, Hermannstadt,Sibiu/Rumunsko\nFarářka Marta Zachraj-Mikołajczyk, Wroclaw/Polsko\nModerace: Lenka Janotková, Žilina/Slovensko\nDistelkinder (Bodlákové děti)   viz str.",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "50": {
+        "tag": 1,
+        "zeit": "14-15 a 16.30-17.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Muzikál Henrike Thies-Gebauerové",
+        "content-cz": "Kleist Forum, foyer\nBiblická práce s antisemitsko-kritickým výkladem Viz str."
+    },
+    "51": {
+        "tag": 1,
+        "zeit": "12-12.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Pobožnost s mládeží v němčině",
+        "content-cz": "Hudba: ZELZAH, mládežnická skupina evangelického luterského sboruDeák Tér, Budapešť/Maďarsko\nVedení: Julia Daser, regionální farářka pro mládež, Berlín/Německo"
+    },
+    "52": {
+        "tag": 1,
+        "zeit": "15.30-16",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Semmi sem választhat el minket\nKoncert",
+        "content-cz": "ZELZAH, mládežnická skupina evangelického luterského sboruDeák Tér, Budapešť/Maďarsko\nKleist Forum, studiová scéna"
+    },
+    "53": {
+        "tag": 1,
+        "zeit": "14-15.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Seminář: Být křesťanem v sekulární společnosti",
+        "content-cz": "Církve se ocitají v kontextu rozmanitosti světonázorů, životních stylů a spirituality a čelí výzvě předávat evangelium v tomto pluralitním světě.\nSynodní senior Pavel Pokorný, Praha/Česko\nBiskup Lukáš Bujna, Plzeň/Česko\nFarář Jiří Šamšula, Třebenice/Česko\nFarářka Bettine Reichelt, Lipsko/Německo\nGabriele Oehme, sociální pedagožka, Drážďany/Německo\nFriedemann Oehme, referent pro ekumenické vztahy, Drážďany/Německo\nModerace: Gerhard Frey-Reininghaus, emeritní ekumenický referent, Praha/Česko",
+        "lang": [
+            "CZ"
+        ]
+    },
+    "54": {
+        "tag": 1,
+        "zeit": "16-17:30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Seminář: Předávání víry – V dialogu s mladými faráři a farářkami",
+        "content-cz": "Jak se daří předávat víru další generaci a a jak je nová generace farářů přijímána? Co motivuje mladé lidi k tomu, aby vstoupili do církve a studovali teologii? Pracujeme ve skupinách ve foyer a ve vstupní hale.\nFarář Mitja Andrejek, Križevci/Slovinsko\nFarář Dr. Mario Fischer, generální sekretář Společenství protestantských církví v Evropě, Vídeň/Rakousko\nJohanna Kluge, sociální pedagožka, Fürth/Německo\nFarářka Kitti Németh, Boba/Maďarsko\nDr. András Szabó, Budapešť/Maďarsko\nDr. Patrick Todjeras, Attersee/Rakousko\nModerace: Dr. Klára Tarr Cselovszky, Budapešť/Maďarsko\nKleist Forum, konferenční místnost 2\nBiblická práce v češtině Viz str.",
+        "lang": [
+            "HU"
+        ]
+    },
+    "55": {
+        "tag": 1,
+        "zeit": "10.30-12.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Seminář: Církevní život ve městě a na venkově",
+        "content-cz": "Po celé Evropě existují dobré nápady a zkušenosti ohledně toho, jak může církev poskytovat atraktivní podněty, které odpovídají příslušným výzvám.\nFarář György Gregersen-Labossa, předseda diakonického výboru, Budapešť/Maďarsko\nBiskup Mirosław Wola, Gorzów/Polsko\nDr. Christoph Theilemann, ředitel Berliner Missionswerk, Berlín/Německo\nModerace: farář Jens Peter Erichsen, Frankfurt nad Odrou/Německo",
+        "lang": [
+            "HU",
+            "PL"
+        ]
+    },
+    "56": {
+        "tag": 1,
+        "zeit": "14-15.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "„K přistěhovalci žijícímu mezi vámi se budete chovat jako k vlastnímu.“ (Lv 19,34)\nPanelová diskuse o práci s uprchlíky",
+        "content-cz": "Jak mohou křesťanská společenství přispět k přijímání uprchlíků? Jakou roli hrají při jejich začlenění, aby se tu cítili jako doma?\nFarářka Christiane Schulz, Neuruppin/Německo\nFarářka Jana Tabačková, Košice/Slovensko\nClaudia Lui, Poradna Diakonie, Vídeň/Rakousko\nVera Yakovenko, uprchlice z Kyjeva/Ukrajina, v současné době v Rheinsbergu\nModerace: Matthias Puppe, Berlín/Německo",
+        "lang": [
+            "SK"
+        ]
+    },
+    "57": {
+        "tag": 1,
+        "zeit": "16-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "United4Rescue? Situace na vnějších hranicích EU\nPanelová diskuse o výzvách migrace",
+        "content-cz": "Přílivem uprchlíků jsou postiženy zejména východoevropské státy u vnější hranice s EU . Jak k této otázce přistupují evangelické církve v různých zemích? Jak pomáhají a podporují? Co chtějí?\nBiskup Dr. Christian Stäblein, Berlín/Německo\nBiskup Peter Mihoč, Prešov/Slovensko\nWanda Falk, ředitelka Diakonie Polsko, Varšava/Polsko\nDr. Ursula Schoen, ředitelka Diakonisches Werk, Berlín/Německo\nGergely Prőhle, zemský kurátor, Budapešť/Maďarsko\nModerace: Dagmar Apel, Berlín/Německo",
+        "lang": [
+            "PL",
+            "SK",
+            "HU"
+        ]
+    },
+    "58": {
+        "tag": 1,
+        "zeit": "16-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Centrum pro mládež: ÜBERBRÜCKEN – PŘEKONAT – BRIDGING – POKONAĆ\nEkumenický německo-polský festival dětí a mládeže",
+        "content-cz": "Kleist Forum, místnost 4a\nBiblická snídaně s farářkou Kitti Németh, Boba/Maďarsko\nv ubytovacích zařízeních pro mládež"
+    },
+    "59": {
+        "tag": 1,
+        "zeit": "10.30-16",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Bibliolog: Nic nás nemůže odloučit",
+        "content-cz": "Za slovem, které se skládá z Bible a dialogu, se skrývá metoda společného výkladu biblických textů ve skupině. To je způsob, jak můžete prožívat Bibli jinak. Účast je možná v 10:30, 13, 14, 15:30.\nThDr. Eva Vymětalová Hrabáková, Th.D., Praha/Česko"
+    },
+    "60": {
+        "tag": 1,
+        "zeit": "16-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Workshop: Církev a LGBT",
+        "content-cz": "Základem je projekt \"Víra v barvách duhy\" na téma LGBT a církev. Tobiáš Frýdl získal za svůj film cenu.\nTobiáš Frýdl, student Filmové a televizní fakulty Akademie múzických umění v Praze"
+    },
+    "61": {
+        "tag": 1,
+        "zeit": "10.30-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "S hudbou celý den",
+        "content-cz": "Chválová kapela, Česko\nKleist Forum, místnost 4b"
+    },
+    "62": {
+        "tag": 1,
+        "zeit": "10:30-12:00",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Workshop: Pestré jako Boží stvoření",
+        "content-cz": "Sexualita je téma, které se týká nás všech, bez ohledu na to, zda jsme gayové, heterosexuálové, bisexuálové nebo asexuálové. Genderová identita je také formativní pro všechny lidi. Lidé, kteří se pohybují mimo heteronormativitu, jsou však diskriminováni. Řešení tohoto problému je také v církvích.\nVedení: Julia Daser, regionální pastorka mládeže, Berlín/Německo"
+    },
+    "63": {
+        "tag": 1,
+        "zeit": "14-15.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Taneční workshop: Moderní tanec",
+        "content-cz": "Mládež, Mamlaka Hill Chapel, Nairobi/Keňa"
+    },
+    "64": {
+        "tag": 1,
+        "zeit": "16.30-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Hry – Jugger a Empowerment",
+        "content-cz": "Jugger je vzrušující akční týmový sport, jehož cílem je umístit míč do soupeřovy branky, přičemžmíče se může dotýkat pouze jeden hráč z týmu. Ostatní ho brání a používají k tomu speciální plastové tyče vyrobené z pěny.\nThomas Schüßler, farář pro mládež, Fürstenwalde/Německo\nKleist Forum, místnost 4c"
+    },
+    "65": {
+        "tag": 1,
+        "zeit": "10.30-12.30",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Bibli otevřít, nos do ní, srdce plné!",
+        "content-cz": "Biblický text objevujeme formou dialogu. Chválou vstupujeme do Boží přítomnosti. Naše srdce se setkávají stlukotem srdce Božího. Tvůrčí příležitosti k modlitbě vybízejí ke společnému rozhovoru s Bohem.\nLydia Renz, Centrum pro práci s evangelickou mládeží, Hoyerswerda/Německo\nWaldemar Buttler, CVJM (YMCA) Slezská Horní Lužice, Görlitz/Německo\ntaké v angličtině"
+    },
+    "66": {
+        "tag": 1,
+        "zeit": "14-18",
+        "location": {
+            "name": "Tematický program – Kleist Forum",
+            "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
+        },
+        "titel-cz": "Místo setkání: Livepodcast",
+        "content-cz": "Společné vytváření blogových příspěvků, podcastů a videí\nThomas Schüßler, farář pro mládež, Fürstenwalde/Německo\nFarář. Collins Kiborek, referent pro mládež, Erkner a Strausberg/Německo\ntaké v angličtině\nKleist Forum"
+    },
+    "67": {
+        "tag": 1,
+        "zeit": "9-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Rodinná kavárna",
+        "content-cz": "Dejte si pauzu!\nKleist Forum\nProstor pro rodiče viz str.\nKleist Forum, přízemí, místnost 1d"
+    },
+    "68": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Workshop: Biblické výjevy ožívají",
+        "content-cz": "Buďme kreativní s legem! Zúčastnit se může každý! Děti si mohou postavit své oblíbené biblické příběhy z lega samy nebo společně, a fotografii si odnesou domů.\nMareike Witt, Biblická laboratoř Cansteinova biblického institutu, Berlín/Německo\nKleist Forum, přízemí, místnost 1c"
+    },
+    "69": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Workshop: Staňte se filmovým animátorem",
+        "content-cz": "Vytvořte si svůj vlastní biblický klip!\nCírkevní pedagogové, církevní oblast Oderland-Spree\nKleist Forum, rodinná kavárna"
+    },
+    "70": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Workshop: Bible + Minecraft = <3",
+        "content-cz": "Společně tvoříme biblický text v Minecraftu, od 7 let\nBiblická laboratoř Cansteinova biblického institutu, Berlín/Německo\nKleist Forum, přízemí, konferenční místnost 1a"
+    },
+    "71": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Objevte dětské Bible z různých zemí",
+        "content-cz": "Procházejte obsah, relaxujte, objevujte! Dětské Bible v různých jazycích vás zvou k jejich objevování.\nBiblická laboratoř Cansteinova biblického institutu, Berlín/Německo"
+    },
+    "72": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Pozvánka do mezinárodní třídy",
+        "content-cz": "Zajímáte se o děti v sousedních zemích? Přijďte se podívat na školní aktovky ze šesti různých zemí. Jaké školní potřeby, plyšové hračky, knížky a oblíbené barvy mají žáci v sousedních zemích? Výstavu můžete doplnit krátkým popisem.\nKleist Forum, foyer"
+    },
+    "73": {
+        "tag": 1,
+        "zeit": "10-12 a 13-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Malování obrázkové knihy o stvoření",
+        "content-cz": "Co vlastně židé, muslimové a křesťané říkají o svém stvoření? Dopoledne si vyslechneme příběh o stvoření světa a během oběda si můžeme nakreslit obrázky, které budou použity k vytištění obrázkové knihyotvoření světa. Pro děti od 6 do 12 let.\nVedení: Carmen Khan, Berlín/Německo\nKleist Forum, přízemí, konferenční místnost 1b"
+    },
+    "74": {
+        "tag": 1,
+        "zeit": "14-15 a 16.30-17.30",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Distelkinder (Bodlákové děti)\nMuzikál autorky Henrike Thies-Gebauer",
+        "content-cz": "Příběh Johanna Hinricha Wicherna a Amandy Böhme: S velkou energií a láskou k bližním pracovali pro sociálně znevýhodněné děti. J. H. Wichern pro ně v Hamburku zakládá „Rauhe Haus“ a pro své děti jako první na světě udělá adventní věnec.\nDětský a mládežnický sbor Frankfurt nad Odrou\nRežie a hudba: Heike Hardt, Peggy Einenkel, Hildegard Anlauff, Frankfurt nad Odrou\nKleist Forum, Velký sál\nProgram pro děti a mládež Open-Air"
+    },
+    "75": {
+        "tag": 1,
+        "zeit": "10-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Společné akce pro děti (... a všechny ostatní)",
+        "content-cz": "Každý se může aktivně zúčastnit: na parkurovém hřišti pro vozíčkáře, v mobilním centru mládeže ‚Modrý autobus‘, v graffiti dílně, na nafukovacím fotbalovém hřišti, na pikniku v Lennéparku, na skákacím míči, na závodech s autíčky, balancování s cukrovou koulí, při hře s bublinovým míčem a fotbalovými šipkami. Program nabízí dětem, rodinám, mladším i starším lidem možnost být aktivní a kreativní, inspirovat se, dívat se, relaxovat, piknikovat. Odpočiňte si v rodinné oáze, pohrajte si s houpačkou a obrovským glóbem, vyfukujte mýdlové bubliny a vyzkoušejte si pletení. Ozdobte se na Setkání křesťanů ručně vázanými věnci do vlasů, převlečte se a udělejte si fotku, muzicírujte.\nKomunitní učitelé a dobrovolníci z církevních oblastí Oderland-Spree, Barnim, BerlínNordost, CVJM Frankfurt nad Odrou, VCP Strausberg a Wriezen, Korczak School Fürstenwalde a hosté z Polska, Česka a Maďarska.\nOkolí Kleist Forum, Lennépark, Marktplatz, Brunnenplatz"
+    },
+    "76": {
+        "tag": 1,
+        "zeit": "10.30-12 a 14-15.30 hod.",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Pouliční slovník na chodnících\nAkce s barvami, štětci a šablonami v ulicích Frankfurtu a Słubic",
+        "content-cz": "Na jaře 2022 se z dvojjazyčného slovníku stal trojjazyčný slovník a byl do něj přidán jazyk ukrajinských válečných uprchlíků. Které jazyky přibudou při Setkání křesťanů2024? Vhodné nejen pro teenagery!\nRené Pachmann, univerzitní kaplan, Evropská univerzita Viadrina, Frankfurt nad Odrou/Německo\nSraz: Vchod do Kleist Forum"
+    },
+    "77": {
+        "tag": 1,
+        "zeit": "14-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Uměním překračovat hranice\nVýstava na chodníku o hranicích, souvislostech a kontaktech",
+        "content-cz": "Mladí lidé kolem umělce Ilusche (16) vás zvou na výstavu v centru města.\nZačátek je v Kunsthalle MKH13. Odtud vede malá umělecká stezka ke kostelu sv. Gertrudy (St.-Getraud-Kirche).Vybaveni uměleckou mapou města můžete vyrazit na průzkumnou výpravu. Každý má tolik času, kolik chce a potřebuje.\nIlusch, umělec, Frankfurt nad Odrou/Německo\nFarářka Susanne Noack, Frankfurt nad Odrou/Německo\nMKH 13, Karl-Marx-Straße 13"
+    },
+    "78": {
+        "tag": 1,
+        "zeit": "16-18",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "Together beneath the sky\nSkupinová dobrodružství pod širým nebem",
+        "content-cz": "Společně zažijeme to, co nikdo nedokáže sám! Svou sílu zažíváme ve velkých skupinových hrách a aktivitách.\nLydia Renz, Centrum pro pracovní život evangelické mládeže, Hoyerswerda/Německo\nWaldemar Buttler, CVJM (YMCA) Slezská Horní Lužice, Görlitz\nLennépark, na louce u dětského hřiště\ntaké v angličtině\nInterakce a informace: Kdo se ptá, ten se dozví v BibelMobilu   viz str.\nTrh příležitostí, Marktplatz"
+    },
+    "79": {
+        "tag": 1,
+        "zeit": "12.30-13.30",
+        "location": {
+            "name": "Centrum pro děti a rodinu",
+            "address": "Kleist Forum"
+        },
+        "titel-cz": "S Bohem venku – společně pod širým nebem dýcháme zhluboka na čerstvém vzduchu",
+        "content-cz": "viz strRodinné bohoslužby v přírodě\nPoloostrov Ziegenwerder, kemp za dětským ostrovem\nKostel míru ( Friedenskirche), Schulstraße 4A\nDialogická biblická práce v němčině viz str."
+    },
+    "80": {
+        "tag": 1,
+        "zeit": "10.30-12",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Kicsi Macska\nMoldavsko-maďarské taneční písně",
+        "content-cz": "Skupina Kicsi Macska (Malá kočka) vznikla v létě 2022. Základní kroky se lze naučit i bez zkušeností s lidovým tancem.\nKicsi Macska, Komárno/Slovensko.\nVedení: Anna Gyurgyík, Komárno/Slovensko"
+    },
+    "81": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Polední pobožnost v maďarštině",
+        "content-cz": "Vedení: Biskup Robert Géresi, Komárno/Slovensko\nHudba: Kinga Süll, Regionální ředitelka pro chrámovou hudbu, Komárno/Slovensko"
+    },
+    "82": {
+        "tag": 1,
+        "zeit": "16.30-18",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Co je to mír?\nSpravedlnost a mír v kontextu války",
+        "content-cz": "Stejně jako jsme různorodí my lidé, je rozmanitý i koncept míru. Co pro každého z nás znamená mír? Co nás spojuje? Co můžeme společně udělat pro to, aby byl svět mírumilovnější?\nJens Lattke, pověřenec Evangelické církve ve středním Německu pro otázky míru, Magdeburg/Německo\nEva Balcarová, Českobratrská církev evangelická, Praha/Česko\nPřednáška v EN, workshopy v EN, DE, CZ, PL"
+    },
+    "83": {
+        "tag": 1,
+        "zeit": "20.30-22.00",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Malý plamének je velké světlo\nLiturgie Taizé",
+        "content-cz": "Písně jsou zpívány jako modlitba a vytvářejí zvukový prostor pro setkání s Bohem. Zpíváme vícehlasně a v mnoha jazycích. Současně je zde i prostor pro ticho, světlo a slovo. Zveme všechny, kteří hledají prostor pro rozjímání a modlitbu po vzrušujícím a pestrém dni.\nFarářka ThDr. Helena Smolová, Th.D., Tábor/Česko\nFarářka Susanne Noack, Frankfurt nad Odrou/Německo\nVedení a hudba: farář a církevní hudebník Zdeněk Kovalčík, Zlín/Česko\nKostel míru (Friedenskirche), presbytář 1. patro",
+        "lang": [
+            "CZ",
+            "PL"
+        ]
+    },
+    "84": {
+        "tag": 1,
+        "zeit": "12.30-14",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Víra znamená důvěru – Karl Barth snadno čtený\nWorkshop",
+        "content-cz": "Anna Lena Schwarz, Katedra systematické a ekumenické teologie, Univerzita v Siegen/Německo\nVikář Abel Veres, Reformovaná církev v Maďarsku, Szigetszentmiklós/Maďarsko",
+        "lang": [
+            "HU"
+        ]
+    },
+    "85": {
+        "tag": 1,
+        "zeit": "14.30-16",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Jak se vypořádáváme s naší rozmanitostí?\nWorkshop s krátkými podněty a interakcí",
+        "content-cz": "Rozmanitost je charakteristickým znakem naší moderní společnosti. V církvi, ve veřejném životě a v politice se setkávají různé tradice, názory a vize budoucnosti. Každý nový vývoj přináší nové konflikty. Jak můžeme zacházet s rozdíly, konstruktivně řešit konflikty a utvářet komunitu?\nJak prezentovat kontroverzní témata? Dóra Laborczi, novinářka, Szentendre/Maďarsko\nJak probíhá mediace? Dr. Joanna Koleff-Pracka, mediátorka, Varšava/Polsko\nOsvěta místo boje – reakce církve na pravicový extremismus: Harald Lamprecht, zástupce pro světonázor a sekty, Drážďany/Německo\nDemokracie a církev – závěry ze studijního procesuprovedeného Společenstvím evangelických církví v Evropě: Raphael Quandt, referent pro ekumenu a střední a východní Evropu, Mnichov/Německo\nModerace: Oliver Engelhardt, Vídeň/Rakousko",
+        "lang": [
+            "EN"
+        ]
+    },
+    "86": {
+        "tag": 1,
+        "zeit": "16.30-18",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Ochrana uprchlíků v Evropě vyžaduje církevní sítě a spolupráci",
+        "content-cz": "Na tomto workshopu se budeme zabývat různými strategiemi církve a občanské společnosti v oblasti ochrany uprchlíků tváří v tvář zintenzivňující se debatě namířené proti těm, kteří hledají ochranu.\nEmeritní farář Bernhard Fricke, azylový dům Evangelické církve Berlín-Brandenburg Slezská Horní Lužice, Berlín/Německo\nFarářka Christiane Schulz, Neuruppin/Německo\nMagda Aida Qandil, německo-polský uprchlický projekt, Postupim/Německo"
+    },
+    "87": {
+        "tag": 1,
+        "zeit": "19.45-21",
+        "location": {
+            "name": "Centrum rozmanitosti v míru",
+            "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
+        },
+        "titel-cz": "Udělení Ceny Karla Bartha Svazu evangelických církví (UEK) v EKD (Evangelické církvi Německa)",
+        "content-cz": "V roce 2024 ocení UEK kompletní teologické dílo Sándora Fazakase, které navazuje na myšlenky Karla Bartha a podporuje hluboké porozumění a smíření v Evropě. Slavnostní předávání cen je přístupné veřejnosti.\nProf. Dr. Dr. h. c. Sándor Fazakas, profesor sociální etiky na Reformované teologické univerzitě, Debrecín/Maďarsko\nDr. h. c. Volker Jung, prezident UEK a církevní prezident, Hannover/Německo\nProf. em. Dr. Dr. h. c. Michael Beintker, laudátor, Univerzita v Münsteru/Německo\nKatolický kostel, Franz-Mehring-Straße 4\nKostel Panny Marie (St.-Marien-Kirche)"
+    },
+    "88": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Pobožnost v češtině",
+        "content-cz": "Liturgie: Synodní senior Pavel Pokorný, Praha/Česko\nHudba: ECHO Zlín, dirigent: celocírkevní kantor Ladislav Moravetz, Chvalčov/Česko"
+    },
+    "89": {
+        "tag": 1,
+        "zeit": "12.15-13",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Koncert Berlínského státního a katedrálního sboru\nŽalmy F. Mendelssohna, L. Lewandowského a dalších.",
+        "content-cz": "Staats und Domchor Berlin, chlapecký sbor Vysoké školy umění v Berlíně, dirigent: Kai-Uwe Jirka, Berlín/Německo\nModerace: Emeritní farář Dr. Justus Werdin, Frankfurt nad Odrou/Německo"
+    },
+    "90": {
+        "tag": 1,
+        "zeit": "14-16.30",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Hudební okno Pěveckého sdružení Evangelické církve Berlín-Brandenburg-Slezská Horní Lužice\nSborový zpěv a rozhovor s vedoucími sborů",
+        "content-cz": "Členské sbory a hostující sbory ze sousedních zemí vystupují s vlastními čtvrthodinovými programy. Odpoledne bude zakončeno „otevřeným zpěvem“.\nECHO Zlín, dirigent: celocírkevní kantor Ladislav Moravetz, Chvalčov/Česko\nPěvecký sbor Návsí (Jablunkov), Slezská evangelická církev a.v., dirigent: farář Roman Raszka, Návsí/Česko\nPax et Bonum, dirigent: Boldizsár Kiss, Budapešť/Maďarsko\nMládežnický sbor Reutlingen, dirigentka: Michaela Frind, Reutlingen/Německo\nGospelový sbor Heavenly Voices, dirigent Holger Pätzeldt, Frankfurt nad Odrou/Německo\nKoncert Kantorei Templin, dirigent: Helge Pfläging, Templin\nPěvecký sbor dětí a mládeže z Berlína-Moabit, dirigentka: Almut Stümke, Berlín/Německo\nModerace: Dr. Antje Ruhbaum, Berlín/Německo"
+    },
+    "91": {
+        "tag": 1,
+        "zeit": "17-18",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Společný pěvecký projekt s 250 účastníky\nSymfonický koncert",
+        "content-cz": "César Franck „Žalm 150“, Felix Mendelssohn „Žalm 42“ (úvodní a závěrečný sbor), Andreas Schmittberger „Missa Kwela“\" (vybrané části), Georg Friedrich Händel „Halleluja“ (z Mesiáše)\nProjektový pěvecký sbor Setkání křesťanů a Německo-polský mládežnický orchestr, Frankfurt nad Odrou/Německo\nVedení:\nMatthias Alward, Beeskow/Německo\nHelge Pfläging, Templin/Německo\nStátní ředitelka pro zpěv Almut Stümke, Berlín/Německo"
+    },
+    "92": {
+        "tag": 1,
+        "zeit": "19.30-20",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Dechová hudba z Česka",
+        "content-cz": "Dechové kvarteto, Oldřichovice/Česko"
+    },
+    "93": {
+        "tag": 1,
+        "zeit": "20-21.45",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Ticho a meditace při svíčkách\nVečerní požehnání ve slovenštině a němčině",
+        "content-cz": "Liturgie: Biskup Ján Hroboň, Zvolen/Slovensko a prelátka Gabriele Wulz, Ulm\nHudba: Ján Hegeduš, Zvolen/Slovensko\nKostel sv. Gertrudy (St.-Gertraud-Kirche)\nDialogická biblická práce viz str."
+    },
+    "94": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Pobožnost ve slovenštině a němčině",
+        "content-cz": "Vedení: Generální biskup Ivan Eľko, Bratislava/Slovensko a provinční biskupka Dr. Friederike Spengler, Erfurt/Německo\nHudba: Ján Hegeduš, Zvolen/Slovensko"
+    },
+    "95": {
+        "tag": 1,
+        "zeit": "14-21.45",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Varhanní maraton\nKoncert varhaníků z Německa, Polska, Česka, Slovenska a Maďarska ",
+        "content-cz": "Moderace: Christian Scheffler a Martin Schulze, Frankfurt nad Odrou/Německo"
+    },
+    "96": {
+        "tag": 1,
+        "zeit": "22",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Večerní požehnání v maďarštině",
+        "content-cz": "Vedení: Dr. András Szabó, Budapešť/Maďarsko\nHudba: Dr. Gergely Finta, Budapešť/Maďarsko"
+    },
+    "97": {
+        "tag": 1,
+        "zeit": "22",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Centrum Diakonie",
+        "content-cz": "Wichern-Diakonie – Luisenstraße 21-24, Netzwerkbüro – Marktplatz 4"
+    },
+    "98": {
+        "tag": 1,
+        "zeit": "9-12",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Vítejte u nás!\nCafé Luise je otevřeno",
+        "content-cz": "Ranní pobožnost viz str.\nKaple, Luisenstraße 21-24"
+    },
+    "99": {
+        "tag": 1,
+        "zeit": "10-11",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "S vášní!\nInkluzivní divadlo",
+        "content-cz": "Obyvatelé Wichern Diakonie & Wichern Band, Frankfurt nad Odrou\nKaple, Luisenstraße 21-24"
+    },
+    "100": {
+        "tag": 1,
+        "zeit": "11-12",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Koncert",
+        "content-cz": "Dechový soubor „Blechapostel“, dirigent: zemský pověřenec pro dechovou hudbu Christian Syperek, Postupim/Německo\nKaple, Luisenstraße 21-24"
+    },
+    "101": {
+        "tag": 1,
+        "zeit": "12-12.15",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Polední pobožnost v němčině",
+        "content-cz": "Vedení: Gabriele Floßmann, předsedkyně výkonné rady Wichern Diakonie, Frankfurt nad Odrou\nHudba: Dechový orchestr „Blechapostel“, dirigent: zemský pověřenec pro dechovou hudbu Christian Syperek, Postupim/Německo\nKaple, Luisenstraße 21-24"
+    },
+    "102": {
+        "tag": 1,
+        "zeit": "10-17",
+        "location": {
+            "name": "Centrum hudby",
+            "address": "Kostel Panny Marie (St.-Marien-Kirche)"
+        },
+        "titel-cz": "Informace a akce v Netzwerkbüro Diakonie Wichern a okolí",
+        "content-cz": "Stánky, přednášky, prohlídky, kulinářské speciality a hudba: Wichern prezentuje celý svůj sortiment v diakonické kavárně a nápojovém baru, vystoupení kapely Wichern, prodejní stánek s ručně vyráběnými výrobky ve vlastních dílnách Wichern až po informační stánky. Více informací naleznete v projektu „Přeshraniční zdravotní péče na příkladu Nadace Naemi Wilke“.\nAutobusová doprava k dílnám v Gronefeldu, sraz u stánku v 9.30, 11., 13., 14.30.\nNetzwerkbüro, Marktplatz 4\nEvangelická škola, Luisenstraße 25D"
+    },
+    "103": {
+        "tag": 1,
+        "zeit": "9",
+        "location": {
+            "name": "Centrum vzdělávání",
+            "address": "Evangelická škola, Luisenstraße 25D"
+        },
+        "titel-cz": "Ranní pobožnost",
+        "content-cz": "Biblická zahrada Evangelické základní školy, Frankfurt nad Odrou"
+    },
+    "104": {
+        "tag": 1,
+        "zeit": "10-12",
+        "location": {
+            "name": "Centrum vzdělávání",
+            "address": "Evangelická škola, Luisenstraße 25D"
+        },
+        "titel-cz": "Evangelické školy = střediska vzdělanosti křesťanského světa\nProč církev potřebuje evangelické školy? Proč evangelické školy potřebují církev?",
+        "content-cz": "Evangelické školy jsou součástí poslání církve a reformační tradice. Jak tento vztah vypadá v každodenní praxi? Jak spolu vycházejí? Jsou školy pro církve potěšením, nebo břemenem?\nPřednáška: PD Dr. Mónika Solymár, profesorka, Pedagogická univerzita Vídeň-Krems/Rakousko\nPříspěvky z pohledu církve ke vztahu církev-škola:\nPh Dr. Marián Damankoš, ředitel evangelického gymnázia, Prešov/Slovensko\nKai Gusek, předseda sdružení evangelických škol Nordkirche, Schwerin/Německo\nJudit Hallgatóné, tajemnice pro partnerství mezi bavorskými a maďarskými školami, Győr/Maďarsko\nFrank Olie, pedagogický předseda Sdružení evangelických škol EKBO, Berlín/Německo\nBurkart Pilz, emský církevní rada, Drážďany/Německo\nModerace: Anke Adolph, Frankfurt nad Odrou, Enno Haaks, Lipsko a Pascal Bullan, Berlín/Německo"
+    },
+    "105": {
+        "tag": 1,
+        "zeit": "12-12.30",
+        "location": {
+            "name": "Centrum vzdělávání",
+            "address": "Evangelická škola, Luisenstraße 25D"
+        },
+        "titel-cz": "Volné networkingové setkání",
+        "content-cz": "Srdečné pozvání k výměně zkušeností mezi představiteli evangelických škol církví střední a východní Evropy.\nBrunnenplatz"
+    },
+    "106": {
+        "tag": 2,
+        "zeit": "9.30",
+        "location": {
+            "name": "Open-Air pódium",
+            "address": "Brunnenplatz"
+        },
+        "titel-cz": "Hudba a slova na úvod",
+        "content-cz": "Hudba: Žesťové sbory zúčastněných církví, vedoucí: Ulrike Gäbel, vedoucí žesťových souborů v církevní oblasti, Frankfurt nad Odrou/Německo\nModerace: Attila Weidemann, Berlín a farář Dawid Mendrok, Włocławek/Polsko",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "107": {
+        "tag": 2,
+        "zeit": "10",
+        "location": {
+            "name": "Open-Air pódium",
+            "address": "Brunnenplatz"
+        },
+        "titel-cz": "Nic nás nerozdělí: „Smrt a život“",
+        "content-cz": "Závěrečná bohoslužba s večeří Páně Kázání:\nBiskup Pavlo Švarc, Charkov/Ukrajina\nMarta Zachraj-Mikołajczyk, Wroclaw/Polsko\nLiturgie a vedení:\nBiskup Christian Stäblein, Berlín/Německo\nBiskup Jerzy Samiec, Varšava/Polsko\nBiskup Waldemar Pytel, Wroclaw/Polsko\nGenerální superintendentka Theresa Rinecker, Görlitz/Německo\nLiturgie večeře Páně: Biskup Sándor Zán Fábián, Berehove/Ukrajina\nČtení a modlitby: Zástupci zúčastněných církví\nHudba:\nŽesťové soubory zúčastněných církví, dirigentka: Ulrike Gäbel, vedoucí žesťových souborů v církevní oblasti, Frankfurt nad Odrou/Německo\nSbor dětí a mládeže Frankfurt, dirigent: kantor Stephan Hardt, Frankfurt nad Odrou/Německo\nMládežnický sbor Reutlingen, dirigent: Michaela Frind, Reutlingen/Německo",
+        "lang": [
+            "PL",
+            "CZ",
+            "SK",
+            "HU"
+        ]
+    },
+    "108": {
+        "tag": 2,
+        "zeit": "11.20",
+        "location": {
+            "name": "Open-Air pódium",
+            "address": "Brunnenplatz"
+        },
+        "titel-cz": "Slovo na cestu domů",
+        "content-cz": "Generální superintendentka Theresa Rinecker, Görlitz/Německo\nBiskup Waldemar Pytel, Wroclaw/Polsko"
+    }
+}
