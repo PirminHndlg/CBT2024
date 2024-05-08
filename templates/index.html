@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <a href="/my" class="container-headline"><img style="width: 18px" src="/static/img/stern_filled.png"> Mein Programm</a>
+
+</div>
+
+<div class="container">
+    <a href="/programm" class="container-headline">Porgramm suchen</a>
+</div>
+
+<div class="container">
+    <a href="/gd" class="container-headline">Gottesdienst</a>
+</div>
+
+<a href="/now" class="a-link">
+    <div class="container">
+        <p class="container-headline">Jetzt</p><br>
+
+        <div class="container-inline">
+            <p class="container-inline-headline">Gottesdienst</p>
+            <p class="container-inline-text">10:00 - 11:00</p>
+        </div>
+    </div>
+</a>
+{% endblock %}
