@@ -60,9 +60,12 @@ p {
 }
 
 .lang {
+    border: 1px solid #ccc;
     width: 15%;
-    max-width: 80px;
+    max-width: 50px;
     float: right;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .container {
@@ -140,4 +143,14 @@ p {
     content: "";
     margin: 20px;
     display: block;
+}
+
+select {
+    /*background: url("/static/img/de.png") center no-repeat;*/
+    /*background-size: 100%;*/
+    /*width: 60px;*/
+    /*height: 32px;*/
+    text-align: right;
+    border: 0;
+    background: white center;
 }
