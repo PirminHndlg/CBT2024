@@ -1,0 +1,6 @@
+{
+  "search": {"de":  "Suchen...", "cz": "Hledat...", "pl": "Szukaj...", "hu": "Keresés...", "sk": "Hľadať..."},
+  "search2": {"de":  "Programm suchen", "cz": "Hledat program", "pl": "Szukaj programu", "hu": "Program keresése", "sk": "Hľadať program"},
+  "service": {"de":  "Gottesdienst", "cz": "Bohoslužba", "pl": "Nabożeństwo", "hu": "Istentisztelet", "sk": "Bohoslužba"},
+  "now": {"de":  "Jetzt", "cz": "Teď", "pl": "Teraz", "hu": "Most", "sk": "Teraz"}
+}
