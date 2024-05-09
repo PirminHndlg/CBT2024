@@ -4,13 +4,13 @@ import json
 app = Flask(__name__)
 
 
-def get_json():
-    with open('static/json/cbt_programm_de.json') as f:
+def get_json(lang='de'):
+    with open(f'static/json/cbt_programm_{lang}.json') as f:
         data = json.load(f)
     return data
 
-def get_element(nr):
-    data = get_json()
+def get_element(nr, lang='de'):
+    data = get_json(lang)
     return_data = data[str(nr)]
     return_data['key'] = nr
     return return_data
@@ -35,27 +35,29 @@ def index(lang=None):
 
     my_programm_cookie = request.cookies.get('my-program')
 
-    my_programm = {}
+    my_programm = []
     if my_programm_cookie:
         my_programm_array = my_programm_cookie.split(',')
         max_len = 2
         for i in range(max_len):
             if i < len(my_programm_array):
-                my_programm[i] = get_element(int(my_programm_array[i]))
-        my_programm['more'] = len(my_programm_array) > max_len
-        print(my_programm)
+                my_programm.append(get_element(int(my_programm_array[i]), lang))
+        more = len(my_programm_array) > max_len
+        print(my_programm, more)
 
     if len(lang) != 2:
         abort(404)
 
-    return render_template('index.html', lang=lang, translate=translate, my_programm=my_programm)
+    return render_template('index.html', lang=lang, translate=translate, my_programm=my_programm, more=more)
 
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
 def programm_point(lang='de', point=None):
 
+    print(point)
+
     if point:
-        return render_template(f'programm_point.html', lang=lang, section=get_element(point))
+        return render_template(f'programm_point.html', lang=lang, section=get_element(point, lang))
     return redirect(url_for('programm'))
 
 @app.route('/<lang>/section/<section>')
@@ -90,7 +92,7 @@ def map(lang='de'):
 
 @app.route('/<lang>/get-json')
 def get_json_route(lang='de'):
-    return get_json()
+    return get_json(lang)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
