@@ -47,6 +47,11 @@ p {
     width: 50px;
 }
 
+.my-programm-img-small {
+    height: 30px;
+    width: 30px;
+}
+
 .head {
     display: flex; /* Use flexbox */
     align-items: center; /* Align items vertically */
