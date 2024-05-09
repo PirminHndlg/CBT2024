@@ -16,10 +16,10 @@
         {{section['zeit']}}</a>
     <h2>{{section['titel']}}</h2>
 
-    <p>📍<a href="/map" class="location" title="{{section['location']['address']}}">{{section['location']['name']}}</a>
+    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location']['address']}}">{{section['location']['name']}}</a>
     </p>
 
-    <p class="description-section">{{section['content'].replace('\n', '<br>')|safe}}</p>
+    <p class="description-section">{{section['content-'+lang].replace('\n', '<br>')|safe}}</p>
 
 </div>
 
