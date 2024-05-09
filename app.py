@@ -33,10 +33,22 @@ def index(lang=None):
         else:
             return redirect(url_for('index', lang='de'))
 
+    my_programm_cookie = request.cookies.get('my-program')
+
+    my_programm = {}
+    if my_programm_cookie:
+        my_programm_array = my_programm_cookie.split(',')
+        max_len = 2
+        for i in range(max_len):
+            if i < len(my_programm_array):
+                my_programm[i] = get_element(int(my_programm_array[i]))
+        my_programm['more'] = len(my_programm_array) > max_len
+        print(my_programm)
+
     if len(lang) != 2:
         abort(404)
 
-    return render_template('index.html', lang=lang, translate=translate)
+    return render_template('index.html', lang=lang, translate=translate, my_programm=my_programm)
 
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
@@ -75,6 +87,10 @@ def gottesdienst(lang='de'):
 @app.route('/<lang>/map')
 def map(lang='de'):
     return render_template('map.html', lang=lang)
+
+@app.route('/<lang>/get-json')
+def get_json_route(lang='de'):
+    return get_json()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
