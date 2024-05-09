@@ -7,7 +7,9 @@
 <div class="container">
     <div class="container-inline">
         <button class="button" onclick="history.back()">Go Back</button>
-        <input class="my-programm-img" type="image" id="cookie" src="/static/img/stern.png">
+        <input class="my-programm-img-small" id="my_programm_{{section['key']}}" onclick="change_my_programm(this.id, '{{section['key']}}')"
+               type="image"
+               src="{{'/static/img/stern.png' if not 'my-program'|get_cookie(section['key']) else '/static/img/stern_filled.png'}}">
     </div>
 
     <br>
@@ -15,54 +17,13 @@
     <a class="small-time">{{(section['tag']|get_day(lang))['long']}} {{section['zeit']}}</a>
     <h2>{{section['titel-'+lang]}}</h2>
 
-    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location-' + lang]['address']}}">{{section['location-' + lang]['name']}}</a>
+    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location-' + lang]['address']}}">{{section['location-'
+        + lang]['name']}}</a>
     </p>
 
     <p class="description-section">{{section['content-'+lang].replace('\n', '<br>')|safe}}</p>
 
 </div>
-
-<script>
-    let chosen_file = '/static/img/stern_filled.png'
-    let default_file = '/static/img/stern.png'
-
-    document.getElementById('cookie').addEventListener('click', function () {
-        console.log('click')
-        let my_programm = getCookie('my-program')
-        let key = '{{section["key"]}}'
-        let arr = my_programm.split(',')
-        let btn = document.getElementById('cookie')
-
-        console.log(btn.src)
-
-        if (btn.src.endsWith(chosen_file)) {
-            btn.src = default_file
-            arr.splice(arr.indexOf(key))
-            setCookie('my-program', arr.join(','), 365)
-            return
-        } else {
-            btn.src = chosen_file
-        }
-
-        if (my_programm === '') {
-            setCookie('my-program', key, 365)
-        } else if (!arr.includes(key)) {
-            arr.push(key)
-            setCookie('my-program', arr.join(','), 365)
-        }
-    })
-
-    window.onload = function () {
-        let my_programm = getCookie('my-program')
-        let key = '{{section["key"]}}'
-        let arr = my_programm.split(',')
-        if (arr.includes(key)) {
-            document.getElementById('cookie').src = chosen_file
-        } else {
-            document.getElementById('cookie').src = default_file
-        }
-    }
-</script>
 
 {% endif %}
 
