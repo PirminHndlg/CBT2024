@@ -158,5 +158,31 @@ def markt(lang='de'):
     return render_template('programm_list.html', lang=lang, data=get_json())
 
 
+@app.route('/<lang>/search')
+@app.route('/search')
+def search(lang='de'):
+    print('search')
+    search_for = request.args.get('for')
+    day = request.args.get('day')
+    section = request.args.get('section')
+
+    if not search_for:
+        return {}
+
+    data = get_json()
+    search_data = {}
+    for k, v in data.items():
+        if day and v['tag'] != int(day):
+            continue
+        if section and not section.lower() in v['content-' + lang].lower():
+            continue
+        if search_for.lower() in str(v['titel-' + lang]).lower():
+            search_data[k] = v
+        elif search_for.lower() in str(v['content-' + lang]).lower():
+            search_data[k] = v
+
+    return search_data
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
