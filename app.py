@@ -30,6 +30,8 @@ def index(lang=None):
         device_lang = request.accept_languages.best_match(['de', 'hu', 'pl', 'cz', 'sk'])
         if device_lang:
             return redirect(url_for('index', lang=device_lang))
+        else:
+            return redirect(url_for('index', lang='de'))
 
     if len(lang) != 2:
         abort(404)
@@ -69,6 +71,10 @@ def my_programm(lang='de'):
 @app.route('/<lang>/gottesdienst')
 def gottesdienst(lang='de'):
     return render_template('gottesdienst.html', lang=lang)
+
+@app.route('/<lang>/map')
+def map(lang='de'):
+    return render_template('map.html', lang=lang)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
