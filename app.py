@@ -11,6 +11,13 @@ def to_int(value):
     except ValueError:
         return 0  # or handle the error as you see fit
 
+@app.template_filter('translate')
+def translate(value, lang):
+    print(value, lang)
+    with open('static/json/translate.json') as f:
+        translated = json.load(f)
+    return translated[value][lang] or value
+
 
 def get_json():
     with open(f'static/json/cbt_programm.json') as f:
@@ -28,8 +35,8 @@ def get_element(nr):
 def get_day(day, lang):
     print(day, lang)
     with open('static/json/day.json') as f:
-        translate = json.load(f)
-    return translate[str(day)][lang]
+        translate_day = json.load(f)
+    return translate_day[str(day)][lang]
 
 @app.template_filter('get_cookie')
 def get_cookie(cookie_name, value=None):
@@ -48,10 +55,6 @@ def not_found(e):
 @app.route('/')
 @app.route('/<lang>')
 def index(lang=None):
-    with open('static/json/translate_index.json') as f:
-        translate = json.load(f)
-        f.close()
-
     if not lang:
         lang_cookie = request.cookies.get('lang')
         if lang_cookie:
@@ -79,7 +82,7 @@ def index(lang=None):
     if len(lang) != 2:
         abort(404)
 
-    return render_template('index.html', lang=lang, translate=translate, my_programm=my_programm, more=more)
+    return render_template('index.html', lang=lang, my_programm=my_programm, more=more)
 
 
 @app.route('/<lang>/programm/<int:point>')
@@ -119,10 +122,7 @@ def programm_section(lang='de', section=None):
 @app.route('/programm')
 @app.route('/<lang>/programm')
 def programm(lang='de'):
-    with open('static/json/translate_programm.json') as f:
-        translate = json.load(f)
-        f.close()
-    return render_template('programm.html', lang=lang, translate=translate)
+    return render_template('programm.html', lang=lang)
 
 
 @app.route('/<lang>/my-program')

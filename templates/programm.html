@@ -11,33 +11,43 @@
     <div class="container-inline" style="margin: 0 10% 0 10%">
         <input class="search-button" onclick="console.log('filter')" type="image" src="/static/img/filter_icon.png">
         <input class="search-bar" style="width: 70%" type="text" id="filter"
-               placeholder="{{translate['search'][lang]}}">
+               placeholder="{{'search'|translate(lang)}}">
         <input class="search-button" onclick="console.log('suchen')" type="image" src="/static/img/search_icon.png">
     </div>
 </div>
 
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, day=0)}}" class="container-headline">{{('0'|get_day(lang))['long']}}</a>
-</div>
+<details class="container">
+    <summary class="container-headline">Tag</summary>
 
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, day=1)}}" class="container-headline">{{('1'|get_day(lang))['long']}}</a>
-</div>
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, day=0)}}" class="container-headline">{{('0'|get_day(lang))['long']}}</a>
+    </div>
 
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">{{('2'|get_day(lang))['long']}}</a>
-</div>
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, day=1)}}" class="container-headline">{{('1'|get_day(lang))['long']}}</a>
+    </div>
 
-<div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ort</a>
-</div>
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">{{('2'|get_day(lang))['long']}}</a>
+    </div>
+
+</details>
+
+
+<details class="container">
+    <summary class="container-headline">Ort</summary>
+    <div class="container">
+        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ort</a>
+    </div>
+</details>
 
 <div class="container">
     <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Bibelarbeit</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste & Andachten</a>
+    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste &
+        Andachten</a>
 </div>
 
 <div class="container">

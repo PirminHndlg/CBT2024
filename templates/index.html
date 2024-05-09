@@ -8,7 +8,7 @@
     <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline">
         <img style="width: 18px"
              src="/static/img/stern_filled.png">
-        {{translate["my_program"][lang]}}</a>
+        {{"my_program"|translate(lang)}}</a>
 
     <div id="my_programm_div">
         {% if my_programm %}
@@ -26,7 +26,7 @@
 
         {% if more %}
         <br>
-        <a href="{{url_for('my_programm', lang=lang)}}">{{translate["more"][lang]}}</a>
+        <a href="{{url_for('my_programm', lang=lang)}}">{{"more"|translate(lang)}}</a>
         {% endif %}
 
         {% endif %}
@@ -35,20 +35,20 @@
 </div>
 
 <div class="container">
-    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">{{translate["search"][lang]}}</a>
+    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">{{"search_program"|translate(lang)}}</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">{{translate["service"][lang]}}</a>
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">{{"service"|translate(lang)}}</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('map', lang=lang)}}" class="container-headline">{{translate["map"][lang]}}</a>
+    <a href="{{url_for('map', lang=lang)}}" class="container-headline">{{"map"|translate(lang)}}</a>
 </div>
 
 <a href="/now" class="a-link">
     <div class="container">
-        <p class="container-headline">{{translate["now"][lang]}}</p><br>
+        <p class="container-headline">{{"now"|translate(lang)}}</p><br>
 
         <div class="container-inline">
             <p class="container-inline-headline">Gottesdienst</p>
