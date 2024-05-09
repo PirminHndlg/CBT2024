@@ -1,11 +1,35 @@
 {% extends "base.html" %}
 
+<script src="/static/js/index.js"></script>
+
 {% block content %}
+
 <div class="container">
     <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline">
         <img style="width: 18px"
              src="/static/img/stern_filled.png">
         {{translate["my_program"][lang]}}</a>
+
+    <div id="my_programm_div">
+        {% if my_programm %}
+        {% for k, v in my_programm.items() %}
+        {% if k != 'more' %}
+        <div class="">
+<!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
+            <p class="">{{v['zeit']}}</p>
+            <h3 class="">{{v['titel-' + lang]}}</h3>
+        </div>
+        <p class="">{{v['location']['name']}}</p>
+        <br>
+        {% endif %}
+        {% endfor %}
+
+        {% if my_programm['more'] %}
+        <a href="{{url_for('my_programm', lang=lang)}}">{{translate["more"][lang]}}</a>
+        {% endif %}
+
+        {% endif %}
+    </div>
 
 </div>
 
@@ -31,4 +55,5 @@
         </div>
     </div>
 </a>
+
 {% endblock %}
