@@ -38,6 +38,10 @@ def index(lang=None):
         f.close()
 
     if not lang:
+        lang_cookie = request.cookies.get('lang')
+        if lang_cookie:
+            return redirect(url_for('index', lang=lang_cookie))
+
         device_lang = request.accept_languages.best_match(['de', 'hu', 'pl', 'cz', 'sk'])
         if device_lang:
             return redirect(url_for('index', lang=device_lang))

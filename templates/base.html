@@ -56,6 +56,8 @@
     }
 
     document.getElementById('language-select').addEventListener('change', function () {
+        setCookie('lang', this.value, 365)
+
         let path = window.location.pathname
         let split_path = path.split('/')
         if (split_path.length == 0) {
