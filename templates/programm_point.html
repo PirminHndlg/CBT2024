@@ -16,7 +16,7 @@
         {{section['zeit']}}</a>
     <h2>{{section['titel-'+lang]}}</h2>
 
-    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location']['address']}}">{{section['location']['name']}}</a>
+    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location-' + lang]['address']}}">{{section['location-' + lang]['name']}}</a>
     </p>
 
     <p class="description-section">{{section['content-'+lang].replace('\n', '<br>')|safe}}</p>
