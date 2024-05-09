@@ -31,6 +31,14 @@ def get_day(day, lang):
         translate = json.load(f)
     return translate[str(day)][lang]
 
+@app.template_filter('get_cookie')
+def get_cookie(cookie_name, value=None):
+    cookie = request.cookies.get(cookie_name)
+    print(cookie_name, value, cookie)
+    if value and cookie:
+        return str(value) in cookie.split(',')
+    return cookie
+
 
 @app.errorhandler(404)
 def not_found(e):
@@ -58,6 +66,7 @@ def index(lang=None):
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = []
+    more = False
     if my_programm_cookie:
         my_programm_array = my_programm_cookie.split(',')
         max_len = 2
@@ -83,24 +92,31 @@ def programm_point(lang='de', point=None):
     return redirect(url_for('programm'))
 
 
-@app.route('/<lang>/section/<section>')
-@app.route('/section/<section>')
+@app.route('/<lang>/section')
+@app.route('/section')
 def programm_section(lang='de', section=None):
     json_data = get_json()
     data = {}
 
-    for k, v in json_data.items():
-        if 'musik' in v['content-' + lang].lower():
-            data[k] = v
+    day = request.args.get('day')
 
+    if day:
+        for k, v in json_data.items():
+            if v['tag'] == int(day):
+                data[k] = v
+
+    section = request.args.get('section')
     if section:
+        for k, v in json_data.items():
+            if 'musik' in v['content-' + lang].lower():
+                data[k] = v
+
+    if data:
         return render_template(f'programm_list.html', lang=lang, title=section, data=data)
     return redirect(url_for('programm'))
 
 
-@app.route('/section')
 @app.route('/programm')
-@app.route('/<lang>/section')
 @app.route('/<lang>/programm')
 def programm(lang='de'):
     with open('static/json/translate_programm.json') as f:
