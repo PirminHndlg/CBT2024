@@ -12,19 +12,19 @@
 
     <div id="my_programm_div">
         {% if my_programm %}
-        {% for k, v in my_programm.items() %}
-        {% if k != 'more' %}
-        <div class="">
-<!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
-            <p class="">{{v['zeit']}}</p>
-            <h3 class="">{{v['titel-' + lang]}}</h3>
-        </div>
-        <p class="">{{v['location']['name']}}</p>
+        {% for v in my_programm %}
+        <a href="{{url_for('programm_point', lang=lang, point=v['key'])}}" style="text-decoration: none; color: black">
+            <div class="">
+                <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
+                <p class="">{{v['zeit']}}</p>
+                <h3 class="">{{v['titel-' + lang]}}</h3>
+            </div>
+            <p class="">{{v['location']['name']}}</p>
+        </a>
         <br>
-        {% endif %}
         {% endfor %}
 
-        {% if my_programm['more'] %}
+        {% if more %}
         <a href="{{url_for('my_programm', lang=lang)}}">{{translate["more"][lang]}}</a>
         {% endif %}
 
