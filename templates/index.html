@@ -4,6 +4,17 @@
 
 {% block content %}
 
+
+<div class="container">
+    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">{{"search_program"|translate(lang)}}</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">{{"service"|translate(lang)}}</a>
+</div>
+
+<br>
+
 <div class="container">
     <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline">
         <img style="width: 18px"
@@ -34,27 +45,37 @@
 
 </div>
 
-<div class="container">
-    <a href="{{url_for('programm', lang=lang)}}" class="container-headline">{{"search_program"|translate(lang)}}</a>
-</div>
-
-<div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">{{"service"|translate(lang)}}</a>
-</div>
-
-<div class="container">
-    <a href="{{url_for('map', lang=lang)}}" class="container-headline">{{"map"|translate(lang)}}</a>
-</div>
-
 <a href="/now" class="a-link">
     <div class="container">
-        <p class="container-headline">{{"now"|translate(lang)}}</p><br>
+        <p class="container-headline">{{"now"|translate(lang)}}</p>
 
-        <div class="container-inline">
-            <p class="container-inline-headline">Gottesdienst</p>
-            <p class="container-inline-text">10:00 - 11:00</p>
-        </div>
+        <div id="my_programm_div">
+        {% if my_programm %}
+        {% for v in my_programm %}
+        <br>
+        <a href="{{url_for('programm_point', lang=lang, point=v['key'])}}" style="text-decoration: none; color: black">
+            <div class="">
+                <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
+                <p>{{(v['tag']|get_day(lang))['short']}} {{v['zeit']}}</p>
+                <h3 class="">{{v['titel-' + lang]}}</h3>
+            </div>
+            <p class="">{{v['location-' + lang]['name']}}</p>
+        </a>
+        {% endfor %}
+
+        <br>
+        <a href="{{url_for('programm', lang=lang)}}">{{"more"|translate(lang)}}</a>
+
+        {% endif %}
+    </div>
     </div>
 </a>
+
+
+<div class="container">
+    <a href="{{url_for('map', lang=lang)}}" class="container-headline">{{"map"|translate(lang)}}
+        <img src="/static/img/map.png" style="width: 100%">
+    </a>
+</div>
 
 {% endblock %}
