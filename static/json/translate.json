@@ -1,0 +1,9 @@
+{
+  "my_program": {"de":  "Mein Programm", "cz": "Můj program", "pl": "Mój program", "hu": "Saját program", "sk": "Môj program"},
+  "search_program": {"de":  "Programm suchen", "cz": "Hledat program", "pl": "Szukaj programu", "hu": "Program keresése", "sk": "Hľadať program"},
+  "service": {"de":  "Gottesdienst", "cz": "Bohoslužba", "pl": "Nabożeństwo", "hu": "Istentisztelet", "sk": "Bohoslužba"},
+  "now": {"de":  "Jetzt", "cz": "Teď", "pl": "Teraz", "hu": "Most", "sk": "Teraz"},
+  "map": {"de":  "Karte", "cz": "Mapa", "pl": "Mapa", "hu": "Térkép", "sk": "Mapa"},
+  "more": {"de":  "Mehr...", "cz": "Více...", "pl": "Więcej...", "hu": "Több...", "sk": "Viac..."},
+  "search": {"de":  "Suchen...", "cz": "Hledat...", "pl": "Szukaj...", "hu": "Keresés...", "sk": "Hľadať..."}
+}
