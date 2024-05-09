@@ -4,20 +4,31 @@ import json
 app = Flask(__name__)
 
 
-def get_json(lang='de'):
-    with open(f'static/json/cbt_programm_{lang}.json') as f:
+@app.template_filter('to_int')
+def to_int(value):
+    try:
+        return int(value)
+    except ValueError:
+        return 0  # or handle the error as you see fit
+
+
+def get_json():
+    with open(f'static/json/cbt_programm.json') as f:
         data = json.load(f)
     return data
 
-def get_element(nr, lang='de'):
-    data = get_json(lang)
+
+def get_element(nr):
+    data = get_json()
     return_data = data[str(nr)]
     return_data['key'] = nr
     return return_data
 
+
 @app.errorhandler(404)
 def not_found(e):
     return render_template('404.html'), 404
+
 
 @app.route('/')
 @app.route('/<lang>')
@@ -41,7 +52,7 @@ def index(lang=None):
         max_len = 2
         for i in range(max_len):
             if i < len(my_programm_array):
-                my_programm.append(get_element(int(my_programm_array[i]), lang))
+                my_programm.append(get_element(int(my_programm_array[i])))
         more = len(my_programm_array) > max_len
         print(my_programm, more)
 
@@ -50,21 +61,29 @@ def index(lang=None):
 
     return render_template('index.html', lang=lang, translate=translate, my_programm=my_programm, more=more)
 
+
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
 def programm_point(lang='de', point=None):
-
     print(point)
 
     if point:
-        return render_template(f'programm_point.html', lang=lang, section=get_element(point, lang))
+        return render_template(f'programm_point.html', lang=lang, section=get_element(point))
     return redirect(url_for('programm'))
+
 
 @app.route('/<lang>/section/<section>')
 @app.route('/section/<section>')
 def programm_section(lang='de', section=None):
+    json_data = get_json()
+    data = {}
+
+    for k, v in json_data.items():
+        if 'musik' in v['content-' + lang].lower():
+            data[k] = v
+
     if section:
-        return render_template(f'programm_section.html', lang=lang, section=section)
+        return render_template(f'programm_list.html', lang=lang, title=section, data=data)
     return redirect(url_for('programm'))
 
 
@@ -78,21 +97,31 @@ def programm(lang='de'):
         f.close()
     return render_template('programm.html', lang=lang, translate=translate)
 
+
 @app.route('/<lang>/my-program')
 def my_programm(lang='de'):
     return render_template('my_programm.html', lang=lang)
+
 
 @app.route('/<lang>/gottesdienst')
 def gottesdienst(lang='de'):
     return render_template('gottesdienst.html', lang=lang)
 
+
 @app.route('/<lang>/map')
 def map(lang='de'):
     return render_template('map.html', lang=lang)
 
+
 @app.route('/<lang>/get-json')
 def get_json_route(lang='de'):
-    return get_json(lang)
+    return get_json()
+
+
+@app.route('/<lang>/markt-der-moeglichkeiten')
+def markt(lang='de'):
+    return render_template('programm_list.html', lang=lang, data=get_json())
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
