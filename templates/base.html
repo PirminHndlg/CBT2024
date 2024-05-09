@@ -105,6 +105,23 @@
             setCookie('my-program', arr.join(','), 365)
         }
     }
+
+    function http(url) {
+        //http request, silent means without alert if 404
+        try {
+            var request = new XMLHttpRequest();
+            request.open("GET", url, false);
+            request.send(null);
+
+            if (request.status === 404) {
+                return
+            }
+            //console.log(request.responseText)
+            return request.responseText;
+        } catch (e) {
+            console.log(e)
+        }
+    }
 </script>
 
 </body>
