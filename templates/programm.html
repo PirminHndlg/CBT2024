@@ -9,65 +9,162 @@
     <br>
 
     <div class="container-inline" style="margin: 0 10% 0 10%">
-<!--        <input class="search-button" onclick="console.log('filter')" type="image" src="/static/img/filter_icon.png">-->
+        <!--        <input class="search-button" onclick="console.log('filter')" type="image" src="/static/img/filter_icon.png">-->
         <input class="search-bar" style="width: 70%" type="text" id="filter"
-               placeholder="{{'search'|translate(lang)}}">
+               placeholder="{{'search'|translate(lang)}}"
+               oninput="on_search_input(this.id)">
         <input class="search-button" onclick="console.log('suchen')" type="image" src="/static/img/search_icon.png">
     </div>
 </div>
 
-<details class="container">
-    <summary class="container-headline">{{'day'|translate(lang)}}</summary>
+<div id="search_response">
 
-    {% for i in range(3) %}
-    <a href="{{url_for('programm_section', lang=lang, day=i)}}" class="container-headline">
-        <div class="sub-container">
-            <p>{{(i|get_day(lang))['long']}}</p>
-        </div>
-    </a>
-    {% endfor %}
-
-</details>
-
-
-<details class="container">
-    <summary class="container-headline">{{'location'|translate(lang)}}</summary>
-    <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">
-        <div class="sub-container">
-            <p>{{('2'|get_day(lang))['long']}}</p>
-        </div>
-    </a>
-</details>
-
-<br>
-
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Bibelarbeit</a>
 </div>
 
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste &
-        Andachten</a>
+<div id="content">
+    <details class="container">
+        <summary class="container-headline">{{'day'|translate(lang)}}</summary>
+
+        {% for i in range(3) %}
+        <a href="{{url_for('programm_section', lang=lang, day=i)}}" class="container-headline">
+            <div class="sub-container">
+                <p>{{(i|get_day(lang))['long']}}</p>
+            </div>
+        </a>
+        {% endfor %}
+
+    </details>
+
+
+    <details class="container">
+        <summary class="container-headline">{{'location'|translate(lang)}}</summary>
+        <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">
+            <div class="sub-container">
+                <p>{{('2'|get_day(lang))['long']}}</p>
+            </div>
+        </a>
+    </details>
+
+    <details class="container">
+        <summary class="container-headline">Sprache</summary>
+        <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">
+            <div class="sub-container">
+                <p>{{('2'|get_day(lang))['long']}}</p>
+            </div>
+        </a>
+    </details>
+
+    <br>
+
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Bibelarbeit</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste &
+            Andachten</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('programm_section', lang=lang, section='Musik')}}" class="container-headline">Musik</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('markt', lang=lang)}}" class="container-headline">Markt der Möglichkeiten</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Podien und Gespäche</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Workshops</a>
+    </div>
+
+    <div class="container">
+        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ausstellungen</a>
+    </div>
 </div>
 
-<div class="container">
-    <a href="{{url_for('programm_section', lang=lang, section='Musik')}}" class="container-headline">Musik</a>
-</div>
+<script>
 
-<div class="container">
-    <a href="{{url_for('markt', lang=lang)}}" class="container-headline">Markt der Möglichkeiten</a>
-</div>
+    function on_search_input(id) {
+        let filter = document.getElementById(id).value.toLowerCase();
+        console.log(filter)
 
-<div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Podien und Gespäche</a>
-</div>
+        let content = document.getElementById('content');
+        let search_response = document.getElementById('search_response');
 
-<div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Workshops</a>
-</div>
 
-<div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ausstellungen</a>
-</div>
+        if (filter.length == 0) {
+            content.hidden = false;
+            search_response.hidden = true;
+            return
+        }
+
+        content.hidden = true;
+        search_response.hidden = false;
+
+        search_response.innerHTML = '';
+
+        let lang = "{{lang}}"
+        var days = ["{{(0|get_day(lang))['short']}}", "{{(1|get_day(lang))['short']}}", "{{(2|get_day(lang))['short']}}"]
+
+        let url = `/${lang}/search?for=` + encodeURIComponent(filter);
+        console.log(url)
+        let json_data = JSON.parse(http(url))
+
+        for (let k in json_data) {
+            let v = json_data[k];
+            let div = document.createElement('div');
+            div.className = 'container';
+            /*div.innerHTML = `
+            <div class="container-inline">
+                <a href="/program_point/${encodeURIComponent(k)}" style="text-decoration: none; color: black">
+                    <div>
+                        <p>${days[v['tag']]} ${v['zeit']}</p>
+                        <h3>${v['titel-'+lang]}</h3>
+                    </div>
+                <input class="my-programm-img-small" id="my_programm_${k}" onclick="change_my_programm(this.id, ${k})"
+                       type="image" src="${v['isFavorited'] ? '/static/img/stern_filled.png' : '/static/img/stern.png'}"><br>
+                <p>${v['location-' + lang]['name']}</p>
+            </div>`;*/
+
+            let div2 = document.createElement('div');
+            div2.className = 'container-inline';
+
+            let a = document.createElement('a');
+            a.href = `programm/${encodeURIComponent(k)}`;
+            a.style = 'text-decoration: none; color: black';
+            let div3 = document.createElement('div');
+
+            let p1 = document.createElement('p');
+            p1.innerHTML = `${days[v['tag']]} ${v['zeit']}`;
+            let h3 = document.createElement('h3');
+            h3.innerHTML = v['titel-' + lang];
+
+            div3.appendChild(p1);
+            div3.appendChild(h3);
+            a.appendChild(div3);
+            div2.appendChild(a);
+
+            let img = document.createElement('input');
+            img.className = 'my-programm-img-small';
+            img.id = `my_programm_${k}`;
+            img.onclick = `change_my_programm(this.id, ${k})`;
+            img.type = 'image';
+            img.src = v['isFavorited'] ? '/static/img/stern_filled.png' : '/static/img/stern.png';
+            div2.appendChild(img);
+
+            let p2 = document.createElement('p');
+            p2.innerHTML = v['location-' + lang]['name'];
+
+            div.appendChild(div2);
+            div.appendChild(p2);
+
+            search_response.appendChild(div);
+        }
+    }
+</script>
 
 {% endblock %}
