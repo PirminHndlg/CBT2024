@@ -9,14 +9,59 @@
     <br>
 
     <div class="container-inline" style="margin: 0 10% 0 10%">
-        <input class="search-button" type="image" src="/static/img/filter_icon.png">
-        <input class="search-bar" style="width: 70%" type="text" id="filter" placeholder="{{translate['search'][lang]}}">
-        <input class="search-button" type="image" src="/static/img/search_icon.png">
+        <input class="search-button" onclick="console.log('filter')" type="image" src="/static/img/filter_icon.png">
+        <input class="search-bar" style="width: 70%" type="text" id="filter"
+               placeholder="{{translate['search'][lang]}}">
+        <input class="search-button" onclick="console.log('suchen')" type="image" src="/static/img/search_icon.png">
     </div>
+</div>
 
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Freitag</a>
+</div>
 
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Samstag</a>
+</div>
 
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Sonntag</a>
+</div>
 
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ort</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Bibelarbeit</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste & Andachten</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Musik</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('markt', lang=lang)}}" class="container-headline">Markt der Möglichkeiten</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Podien und Gespäche</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Workshops</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ausstellungen</a>
+</div>
+
+<div class="container">
+    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Freitag</a>
 </div>
 
 {% endblock %}
