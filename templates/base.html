@@ -101,6 +101,7 @@
             setCookie('my-program', key, 365)
         } else if (!arr.includes(key)) {
             arr.push(key)
+            arr.sort()
             setCookie('my-program', arr.join(','), 365)
         }
     }
