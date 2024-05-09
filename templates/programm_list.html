@@ -22,9 +22,7 @@
                type="image"
                src="{{'/static/img/stern.png' if not 'my-program'|get_cookie(k) else '/static/img/stern_filled.png'}}">
     </div>
-
     <p class="">{{v['location-' + lang]['name']}}</p>
-    </a>
 </div>
 {% endfor %}
 {% endblock %}
