@@ -17,15 +17,15 @@
 </div>
 
 <div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Freitag</a>
+    <a href="{{url_for('programm_section', lang=lang, day=0)}}" class="container-headline">{{('0'|get_day(lang))['long']}}</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Samstag</a>
+    <a href="{{url_for('programm_section', lang=lang, day=1)}}" class="container-headline">{{('1'|get_day(lang))['long']}}</a>
 </div>
 
 <div class="container">
-    <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Sonntag</a>
+    <a href="{{url_for('programm_section', lang=lang, day=2)}}" class="container-headline">{{('2'|get_day(lang))['long']}}</a>
 </div>
 
 <div class="container">
@@ -41,7 +41,7 @@
 </div>
 
 <div class="container">
-    <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Musik</a>
+    <a href="{{url_for('programm_section', lang=lang, section='Musik')}}" class="container-headline">Musik</a>
 </div>
 
 <div class="container">
