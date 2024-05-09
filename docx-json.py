@@ -35,13 +35,13 @@ def create_json(filename, lang='de'):
             if text.startswith('***'):
                 break
 
-            elif text.startswith('Freitag') or text.startswith('Pátek') or text.endswith('péntek') or text.startswith('Piątek'):
+            elif text.startswith('Freitag') or text.startswith('Pátek') or text.endswith('péntek') or text.startswith('Piątek') or text.startswith('Piatok'):
                 tag = 0
                 zeit = ''
-            elif text.startswith('Samstag') or text.startswith('Sobota') or text.endswith('szombat') or text.startswith('Sobota'):
+            elif text.startswith('Samstag') or text.startswith('Sobota') or text.endswith('szombat') or text.startswith('Sobota') or text.startswith('Sobota'):
                 tag = 1
                 zeit = ''
-            elif text.startswith('Sonntag') or text.startswith('Neděle') or text.endswith('vasárnap') or text.startswith('Niedziela'):
+            elif text.startswith('Sonntag') or text.startswith('Neděle') or text.endswith('vasárnap') or text.startswith('Niedziela') or text.startswith('nedeľa'):
                 tag = 2
                 zeit = ''
 
@@ -68,7 +68,7 @@ def create_json(filename, lang='de'):
                     json_data[counter] = {}
                     json_data[counter]['tag'] = tag
                     json_data[counter]['zeit'] = zeit.strip()
-                    json_data[counter]['location'] = location
+                    json_data[counter]['location-' + lang] = location
                     json_data[counter]['titel-' + lang] = titel.strip()
                     json_data[counter]['content-' + lang] = ''
 
@@ -92,7 +92,7 @@ def create_json(filename, lang='de'):
                             and (next_paragraph.text == '' or len(next_paragraph.text) == 2)
                             and (len(paragraphs[i - 1].runs) == 0 or not paragraphs[i - 1].runs[0].bold)):
                         location = {'name': content, 'address': ''}
-                        json_data[counter]['location'] = location
+                        json_data[counter]['location-' + lang] = location
                         continue
 
                     if len(content) == 2 or all_same_length:
@@ -109,6 +109,48 @@ def create_json(filename, lang='de'):
 
     with open(json_filename, 'w') as f:
         json.dump(json_data, f, indent=4, ensure_ascii=False)
+        f.close()
+
+def combine_jsons():
+    with open('static/json/cbt_programm_de.json') as f:
+        de = json.load(f)
+        f.close()
+    with open('static/json/cbt_programm_hu.json') as f:
+        hu = json.load(f)
+        f.close()
+    with open('static/json/cbt_programm_sk.json') as f:
+        sk = json.load(f)
+        f.close()
+    with open('static/json/cbt_programm_pl.json') as f:
+        pl = json.load(f)
+        f.close()
+    with open('static/json/cbt_programm_cz.json') as f:
+        cz = json.load(f)
+        f.close()
+
+    combined = {}
+
+    for key in de.keys():
+        combined[key] = de[key]
+
+        combined[key]['content-hu'] = hu[key]['content-hu']
+        combined[key]['titel-hu'] = hu[key]['titel-hu']
+        combined[key]['location-hu'] = hu[key]['location-hu']
+
+        combined[key]['content-sk'] = sk[key]['content-sk']
+        combined[key]['titel-sk'] = sk[key]['titel-sk']
+        combined[key]['location-sk'] = sk[key]['location-sk']
+
+        combined[key]['content-pl'] = pl[key]['content-pl']
+        combined[key]['titel-pl'] = pl[key]['titel-pl']
+        combined[key]['location-pl'] = pl[key]['location-pl']
+
+        combined[key]['content-cz'] = cz[key]['content-cz']
+        combined[key]['titel-cz'] = cz[key]['titel-cz']
+        combined[key]['location-cz'] = cz[key]['location-cz']
+
+    with open('static/json/cbt_programm.json', 'w') as f:
+        json.dump(combined, f, indent=4, ensure_ascii=False)
         f.close()
 
 def test():
@@ -129,3 +171,4 @@ create_json(filename_hu, 'hu')
 create_json(filename_sk, 'sk')
 create_json(filename_pl, 'pl')
 create_json(filename_cz, 'cz')
+combine_jsons()
