@@ -14,7 +14,7 @@
 
     <a class="small-time">{{'Fr' if section['tag'] == 0 else 'Sa' if section['tag'] == 1 else 'So'}}
         {{section['zeit']}}</a>
-    <h2>{{section['titel']}}</h2>
+    <h2>{{section['titel-'+lang]}}</h2>
 
     <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location']['address']}}">{{section['location']['name']}}</a>
     </p>
