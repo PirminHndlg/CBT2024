@@ -24,6 +24,13 @@ def get_element(nr):
     return_data['key'] = nr
     return return_data
 
+@app.template_filter('get_day')
+def get_day(day, lang):
+    print(day, lang)
+    with open('static/json/day.json') as f:
+        translate = json.load(f)
+    return translate[str(day)][lang]
+
 
 @app.errorhandler(404)
 def not_found(e):
@@ -104,7 +111,15 @@ def programm(lang='de'):
 
 @app.route('/<lang>/my-program')
 def my_programm(lang='de'):
-    return render_template('my_programm.html', lang=lang)
+    my_programm_cookie = request.cookies.get('my-program')
+
+    my_programm = {}
+    if my_programm_cookie:
+        my_programm_array = my_programm_cookie.split(',')
+        for i in my_programm_array:
+            my_programm[i] = get_element(int(i))
+
+    return render_template('programm_list.html', lang=lang, title='Mein Programm', data=my_programm)
 
 
 @app.route('/<lang>/gottesdienst')
