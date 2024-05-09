@@ -2,7 +2,7 @@
     "1": {
         "tag": 0,
         "zeit": "15-15.30",
-        "location": {
+        "location-cz": {
             "name": "Zvon míru, Uferstraße 1",
             "address": ""
         },
@@ -12,7 +12,7 @@
     "2": {
         "tag": 0,
         "zeit": "15.30-16.30",
-        "location": {
+        "location-cz": {
             "name": "Friedenskirche, presbytář 1. patro, Schulstraße 4A",
             "address": ""
         },
@@ -25,7 +25,7 @@
     "3": {
         "tag": 0,
         "zeit": "16-17",
-        "location": {
+        "location-cz": {
             "name": "Kostel sv. Jiří (St. Georg-Kirche), Bergstraße 156",
             "address": ""
         },
@@ -35,7 +35,7 @@
     "4": {
         "tag": 0,
         "zeit": "16-17:30",
-        "location": {
+        "location-cz": {
             "name": "Kleist Forum, konferenční místnost 2, Platz der Einheit 1",
             "address": ""
         },
@@ -48,7 +48,7 @@
     "5": {
         "tag": 0,
         "zeit": "17.30-18",
-        "location": {
+        "location-cz": {
             "name": "Kleist Forum, konferenční místnost 2, Platz der Einheit 1",
             "address": ""
         },
@@ -64,7 +64,7 @@
     "6": {
         "tag": 0,
         "zeit": "18-19",
-        "location": {
+        "location-cz": {
             "name": "Čtení a modlitby: Zástupci diakonie a mládeže",
             "address": ""
         },
@@ -80,7 +80,7 @@
     "7": {
         "tag": 0,
         "zeit": "19-19:30",
-        "location": {
+        "location-cz": {
             "name": "Čtení a modlitby: Zástupci diakonie a mládeže",
             "address": ""
         },
@@ -96,7 +96,7 @@
     "8": {
         "tag": 0,
         "zeit": "19.30-22",
-        "location": {
+        "location-cz": {
             "name": "Marktplatz, Bischofsstraße, Promenáda u řeky Odry až na náměstí před Collegiem Polonicem",
             "address": ""
         },
@@ -106,7 +106,7 @@
     "9": {
         "tag": 0,
         "zeit": "20-21",
-        "location": {
+        "location-cz": {
             "name": "Open-Air pódium, Brunnenplatz",
             "address": ""
         },
@@ -116,7 +116,7 @@
     "10": {
         "tag": 0,
         "zeit": "20-21.30",
-        "location": {
+        "location-cz": {
             "name": "Kostel míru – Friedenskirche, Schulstraße 4A",
             "address": ""
         },
@@ -129,7 +129,7 @@
     "11": {
         "tag": 0,
         "zeit": "21.45",
-        "location": {
+        "location-cz": {
             "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice",
             "address": ""
         },
@@ -145,7 +145,7 @@
     "12": {
         "tag": 1,
         "zeit": "8-10",
-        "location": {
+        "location-cz": {
             "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice",
             "address": ""
         },
@@ -155,7 +155,7 @@
     "13": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "address": ""
         },
@@ -168,7 +168,7 @@
     "14": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kleist Forum, Velký sál, Platz der Einheit 1",
             "address": ""
         },
@@ -178,7 +178,7 @@
     "15": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kleist Forum, konferenční místnost 2, 2. patro, Platz der Einheit 1",
             "address": ""
         },
@@ -188,7 +188,7 @@
     "16": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kostel sv. Jiří (St.-Georg-Kirche), Bergstraße 156",
             "address": ""
         },
@@ -198,7 +198,7 @@
     "17": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche), Gertraudenplatz 6",
             "address": ""
         },
@@ -211,7 +211,7 @@
     "18": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kostel míru (Friedenskirche), Schulstraße 4A",
             "address": ""
         },
@@ -221,7 +221,7 @@
     "19": {
         "tag": 1,
         "zeit": "9-10",
-        "location": {
+        "location-cz": {
             "name": "Kleist Forum, Foyer, Platz der Einheit 1",
             "address": ""
         },
@@ -231,7 +231,7 @@
     "20": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-cz": {
             "name": "Luisenstrasse 25D",
             "address": ""
         },
@@ -241,7 +241,7 @@
     "21": {
         "tag": 1,
         "zeit": "9.30",
-        "location": {
+        "location-cz": {
             "name": "Diakonia Wichern, kaple, Luisenstraße 21-24",
             "address": ""
         },
@@ -251,7 +251,7 @@
     "22": {
         "tag": 1,
         "zeit": "10.30-11",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -261,7 +261,7 @@
     "23": {
         "tag": 1,
         "zeit": "11-11.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -274,7 +274,7 @@
     "24": {
         "tag": 1,
         "zeit": "11.30-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -284,7 +284,7 @@
     "25": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -294,7 +294,7 @@
     "26": {
         "tag": 1,
         "zeit": "12.30-13",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -308,7 +308,7 @@
     "27": {
         "tag": 1,
         "zeit": "13-14",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -318,7 +318,7 @@
     "28": {
         "tag": 1,
         "zeit": "14-14.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -331,7 +331,7 @@
     "29": {
         "tag": 1,
         "zeit": "14.30-15",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -341,7 +341,7 @@
     "30": {
         "tag": 1,
         "zeit": "15-15.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -351,7 +351,7 @@
     "31": {
         "tag": 1,
         "zeit": "15.30-16",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -361,7 +361,7 @@
     "32": {
         "tag": 1,
         "zeit": "16-16.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -371,7 +371,7 @@
     "33": {
         "tag": 1,
         "zeit": "16.30-17",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -381,7 +381,7 @@
     "34": {
         "tag": 1,
         "zeit": "17-17.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -394,7 +394,7 @@
     "35": {
         "tag": 1,
         "zeit": "17.30-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -404,7 +404,7 @@
     "36": {
         "tag": 1,
         "zeit": "20-21.45",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -414,7 +414,7 @@
     "37": {
         "tag": 1,
         "zeit": "21.45-22",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -424,7 +424,7 @@
     "38": {
         "tag": 1,
         "zeit": "18.30-19.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -434,7 +434,7 @@
     "39": {
         "tag": 1,
         "zeit": "10-12 a 14-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -444,7 +444,7 @@
     "40": {
         "tag": 1,
         "zeit": "12.30-13.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum města",
             "address": "Open-Air pódium, Brunnenplatz"
         },
@@ -454,7 +454,7 @@
     "41": {
         "tag": 1,
         "zeit": "10.30-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -467,7 +467,7 @@
     "42": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -477,7 +477,7 @@
     "43": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -490,7 +490,7 @@
     "44": {
         "tag": 1,
         "zeit": "16-17:30",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -503,7 +503,7 @@
     "45": {
         "tag": 1,
         "zeit": "19.30-21.45",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -513,7 +513,7 @@
     "46": {
         "tag": 1,
         "zeit": "21.45-22",
-        "location": {
+        "location-cz": {
             "name": "Centrum německo-polského přátelství",
             "address": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
         },
@@ -523,7 +523,7 @@
     "47": {
         "tag": 1,
         "zeit": "10.30-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro mír a demokracii v Evropě",
             "address": "Audimax, Evropská univerzita Viadrina, Logenstraße 4"
         },
@@ -538,7 +538,7 @@
     "48": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro mír a demokracii v Evropě",
             "address": "Audimax, Evropská univerzita Viadrina, Logenstraße 4"
         },
@@ -552,7 +552,7 @@
     "49": {
         "tag": 1,
         "zeit": "10.30-12",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -568,7 +568,7 @@
     "50": {
         "tag": 1,
         "zeit": "14-15 a 16.30-17.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -578,7 +578,7 @@
     "51": {
         "tag": 1,
         "zeit": "12-12.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -588,7 +588,7 @@
     "52": {
         "tag": 1,
         "zeit": "15.30-16",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -598,7 +598,7 @@
     "53": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -611,7 +611,7 @@
     "54": {
         "tag": 1,
         "zeit": "16-17:30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -624,7 +624,7 @@
     "55": {
         "tag": 1,
         "zeit": "10.30-12.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -638,7 +638,7 @@
     "56": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -651,7 +651,7 @@
     "57": {
         "tag": 1,
         "zeit": "16-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -666,7 +666,7 @@
     "58": {
         "tag": 1,
         "zeit": "16-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -676,7 +676,7 @@
     "59": {
         "tag": 1,
         "zeit": "10.30-16",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -686,7 +686,7 @@
     "60": {
         "tag": 1,
         "zeit": "16-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -696,7 +696,7 @@
     "61": {
         "tag": 1,
         "zeit": "10.30-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -706,7 +706,7 @@
     "62": {
         "tag": 1,
         "zeit": "10:30-12:00",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -716,7 +716,7 @@
     "63": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -726,7 +726,7 @@
     "64": {
         "tag": 1,
         "zeit": "16.30-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -736,7 +736,7 @@
     "65": {
         "tag": 1,
         "zeit": "10.30-12.30",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -746,7 +746,7 @@
     "66": {
         "tag": 1,
         "zeit": "14-18",
-        "location": {
+        "location-cz": {
             "name": "Tematický program – Kleist Forum",
             "address": "Kleist Forum, Velký sál, Platz der Einheit 1"
         },
@@ -756,7 +756,7 @@
     "67": {
         "tag": 1,
         "zeit": "9-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -766,7 +766,7 @@
     "68": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -776,7 +776,7 @@
     "69": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -786,7 +786,7 @@
     "70": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -796,7 +796,7 @@
     "71": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -806,7 +806,7 @@
     "72": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -816,7 +816,7 @@
     "73": {
         "tag": 1,
         "zeit": "10-12 a 13-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -826,7 +826,7 @@
     "74": {
         "tag": 1,
         "zeit": "14-15 a 16.30-17.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -836,7 +836,7 @@
     "75": {
         "tag": 1,
         "zeit": "10-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -846,7 +846,7 @@
     "76": {
         "tag": 1,
         "zeit": "10.30-12 a 14-15.30 hod.",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -856,7 +856,7 @@
     "77": {
         "tag": 1,
         "zeit": "14-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -866,7 +866,7 @@
     "78": {
         "tag": 1,
         "zeit": "16-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -876,7 +876,7 @@
     "79": {
         "tag": 1,
         "zeit": "12.30-13.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum pro děti a rodinu",
             "address": "Kleist Forum"
         },
@@ -886,7 +886,7 @@
     "80": {
         "tag": 1,
         "zeit": "10.30-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -896,7 +896,7 @@
     "81": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -906,7 +906,7 @@
     "82": {
         "tag": 1,
         "zeit": "16.30-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -916,7 +916,7 @@
     "83": {
         "tag": 1,
         "zeit": "20.30-22.00",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -930,7 +930,7 @@
     "84": {
         "tag": 1,
         "zeit": "12.30-14",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -943,7 +943,7 @@
     "85": {
         "tag": 1,
         "zeit": "14.30-16",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -956,7 +956,7 @@
     "86": {
         "tag": 1,
         "zeit": "16.30-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -966,7 +966,7 @@
     "87": {
         "tag": 1,
         "zeit": "19.45-21",
-        "location": {
+        "location-cz": {
             "name": "Centrum rozmanitosti v míru",
             "address": "Kostel míru ( Friedenskirche), Schulstraße 4A"
         },
@@ -976,7 +976,7 @@
     "88": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -986,7 +986,7 @@
     "89": {
         "tag": 1,
         "zeit": "12.15-13",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -996,7 +996,7 @@
     "90": {
         "tag": 1,
         "zeit": "14-16.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1006,7 +1006,7 @@
     "91": {
         "tag": 1,
         "zeit": "17-18",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1016,7 +1016,7 @@
     "92": {
         "tag": 1,
         "zeit": "19.30-20",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1026,7 +1026,7 @@
     "93": {
         "tag": 1,
         "zeit": "20-21.45",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1036,7 +1036,7 @@
     "94": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1046,7 +1046,7 @@
     "95": {
         "tag": 1,
         "zeit": "14-21.45",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1056,7 +1056,7 @@
     "96": {
         "tag": 1,
         "zeit": "22",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1066,7 +1066,7 @@
     "97": {
         "tag": 1,
         "zeit": "22",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1076,7 +1076,7 @@
     "98": {
         "tag": 1,
         "zeit": "9-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1086,7 +1086,7 @@
     "99": {
         "tag": 1,
         "zeit": "10-11",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1096,7 +1096,7 @@
     "100": {
         "tag": 1,
         "zeit": "11-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1106,7 +1106,7 @@
     "101": {
         "tag": 1,
         "zeit": "12-12.15",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1116,7 +1116,7 @@
     "102": {
         "tag": 1,
         "zeit": "10-17",
-        "location": {
+        "location-cz": {
             "name": "Centrum hudby",
             "address": "Kostel Panny Marie (St.-Marien-Kirche)"
         },
@@ -1126,7 +1126,7 @@
     "103": {
         "tag": 1,
         "zeit": "9",
-        "location": {
+        "location-cz": {
             "name": "Centrum vzdělávání",
             "address": "Evangelická škola, Luisenstraße 25D"
         },
@@ -1136,7 +1136,7 @@
     "104": {
         "tag": 1,
         "zeit": "10-12",
-        "location": {
+        "location-cz": {
             "name": "Centrum vzdělávání",
             "address": "Evangelická škola, Luisenstraße 25D"
         },
@@ -1146,7 +1146,7 @@
     "105": {
         "tag": 1,
         "zeit": "12-12.30",
-        "location": {
+        "location-cz": {
             "name": "Centrum vzdělávání",
             "address": "Evangelická škola, Luisenstraße 25D"
         },
@@ -1156,7 +1156,7 @@
     "106": {
         "tag": 2,
         "zeit": "9.30",
-        "location": {
+        "location-cz": {
             "name": "Open-Air pódium",
             "address": "Brunnenplatz"
         },
@@ -1172,7 +1172,7 @@
     "107": {
         "tag": 2,
         "zeit": "10",
-        "location": {
+        "location-cz": {
             "name": "Open-Air pódium",
             "address": "Brunnenplatz"
         },
@@ -1188,7 +1188,7 @@
     "108": {
         "tag": 2,
         "zeit": "11.20",
-        "location": {
+        "location-cz": {
             "name": "Open-Air pódium",
             "address": "Brunnenplatz"
         },

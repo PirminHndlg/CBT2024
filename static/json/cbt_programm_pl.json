@@ -2,7 +2,7 @@
     "1": {
         "tag": 0,
         "zeit": "15.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Dzwon Pokoju, Uferstraße 1",
             "address": ""
         },
@@ -12,7 +12,7 @@
     "2": {
         "tag": 0,
         "zeit": "15.30-16.30",
-        "location": {
+        "location-pl": {
             "name": "Kościół Pokoju, sala chóralna, 1. piętro, Schulstraße 4A",
             "address": ""
         },
@@ -25,7 +25,7 @@
     "3": {
         "tag": 0,
         "zeit": "16.00-17.00",
-        "location": {
+        "location-pl": {
             "name": "Kościół św. Jerzego, Bergstraße 156",
             "address": ""
         },
@@ -35,7 +35,7 @@
     "4": {
         "tag": 0,
         "zeit": "16.00-17.30",
-        "location": {
+        "location-pl": {
             "name": "Kleist Forum, Sala Konferencyjna 2, Platz der Einheit 1",
             "address": ""
         },
@@ -48,7 +48,7 @@
     "5": {
         "tag": 0,
         "zeit": "16.00-17.30",
-        "location": {
+        "location-pl": {
             "name": "Kleist Forum, Sala Konferencyjna 2, Platz der Einheit 1",
             "address": ""
         },
@@ -64,7 +64,7 @@
     "6": {
         "tag": 0,
         "zeit": "18.00-19.00",
-        "location": {
+        "location-pl": {
             "name": "Czytania i modlitwy: przedstawiciele diakonii i młodzieży",
             "address": ""
         },
@@ -80,7 +80,7 @@
     "7": {
         "tag": 0,
         "zeit": "19.00-19.30",
-        "location": {
+        "location-pl": {
             "name": "Czytania i modlitwy: przedstawiciele diakonii i młodzieży",
             "address": ""
         },
@@ -96,7 +96,7 @@
     "8": {
         "tag": 0,
         "zeit": "19.30-22.00",
-        "location": {
+        "location-pl": {
             "name": "Marktplatz, Bischofsstraße, promenada nad Odrą do placu przed Collegium Polonicum",
             "address": ""
         },
@@ -106,7 +106,7 @@
     "9": {
         "tag": 0,
         "zeit": "20.00-21.00",
-        "location": {
+        "location-pl": {
             "name": "Scena główna, Brunnenplatz",
             "address": ""
         },
@@ -116,7 +116,7 @@
     "10": {
         "tag": 0,
         "zeit": "20.00-21.30",
-        "location": {
+        "location-pl": {
             "name": "Kościół Pokoju, Schulstraße 4A",
             "address": ""
         },
@@ -129,7 +129,7 @@
     "11": {
         "tag": 0,
         "zeit": "21.45",
-        "location": {
+        "location-pl": {
             "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice",
             "address": ""
         },
@@ -145,7 +145,7 @@
     "12": {
         "tag": 1,
         "zeit": "8.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice",
             "address": ""
         },
@@ -155,7 +155,7 @@
     "13": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
             "address": ""
         },
@@ -168,7 +168,7 @@
     "14": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kleist Forum, Großer Saal, Platz der Einheit 1",
             "address": ""
         },
@@ -178,7 +178,7 @@
     "15": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kleist Forum, Sla konferencyjna 2, 2. piętro, Platz der Einheit 1",
             "address": ""
         },
@@ -188,7 +188,7 @@
     "16": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kościół św.Jerzego, Bergstraße 156",
             "address": ""
         },
@@ -198,7 +198,7 @@
     "17": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kościół św. Gertrudy, Gertraudenplatz 6",
             "address": ""
         },
@@ -211,7 +211,7 @@
     "18": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kościół Pokoju, Schulstraße 4A",
             "address": ""
         },
@@ -221,7 +221,7 @@
     "19": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Kleist Forum, Foyer, Platz der Einheit 1",
             "address": ""
         },
@@ -231,7 +231,7 @@
     "20": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Luisenstraße 25D",
             "address": ""
         },
@@ -241,7 +241,7 @@
     "21": {
         "tag": 1,
         "zeit": "9.30",
-        "location": {
+        "location-pl": {
             "name": "Wichern-Diakonie, Kapelle, Luisenstraße 21-24",
             "address": ""
         },
@@ -251,7 +251,7 @@
     "22": {
         "tag": 1,
         "zeit": "10.30-11.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -261,7 +261,7 @@
     "23": {
         "tag": 1,
         "zeit": "11.00-11.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -274,7 +274,7 @@
     "24": {
         "tag": 1,
         "zeit": "11.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -284,7 +284,7 @@
     "25": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -294,7 +294,7 @@
     "26": {
         "tag": 1,
         "zeit": "12.30-13.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -308,7 +308,7 @@
     "27": {
         "tag": 1,
         "zeit": "13.00-14.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -318,7 +318,7 @@
     "28": {
         "tag": 1,
         "zeit": "14.00-14.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -331,7 +331,7 @@
     "29": {
         "tag": 1,
         "zeit": "14.30-15.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -341,7 +341,7 @@
     "30": {
         "tag": 1,
         "zeit": "15.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -354,7 +354,7 @@
     "31": {
         "tag": 1,
         "zeit": "15.30-16.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -364,7 +364,7 @@
     "32": {
         "tag": 1,
         "zeit": "16.00-16.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -374,7 +374,7 @@
     "33": {
         "tag": 1,
         "zeit": "16.30-17.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -384,7 +384,7 @@
     "34": {
         "tag": 1,
         "zeit": "17.00-17.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -397,7 +397,7 @@
     "35": {
         "tag": 1,
         "zeit": "17.30-18.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -407,7 +407,7 @@
     "36": {
         "tag": 1,
         "zeit": "20.00-21.45",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -417,7 +417,7 @@
     "37": {
         "tag": 1,
         "zeit": "21.45-22.00",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -427,7 +427,7 @@
     "38": {
         "tag": 1,
         "zeit": "18.30-19.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -437,7 +437,7 @@
     "39": {
         "tag": 1,
         "zeit": "12.30-13.30",
-        "location": {
+        "location-pl": {
             "name": "W samym centrum miasta",
             "address": "Scena główna, Brunnenplatz"
         },
@@ -447,7 +447,7 @@
     "40": {
         "tag": 1,
         "zeit": "9.00-10.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -457,7 +457,7 @@
     "41": {
         "tag": 1,
         "zeit": "10.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -470,7 +470,7 @@
     "42": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -480,7 +480,7 @@
     "43": {
         "tag": 1,
         "zeit": "14.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -493,7 +493,7 @@
     "44": {
         "tag": 1,
         "zeit": "16.00-17.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -506,7 +506,7 @@
     "45": {
         "tag": 1,
         "zeit": "19.30-21.45",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -516,7 +516,7 @@
     "46": {
         "tag": 1,
         "zeit": "21.45-22.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Przyjaźni Polsko-Niemieckiej",
             "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
@@ -526,7 +526,7 @@
     "47": {
         "tag": 1,
         "zeit": "10.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Pokoju i Demokracji w Europie",
             "address": "Audimax, Europa-Universität Viadrina, Logenstraße 4"
         },
@@ -541,7 +541,7 @@
     "48": {
         "tag": 1,
         "zeit": "14.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Pokoju i Demokracji w Europie",
             "address": "Audimax, Europa-Universität Viadrina, Logenstraße 4"
         },
@@ -555,7 +555,7 @@
     "49": {
         "tag": 1,
         "zeit": "10.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -571,7 +571,7 @@
     "50": {
         "tag": 1,
         "zeit": "14.00-15.00 oraz 16.30-17.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -581,7 +581,7 @@
     "51": {
         "tag": 1,
         "zeit": "12.00-12.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -591,7 +591,7 @@
     "52": {
         "tag": 1,
         "zeit": "15.30-16.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -601,7 +601,7 @@
     "53": {
         "tag": 1,
         "zeit": "14.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -614,7 +614,7 @@
     "54": {
         "tag": 1,
         "zeit": "16.00-17.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -627,7 +627,7 @@
     "55": {
         "tag": 1,
         "zeit": "10.30-12.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -641,7 +641,7 @@
     "56": {
         "tag": 1,
         "zeit": "14.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -654,7 +654,7 @@
     "57": {
         "tag": 1,
         "zeit": "16.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -669,7 +669,7 @@
     "58": {
         "tag": 1,
         "zeit": "16.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -679,7 +679,7 @@
     "59": {
         "tag": 1,
         "zeit": "10.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -689,7 +689,7 @@
     "60": {
         "tag": 1,
         "zeit": "10.30-16.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -699,7 +699,7 @@
     "61": {
         "tag": 1,
         "zeit": "16.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -709,7 +709,7 @@
     "62": {
         "tag": 1,
         "zeit": "10.30-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -719,7 +719,7 @@
     "63": {
         "tag": 1,
         "zeit": "14-15.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -729,7 +729,7 @@
     "64": {
         "tag": 1,
         "zeit": "16.30-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -739,7 +739,7 @@
     "65": {
         "tag": 1,
         "zeit": "10.30-12.30",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -749,7 +749,7 @@
     "66": {
         "tag": 1,
         "zeit": "14.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Program tematyczny w Kleist Forum",
             "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
@@ -759,7 +759,7 @@
     "67": {
         "tag": 1,
         "zeit": "9.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -769,7 +769,7 @@
     "68": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -779,7 +779,7 @@
     "69": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -789,7 +789,7 @@
     "70": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -799,7 +799,7 @@
     "71": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -809,7 +809,7 @@
     "72": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -819,7 +819,7 @@
     "73": {
         "tag": 1,
         "zeit": "10.00-12.00 oraz 13.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -829,7 +829,7 @@
     "74": {
         "tag": 1,
         "zeit": "14.00-15.00 oraz 16.30-17.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -839,7 +839,7 @@
     "75": {
         "tag": 1,
         "zeit": "10.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -849,7 +849,7 @@
     "76": {
         "tag": 1,
         "zeit": "10.30-12.00 oraz 14.00-15.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -859,7 +859,7 @@
     "77": {
         "tag": 1,
         "zeit": "14.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -869,7 +869,7 @@
     "78": {
         "tag": 1,
         "zeit": "16.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -879,7 +879,7 @@
     "79": {
         "tag": 1,
         "zeit": "12.30-13.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Dzieci i Rodziny",
             "address": "Kleist Forum"
         },
@@ -889,7 +889,7 @@
     "80": {
         "tag": 1,
         "zeit": "10.30-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -899,7 +899,7 @@
     "81": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -909,7 +909,7 @@
     "82": {
         "tag": 1,
         "zeit": "16.30-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -919,7 +919,7 @@
     "83": {
         "tag": 1,
         "zeit": "20.30-22.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -933,7 +933,7 @@
     "84": {
         "tag": 1,
         "zeit": "12.30-14.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -946,7 +946,7 @@
     "85": {
         "tag": 1,
         "zeit": "14.30-16.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -959,7 +959,7 @@
     "86": {
         "tag": 1,
         "zeit": "16.30-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -969,7 +969,7 @@
     "87": {
         "tag": 1,
         "zeit": "19.45-21.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Różnorodności w Pokoju",
             "address": "Kościół Pokoju, Schulstraße 4A"
         },
@@ -979,7 +979,7 @@
     "88": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -989,7 +989,7 @@
     "89": {
         "tag": 1,
         "zeit": "12.15-13.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -999,7 +999,7 @@
     "90": {
         "tag": 1,
         "zeit": "14.00-16.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1009,7 +1009,7 @@
     "91": {
         "tag": 1,
         "zeit": "17.00-18.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1019,7 +1019,7 @@
     "92": {
         "tag": 1,
         "zeit": "19.30-20.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1029,7 +1029,7 @@
     "93": {
         "tag": 1,
         "zeit": "20.00-21.45",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1039,7 +1039,7 @@
     "94": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1049,7 +1049,7 @@
     "95": {
         "tag": 1,
         "zeit": "14.00-21.45",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1059,7 +1059,7 @@
     "96": {
         "tag": 1,
         "zeit": "22.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1069,7 +1069,7 @@
     "97": {
         "tag": 1,
         "zeit": "22.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1079,7 +1079,7 @@
     "98": {
         "tag": 1,
         "zeit": "9.00-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1089,7 +1089,7 @@
     "99": {
         "tag": 1,
         "zeit": "10.00-11.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1099,7 +1099,7 @@
     "100": {
         "tag": 1,
         "zeit": "11.00-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1109,7 +1109,7 @@
     "101": {
         "tag": 1,
         "zeit": "12.00-12.15",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1119,7 +1119,7 @@
     "102": {
         "tag": 1,
         "zeit": "10.00-17.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Muzyki",
             "address": "Kościół Mariacki"
         },
@@ -1129,7 +1129,7 @@
     "103": {
         "tag": 1,
         "zeit": "9.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Edukacji",
             "address": "Evangelische Schule, Luisenstraße 25D"
         },
@@ -1139,7 +1139,7 @@
     "104": {
         "tag": 1,
         "zeit": "10.00-12.00",
-        "location": {
+        "location-pl": {
             "name": "Centrum Edukacji",
             "address": "Evangelische Schule, Luisenstraße 25D"
         },
@@ -1149,7 +1149,7 @@
     "105": {
         "tag": 1,
         "zeit": "12.00-12.30",
-        "location": {
+        "location-pl": {
             "name": "Centrum Edukacji",
             "address": "Evangelische Schule, Luisenstraße 25D"
         },
@@ -1159,7 +1159,7 @@
     "106": {
         "tag": 2,
         "zeit": "9.30",
-        "location": {
+        "location-pl": {
             "name": "Scena główna",
             "address": "Brunnenplatz"
         },
@@ -1175,7 +1175,7 @@
     "107": {
         "tag": 2,
         "zeit": "10.00",
-        "location": {
+        "location-pl": {
             "name": "Scena główna",
             "address": "Brunnenplatz"
         },
@@ -1191,21 +1191,11 @@
     "108": {
         "tag": 2,
         "zeit": "11.20",
-        "location": {
+        "location-pl": {
             "name": "Scena główna",
             "address": "Brunnenplatz"
         },
         "titel-pl": "Słowo na zakończenie",
         "content-pl": "Generalna Superintendent Theresa Rinecker, Görlitz\nbp Waldemar Pytel, Wrocław"
-    },
-    "109": {
-        "tag": 2,
-        "zeit": "11.30",
-        "location": {
-            "name": "Scena główna",
-            "address": "Brunnenplatz"
-        },
-        "titel-pl": "Śpiewajmy dalej - muzyczne echo",
-        "content-pl": "Dyrygent: regionalny dyrektor śpiewu Almut Stümke, Berlin"
     }
 }
