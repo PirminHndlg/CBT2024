@@ -12,8 +12,7 @@
 
     <br>
 
-    <a class="small-time">{{'Fr' if section['tag'] == 0 else 'Sa' if section['tag'] == 1 else 'So'}}
-        {{section['zeit']}}</a>
+    <a class="small-time">{{(section['tag']|get_day(lang))['long']}} {{section['zeit']}}</a>
     <h2>{{section['titel-'+lang]}}</h2>
 
     <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location-' + lang]['address']}}">{{section['location-' + lang]['name']}}</a>
