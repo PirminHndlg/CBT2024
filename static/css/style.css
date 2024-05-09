@@ -102,6 +102,13 @@ p {
     border-radius: 10px;
 }
 
+.sub-container {
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
 .container-inline {
     display: flex;
     justify-content: space-between;
