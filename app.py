@@ -183,7 +183,12 @@ def get_json_route(lang='de'):
 @app.route('/<lang>/markt/')
 def markt(lang='de'):
     check_lang(lang)
-    return render_template('programm_list.html', lang=lang, data=get_json())
+
+    with open(f'static/data/markt-{lang}.txt') as f:
+        data = f.read().split('\n')
+        f.close()
+        print(data)
+    return render_template('markt.html', lang=lang, data=data)
 
 
 @app.route('/<lang>/search')

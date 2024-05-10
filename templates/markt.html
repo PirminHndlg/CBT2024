@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="headline-container">
+    <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+    <h1 class="centered">Markt der Möglichkeiten</h1>
+</div>
+
+<div class="container">
+    <div class="container-inline">
+        <h3>10.30-18.00</h3>
+        <a href="{{url_for('map', lang=lang)}}" style="text-decoration: none; color: black">
+            <h3>📍 Marktplatz</h3>
+        </a>
+    </div>
+    {% if data %}
+    <br>
+    <p>{{data[0]}}</p>
+    <ul>
+        {% for v in data[1:] %}
+        <li><h4>{{v}}</h4></li>
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+</div>
+
+{% endblock %}
