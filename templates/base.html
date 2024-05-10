@@ -32,12 +32,16 @@
         <a href="https://christlichebegegnungstage.de/"><p>{{"homepage"|translate(lang or 'de')}}</p></a>
         <a href="https://christlichebegegnungstage.de/impressum/"><p>{{"impressum"|translate(lang or 'de')}}</p></a>
         <a href="https://christlichebegegnungstage.de/datenschutz/"><p>{{"privacy"|translate(lang or 'de')}}</p></a>
-    </div><br>
-    <p>© 2024 CBT</p>
+    </div>
+    <br>
+    <div class="container-inline">
+        <a href="mailto:admin@cbt2024.de">Feedback</a>
+        <p>Made by Pirmin Hinderling</p>
+        <p>© 2024 CBT</p>
+    </div>
 </footer>
 
 <script>
-
     window.onload = function () {
         document.getElementById('language-select').value = '{{lang}}';
     }
