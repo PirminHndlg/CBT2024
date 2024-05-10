@@ -60,6 +60,7 @@ def not_found(e):
 
 @app.route('/')
 @app.route('/<lang>')
+@app.route('/<lang>/')
 def index(lang=None):
     if not lang:
         lang_cookie = request.cookies.get('lang')
@@ -131,13 +132,16 @@ def programm_section(lang='de', section=None):
 
 
 @app.route('/programm')
+@app.route('/programm/')
 @app.route('/<lang>/programm')
+@app.route('/<lang>/programm/')
 def programm(lang='de'):
     check_lang(lang)
     return render_template('programm.html', lang=lang)
 
 
 @app.route('/<lang>/my-program')
+@app.route('/<lang>/my-program/')
 def my_programm(lang='de'):
     check_lang(lang)
     my_programm_cookie = request.cookies.get('my-program')
@@ -151,13 +155,17 @@ def my_programm(lang='de'):
     return render_template('programm_list.html', lang=lang, title='Mein Programm', data=my_programm)
 
 
+@app.route('/gottesdienst')
+@app.route('/gottesdienst/')
 @app.route('/<lang>/gottesdienst')
+@app.route('/<lang>/gottesdienst/')
 def gottesdienst(lang='de'):
     check_lang(lang)
     return render_template('gottesdienst.html', lang=lang)
 
 
 @app.route('/<lang>/map')
+@app.route('/<lang>/map/')
 def map(lang='de'):
     check_lang(lang)
     return render_template('map.html', lang=lang)
@@ -169,7 +177,10 @@ def get_json_route(lang='de'):
     return get_json()
 
 
-@app.route('/<lang>/markt-der-moeglichkeiten')
+@app.route('/markt')
+@app.route('/markt/')
+@app.route('/<lang>/markt')
+@app.route('/<lang>/markt/')
 def markt(lang='de'):
     check_lang(lang)
     return render_template('programm_list.html', lang=lang, data=get_json())
