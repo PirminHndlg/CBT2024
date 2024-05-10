@@ -7,5 +7,8 @@
   "more": {"de":  "Mehr...", "cz": "Více...", "pl": "Więcej...", "hu": "Több...", "sk": "Viac..."},
   "search": {"de":  "Suchen...", "cz": "Hledat...", "pl": "Szukaj...", "hu": "Keresés...", "sk": "Hľadať..."},
   "day": {"de":  "Tag", "cz": "Den", "pl": "Dzień", "hu": "Nap", "sk": "Deň"},
-  "location": {"de":  "Ort", "cz": "Místo", "pl": "Miejsce", "hu": "Helyszín", "sk": "Miesto"}
+  "location": {"de":  "Ort", "cz": "Místo", "pl": "Miejsce", "hu": "Helyszín", "sk": "Miesto"},
+  "homepage": {"de":  "Homepage", "cz": "Domovská stránka", "pl": "Strona główna", "hu": "Kezdőlap", "sk": "Domovská stránka"},
+  "impressum": {"de":  "Impressum", "cz": "Impressum", "pl": "Impressum", "hu": "Impresszum", "sk": "Impressum"},
+  "privacy": {"de":  "Datenschutz", "cz": "Ochrana údajů", "pl": "Ochrona danych", "hu": "Adatvédelem", "sk": "Ochrana údajů"}
 }
