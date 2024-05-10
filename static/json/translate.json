@@ -1,4 +1,5 @@
 {
+  "program": {"de":  "Programm", "cz": "Program", "pl": "Program", "hu": "Program", "sk": "Program"},
   "my_program": {"de":  "Mein Programm", "cz": "Můj program", "pl": "Mój program", "hu": "Saját program", "sk": "Môj program"},
   "search_program": {"de":  "Programm suchen", "cz": "Hledat program", "pl": "Szukaj programu", "hu": "Program keresése", "sk": "Hľadať program"},
   "service": {"de":  "Gottesdienst", "cz": "Bohoslužba", "pl": "Nabożeństwo", "hu": "Istentisztelet", "sk": "Bohoslužba"},

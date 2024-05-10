@@ -4,6 +4,11 @@
 
 {% block content %}
 
+<div class="headline-container">
+  <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+  <h1 class="centered">{{"program"|translate(lang)}}</h1>
+</div>
+
 <a href="{{url_for('programm', lang=lang)}}" class="container-headline">
     <div class="container">
         <p>{{"search_program"|translate(lang)}}</p>
@@ -16,13 +21,16 @@
     </div>
 </a>
 
-<br>
+<hr>
 
 <div class="container">
     <a href="{{url_for('my_programm', lang=lang)}}" class="container-headline">
-        <img style="width: 18px"
-             src="/static/img/stern_filled.png">
-        {{"my_program"|translate(lang)}}</a>
+        <div class="container-inline-next">
+            <img style="width: 22px; height: auto; margin-right: 8px;"
+                 src="/static/img/stern_filled.png">
+            <h2>{{"my_program"|translate(lang)}}</h2>
+        </div>
+    </a>
 
     <div id="my_programm_div">
         {% if my_programm %}
@@ -50,7 +58,7 @@
 
 <a href="/now" class="a-link">
     <div class="container">
-        <p class="container-headline">{{"now"|translate(lang)}}</p>
+        <h2>{{"now"|translate(lang)}}</h2>
 
         <div id="my_programm_div">
             {% if my_programm %}
