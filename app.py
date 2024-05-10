@@ -123,10 +123,10 @@ def programm_section(lang='de', section=None):
     section = request.args.get('section')
     if section:
         for k, v in json_data.items():
-            if 'musik' in v['content-' + lang].lower():
+            if section.lower() in v['content-' + lang].lower():
                 data[k] = v
 
-    if data:
+    if data or not data:
         return render_template(f'programm_list.html', lang=lang, title=section, data=data)
     return redirect(url_for('programm'))
 

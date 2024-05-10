@@ -57,32 +57,31 @@
     <hr>
 
     <div class="container">
-        <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Bibelarbeit</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Bibelarbeiten')}}" class="container-headline">{{'bible'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('programm_section', lang=lang, section='musik')}}" class="container-headline">Gottesdienste &
-            Andachten</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Musik')}}" class="container-headline">{{'concerts'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('programm_section', lang=lang, section='Musik')}}" class="container-headline">Musik</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Gottesdienst & Andachten')}}" class="container-headline">{{'service2'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('markt', lang=lang)}}" class="container-headline">Markt der Möglichkeiten</a>
+        <a href="{{url_for('markt', lang=lang)}}" class="container-headline">{{'markt'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Podien und Gespäche</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Vorträge & Disskussionen')}}" class="container-headline">{{'lectures'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Workshops</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Workshops')}}" class="container-headline">{{'workshops'|translate(lang)}}</a>
     </div>
 
     <div class="container">
-        <a href="{{url_for('gottesdienst', lang=lang)}}" class="container-headline">Ausstellungen</a>
+        <a href="{{url_for('programm_section', lang=lang, section='Ausstellungen')}}" class="container-headline">{{'exhibitions'|translate(lang)}}</a>
     </div>
 </div>
 

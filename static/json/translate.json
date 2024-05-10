@@ -12,5 +12,11 @@
   "location": {"de":  "Ort", "cz": "Místo", "pl": "Miejsce", "hu": "Helyszín", "sk": "Miesto"},
   "homepage": {"de":  "Homepage", "cz": "Domovská stránka", "pl": "Strona główna", "hu": "Kezdőlap", "sk": "Domovská stránka"},
   "impressum": {"de":  "Impressum", "cz": "Impressum", "pl": "Impressum", "hu": "Impresszum", "sk": "Impressum"},
-  "privacy": {"de":  "Datenschutz", "cz": "Ochrana údajů", "pl": "Ochrona danych", "hu": "Adatvédelem", "sk": "Ochrana údajů"}
+  "privacy": {"de":  "Datenschutz", "cz": "Ochrana údajů", "pl": "Ochrona danych", "hu": "Adatvédelem", "sk": "Ochrana údajů"},
+  "exhibitions": {"de":  "Ausstellungen", "cz": "Výstavy", "pl": "Wystawy", "hu": "Kiállítások", "sk": "Výstavy"},
+  "workshops": {"de":  "Workshops", "cz": "Workshopy", "pl": "Warsztaty", "hu": "Műhelyek", "sk": "Workshopy"},
+  "concerts": {"de":  "Konzerte", "cz": "Koncerty", "pl": "Koncerty", "hu": "Koncertek", "sk": "Koncerty"},
+  "lectures": {"de":  "Vorträge & Diskussionen", "cz": "Přednášky a diskuze", "pl": "Wykłady i dyskusje", "hu": "Előadások és beszélgetések", "sk": "Prednášky a diskusie"},
+  "service2": {"de":  "Gottesdienste und Andachten", "cz": "Bohoslužby a modlitby", "pl": "Nabożeństwa i modlitwy", "hu": "Istentiszteletek és áhítatok", "sk": "Bohoslužby a modlitby"},
+  "bible": {"de":  "Bibelarbeiten", "cz": "Biblické studium", "pl": "Studium biblijne", "hu": "Bibliai munkák", "sk": "Biblické štúdie"}
 }
