@@ -50,6 +50,10 @@ p {
     margin: 0;
 }
 
+li {
+  margin: 10px 0;
+}
+
 .button {
     background-color: #4d9b8e;
     color: white;
