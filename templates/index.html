@@ -36,7 +36,7 @@
         {% if my_programm %}
         {% for v in my_programm %}
         <br>
-        <a href="{{url_for('programm_point', lang=lang, point=v['key'])}}" style="text-decoration: none; color: black">
+        <a href="{{url_for('programm_point', lang=lang, point=v['key'])}}" class="a-link">
             <div class="">
                 <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
                 <p>{{(v['tag']|get_day(lang))['short']}} {{v['zeit']}}</p>
@@ -65,7 +65,7 @@
             {% for k, v in now.items() %}
             <br>
             <a href="{{url_for('programm_point', lang=lang, point=k)}}"
-               style="text-decoration: none; color: black">
+               class="a-link">
                 <div class="">
                     <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
                     <p>{{(v['tag']|get_day(lang))['short']}} {{v['zeit']}}</p>

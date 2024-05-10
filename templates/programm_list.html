@@ -19,7 +19,7 @@
 <div class="container">
 
     <div class="container-inline">
-        <a href="{{url_for('programm_point', lang=lang, point=k|to_int)}}" style="text-decoration: none; color: black">
+        <a href="{{url_for('programm_point', lang=lang, point=k|to_int)}}" class="a-link">
             <div class="">
                 <p>{{(v['tag']|get_day(lang))['short']}} {{v['zeit']}}</p>
                 <h3 class="">{{v['titel-' + lang]}}</h3>
