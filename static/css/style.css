@@ -37,6 +37,15 @@ h3 {
     margin: 0;
 }
 
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    background-color: #ccc;
+    height: 1px;
+    margin: 10px 10px 0 10px;
+}
+
 p {
     margin: 0;
 }
@@ -92,6 +101,19 @@ p {
     margin-left: 3px;
 }
 
+.headline-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container {
     margin: 10px auto;
     max-width: 1000px;
@@ -110,6 +132,12 @@ p {
 .container-inline {
     display: flex;
     justify-content: space-between;
+}
+
+.container-inline-next {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .container-inline > * {
