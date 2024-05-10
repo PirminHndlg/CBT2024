@@ -50,7 +50,6 @@ def get_day(day, lang):
 @app.template_filter('get_cookie')
 def get_cookie(cookie_name, value=None):
     cookie = request.cookies.get(cookie_name)
-    print(cookie_name, value, cookie)
     if value and cookie:
         return str(value) in cookie.split(',')
     return cookie
@@ -126,9 +125,7 @@ def programm_section(lang='de', section=None):
             if section.lower() in v['content-' + lang].lower():
                 data[k] = v
 
-    if data or not data:
-        return render_template(f'programm_list.html', lang=lang, title=section, data=data)
-    return redirect(url_for('programm'))
+    return render_template(f'programm_list.html', lang=lang, title=section, data=data)
 
 
 @app.route('/programm')
@@ -152,7 +149,7 @@ def my_programm(lang='de'):
         for i in my_programm_array:
             my_programm[i] = get_element(int(i))
 
-    return render_template('programm_list.html', lang=lang, title='Mein Programm', data=my_programm)
+    return render_template('programm_list.html', lang=lang, headline=translate('my_program', lang), data=my_programm)
 
 
 @app.route('/gottesdienst')
@@ -265,13 +262,12 @@ def now(lang='de', max=None):
     if max:
         return data
 
-    return render_template('programm_list.html', lang=lang, title='Jetzt', data=data)
+    return render_template('programm_list.html', lang=lang, headline='Jetzt', data=data)
 
 
 @app.route('/<lang>/search')
 @app.route('/search')
 def search(lang='de'):
-    print('search')
     search_for = request.args.get('for')
     day = request.args.get('day')
     section = request.args.get('section')
