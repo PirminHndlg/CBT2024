@@ -86,10 +86,12 @@
 </a>
 
 
-<div class="container">
-    <a href="{{url_for('map', lang=lang)}}" class="container-headline">{{"map"|translate(lang)}}
-        <img src="/static/img/map.png" style="width: 100%">
-    </a>
-</div>
+<a href="{{url_for('map', lang=lang)}}" class="a-link">
+    <div class="container">
+        <h2>{{"map"|translate(lang)}}
+            <img src="/static/img/map.png" style="width: 100%">
+        </h2>
+    </div>
+</a>
 
 {% endblock %}
