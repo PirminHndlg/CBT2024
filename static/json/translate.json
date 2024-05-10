@@ -5,6 +5,7 @@
   "service": {"de":  "Gottesdienst", "cz": "Bohoslužba", "pl": "Nabożeństwo", "hu": "Istentisztelet", "sk": "Bohoslužba"},
   "now": {"de":  "Jetzt", "cz": "Teď", "pl": "Teraz", "hu": "Most", "sk": "Teraz"},
   "map": {"de":  "Karte", "cz": "Mapa", "pl": "Mapa", "hu": "Térkép", "sk": "Mapa"},
+  "markt": {"de":  "Markt der Möglichkeiten", "cz": "Trh příležitostí", "pl": "Targi Możliwości", "hu": "Lehetőségek Piaca", "sk": "Trh príležitostí"},
   "more": {"de":  "Mehr...", "cz": "Více...", "pl": "Więcej...", "hu": "Több...", "sk": "Viac..."},
   "search": {"de":  "Suchen...", "cz": "Hledat...", "pl": "Szukaj...", "hu": "Keresés...", "sk": "Hľadať..."},
   "day": {"de":  "Tag", "cz": "Den", "pl": "Dzień", "hu": "Nap", "sk": "Deň"},
