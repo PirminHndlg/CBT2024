@@ -6,13 +6,11 @@ body {
 }
 
 footer {
-    margin-top: 20px;
-    /*background-color: #bfa24f;*/
-    color: white;
+    background-color: #478b7e;
     text-align: center;
-    padding: 10px;
+    padding: 15px 15px 20px 15px;
     bottom: 0;
-    width: 100%;
+    margin: 20px 0 0 0;
 }
 
 footer a {
@@ -95,7 +93,7 @@ p {
 }
 
 .container {
-    margin: 10px;
+    margin: 10px auto;
     max-width: 1000px;
     padding: 10px 10px;
     background-color: #fff;
@@ -112,6 +110,15 @@ p {
 .container-inline {
     display: flex;
     justify-content: space-between;
+}
+
+.container-inline > * {
+    /* Ensuring no two elements are farther apart than 100px */
+    margin-right: 10px; /* Adjust this value based on your requirements */
+}
+
+.container-inline > :last-child {
+    margin-right: 0; /* Remove margin for the last child to avoid unnecessary spacing */
 }
 
 .container-headline {
