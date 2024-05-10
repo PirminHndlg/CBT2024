@@ -3,6 +3,12 @@ import json
 
 app = Flask(__name__)
 
+allowed_lang = ['de', 'hu', 'pl', 'cz', 'sk']
+
+def check_lang(lang):
+    if not lang in allowed_lang:
+        abort(404)
+
 
 @app.template_filter('to_int')
 def to_int(value):
@@ -12,7 +18,7 @@ def to_int(value):
         return 0  # or handle the error as you see fit
 
 @app.template_filter('translate')
-def translate(value, lang):
+def translate(value, lang='de'):
     print(value, lang)
     with open('static/json/translate.json') as f:
         translated = json.load(f)
@@ -66,6 +72,10 @@ def index(lang=None):
         else:
             return redirect(url_for('index', lang='de'))
 
+    check_lang(lang)
+
+    print('index', lang)
+
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = []
@@ -79,8 +89,7 @@ def index(lang=None):
         more = len(my_programm_array) > max_len
         print(my_programm, more)
 
-    if len(lang) != 2:
-        abort(404)
+
 
     return render_template('index.html', lang=lang, my_programm=my_programm, more=more)
 
@@ -88,7 +97,7 @@ def index(lang=None):
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
 def programm_point(lang='de', point=None):
-    print(point)
+    check_lang(lang)
 
     if point:
         return render_template(f'programm_point.html', lang=lang, section=get_element(point))
@@ -98,6 +107,8 @@ def programm_point(lang='de', point=None):
 @app.route('/<lang>/section')
 @app.route('/section')
 def programm_section(lang='de', section=None):
+    check_lang(lang)
+
     json_data = get_json()
     data = {}
 
@@ -122,11 +133,13 @@ def programm_section(lang='de', section=None):
 @app.route('/programm')
 @app.route('/<lang>/programm')
 def programm(lang='de'):
+    check_lang(lang)
     return render_template('programm.html', lang=lang)
 
 
 @app.route('/<lang>/my-program')
 def my_programm(lang='de'):
+    check_lang(lang)
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = {}
@@ -140,21 +153,25 @@ def my_programm(lang='de'):
 
 @app.route('/<lang>/gottesdienst')
 def gottesdienst(lang='de'):
+    check_lang(lang)
     return render_template('gottesdienst.html', lang=lang)
 
 
 @app.route('/<lang>/map')
 def map(lang='de'):
+    check_lang(lang)
     return render_template('map.html', lang=lang)
 
 
 @app.route('/<lang>/get-json')
 def get_json_route(lang='de'):
+    check_lang(lang)
     return get_json()
 
 
 @app.route('/<lang>/markt-der-moeglichkeiten')
 def markt(lang='de'):
+    check_lang(lang)
     return render_template('programm_list.html', lang=lang, data=get_json())
 
 
