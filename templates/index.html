@@ -5,8 +5,8 @@
 {% block content %}
 
 <div class="headline-container">
-  <img src="/static/img/background.png" alt="Snow" style="width:100%;">
-  <h1 class="centered">{{"program"|translate(lang)}}</h1>
+    <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+    <h1 class="centered">{{"program"|translate(lang)}}</h1>
 </div>
 
 <a href="{{url_for('programm', lang=lang)}}" class="container-headline">
@@ -56,15 +56,15 @@
 
 </div>
 
-<a href="/now" class="a-link">
+<a href="{{url_for('now', lang=lang)}}" class="a-link">
     <div class="container">
         <h2>{{"now"|translate(lang)}}</h2>
 
         <div id="my_programm_div">
-            {% if my_programm %}
-            {% for v in my_programm %}
+            {% if now %}
+            {% for k, v in now.items() %}
             <br>
-            <a href="{{url_for('programm_point', lang=lang, point=v['key'])}}"
+            <a href="{{url_for('programm_point', lang=lang, point=k)}}"
                style="text-decoration: none; color: black">
                 <div class="">
                     <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
@@ -76,8 +76,10 @@
             {% endfor %}
 
             <br>
-            <a href="{{url_for('programm', lang=lang)}}">{{"more"|translate(lang)}}</a>
+            <a href="{{url_for('now', lang=lang)}}">{{"more"|translate(lang)}}</a>
 
+            {% else %}
+            <p>-{{"no_now"|translate(lang)}}-</p>
             {% endif %}
         </div>
     </div>

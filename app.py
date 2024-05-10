@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, abort
+from datetime import datetime, time
 import json
 
 app = Flask(__name__)
 
 allowed_lang = ['de', 'hu', 'pl', 'cz', 'sk']
+
 
 def check_lang(lang):
     if not lang in allowed_lang:
@@ -17,9 +19,9 @@ def to_int(value):
     except ValueError:
         return 0  # or handle the error as you see fit
 
+
 @app.template_filter('translate')
 def translate(value, lang='de'):
-    print(value, lang)
     with open('static/json/translate.json') as f:
         translated = json.load(f)
     return translated[value][lang] or value
@@ -37,12 +39,13 @@ def get_element(nr):
     return_data['key'] = nr
     return return_data
 
+
 @app.template_filter('get_day')
 def get_day(day, lang):
-    print(day, lang)
     with open('static/json/day.json') as f:
         translate_day = json.load(f)
     return translate_day[str(day)][lang]
+
 
 @app.template_filter('get_cookie')
 def get_cookie(cookie_name, value=None):
@@ -75,8 +78,6 @@ def index(lang=None):
 
     check_lang(lang)
 
-    print('index', lang)
-
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = []
@@ -88,11 +89,10 @@ def index(lang=None):
             if i < len(my_programm_array):
                 my_programm.append(get_element(int(my_programm_array[i])))
         more = len(my_programm_array) > max_len
-        print(my_programm, more)
 
+    print(now(lang, 3))
 
-
-    return render_template('index.html', lang=lang, my_programm=my_programm, more=more)
+    return render_template('index.html', lang=lang, my_programm=my_programm, more=more, now=now(lang, 3))
 
 
 @app.route('/<lang>/programm/<int:point>')
@@ -189,6 +189,83 @@ def markt(lang='de'):
         f.close()
         print(data)
     return render_template('markt.html', lang=lang, data=data)
+
+
+def is_time_between(begin_time, end_time, check_time=None):
+    # If check time is not given, default to current UTC time
+    check_time = check_time or datetime.utcnow().time()
+    if begin_time and end_time:
+        if begin_time < end_time:
+            return check_time >= begin_time and check_time <= end_time
+        else:  # crosses midnight
+            return check_time >= begin_time or check_time <= end_time
+
+
+def start_time_half_hour(start_time, check_time=None):
+    start_time_split = str(start_time).split(':')
+    check_time_split = str(check_time).split(':')
+
+    if check_time_split[0] == start_time_split[0] and int(check_time_split[1]) - int(start_time_split[1]) < 30:
+        return True
+    elif int(check_time_split[0]) - int(start_time_split[0]) == 1 and (int(check_time_split[1]) + 30) % 60 - int(
+            start_time_split[1]) <= 0:
+        return False
+
+
+@app.route('/now')
+@app.route('/now/')
+@app.route('/<lang>/now/')
+@app.route('/<lang>/now')
+def now(lang='de', max=None):
+    check_lang(lang)
+
+    date = datetime.today().strftime('%Y-%m-%d')
+    current_time = datetime.today().strftime('%H.%M')
+
+    def get_time(time):
+        date_pattern = ['%H.%M', '%H']
+        for pattern in date_pattern:
+            try:
+                return datetime.strptime(time, pattern).time()
+            except:
+                pass
+
+    current_time = get_time(current_time)
+
+    day = 0
+
+    if date <= '2024-05-10':
+        day = 0
+    elif date == '2024-05-11':
+        day = 1
+    elif date >= '2024-05-12':
+        day = 2
+
+    json_data = get_json()
+    data = {}
+    for k, v in json_data.items():
+        if v['tag'] == day:
+            def check_time(start, end):
+                start_time = get_time(start)
+                end_time = get_time(end)
+                if start_time and end_time:
+                    if is_time_between(start_time, end_time, current_time) or start_time_half_hour(start_time, current_time):
+                        return True
+
+            time_split = v['zeit'].split('und')
+            for time in time_split:
+                if '-' in time:
+                    start, end = time.split('-')
+                    if check_time(str(start).strip(), str(end).strip()):
+                        data[k] = v
+
+        if max and len(data.keys()) >= max:
+            return data
+
+    if max:
+        return data
+
+    return render_template('programm_list.html', lang=lang, title='Jetzt', data=data)
 
 
 @app.route('/<lang>/search')
