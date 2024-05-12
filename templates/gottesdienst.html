@@ -2,4 +2,18 @@
 
 {% block content %}
 
+    {% if file %}
+        <div class="headline-container">
+            <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+            <h1 class="centered">{{ title }}</h1>
+        </div>
+
+        <div>
+            <img src="{{ file }}" alt="{{ title }}" style="width:100%;">
+        </div>
+
+    {% else %}
+        <h1>error</h1>
+    {% endif %}
+
 {% endblock %}

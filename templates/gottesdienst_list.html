@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if data %}
+    {% for k, v in data.items() %}
+    <a href="{{url_for('gottesdienst', lang=lang, id=k)}}" class="container-headline">
+    <div class="container">
+        <p>{{ v[lang] }}</p>
+    </div>
+    </a>
+    {% endfor %}
+    {% endif %}
+</a>
+{% endblock %}

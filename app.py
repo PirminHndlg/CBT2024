@@ -156,9 +156,21 @@ def my_programm(lang='de'):
 @app.route('/gottesdienst/')
 @app.route('/<lang>/gottesdienst')
 @app.route('/<lang>/gottesdienst/')
-def gottesdienst(lang='de'):
+@app.route('/gottesdienst/<int:id>')
+@app.route('/<lang>/gottesdienst/<int:id>')
+def gottesdienst(lang='de', id=None):
     check_lang(lang)
-    return render_template('gottesdienst.html', lang=lang)
+
+    with open(f'static/json/gottesdienst.json') as f:
+        data = json.load(f)
+        f.close()
+
+    if id != None and str(id) in data.keys():
+        print(data[str(id)])
+        return render_template('gottesdienst.html', lang=lang, title=data[str(id)][lang],
+                               file=f'/static/img/gottesdienst/{id}-{lang}.jpg')
+
+    return render_template('gottesdienst_list.html', lang=lang, data=data)
 
 
 @app.route('/<lang>/map')
@@ -246,7 +258,8 @@ def now(lang='de', max=None):
                 start_time = get_time(start)
                 end_time = get_time(end)
                 if start_time and end_time:
-                    if is_time_between(start_time, end_time, current_time) or start_time_half_hour(start_time, current_time):
+                    if is_time_between(start_time, end_time, current_time) or start_time_half_hour(start_time,
+                                                                                                   current_time):
                         return True
 
             time_split = v['zeit'].split('und')
