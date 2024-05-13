@@ -219,7 +219,10 @@ def create_json2(filename, lang='de'):
 
             elif runs[0].italic and content != '':
                 if 'englisch' in text.lower() or 'angol' in text.lower() or 'anglicky' in text.lower() or 'angielski' in text.lower() or 'angol' in text.lower():
-                    program_lang.append('EN')
+                    if content != '':
+                        content += '\n' + text.strip()
+                    else:
+                        content = text.strip()
                     continue
                 if pos >= len(new_block) - 2:
                     location = {'name': text.strip()}
