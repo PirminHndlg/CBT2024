@@ -49,7 +49,8 @@ hr {
     display: block;
     background-color: #ccc;
     height: 1px;
-    margin: 10px 10px 0 10px;
+    margin: auto;
+    max-width: 1000px;
 }
 
 p {
@@ -152,7 +153,7 @@ li {
 .container-inline-next {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
     white-space: nowrap
 }
 
