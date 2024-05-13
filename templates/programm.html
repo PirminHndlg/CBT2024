@@ -2,18 +2,18 @@
 
 {% block content %}
 
+    <div class="headline-container">
+        <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+        <h1 class="centered">{{ "search_program"|translate(lang) }}</h1>
+    </div>
+
     <div class="container">
-
-        <h1>Programm</h1>
-
-        <!--    <hr>-->
-
-        <div class="container-inline" style="margin: 0 10% 0 10%">
+        <div class="container-inline" style="margin: 0 10px; gap: 5px; justify-content: center">
             <!--        <input class="search-button" onclick="console.log('filter')" type="image" src="/static/img/filter_icon.png">-->
-            <input class="search-bar" style="width: 70%" type="text" id="filter"
+            <input class="search-bar" style="width: 80%" type="text" id="filter"
                    placeholder="{{ 'search'|translate(lang) }}"
                    oninput="on_search_input(this.id)">
-            <input class="search-button" onclick="console.log('suchen')" type="image" src="/static/img/search_icon.png">
+            <input class="search-button" onclick="on_serach_button()" type="image" src="/static/img/search_icon.png">
         </div>
     </div>
 
@@ -47,11 +47,11 @@
 
         <details class="container">
             <summary class="container-headline">Sprache</summary>
-{#            <a href="{{ url_for('programm_section', lang=lang, language='de') }}" class="container-headline">#}
-{#                <div class="sub-container">#}
-{#                    <p>Deutsch</p>#}
-{#                </div>#}
-{#            </a>#}
+            {#            <a href="{{ url_for('programm_section', lang=lang, language='de') }}" class="container-headline">#}
+            {#                <div class="sub-container">#}
+            {#                    <p>Deutsch</p>#}
+            {#                </div>#}
+            {#            </a>#}
             <a href="{{ url_for('programm_section', lang=lang, language='hu') }}" class="container-headline">
                 <div class="sub-container">
                     <p>Magyar</p>
@@ -112,6 +112,11 @@
     </div>
 
     <script>
+
+        function on_serach_button() {
+            on_search_input('filter')
+            document.activeElement.blur();
+        }
 
         function on_search_input(id) {
             let filter = document.getElementById(id).value.toLowerCase();
