@@ -26,15 +26,16 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 24px;
     color: black;
     margin: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     margin: 0;
+    padding: 2px 0;
 }
 
 hr {
@@ -142,6 +143,7 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    white-space: nowrap
 }
 
 .container-inline > * {
@@ -194,6 +196,12 @@ li {
 
 .a-link:hover p {
     text-decoration: underline;
+}
+
+.hidden-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .small-time {
