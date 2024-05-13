@@ -23,11 +23,20 @@
             {% endif %}
 
             <p>📍 <a href="{{ url_for('map', lang=lang) }}" class="location"
-                   title="{{ section['location-' + lang]['address'] }}">{{ section['location-'
+                    title="{{ section['location-' + lang]['address'] }}">{{ section['location-'
         + lang]['name'] }}</a>
             </p>
 
             <p class="description-section">{{ section['content-'+lang].replace('\n', '<br>')|safe }}</p>
+
+            {% if section['lang'] %}
+                <br>
+                <div class="container-inline-next" style="gap: 5px; align-items: center">
+                {% for l in section['lang'] %}
+                    <img class="lang-small" src="/static/img/{{ l }}.png" alt="flag for {{ l }}">
+                {% endfor %}
+                </div>
+            {% endif %}
 
         </div>
 

@@ -117,6 +117,15 @@ li {
     margin-left: 3px;
 }
 
+.lang-small {
+    border: 1px solid #ccc;
+    width: 10%;
+    max-width: 50px;
+    float: right;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
 .headline-container {
   position: relative;
   text-align: center;
