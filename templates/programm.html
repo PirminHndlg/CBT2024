@@ -187,24 +187,25 @@
                 let img = document.createElement('input');
                 img.className = 'my-programm-img-small';
                 img.id = `my_programm_${k}`;
-                img.onclick = `change_my_programm(this.id, ${k})`;
+                img.onclick = function () {
+                    change_my_programm(this.id, k)
+                };
                 img.type = 'image';
-                img.src = v['isFavorited'] ? '/static/img/stern_filled.png' : '/static/img/stern.png';
+                img.src = v['my-program'] ? '/static/img/stern_filled.png' : '/static/img/stern.png';
                 div2.appendChild(img);
 
                 let p1 = document.createElement('p');
                 p1.className = "hidden-overflow"
                 p1.innerHTML = v['content-' + lang];
+                a.appendChild(p1);
 
                 div.appendChild(div2);
 
                 if (v['untertitel-' + lang]) {
                     let h4 = document.createElement('h4');
                     h4.innerHTML = v['untertitel-' + lang];
-                    div.appendChild(h4);
+                    a.appendChild(h4);
                 }
-
-                div.appendChild(p1);
 
                 search_response.appendChild(div);
             }

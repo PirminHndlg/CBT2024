@@ -94,8 +94,6 @@
         let arr = my_programm.split(',')
         let btn = document.getElementById(id)
 
-        console.log(btn.src)
-
         if (btn.src.endsWith(chosen_file)) {
             btn.src = default_file
             arr.splice(arr.indexOf(key))
