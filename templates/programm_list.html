@@ -2,34 +2,41 @@
 
 {% block content %}
 
-{% if headline %}
-<div class="headline-container">
-    <img src="/static/img/background.png" alt="Snow" style="width:100%;">
-    <h1 class="centered">{{headline}}</h1>
-</div>
-{% endif %}
+    {% if headline %}
+        <div class="headline-container">
+            <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+            <h1 class="centered">{{ headline }}</h1>
+        </div>
+    {% endif %}
 
-{% if title %}
-<div class="container">
-    <h2>{{title}}</h2>
-</div>
-{% endif %}
+    {% if title %}
+        <div class="container">
+            <h2>{{ title }}</h2>
+        </div>
+    {% endif %}
 
-{% for k,v in data.items() %}
-<div class="container">
+    {% for k,v in data.items() %}
+        <div class="container">
 
-    <div class="container-inline">
-        <a href="{{url_for('programm_point', lang=lang, point=k|to_int)}}" class="a-link">
-            <div class="">
-                <p>{{(v['tag']|get_day(lang))['short']}} {{v['zeit']}}</p>
-                <h3 class="">{{v['titel-' + lang]}}</h3>
-            </div>
-        </a>
-        <input class="my-programm-img-small" id="my_programm_{{k}}" onclick="change_my_programm(this.id, {{k}})"
-               type="image"
-               src="{{'/static/img/stern.png' if not 'my-program'|get_cookie(k) else '/static/img/stern_filled.png'}}">
-    </div>
-    <p class="">{{v['location-' + lang]['name']}}</p>
-</div>
-{% endfor %}
+            <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
+                <div class="container-inline">
+                    <div style="width: 90%">
+                        <div class="container-inline-next" style="gap: 10px">
+                            <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
+                            <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
+                        </div>
+                        <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                    </div>
+
+                    <input class="my-programm-img-small" id="my_programm_{{ k }}"
+                           onclick="change_my_programm(this.id, {{ k }})"
+                           type="image"
+                           src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(k) else '/static/img/stern_filled.png' }}">
+                </div>
+                {#            <small class="">📍 {{ v['location-' + lang]['name'] }}</small>#}
+                <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
+            </a>
+
+        </div>
+    {% endfor %}
 {% endblock %}
