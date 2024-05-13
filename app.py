@@ -83,7 +83,7 @@ def index(lang=None):
     more = False
     if my_programm_cookie:
         my_programm_array = my_programm_cookie.split(',')
-        max_len = 2
+        max_len = 3
         for i in range(max_len):
             if i < len(my_programm_array):
                 my_programm.append(get_element(int(my_programm_array[i])))
@@ -106,7 +106,7 @@ def programm_point(lang='de', point=None):
 
 @app.route('/<lang>/section')
 @app.route('/section')
-def programm_section(lang='de', section=None):
+def programm_section(lang='de'):
     check_lang(lang)
 
     json_data = get_json()
@@ -122,6 +122,7 @@ def programm_section(lang='de', section=None):
     section = request.args.get('section')
     if section:
         for k, v in json_data.items():
+            break
             if section.lower() in v['content-' + lang].lower():
                 data[k] = v
 
