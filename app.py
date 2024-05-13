@@ -113,11 +113,17 @@ def programm_section(lang='de'):
     data = {}
 
     day = request.args.get('day')
-
     if day:
         for k, v in json_data.items():
             if v['tag'] == int(day):
                 data[k] = v
+
+    language = request.args.get('language')
+    if language:
+        for k, v in json_data.items():
+            for l in v['lang']:
+                if l.lower() == language.lower():
+                    data[k] = v
 
     section = request.args.get('section')
     if section:

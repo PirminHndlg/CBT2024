@@ -47,9 +47,29 @@
 
         <details class="container">
             <summary class="container-headline">Sprache</summary>
-            <a href="{{ url_for('programm_section', lang=lang, day=2) }}" class="container-headline">
+            <a href="{{ url_for('programm_section', lang=lang, language='de') }}" class="container-headline">
                 <div class="sub-container">
-                    <p>{{ ('2'|get_day(lang))['long'] }}</p>
+                    <p>Deutsch</p>
+                </div>
+            </a>
+            <a href="{{ url_for('programm_section', lang=lang, language='hu') }}" class="container-headline">
+                <div class="sub-container">
+                    <p>Magyar</p>
+                </div>
+            </a>
+            <a href="{{ url_for('programm_section', lang=lang, language='sk') }}" class="container-headline">
+                <div class="sub-container">
+                    <p>Slovenský</p>
+                </div>
+            </a>
+            <a href="{{ url_for('programm_section', lang=lang, language='pl') }}" class="container-headline">
+                <div class="sub-container">
+                    <p>Polski</p>
+                </div>
+            </a>
+            <a href="{{ url_for('programm_section', lang=lang, language='cs') }}" class="container-headline">
+                <div class="sub-container">
+                    <p>Český</p>
                 </div>
             </a>
         </details>
