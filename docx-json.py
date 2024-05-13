@@ -150,46 +150,50 @@ def create_json2(filename, lang='de'):
 
     counter = 0
 
-    def check_block(block):
+    def check_block(block_arg):
         nonlocal tag, zeit, location, counter
         titel = ''
+        untertitel = ''
         content = ''
 
         program_lang = []
 
-        if len(block) == 0:
+        if len(block_arg) == 0:
             return
 
-        text = block[0].text
+        text = block_arg[0].text
 
         if text.startswith('Freitag') or text.startswith('Pátek') or text.endswith('péntek') or text.startswith(
                 'Piątek') or text.startswith('Piatok'):
             tag = 0
             zeit = ''
-            return
+            return check_block(block_arg[1:])
         elif text.startswith('Samstag') or text.startswith('Sobota') or text.endswith('szombat') or text.startswith(
                 'Sobota') or text.startswith('Sobota'):
             tag = 1
             zeit = ''
-            return
+            return check_block(block_arg[1:])
         elif text.startswith('Sonntag') or text.startswith('Neděle') or text.endswith(
                 'vasárnap') or text.startswith('Niedziela') or text.startswith('nedeľa'):
             tag = 2
             zeit = ''
-            return
+            return check_block(block_arg[1:])
 
-        if block[0].text[0].isdigit():
+        new_block = block_arg
+
+        if block_arg[0].text[0].isdigit():
             zeit = text
-            block = block[1:]
-        elif len(block) > 1 and block[1].text[0].isdigit():
+            new_block = block_arg[1:]
+        elif len(block_arg) > 1 and block_arg[1].text[0].isdigit():
             location = {'name': text.strip()}
-            zeit = block[1].text
-            block = block[2:]
+            zeit = block_arg[1].text
+            new_block = block_arg[2:]
 
-        for i in range(len(block)):
 
-            text = block[i].text
-            runs = block[i].runs
+        for pos in range(len(new_block)):
+
+            text = new_block[pos].text
+            runs = new_block[pos].runs
 
             if '\t' in text:
                 return
@@ -198,18 +202,32 @@ def create_json2(filename, lang='de'):
                 if text.lower().startswith('program'):
                     return
 
-                if len(block) == 2 and len(runs) > 0 and not block[1].runs[0].bold:
-                    location = {'name': block[i + 1].text.strip(), 'bezeichnung': text.strip(), }
+                if len(block_arg) == 2 and len(new_block) == 2 and len(runs) > 0 and not new_block[1].runs[0].bold:
+                    location = {'name': new_block[pos + 1].text.strip(), 'bezeichnung': text.strip(), }
                     return
 
                 if titel == '':
                     titel = text.strip()
                 else:
-                    titel += '\n' + text.strip()
+                    if runs[0].italic:
+                        if untertitel != '':
+                            untertitel += '\n' + text.strip()
+                        else:
+                            untertitel = text.strip()
+                    else:
+                        titel += '\n' + text.strip()
 
             elif runs[0].italic and content != '':
-                if len(text) < 100:
+                if 'englisch' in text.lower() or 'angol' in text.lower() or 'anglicky' in text.lower() or 'angielski' in text.lower() or 'angol' in text.lower():
+                    program_lang.append('EN')
+                    continue
+                if pos >= len(new_block) - 2:
                     location = {'name': text.strip()}
+                else:
+                    if content != '':
+                        content += '\n' + text.strip()
+                    else:
+                        content = text.strip()
 
             else:
                 if content != '':
@@ -226,13 +244,17 @@ def create_json2(filename, lang='de'):
                 else:
                     content = text.strip()
 
+        if titel == '':
+            return
+
         counter += 1
         json_data[counter] = {}
         json_data[counter]['tag'] = tag
         json_data[counter]['zeit'] = zeit.strip()
         json_data[counter]['location-' + lang] = location
-        json_data[counter]['titel-' + lang] = titel.strip()
-        json_data[counter]['content-' + lang] = content.strip()
+        json_data[counter]['titel-' + lang] = titel.replace(' ', ' ').replace('L. ... o.', '').strip()
+        json_data[counter]['untertitel-' + lang] = untertitel.replace(' ', ' ').replace('L. ... o.', '').strip()
+        json_data[counter]['content-' + lang] = content.strip().replace(' ', ' ').replace('L. ... o.', '').strip()
         json_data[counter]['lang'] = program_lang
 
     block = []
@@ -275,6 +297,7 @@ def combine_jsons():
 
     for key in de.keys():
         combined[key] = de[key]
+        continue
 
         combined[key]['content-hu'] = hu[key]['content-hu']
         combined[key]['titel-hu'] = hu[key]['titel-hu']
@@ -311,9 +334,9 @@ def test():
                         print(run.text)
 
 
-create_json2(filename_de, 'de')
-# create_json(filename_hu, 'hu')
-# create_json(filename_sk, 'sk')
-# create_json(filename_pl, 'pl')
-# create_json(filename_cz, 'cz')
-# combine_jsons()
+#create_json2(filename_de, 'de')
+#create_json2(filename_hu, 'hu')
+#create_json2(filename_sk, 'sk')
+#create_json2(filename_pl, 'pl')
+#create_json2(filename_cz, 'cz')
+combine_jsons()
