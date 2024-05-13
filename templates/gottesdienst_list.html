@@ -1,14 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% if data %}
-    {% for k, v in data.items() %}
-    <a href="{{url_for('gottesdienst', lang=lang, id=k)}}" class="container-headline">
-    <div class="container">
-        <p>{{ v[lang] }}</p>
+    <div class="headline-container">
+        <img src="/static/img/background.png" alt="Snow" style="width:100%;">
+        <h1 class="centered">{{ "service"|translate(lang) }}</h1>
     </div>
-    </a>
-    {% endfor %}
+
+    {% if data %}
+        {% for k, v in data.items() %}
+            <a href="{{ url_for('gottesdienst', lang=lang, id=k) }}" class="container-headline">
+                <div class="container">
+                    <p>{{ v[lang] }}</p>
+                </div>
+            </a>
+        {% endfor %}
     {% endif %}
-</a>
+    </a>
 {% endblock %}
