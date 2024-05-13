@@ -2,29 +2,35 @@
 
 {% block content %}
 
-{% if section %}
+    {% if section %}
 
-<div class="container">
-    <div class="container-inline">
-        <button class="button" onclick="history.back()">Go Back</button>
-        <input class="my-programm-img-small" id="my_programm_{{section['key']}}" onclick="change_my_programm(this.id, '{{section['key']}}')"
-               type="image"
-               src="{{'/static/img/stern.png' if not 'my-program'|get_cookie(section['key']) else '/static/img/stern_filled.png'}}">
-    </div>
+        <div class="container">
+            <div class="container-inline">
+                <button class="button" onclick="history.back()">Go Back</button>
+                <input class="my-programm-img-small" id="my_programm_{{ section['key'] }}"
+                       onclick="change_my_programm(this.id, '{{ section['key'] }}')"
+                       type="image"
+                       src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(section['key']) else '/static/img/stern_filled.png' }}">
+            </div>
 
-    <br>
+            <br>
 
-    <a class="small-time">{{(section['tag']|get_day(lang))['long']}} {{section['zeit']}}</a>
-    <h2>{{section['titel-'+lang]}}</h2>
+            <a class="small-time">{{ (section['tag']|get_day(lang))['long'] }} {{ section['zeit'] }}</a>
+            <h2>{{ section['titel-'+lang] }}</h2>
 
-    <p>📍<a href="{{url_for('map', lang=lang)}}" class="location" title="{{section['location-' + lang]['address']}}">{{section['location-'
-        + lang]['name']}}</a>
-    </p>
+            {% if section['untertitel-' + lang] %}
+                <h3 class="hidden-overflow">{{ section['untertitel-' + lang] }}</h3>
+            {% endif %}
 
-    <p class="description-section">{{section['content-'+lang].replace('\n', '<br>')|safe}}</p>
+            <p>📍 <a href="{{ url_for('map', lang=lang) }}" class="location"
+                   title="{{ section['location-' + lang]['address'] }}">{{ section['location-'
+        + lang]['name'] }}</a>
+            </p>
 
-</div>
+            <p class="description-section">{{ section['content-'+lang].replace('\n', '<br>')|safe }}</p>
 
-{% endif %}
+        </div>
+
+    {% endif %}
 
 {% endblock %}

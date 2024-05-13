@@ -43,6 +43,9 @@
                                 <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
                             </div>
                             <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                            {% if v['untertitel-' + lang] %}
+                                <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                            {% endif %}
                             <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
                         </a>
                     </div>
@@ -54,46 +57,49 @@
                 {% endif %}
 
             {% endif %}
-            </div>
-
         </div>
 
-        <a href="{{ url_for('now', lang=lang) }}" class="a-link">
-            <div class="container">
-                <h2>{{ "now"|translate(lang) }}</h2>
+    </div>
 
-                <div id="my_programm_div">
-                    {% if now %}
-                        {% for k, v in now.items() %}
-                            <br>
-                            <a href="{{ url_for('programm_point', lang=lang, point=k) }}"
-                               class="a-link">
-                                <div class="">
-                                    <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
-                                    <p>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</p>
-                                    <h3 class="">{{ v['titel-' + lang] }}</h3>
-                                </div>
-                                <p class="">{{ v['location-' + lang]['name'] }}</p>
-                            </a>
-                        {% endfor %}
+    <a href="{{ url_for('now', lang=lang) }}" class="a-link">
+        <div class="container">
+            <h2>{{ "now"|translate(lang) }}</h2>
 
+            <div id="my_programm_div">
+                {% if now %}
+                    {% for k, v in now.items() %}
                         <br>
-                        <a href="{{ url_for('now', lang=lang) }}">{{ "more"|translate(lang) }}</a>
+                        <a href="{{ url_for('programm_point', lang=lang, point=k) }}"
+                           class="a-link">
+                            <div class="">
+                                <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
+                                <p>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</p>
+                                <h3 class="">{{ v['titel-' + lang] }}</h3>
+                            </div>
+                            {% if v['untertitel-' + lang] %}
+                                <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                            {% endif %}
+                            <p class="">{{ v['location-' + lang]['name'] }}</p>
+                        </a>
+                    {% endfor %}
 
-                    {% else %}
-                        <p>-{{ "no_now"|translate(lang) }}-</p>
-                    {% endif %}
-                </div>
+                    <br>
+                    <a href="{{ url_for('now', lang=lang) }}">{{ "more"|translate(lang) }}</a>
+
+                {% else %}
+                    <p>-{{ "no_now"|translate(lang) }}-</p>
+                {% endif %}
             </div>
-        </a>
+        </div>
+    </a>
 
 
-        <a href="{{ url_for('map', lang=lang) }}" class="a-link">
-            <div class="container">
-                <h2>{{ "map"|translate(lang) }}
-                    <img src="/static/img/map.png" style="width: 100%">
-                </h2>
-            </div>
-        </a>
+    <a href="{{ url_for('map', lang=lang) }}" class="a-link">
+        <div class="container">
+            <h2>{{ "map"|translate(lang) }}
+                <img src="/static/img/map.png" style="width: 100%">
+            </h2>
+        </div>
+    </a>
 
 {% endblock %}

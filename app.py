@@ -121,10 +121,18 @@ def programm_section(lang='de'):
 
     section = request.args.get('section')
     if section:
+        print(section.lower())
         for k, v in json_data.items():
-            break
-            if section.lower() in v['content-' + lang].lower():
-                data[k] = v
+            if section.lower() == 'workshops':
+                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith('workshop') or 'workshop' in v['content-de'].lower():
+                    data[k] = v
+            elif section.lower() == 'musik':
+                if v['location-de'].get('bezeichnung') and v['location-de']['bezeichnung'].lower() == 'zentrum musik':
+                    data[k] = v
+                elif 'konzert' in v['titel-de'].lower() or 'konzert' in v['untertitel-de'].lower():
+                    data[k] = v
+            else:
+                break
 
     return render_template(f'programm_list.html', lang=lang, title=section, data=data)
 
@@ -297,6 +305,8 @@ def search(lang='de'):
         if section and not section.lower() in v['content-' + lang].lower():
             continue
         if search_for.lower() in str(v['titel-' + lang]).lower():
+            search_data[k] = v
+        elif search_for.lower() in str(v['untertitel-' + lang]).lower():
             search_data[k] = v
         elif search_for.lower() in str(v['content-' + lang]).lower():
             search_data[k] = v

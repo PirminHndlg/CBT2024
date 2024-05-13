@@ -26,6 +26,9 @@
                             <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
                         </div>
                         <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                        {% if v['untertitel-' + lang] %}
+                            <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                        {% endif %}
                     </div>
 
                     <input class="my-programm-img-small" id="my_programm_{{ k }}"

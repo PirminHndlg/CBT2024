@@ -177,6 +177,13 @@
                 p1.innerHTML = v['content-' + lang];
 
                 div.appendChild(div2);
+
+                if (v['untertitel-' + lang]) {
+                    let h4 = document.createElement('h4');
+                    h4.innerHTML = v['untertitel-' + lang];
+                    div.appendChild(h4);
+                }
+
                 div.appendChild(p1);
 
                 search_response.appendChild(div);
