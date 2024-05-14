@@ -8,9 +8,9 @@
 
     {% if data %}
         {% for k, v in data.items() %}
-            <a href="{{ url_for('gottesdienst', lang=lang, id=k) }}" class="container-headline">
+            <a href="{{ url_for('gottesdienst', lang=lang, id=k) }}" class="a-link">
                 <div class="container">
-                    <p>{{ v[lang] }}</p>
+                    <p class="container-headline">{{ v[lang] }}</p>
                 </div>
             </a>
         {% endfor %}
