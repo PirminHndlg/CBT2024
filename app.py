@@ -131,14 +131,31 @@ def programm_section(lang='de'):
     if section:
         print(section.lower())
         for k, v in json_data.items():
-            if section.lower() == 'workshops':
-                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith('workshop') or 'workshop' in v['content-de'].lower():
+            if section.lower() == 'bible':
+                if 'bibelarbeit' in v['titel-de'].lower() or 'bibelarbeit' in v['untertitel-de'].lower():
                     data[k] = v
+
             elif section.lower() == 'concerts':
                 if v['location-de'].get('bezeichnung') and v['location-de']['bezeichnung'].lower() == 'zentrum musik':
                     data[k] = v
                 elif 'konzert' in v['titel-de'].lower() or 'konzert' in v['untertitel-de'].lower():
                     data[k] = v
+            elif section.lower() == 'service2':
+                if 'gottesdienst' in v['titel-de'].lower() or 'gottesdienst' in v['untertitel-de'].lower():
+                    data[k] = v
+                if 'andacht' in v['titel-de'].lower() or 'andacht' in v['untertitel-de'].lower():
+                    data[k] = v
+
+            elif section.lower() == 'lectures':
+                continue
+
+            elif section.lower() == 'workshops':
+                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith('workshop') or 'workshop' in v['content-de'].lower():
+                    data[k] = v
+
+            elif section.lower() == 'exhibitions':
+                continue
+
             else:
                 break
 
