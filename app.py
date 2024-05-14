@@ -24,7 +24,9 @@ def to_int(value):
 def translate(value, lang='de'):
     with open('static/json/translate.json') as f:
         translated = json.load(f)
-    return translated[value][lang] or value
+        if not value in translated.keys():
+            return value
+    return translated.get(value).get(lang)
 
 
 def get_json():
@@ -132,7 +134,7 @@ def programm_section(lang='de'):
             if section.lower() == 'workshops':
                 if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith('workshop') or 'workshop' in v['content-de'].lower():
                     data[k] = v
-            elif section.lower() == 'musik':
+            elif section.lower() == 'concerts':
                 if v['location-de'].get('bezeichnung') and v['location-de']['bezeichnung'].lower() == 'zentrum musik':
                     data[k] = v
                 elif 'konzert' in v['titel-de'].lower() or 'konzert' in v['untertitel-de'].lower():
@@ -140,7 +142,7 @@ def programm_section(lang='de'):
             else:
                 break
 
-    return render_template(f'programm_list.html', lang=lang, title=section, data=data)
+    return render_template(f'programm_list.html', lang=lang, title=translate(section, lang), data=data)
 
 
 @app.route('/programm')
@@ -316,6 +318,9 @@ def search(lang='de'):
             search_data[k] = v
         elif search_for.lower() in str(v['content-' + lang]).lower():
             search_data[k] = v
+
+        if k in search_data.keys() and get_cookie('my-program', k):
+            search_data[k]['my-program'] = True
 
     return search_data
 
