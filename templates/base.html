@@ -11,23 +11,26 @@
 </head>
 <body>
 <div class="head">
-    <div class="container-inline-next" style="align-items: center">
-        <a href="/{{ lang }}"><img class="logo" src="/static/img/logo.png"></a>
+    <div class="container-inline" style="align-items: center">
+        <a class="logo" href="/{{ lang }}"><img style="width: 100%" src="/static/img/logo.png"></a>
 
-        <select id="language-select">
-            <option value="de" title="Deutsch">Deutsch</option>
-            <option value="hu" title="Magyar">Magyar</option>
-            <option value="sk" title="Slovenský">Slovenský</option>
-            <option value="pl" title="Polski">Polski</option>
-            <option value="cz" title="Český">Český</option>
-        </select>
-        <img id="lang" class="lang" src="/static/img/{{ lang or 'de' }}.png">
+        <div class="container-inline" style="max-width: 300px; padding-right: 2%">
+            <select id="language-select" style="margin: 1px">
+                <option value="de" title="Deutsch">Deutsch</option>
+                <option value="hu" title="Magyar">Magyar</option>
+                <option value="sk" title="Slovenský">Slovenský</option>
+                <option value="pl" title="Polski">Polski</option>
+                <option value="cz" title="Český">Český</option>
+            </select>
+            <img id="lang" class="lang" src="/static/img/{{ lang or 'de' }}.png">
+        </div>
     </div>
 
-    <nav class="container-inline" style="gap: 5px">
+    <nav class="container container-inline" style="gap: 5px">
         <a class="a-link" href="{{ url_for('index', lang=lang) }}"><h3>Home</h3></a>
-{#        <a class="a-link" href="{{ url_for('programm', lang=lang) }}"><h3>{{ "program"|translate(lang or 'de') }}</h3></a>#}
-        <a class="a-link" href="https://christlichebegegnungstage.de/programm/" target="_blank"><h3>{{ "program_file"|translate(lang or 'de') }}</h3></a>
+        {#        <a class="a-link" href="{{ url_for('programm', lang=lang) }}"><h3>{{ "program"|translate(lang or 'de') }}</h3></a>#}
+        <a class="a-link" href="https://christlichebegegnungstage.de/programm/" target="_blank">
+            <h3>{{ "program_file"|translate(lang or 'de') }}</h3></a>
         <a class="a-link" href="{{ url_for('map', lang=lang) }}"><h3>{{ "map"|translate(lang or 'de') }}</h3></a>
     </nav>
 </div>

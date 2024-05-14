@@ -99,8 +99,8 @@ li {
 }
 
 .head {
+    width: 100%;
     background-color: white;
-    padding-right: 15px;
 }
 
 .head img {
@@ -108,14 +108,15 @@ li {
 }
 
 .logo {
-    width: 80%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 300px;
     float: left;
+    padding: 20px;
 }
 
 .lang {
     border: 1px solid #ccc;
-    width: 15%;
+    width: 30%;
     max-width: 50px;
     float: right;
     margin-right: 3px;
@@ -160,6 +161,7 @@ li {
 }
 
 .container-inline {
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
