@@ -9,15 +9,15 @@
         <h1 class="centered">{{ "program"|translate(lang) }}</h1>
     </div>
 
-    <a href="{{ url_for('programm', lang=lang) }}" class="container-headline">
+    <a href="{{ url_for('programm', lang=lang) }}" class="a-link">
         <div class="container">
-            <a class="container-headline">{{ "search_program"|translate(lang) }}</a>
+            <p class="container-headline">{{ "search_program"|translate(lang) }}</p>
         </div>
     </a>
 
-    <a href="{{ url_for('gottesdienst', lang=lang) }}">
+    <a href="{{ url_for('gottesdienst', lang=lang) }}" class="a-link">
         <div class="container">
-            <a class="container-headline"> {{ "service"|translate(lang) }}</a>
+            <p class="container-headline"> {{ "service"|translate(lang) }}</p>
         </div>
     </a>
 
