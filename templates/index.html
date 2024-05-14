@@ -11,13 +11,13 @@
 
     <a href="{{ url_for('programm', lang=lang) }}" class="container-headline">
         <div class="container">
-            <p>{{ "search_program"|translate(lang) }}</p>
+            <a class="container-headline">{{ "search_program"|translate(lang) }}</a>
         </div>
     </a>
 
-    <a href="{{ url_for('gottesdienst', lang=lang) }}" class="container-headline">
+    <a href="{{ url_for('gottesdienst', lang=lang) }}">
         <div class="container">
-            <p> {{ "service"|translate(lang) }}</p>
+            <a class="container-headline"> {{ "service"|translate(lang) }}</a>
         </div>
     </a>
 
