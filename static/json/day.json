@@ -1,5 +1,5 @@
 {
-  "0": {"de": {"long": "Freitag", "short": "Fr"}, "cz": {"long": "Pátek", "short": "Pá"}, "hu": {"long": "Péntek", "short": "P"}, "sk": {"long": "Piatok", "short": "Pia"}, "pl": {"long": "Piątek", "short": "Pi"}},
-  "1": {"de": {"long": "Samstag", "short": "Sa"}, "cz": {"long": "Sobota", "short": "So"}, "hu": {"long": "Szombat", "short": "Szo"}, "sk": {"long": "Sobota", "short": "So"}, "pl": {"long": "Sobota", "short": "So"}},
-  "2": {"de": {"long": "Sonntag", "short": "So"}, "cz": {"long": "Neděle", "short": "Ne"}, "hu": {"long": "Vasárnap", "short": "V"}, "sk": {"long": "Nedeľa", "short": "Ne"}, "pl": {"long": "Niedziela", "short": "N"}}
+  "0": {"de": {"long": "Freitag", "short": "Fr"}, "cs": {"long": "Pátek", "short": "Pá"}, "hu": {"long": "Péntek", "short": "P"}, "sk": {"long": "Piatok", "short": "Pia"}, "pl": {"long": "Piątek", "short": "Pi"}},
+  "1": {"de": {"long": "Samstag", "short": "Sa"}, "cs": {"long": "Sobota", "short": "So"}, "hu": {"long": "Szombat", "short": "Szo"}, "sk": {"long": "Sobota", "short": "So"}, "pl": {"long": "Sobota", "short": "So"}},
+  "2": {"de": {"long": "Sonntag", "short": "So"}, "cs": {"long": "Neděle", "short": "Ne"}, "hu": {"long": "Vasárnap", "short": "V"}, "sk": {"long": "Nedeľa", "short": "Ne"}, "pl": {"long": "Niedziela", "short": "N"}}
 }

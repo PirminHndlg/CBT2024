@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-allowed_lang = ['de', 'hu', 'pl', 'cz', 'sk']
+allowed_lang = ['de', 'hu', 'pl', 'cs', 'sk']
 
 
 def check_lang(lang):
@@ -71,7 +71,7 @@ def index(lang=None):
         if lang_cookie:
             return redirect(url_for('index', lang=lang_cookie))
 
-        device_lang = request.accept_languages.best_match(['de', 'hu', 'pl', 'cz', 'sk'])
+        device_lang = request.accept_languages.best_match(allowed_lang)
         if device_lang:
             return redirect(url_for('index', lang=device_lang))
         else:

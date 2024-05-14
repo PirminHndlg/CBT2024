@@ -5,7 +5,7 @@ filename_de = 'static/data/cbt_programm_de.docx'
 filename_hu = 'static/data/cbt_programm_hu.docx'
 filename_sk = 'static/data/cbt_programm_sk.docx'
 filename_pl = 'static/data/cbt_programm_pl.docx'
-filename_cz = 'static/data/cbt_programm_cz.docx'
+filename_cs = 'static/data/cbt_programm_cs.docx'
 
 
 def create_json(filename, lang='de'):
@@ -292,8 +292,8 @@ def combine_jsons():
     with open('static/json/cbt_programm_pl.json') as f:
         pl = json.load(f)
         f.close()
-    with open('static/json/cbt_programm_cz.json') as f:
-        cz = json.load(f)
+    with open('static/json/cbt_programm_cs.json') as f:
+        cs = json.load(f)
         f.close()
 
     combined = {}
@@ -314,9 +314,9 @@ def combine_jsons():
         combined[key]['titel-pl'] = pl[key]['titel-pl']
         combined[key]['location-pl'] = pl[key]['location-pl']
 
-        combined[key]['content-cz'] = cz[key]['content-cz']
-        combined[key]['titel-cz'] = cz[key]['titel-cz']
-        combined[key]['location-cz'] = cz[key]['location-cz']
+        combined[key]['content-cs'] = cs[key]['content-cs']
+        combined[key]['titel-cs'] = cs[key]['titel-cs']
+        combined[key]['location-cs'] = cs[key]['location-cs']
 
     with open('static/json/cbt_programm.json', 'w') as f:
         json.dump(combined, f, indent=4, ensure_ascii=False)
@@ -341,5 +341,5 @@ def test():
 #create_json2(filename_hu, 'hu')
 #create_json2(filename_sk, 'sk')
 #create_json2(filename_pl, 'pl')
-#create_json2(filename_cz, 'cz')
+#create_json2(filename_cs, 'cs')
 combine_jsons()
