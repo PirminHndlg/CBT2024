@@ -5,6 +5,14 @@ body {
     margin: 0;
 }
 
+nav {
+    padding: 10px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer {
     background-color: #478b7e;
     text-align: center;
@@ -91,9 +99,6 @@ li {
 }
 
 .head {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Align items vertically */
-    justify-content: space-between;
     background-color: white;
     padding-right: 15px;
 }

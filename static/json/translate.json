@@ -2,6 +2,7 @@
   "program": {"de":  "Programm", "cs": "Program", "pl": "Program", "hu": "Program", "sk": "Program"},
   "my_program": {"de":  "Mein Programm", "cs": "Můj program", "pl": "Mój program", "hu": "Saját program", "sk": "Môj program"},
   "search_program": {"de":  "Programm suchen", "cs": "Hledat program", "pl": "Szukaj programu", "hu": "Program keresése", "sk": "Hľadať program"},
+  "program_file": {"de":  "Programmheft", "cs": "Programový leták", "pl": "Program", "hu": "Programfüzet", "sk": "Programový leták"},
   "service": {"de":  "Gottesdienst", "cs": "Bohoslužba", "pl": "Nabożeństwo", "hu": "Istentisztelet", "sk": "Bohoslužba"},
   "now": {"de":  "Jetzt", "cs": "Teď", "pl": "Teraz", "hu": "Most", "sk": "Teraz"},
   "no_now": {"de":  "Aktuell kein Programm", "cs": "Aktuálně žádný program", "pl": "Aktualnie brak programu", "hu": "Jelenleg nincs program", "sk": "Momentálne žiadny program"},
