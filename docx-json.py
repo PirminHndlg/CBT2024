@@ -195,7 +195,7 @@ def create_json2(filename, lang='de'):
             text = new_block[pos].text
             runs = new_block[pos].runs
 
-            if '\t' in text:
+            if '\t' in text or '\\t' in text:
                 return
 
             elif runs[0].bold:
@@ -218,7 +218,7 @@ def create_json2(filename, lang='de'):
                         titel += '\n' + text.strip()
 
             elif runs[0].italic and content != '':
-                if 'englisch' in text.lower() or 'angol' in text.lower() or 'anglicky' in text.lower() or 'angielski' in text.lower() or 'angol' in text.lower():
+                if 'englisch' in text.lower() or 'angol' in text.lower() or 'angličtine' in text.lower() or 'angielskim' in text.lower() or 'angličtině' in text.lower():
                     if content != '':
                         content += '\n' + text.strip()
                     else:
@@ -263,7 +263,6 @@ def create_json2(filename, lang='de'):
     block = []
 
     for i in range(len(paragraphs)):
-        print(i)
         if paragraphs[i].text == '':
             check_block(block)
             block = []
@@ -300,7 +299,6 @@ def combine_jsons():
 
     for key in de.keys():
         combined[key] = de[key]
-        continue
 
         combined[key]['content-hu'] = hu[key]['content-hu']
         combined[key]['titel-hu'] = hu[key]['titel-hu']
