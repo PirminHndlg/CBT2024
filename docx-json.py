@@ -1,11 +1,11 @@
 import docx
 import json
 
-filename_de = 'static/data/cbt_programm_de.docx'
-filename_hu = 'static/data/cbt_programm_hu.docx'
-filename_sk = 'static/data/cbt_programm_sk.docx'
-filename_pl = 'static/data/cbt_programm_pl.docx'
-filename_cs = 'static/data/cbt_programm_cs.docx'
+filename_de = 'static/data/docx/cbt_programm_de.docx'
+filename_hu = 'static/data/docx/cbt_programm_hu.docx'
+filename_sk = 'static/data/docx/cbt_programm_sk.docx'
+filename_pl = 'static/data/docx/cbt_programm_pl.docx'
+filename_cs = 'static/data/docx/cbt_programm_cs.docx'
 
 
 def create_json(filename, lang='de'):
