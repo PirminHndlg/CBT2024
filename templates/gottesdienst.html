@@ -3,9 +3,19 @@
 {% block content %}
 
     {% if file %}
-        <div>
-            <img src="{{ file }}" alt="{{ title }}" style="width:100%;">
+        <div class="container">
+            <div class="spinner" id="spinner"></div>
+            <img src="" id="image" alt="{{ title }}" style="width:100%;" onload="hideSpinner()">
         </div>
+
+        <script>
+            document.getElementById('image').src = "{{ file }}";
+
+            function hideSpinner() {
+                document.getElementById('spinner').style.display = 'none';
+                document.getElementById('image').style.display = 'block';
+            }
+        </script>
 
     {% else %}
         <h1>error</h1>
