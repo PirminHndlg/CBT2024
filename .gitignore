@@ -2,3 +2,5 @@
 old/
 .venv
 .DS_Store
+*.docx
+*.doc
