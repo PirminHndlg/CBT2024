@@ -8,8 +8,18 @@ allowed_lang = ['de', 'hu', 'pl', 'cs', 'sk']
 
 
 def check_lang(lang):
-    if not lang in allowed_lang:
+    if lang and not lang in allowed_lang:
         abort(404)
+    if not lang:
+        lang_cookie = request.cookies.get('lang')
+        if lang_cookie and lang_cookie in allowed_lang:
+            return lang_cookie
+
+        device_lang = request.accept_languages.best_match(allowed_lang)
+        if device_lang and device_lang in allowed_lang:
+            return device_lang
+        return 'de'
+    return lang
 
 
 @app.template_filter('to_int')
@@ -21,7 +31,8 @@ def to_int(value):
 
 
 @app.template_filter('translate')
-def translate(value, lang='de'):
+def translate(value, lang=None):
+    lang = check_lang(lang)
     with open('static/json/translate.json') as f:
         translated = json.load(f)
         if not value in translated.keys():
@@ -66,18 +77,7 @@ def not_found(e):
 @app.route('/<lang>')
 @app.route('/<lang>/')
 def index(lang=None):
-    if not lang:
-        lang_cookie = request.cookies.get('lang')
-        if lang_cookie:
-            return redirect(url_for('index', lang=lang_cookie))
-
-        device_lang = request.accept_languages.best_match(allowed_lang)
-        if device_lang:
-            return redirect(url_for('index', lang=device_lang))
-        else:
-            return redirect(url_for('index', lang='de'))
-
-    check_lang(lang)
+    lang = check_lang(lang)
 
     my_programm_cookie = request.cookies.get('my-program')
 
@@ -98,8 +98,9 @@ def index(lang=None):
 
 @app.route('/<lang>/programm/<int:point>')
 @app.route('/programm/<int:point>')
-def programm_point(lang='de', point=None):
-    check_lang(lang)
+def programm_point(lang=None, point=None):
+    lang = check_lang(lang)
+    print(lang)
 
     if point:
         return render_template(f'programm_point.html', lang=lang, section=get_element(point))
@@ -108,7 +109,7 @@ def programm_point(lang='de', point=None):
 
 @app.route('/<lang>/section')
 @app.route('/section')
-def programm_section(lang='de'):
+def programm_section(lang=None):
     check_lang(lang)
 
     json_data = get_json()
@@ -166,15 +167,15 @@ def programm_section(lang='de'):
 @app.route('/programm/')
 @app.route('/<lang>/programm')
 @app.route('/<lang>/programm/')
-def programm(lang='de'):
-    check_lang(lang)
+def programm(lang=None):
+    lang = check_lang(lang)
     return render_template('programm.html', lang=lang)
 
 
 @app.route('/<lang>/my-program')
 @app.route('/<lang>/my-program/')
-def my_programm(lang='de'):
-    check_lang(lang)
+def my_programm(lang=None):
+    lang = check_lang(lang)
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = {}
@@ -192,8 +193,8 @@ def my_programm(lang='de'):
 @app.route('/<lang>/gottesdienst/')
 @app.route('/gottesdienst/<int:id>')
 @app.route('/<lang>/gottesdienst/<int:id>')
-def gottesdienst(lang='de', id=None):
-    check_lang(lang)
+def gottesdienst(lang=None, id=None):
+    lang = check_lang(lang)
 
     with open(f'static/json/gottesdienst.json') as f:
         data = json.load(f)
@@ -208,14 +209,14 @@ def gottesdienst(lang='de', id=None):
 
 @app.route('/<lang>/map')
 @app.route('/<lang>/map/')
-def map(lang='de'):
-    check_lang(lang)
+def map(lang=None):
+    lang = check_lang(lang)
     return render_template('map.html', lang=lang)
 
 
 @app.route('/<lang>/get-json')
-def get_json_route(lang='de'):
-    check_lang(lang)
+def get_json_route(lang=None):
+    lang = check_lang(lang)
     return get_json()
 
 
@@ -223,8 +224,8 @@ def get_json_route(lang='de'):
 @app.route('/markt/')
 @app.route('/<lang>/markt')
 @app.route('/<lang>/markt/')
-def markt(lang='de'):
-    check_lang(lang)
+def markt(lang=None):
+    lang = check_lang(lang)
 
     with open(f'static/data/markt-{lang}.txt') as f:
         data = f.read().split('\n')
@@ -258,8 +259,8 @@ def start_time_half_hour(start_time, check_time=None):
 @app.route('/now/')
 @app.route('/<lang>/now/')
 @app.route('/<lang>/now')
-def now(lang='de', max=None):
-    check_lang(lang)
+def now(lang=None, max=None):
+    lang = check_lang(lang)
 
     date = datetime.today().strftime('%Y-%m-%d')
     current_time = datetime.today().strftime('%H.%M')
@@ -313,7 +314,7 @@ def now(lang='de', max=None):
 
 @app.route('/<lang>/search')
 @app.route('/search')
-def search(lang='de'):
+def search(lang=None):
     search_for = request.args.get('for')
     day = request.args.get('day')
     section = request.args.get('section')
