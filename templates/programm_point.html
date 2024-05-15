@@ -33,7 +33,7 @@
                 <br>
                 <div class="container-inline-next" style="gap: 5px; align-items: center">
                 {% for l in section['lang'] %}
-                    <img class="lang-small" src="/static/img/{{ l }}.png" alt="flag for {{ l }}">
+                    <img class="lang-small" src="/static/img/{{ l.lower() }}.png" alt="flag for {{ l }}">
                 {% endfor %}
                 </div>
             {% endif %}
