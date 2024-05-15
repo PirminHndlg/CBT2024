@@ -172,6 +172,8 @@ def programm(lang=None):
     return render_template('programm.html', lang=lang)
 
 
+@app.route('/my-program/')
+@app.route('/my-program')
 @app.route('/<lang>/my-program')
 @app.route('/<lang>/my-program/')
 def my_programm(lang=None):
@@ -187,10 +189,10 @@ def my_programm(lang=None):
     return render_template('programm_list.html', lang=lang, headline=translate('my_program', lang), data=my_programm)
 
 
-@app.route('/gottesdienst')
 @app.route('/gottesdienst/')
-@app.route('/<lang>/gottesdienst')
+@app.route('/gottesdienst')
 @app.route('/<lang>/gottesdienst/')
+@app.route('/<lang>/gottesdienst')
 @app.route('/gottesdienst/<int:id>')
 @app.route('/<lang>/gottesdienst/<int:id>')
 def gottesdienst(lang=None, id=None):
@@ -207,17 +209,19 @@ def gottesdienst(lang=None, id=None):
     return render_template('gottesdienst_list.html', lang=lang, data=data)
 
 
-@app.route('/<lang>/map')
+@app.route('/map/')
+@app.route('/map')
 @app.route('/<lang>/map/')
+@app.route('/<lang>/map')
 def map(lang=None):
     lang = check_lang(lang)
     return render_template('map.html', lang=lang)
 
 
-@app.route('/markt')
 @app.route('/markt/')
-@app.route('/<lang>/markt')
+@app.route('/markt')
 @app.route('/<lang>/markt/')
+@app.route('/<lang>/markt')
 def markt(lang=None):
     lang = check_lang(lang)
 
@@ -249,8 +253,8 @@ def start_time_half_hour(start_time, check_time=None):
         return False
 
 
-@app.route('/now')
 @app.route('/now/')
+@app.route('/now')
 @app.route('/<lang>/now/')
 @app.route('/<lang>/now')
 def now(lang=None, max=None):
@@ -306,8 +310,8 @@ def now(lang=None, max=None):
     return render_template('programm_list.html', lang=lang, headline='Jetzt', data=data)
 
 
-@app.route('/<lang>/search')
 @app.route('/search')
+@app.route('/<lang>/search')
 def search(lang=None):
     search_for = request.args.get('for')
     day = request.args.get('day')
