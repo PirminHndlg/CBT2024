@@ -192,7 +192,8 @@
                 let img = document.createElement('input');
                 img.className = 'my-programm-img-small';
                 img.id = `my_programm_${k}`;
-                img.onclick = function () {
+                img.onclick = function (event) {
+                    event.preventDefault()
                     change_my_programm(this.id, k)
                 };
                 img.type = 'image';
