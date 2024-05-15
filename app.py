@@ -214,12 +214,6 @@ def map(lang=None):
     return render_template('map.html', lang=lang)
 
 
-@app.route('/<lang>/get-json')
-def get_json_route(lang=None):
-    lang = check_lang(lang)
-    return get_json()
-
-
 @app.route('/markt')
 @app.route('/markt/')
 @app.route('/<lang>/markt')
