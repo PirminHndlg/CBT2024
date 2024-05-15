@@ -1,8 +1,8 @@
-from flask import Flask, render_template, request, redirect, url_for, abort
+from flask import Flask, render_template, request, redirect, url_for, abort, send_from_directory
 from datetime import datetime, time
 import json
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 allowed_lang = ['de', 'hu', 'pl', 'cs', 'sk']
 
@@ -339,6 +339,10 @@ def search(lang=None):
 
     return search_data
 
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def robots():
+    return send_from_directory(app.static_folder, request.path[1:])
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
