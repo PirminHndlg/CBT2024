@@ -200,8 +200,7 @@ def gottesdienst(lang='de', id=None):
         f.close()
 
     if id != None and str(id) in data.keys():
-        print(data[str(id)])
-        return render_template('gottesdienst.html', lang=lang, title=data[str(id)][lang],
+        return render_template('gottesdienst.html', lang=lang,
                                file=f'/static/img/gottesdienst/{id}-{lang}.jpg')
 
     return render_template('gottesdienst_list.html', lang=lang, data=data)
