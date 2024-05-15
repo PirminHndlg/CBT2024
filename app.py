@@ -277,11 +277,11 @@ def now(lang='de', max=None):
 
     day = 0
 
-    if date <= '2024-05-10':
+    if date <= '2024-05-14':
         day = 0
-    elif date == '2024-05-11':
+    elif date == '2024-05-15':
         day = 1
-    elif date >= '2024-05-12':
+    elif date >= '2024-05-16':
         day = 2
 
     json_data = get_json()
