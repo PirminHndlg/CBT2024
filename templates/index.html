@@ -45,8 +45,9 @@
                             <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
                             {% if v['untertitel-' + lang] %}
                                 <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                            {% else %}
+                                <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
                             {% endif %}
-                            <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
                         </a>
                     </div>
                 {% endfor %}
@@ -69,18 +70,20 @@
                 {% if now %}
                     {% for k, v in now.items() %}
                         <br>
-                        <a href="{{ url_for('programm_point', lang=lang, point=k) }}"
-                           class="a-link">
-                            <div class="">
-                                <!--            <p class="container-inline-headline">{{v['tag']}}</p>-->
-                                <p>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</p>
-                                <h3 class="">{{ v['titel-' + lang] }}</h3>
-                            </div>
-                            {% if v['untertitel-' + lang] %}
-                                <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
-                            {% endif %}
-                            <p class="">{{ v['location-' + lang]['name'] }}</p>
-                        </a>
+                        <div style="width: 100%">
+                            <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
+                                <div class="container-inline-next" style="gap: 10px">
+                                    <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
+                                    <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
+                                </div>
+                                <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                                {% if v['untertitel-' + lang] %}
+                                    <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                                {% else %}
+                                    <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
+                                {% endif %}
+                            </a>
+                        </div>
                     {% endfor %}
 
                     <br>
