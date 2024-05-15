@@ -174,12 +174,14 @@
         "tag": 1,
         "zeit": "9-10",
         "location-de": {
-            "name": "HU"
+            "name": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
         "titel-de": "Bibelarbeit in Ungarisch",
         "untertitel-de": "",
         "content-de": "Pfarrer György Gregersen-Labossa, Budapest/Ungarn",
-        "lang": []
+        "lang": [
+            "HU"
+        ]
     },
     "15": {
         "tag": 1,
@@ -198,12 +200,14 @@
         "tag": 1,
         "zeit": "9-10",
         "location-de": {
-            "name": "SK"
+            "name": "St.-Georg-Kirche, Bergstraße 156"
         },
         "titel-de": "Bibelarbeit in Slowakisch",
         "untertitel-de": "",
         "content-de": "Pfarrer Tomáš German, Blatnica/Slowakei\nMusik: Ján Hegeduš, Zvolen/Slowakei",
-        "lang": []
+        "lang": [
+            "SK"
+        ]
     },
     "17": {
         "tag": 1,
@@ -462,7 +466,7 @@
         },
         "titel-de": "Abendsegen in Deutsch",
         "untertitel-de": "",
-        "content-de": "Generalsuperintendent Kristóf Bálint, Potsdam\nMusik: Posaunenchor der beteiligten Kirchen, Leitung: Ulrike Gäbel, Kreisposaunenbeauftragte, Frankfurt (Oder)",
+        "content-de": "Generalsuperintendent Kristóf Bálint, Potsdam\nMusik: Posaunenchor der beteiligten Kirchen, Leitung: Ulrike Gäbel, Kreisposaunenbeauftragte, Frankfurt (Oder)\nTagesmoderation: Attila Weidemann, Berlin und Pfarrer Paweł Meler, Wrocław/Polen",
         "lang": []
     },
     "38": {
@@ -805,10 +809,8 @@
         },
         "titel-de": "Bibel auf, Nase rein, Herz voll!",
         "untertitel-de": "",
-        "content-de": "Wir entdecken im Dialogformat einen Bibeltext. Im Lobpreis treten wir ein in die Gegenwart Gottes. Unsere Herzensanliegen treffen auf den Herzschlag Gottes. Kreative Gebetsmöglichkeiten laden ein, gemeinsam mit Gott zu reden.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz",
-        "lang": [
-            "EN"
-        ]
+        "content-de": "Wir entdecken im Dialogformat einen Bibeltext. Im Lobpreis treten wir ein in die Gegenwart Gottes. Unsere Herzensanliegen treffen auf den Herzschlag Gottes. Kreative Gebetsmöglichkeiten laden ein, gemeinsam mit Gott zu reden.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nauch in Englisch",
+        "lang": []
     },
     "65": {
         "tag": 1,
@@ -818,10 +820,8 @@
         },
         "titel-de": "Treffpunkt: Livepodcast",
         "untertitel-de": "",
-        "content-de": "Blogbeiträge, Podcasts und Videos gemeinsam erstellen\nThomas Schüßler, Kreisjugendpfarrer, Fürstenwalde\nRev. Collins Kiborek, Jugendreferent, Erkner und Strausberg",
-        "lang": [
-            "EN"
-        ]
+        "content-de": "Blogbeiträge, Podcasts und Videos gemeinsam erstellen\nThomas Schüßler, Kreisjugendpfarrer, Fürstenwalde\nRev. Collins Kiborek, Jugendreferent, Erkner und Strausberg\nauch in Englisch",
+        "lang": []
     },
     "66": {
         "tag": 1,
@@ -952,10 +952,8 @@
         },
         "titel-de": "Together beneath the sky",
         "untertitel-de": "Gruppenabenteuer unter freiem Himmel",
-        "content-de": "Gemeinsam erleben wir, was allein keiner zu Stande bekommt! In Großgruppenspielen und Aktionen erfahren wir die Stärke vom WIR.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz",
-        "lang": [
-            "EN"
-        ]
+        "content-de": "Gemeinsam erleben wir, was allein keiner zu Stande bekommt! In Großgruppenspielen und Aktionen erfahren wir die Stärke vom WIR.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nauch in Englisch",
+        "lang": []
     },
     "78": {
         "tag": 1,

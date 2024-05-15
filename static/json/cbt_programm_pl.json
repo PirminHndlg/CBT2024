@@ -3,20 +3,21 @@
         "tag": 0,
         "zeit": "15.00-15.30",
         "location-pl": {
-            "name": "Dzwon Pokoju, Uferstraße 1",
-            "address": ""
+            "name": "Dzwon Pokoju, Uferstraße 1"
         },
         "titel-pl": "Modlitwa o pokój przy Dzwonie",
-        "content-pl": "Wojny i konflikty w Europie i na świecie, takie jak w Ukrainie i na Bliskim Wschodzie, napawają nas wielkim niepokojem. Jako chrześcijanie z różnych krajów, zjednoczeni w wierze, rozpoczynamy Spotkanie od ekumenicznej modlitwy o pokój.\nbp Sándor Zán Fábián, Berehowe/Ukraina\nbp Pavlo Shvarts, Charków/Ukraina\nbp Friedrich Kramer, Magdeburg\nSuperintendent dr Christina-Maria Bammel, Berlin\nks. dr Tadeusz Kuźmicki, Gorzów\nks. Sławomir Sikora, Szczecin\nRené Pachmann, Kapelan uniwersytecki, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\nks. Susanne Noack, Frankfurt nad Odrą"
+        "untertitel-pl": "",
+        "content-pl": "Wojny i konflikty w Europie i na świecie, takie jak w Ukrainie i na Bliskim Wschodzie, napawają nas wielkim niepokojem. Jako chrześcijanie z różnych krajów, zjednoczeni w wierze, rozpoczynamy Spotkanie od ekumenicznej modlitwy o pokój.\nbp Sándor Zán Fábián, Berehowe/Ukraina\nbp Pavlo Shvarts, Charków/Ukraina\nbp Friedrich Kramer, Magdeburg\nSuperintendent dr Christina-Maria Bammel, Berlin\nks. dr Tadeusz Kuźmicki, Gorzów\nks. Sławomir Sikora, Szczecin\nRené Pachmann, Kapelan uniwersytecki, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\nks. Susanne Noack, Frankfurt nad Odrą",
+        "lang": []
     },
     "2": {
         "tag": 0,
         "zeit": "15.30-16.30",
         "location-pl": {
-            "name": "Kościół Pokoju, sala chóralna, 1. piętro, Schulstraße 4A",
-            "address": ""
+            "name": "Kościół Pokoju, sala chóralna, 1. piętro, Schulstraße 4A"
         },
-        "titel-pl": "Wiara oznacza poznawanie - Karl Barth, po prostu przeczytaj\nWarsztaty",
+        "titel-pl": "Wiara oznacza poznawanie - Karl Barth, po prostu przeczytaj",
+        "untertitel-pl": "Warsztaty",
         "content-pl": "Anna Lena Schwarz, Katedra Teologii Systemowej i Ekumenicznej, Uniwersytet w Siegen/Niemcy\nÁbel Veres, Kościół Reformowany na Węgrzech, Szigetszentmiklós/Węgry",
         "lang": [
             "HU"
@@ -26,20 +27,21 @@
         "tag": 0,
         "zeit": "16.00-17.00",
         "location-pl": {
-            "name": "Kościół św. Jerzego, Bergstraße 156",
-            "address": ""
+            "name": "Kościół św. Jerzego, Bergstraße 156"
         },
-        "titel-pl": "Nic nas njebuźo wótźěliś wót Bóžeje lubosći - Nic nas nie może rozdzielić od Bożej miłości\nNabożeństwo Wendyjskie",
-        "content-pl": "Nabożeństwo w języku łużyckim z pieśniami i tradycjami Serbołużyczan i Wendów. Łużyce są domem dla najmniejszego narodu słowiańskiego. Przyjdź i świętuj z nami wendyjskie nabożeństwo!\nPójź namšu a módli se a spiwaj z nami.\nks. Katharina Köhler, Dissen-Sielow"
+        "titel-pl": "Nic nas njebuźo wótźěliś wót Bóžeje lubosći - Nic nas nie może rozdzielić od Bożej miłości",
+        "untertitel-pl": "Nabożeństwo Wendyjskie",
+        "content-pl": "Nabożeństwo w języku łużyckim z pieśniami i tradycjami Serbołużyczan i Wendów. Łużyce są domem dla najmniejszego narodu słowiańskiego. Przyjdź i świętuj z nami wendyjskie nabożeństwo!\nPójź namšu a módli se a spiwaj z nami.\nks. Katharina Köhler, Dissen-Sielow",
+        "lang": []
     },
     "4": {
         "tag": 0,
         "zeit": "16.00-17.30",
         "location-pl": {
-            "name": "Kleist Forum, Sala Konferencyjna 2, Platz der Einheit 1",
-            "address": ""
+            "name": "Kleist Forum, Sala Konferencyjna 2, Platz der Einheit 1"
         },
-        "titel-pl": "Spotkać się na nowo\nPanel dyskusyjny: od spotkań parafialnych do środkowo i wschodnioeuropejskiego Spotkania Chrześcijan ",
+        "titel-pl": "Spotkać się na nowo",
+        "untertitel-pl": "Panel dyskusyjny: od spotkań parafialnych do środkowo i wschodnioeuropejskiego Spotkania Chrześcijan",
         "content-pl": "Nowe twarze, nowe perspektywy, nowe spostrzeżenia: Ludzie z Polski, Czech i Niemiec opowiadają o Spotkaniu Chrześcijan od 1991 roku.\nks. Cezary Królewicz, Lubań\nks. em. Albrecht Naumann, Görlitz\nks. Ulrike Menzel, Theologische Vorständin Samariteranstalten Fürstenwalde/Spree\nGerhard Frey-Reininghaus, referent ds. ekumenizmu, Ewangelicki Kościół Braci Czeskich, Praga/Republika Czeska\nModeracja: ks. Wolfgang Iskraut, Cottbus",
         "lang": [
             "PL"
@@ -47,13 +49,13 @@
     },
     "5": {
         "tag": 0,
-        "zeit": "16.00-17.30",
+        "zeit": "17.30-18.00",
         "location-pl": {
-            "name": "Kleist Forum, Sala Konferencyjna 2, Platz der Einheit 1",
-            "address": ""
+            "name": "Scena główna, Brunnenplatz"
         },
-        "titel-pl": "Otwarcie\nWillkommen/Witamy/Vitajte/Vítejte/Üdvözöljük\nMuzyka i słowa na początek",
-        "content-pl": "Muzyka: Orkiestry dęte z Kościołów uczestniczących w Spotkaniu, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą\nModeracja: Attila Weidemann, Berlin i ks. Paweł Mikołajczyk, Wrocław\nScena główna, Brunnenplatz",
+        "titel-pl": "Willkommen/Witamy/Vitajte/Vítejte/Üdvözöljük",
+        "untertitel-pl": "Muzyka i słowa na początek",
+        "content-pl": "Muzyka: Orkiestry dęte z Kościołów uczestniczących w Spotkaniu, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą\nModeracja: Attila Weidemann, Berlin i ks. Paweł Mikołajczyk, Wrocław",
         "lang": [
             "PL",
             "CS",
@@ -65,11 +67,11 @@
         "tag": 0,
         "zeit": "18.00-19.00",
         "location-pl": {
-            "name": "Czytania i modlitwy: przedstawiciele diakonii i młodzieży",
-            "address": ""
+            "name": "Scena główna, Brunnenplatz"
         },
-        "titel-pl": "Nic nas nie rozdzieli: Teraźniejszość i przyszłość\nNabożeństwo inauguracyjne",
-        "content-pl": "Kazanie:\nbp dr Christian Stäblein, Berlin\nPrzewodnictwo i liturgia:\nGeneralna Superintendent Theresa Rinecker, Görlitz\nbp Waldemar Pytel, Wrocław\nks. Halina Radacz, Szczecin\nMuzyka:\nFrankfurter Ökumenische Kantorei, pod batutą dyrektora ds. muzyki kościelnej Stephana Hardta, Frankfurt nad Odrą\nChór Ewangelicki im.Oskara Kolberga w Pile, dyrygent: Natalia Karolak, Piła\nOrkiestry dęte z Kościołów uczestniczących, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą\nKenya Music Project, Nairobi/Kenia i muzycy z Kościoła Ewangelickiego okręg Oderland-Spree\nScena główna, Brunnenplatz",
+        "titel-pl": "Nic nas nie rozdzieli: Teraźniejszość i przyszłość",
+        "untertitel-pl": "Nabożeństwo inauguracyjne",
+        "content-pl": "Kazanie:\nbp dr Christian Stäblein, Berlin\nbp Jerzy Samiec, Warszawa\nPrzewodnictwo i liturgia:\nGeneralna Superintendent Theresa Rinecker, Görlitz\nbp Waldemar Pytel, Wrocław\nks. Halina Radacz, Szczecin\nks. Meike Waechter, Berlin\nCzytania i modlitwy: przedstawiciele diakonii i młodzieży\nMuzyka:\nFrankfurter Ökumenische Kantorei, pod batutą dyrektora ds. muzyki kościelnej Stephana Hardta, Frankfurt nad Odrą\nChór Ewangelicki im.Oskara Kolberga w Pile, dyrygent: Natalia Karolak, Piła\nOrkiestry dęte z Kościołów uczestniczących, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą\nKenya Music Project, Nairobi/Kenia i muzycy z Kościoła Ewangelickiego okręg Oderland-Spree",
         "lang": [
             "PL",
             "CS",
@@ -81,11 +83,11 @@
         "tag": 0,
         "zeit": "19.00-19.30",
         "location-pl": {
-            "name": "Czytania i modlitwy: przedstawiciele diakonii i młodzieży",
-            "address": ""
+            "name": "Scena główna, Brunnenplatz"
         },
         "titel-pl": "Otwarcie Wieczoru Spotkań",
-        "content-pl": "Powitania ze świata polityki, społeczeństwa i ekumenizmu\nModeracja: Attila Weidemann, Berlin i ks. Paweł Mikołajczyk, Wrocław\nScena główna, Brunnenplatz",
+        "untertitel-pl": "",
+        "content-pl": "Powitania ze świata polityki, społeczeństwa i ekumenizmu\nModeracja: Attila Weidemann, Berlin i ks. Paweł Mikołajczyk, Wrocław",
         "lang": [
             "PL",
             "CS",
@@ -97,30 +99,32 @@
         "tag": 0,
         "zeit": "19.30-22.00",
         "location-pl": {
-            "name": "Marktplatz, Bischofsstraße, promenada nad Odrą do placu przed Collegium Polonicum",
-            "address": ""
+            "name": "Marktplatz, Bischofsstraße, promenada nad Odrą do placu przed Collegium Polonicum"
         },
         "titel-pl": "Wieczór Spotkań",
-        "content-pl": "Wieczór Spotkań rozpocznie się kolorowym festiwalem ulicznym na obszarze od rynku do mostu miejskiego. Gości powitają parafie wszystkich wyznań, organizacje i stowarzyszenia z Polski oraz Niemiec – cały region zaangażuje się w to, żeby ten wieczór na długo pozostał w Waszej pamięci. Na okazałych brzegach Odry, symbolicznego centrum goszczącego regionu, nie zabraknie dobrej muzyki i smacznego jedzenia oraz różnorodnych interakcji. Zapraszamy do udziału i odkrywana festiwalu jako przestrzeni spotkania."
+        "untertitel-pl": "",
+        "content-pl": "Wieczór Spotkań rozpocznie się kolorowym festiwalem ulicznym na obszarze od rynku do mostu miejskiego. Gości powitają parafie wszystkich wyznań, organizacje i stowarzyszenia z Polski oraz Niemiec – cały region zaangażuje się w to, żeby ten wieczór na długo pozostał w Waszej pamięci. Na okazałych brzegach Odry, symbolicznego centrum goszczącego regionu, nie zabraknie dobrej muzyki i smacznego jedzenia oraz różnorodnych interakcji. Zapraszamy do udziału i odkrywana festiwalu jako przestrzeni spotkania.",
+        "lang": []
     },
     "9": {
         "tag": 0,
         "zeit": "20.00-21.00",
         "location-pl": {
-            "name": "Scena główna, Brunnenplatz",
-            "address": ""
+            "name": "Scena główna, Brunnenplatz"
         },
-        "titel-pl": "Kenya Music Project\nWielki koncert muzyki z Afryki",
-        "content-pl": "Od 2005 roku Mamlaka Hill Chapel i okręg kościelny Oderland-Spree są połączone poprzez pracę Kenya Music Project. Przez ekumeniczne, muzyczne i kulturalne spotkania, projekt promuje wiarę i rozwój osobisty młodych chrześcijan z obu krajów.\nMamlaka Hill Chapel, Nairobi/Kenia"
+        "titel-pl": "Kenya Music Project",
+        "untertitel-pl": "Wielki koncert muzyki z Afryki",
+        "content-pl": "Od 2005 roku Mamlaka Hill Chapel i okręg kościelny Oderland-Spree są połączone poprzez pracę Kenya Music Project. Przez ekumeniczne, muzyczne i kulturalne spotkania, projekt promuje wiarę i rozwój osobisty młodych chrześcijan z obu krajów.\nMamlaka Hill Chapel, Nairobi/Kenia",
+        "lang": []
     },
     "10": {
         "tag": 0,
         "zeit": "20.00-21.30",
         "location-pl": {
-            "name": "Kościół Pokoju, Schulstraße 4A",
-            "address": ""
+            "name": "Kościół Pokoju, Schulstraße 4A"
         },
-        "titel-pl": "Zjednoczeni w muzyce\nNabożeństwo Techno",
+        "titel-pl": "Zjednoczeni w muzyce",
+        "untertitel-pl": "Nabożeństwo Techno",
         "content-pl": "Każdy rozumie język muzyki. Pragniemy celebrować nabożeństwo z dudniącymi basami i muzyką elektroniczną, nie tylko dla młodzieży!\nKazanie: bp Tobias Bilz, Drezno\nProwadzenie i muzyka: ks. Jiří Šamšula, Třebenice/Czechy i ks. Viktor Weber, Berlin",
         "lang": [
             "CS"
@@ -130,11 +134,22 @@
         "tag": 0,
         "zeit": "21.45",
         "location-pl": {
-            "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice",
-            "address": ""
+            "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice"
         },
         "titel-pl": "Wieczorne błogosławieństwo i zakończenie",
-        "content-pl": "Przy blasku świateł, przy dźwiękach orkiestry dętej i z niespodzianką zakończymy wspólnie wieczór spotkań po obu stronach Odry.\nks. Gabriele Neumann, Frankfurt nad Odrą\nSuperintendent Frank Schürer-Behrmann, Frankfurt nad Odrą\nbp Mirosław Wola, Gorzów Wielkopolski\nSerdecznie zapraszamy naszych gości, przebywających w kwaterach prywatnych i salkach parafialnych, na wspólne śniadania biblijne. Liturgia prowadzona jest w języku polskim, węgierskim, czeskim, słowackim i niemieckim. Zob. str. (Śniadania z Biblią/liturgia)",
+        "untertitel-pl": "",
+        "content-pl": "Przy blasku świateł, przy dźwiękach orkiestry dętej i z niespodzianką zakończymy wspólnie wieczór spotkań po obu stronach Odry.\nks. Gabriele Neumann, Frankfurt nad Odrą\nSuperintendent Frank Schürer-Behrmann, Frankfurt nad Odrą\nbp Mirosław Wola, Gorzów Wielkopolski",
+        "lang": []
+    },
+    "12": {
+        "tag": 1,
+        "zeit": "8.00-10.00",
+        "location-pl": {
+            "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice"
+        },
+        "titel-pl": "Śniadania z Biblią",
+        "untertitel-pl": "",
+        "content-pl": "Serdecznie zapraszamy naszych gości, przebywających w kwaterach prywatnych i salkach parafialnych, na wspólne śniadania biblijne. Liturgia prowadzona jest w języku polskim, węgierskim, czeskim, słowackim i niemieckim. Zob. str. (Śniadania z Biblią/liturgia)",
         "lang": [
             "PL",
             "CS",
@@ -142,24 +157,14 @@
             "HU"
         ]
     },
-    "12": {
-        "tag": 1,
-        "zeit": "8.00-10.00",
-        "location-pl": {
-            "name": "Promenada nadodrzańska, most miejski, ul. 1-go Maja Słubice",
-            "address": ""
-        },
-        "titel-pl": "Rozważania biblijne i nabożeństwa",
-        "content-pl": "Serdecznie zapraszamy naszych gości przebywających w hotelach ze śniadaniami oraz gości jednodniowych na rozważania biblijne i nabożeństwa."
-    },
     "13": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
-            "address": ""
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
         },
         "titel-pl": "Dialogowe rozważania biblijne w języku polskim i niemieckim",
+        "untertitel-pl": "",
         "content-pl": "bp Kristina Kühnbaum-Schmidt, Schwerin\nbp dr Adrian Korczago, Bielsko-Biała\nMuzyka: Chór Sola Fide, dyrygent: Małgorzata Konarzewska, Goleszów",
         "lang": [
             "PL"
@@ -169,40 +174,43 @@
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kleist Forum, Großer Saal, Platz der Einheit 1",
-            "address": ""
+            "name": "Kleist Forum, Großer Saal, Platz der Einheit 1"
         },
         "titel-pl": "Rozważania biblijne w języku węgierskim",
-        "content-pl": "ks. György Gregersen-Labossa, Budapeszt"
+        "untertitel-pl": "",
+        "content-pl": "ks. György Gregersen-Labossa, Budapeszt",
+        "lang": []
     },
     "15": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kleist Forum, Sla konferencyjna 2, 2. piętro, Platz der Einheit 1",
-            "address": ""
+            "name": "Kleist Forum, Sla konferencyjna 2, 2. piętro, Platz der Einheit 1"
         },
         "titel-pl": "Rozważania biblijne w języku czeskim",
-        "content-pl": "ks. Jiří Tengler, Polička/Czechy\nMuzyka: Chór ECHO Zlín,dyrygent: LKMD Ladislav Moravetz, Zlín/Czechy"
+        "untertitel-pl": "",
+        "content-pl": "ks. Jiří Tengler, Polička/Czechy\nMuzyka: Chór ECHO Zlín,dyrygent: LKMD Ladislav Moravetz, Zlín/Czechy",
+        "lang": []
     },
     "16": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kościół św.Jerzego, Bergstraße 156",
-            "address": ""
+            "name": "Kościół św.Jerzego, Bergstraße 156"
         },
         "titel-pl": "Rozważania biblijne w języku słowackim",
-        "content-pl": "ks. Tomáš German, Blatnica/Słowacja\nMuzyka: Ján Hegeduš, Zvolen/Słowacja"
+        "untertitel-pl": "",
+        "content-pl": "ks. Tomáš German, Blatnica/Słowacja\nMuzyka: Ján Hegeduš, Zvolen/Słowacja",
+        "lang": []
     },
     "17": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kościół św. Gertrudy, Gertraudenplatz 6",
-            "address": ""
+            "name": "Kościół św. Gertrudy, Gertraudenplatz 6"
         },
         "titel-pl": "Dialogowe rozważania biblijne w języku czeskim i niemieckim",
+        "untertitel-pl": "",
         "content-pl": "bp Lukáš Bujna, Plzeň/Czechy\nGeneralny superintendent Kristóf Bálint, Potsdam\nMuzyka: LKMD ks. PaedDr. Zdeněk Kovalčík, Zlín/Czechy",
         "lang": [
             "CS"
@@ -212,60 +220,67 @@
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kościół Pokoju, Schulstraße 4A",
-            "address": ""
+            "name": "Kościół Pokoju, Schulstraße 4A"
         },
         "titel-pl": "Dialogowe rozważania biblijne w języku niemieckim",
-        "content-pl": "ks. dr Christina-Maria Bammel, Berlin\nMonsignor dr Hansjörg Günther, Berlin"
+        "untertitel-pl": "",
+        "content-pl": "ks. dr Christina-Maria Bammel, Berlin\nMonsignor dr Hansjörg Günther, Berlin",
+        "lang": []
     },
     "19": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Kleist Forum, Foyer, Platz der Einheit 1",
-            "address": ""
+            "name": "Kleist Forum, Foyer, Platz der Einheit 1"
         },
         "titel-pl": "Rozważania biblijne na temat krytycznych wobec antysemityzmu interpretacji Biblii: Jezus i cudzołożnica",
-        "content-pl": "prof. em. Katharina von Kellenbach PhD, Berlin"
+        "untertitel-pl": "",
+        "content-pl": "prof. em. Katharina von Kellenbach PhD, Berlin",
+        "lang": []
     },
     "20": {
         "tag": 1,
         "zeit": "9.00-10.00",
         "location-pl": {
-            "name": "Luisenstraße 25D",
-            "address": ""
+            "name": "Luisenstraße 25D"
         },
         "titel-pl": "Poranne nabożeństwo w Ogrodzie Biblijnym",
-        "content-pl": "Evangelische Grundschule, Frankfurt nad Odrą\nMuzyka: Markus Nicolaus, organista, Frankfurt nad Odrą"
+        "untertitel-pl": "",
+        "content-pl": "Evangelische Grundschule, Frankfurt nad Odrą\nMuzyka: Markus Nicolaus, organista, Frankfurt nad Odrą",
+        "lang": []
     },
     "21": {
         "tag": 1,
         "zeit": "9.30",
         "location-pl": {
-            "name": "Wichern-Diakonie, Kapelle, Luisenstraße 21-24",
-            "address": ""
+            "name": "Wichern-Diakonie, Kapelle, Luisenstraße 21-24"
         },
         "titel-pl": "Poranna modlitwa",
-        "content-pl": "dr Ursula Schoen, dyrektor Diakonisches Werk, Berlin\nScena główna, Brunnenplatz"
+        "untertitel-pl": "",
+        "content-pl": "dr Ursula Schoen, dyrektor Diakonisches Werk, Berlin",
+        "lang": []
     },
     "22": {
         "tag": 1,
         "zeit": "10.30-11.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Life'n'Rhythm",
-        "content-pl": "Twórcza muzyka i taniec dla każdego. Dołącz i śpiewaj razem z nami!\nTen Sing Project, Praga"
+        "untertitel-pl": "",
+        "content-pl": "Twórcza muzyka i taniec dla każdego. Dołącz i śpiewaj razem z nami!\nTen Sing Project, Praga",
+        "lang": []
     },
     "23": {
         "tag": 1,
         "zeit": "11.00-11.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Kościoły odbudowują Europę?",
+        "untertitel-pl": "",
         "content-pl": "Jak Kościół może przyczynić się do stworzenia dostatniej, społecznej i pokojowej Europy?\nPrezes Harald Geywitz, Berlin\nPrezes Synodu ks. Adam Malina, Katowice-Szopienice",
         "lang": [
             "PL"
@@ -275,30 +290,35 @@
         "tag": 1,
         "zeit": "11.30-12.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Wszystko, co czynicie, czyńcie w miłości",
-        "content-pl": "Polskie pieśni i tańce\nKolorowe pieśni i tańce z wachlarzami w wykonaniu dzieci i młodzieży\nGrupa teatralno-taneczna Kościoła Ewangelicko-Augsburskiego, pod kierownictwem Agnieszki Borskiej, Skoczów"
+        "untertitel-pl": "",
+        "content-pl": "Polskie pieśni i tańce\nKolorowe pieśni i tańce z wachlarzami w wykonaniu dzieci i młodzieży\nGrupa teatralno-taneczna Kościoła Ewangelicko-Augsburskiego, pod kierownictwem Agnieszki Borskiej, Skoczów",
+        "lang": []
     },
     "25": {
         "tag": 1,
         "zeit": "12.00-12.15",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Modlitwa w południe w języku niemieckim",
-        "content-pl": "Prezes Harald Geywitz, Berlin\nMonsignor dr Hansjörg Günther, Berlin\nMuzyka: Orkeistry dęte z uczestniczących Kościołów, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą"
+        "untertitel-pl": "",
+        "content-pl": "Prezes Harald Geywitz, Berlin\nMonsignor dr Hansjörg Günther, Berlin\nMuzyka: Orkeistry dęte z uczestniczących Kościołów, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą",
+        "lang": []
     },
     "26": {
         "tag": 1,
         "zeit": "12.30-13.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Pokój tak, ale jak?\nO wyzwaniach, ścieżkach i impulsach dla zrównoważonego budowania pokoju",
+        "titel-pl": "Pokój tak, ale jak?",
+        "untertitel-pl": "O wyzwaniach, ścieżkach i impulsach dla zrównoważonego budowania pokoju",
         "content-pl": "bp Sándor Zán Fábián, Berehowe/Ukraina\nbp Jerzy Samiec, Warszawa\nbp dr Christian Stäblein, Berlin",
         "lang": [
             "PL",
@@ -309,20 +329,23 @@
         "tag": 1,
         "zeit": "13.00-14.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Przyjdź i śpiewaj pieśni we wszystkich językach krajów SCh!\nWspólne śpiewanie",
-        "content-pl": "Dyrygent: Kantor Tobias Brommann, Berlin"
+        "titel-pl": "Przyjdź i śpiewaj pieśni we wszystkich językach krajów SCh!",
+        "untertitel-pl": "Wspólne śpiewanie",
+        "content-pl": "Dyrygent: Kantor Tobias Brommann, Berlin",
+        "lang": []
     },
     "28": {
         "tag": 1,
         "zeit": "14.00-14.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Czy Kościół ma przyszłość?\nKościół w mniejszości, między znaczeniem społecznym a Kościołem dla wszystkich\nMateusz Sikora, przedstawiciel młodzieży, Szczecin",
+        "titel-pl": "Czy Kościół ma przyszłość?\nMateusz Sikora, przedstawiciel młodzieży, Szczecin",
+        "untertitel-pl": "Kościół w mniejszości, między znaczeniem społecznym a Kościołem dla wszystkich",
         "content-pl": "dr Viola Vogel, przewodnicząca Konsystorza, Berlin",
         "lang": [
             "PL"
@@ -332,20 +355,23 @@
         "tag": 1,
         "zeit": "14.30-15.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Young Jazz\nHołd dla sprawiedliwości twórczej poprzez muzykę",
-        "content-pl": "Jazz Youngs, Młodzieżowy Zespół Jazzowy Luterańskich Szkół Średnich, Budapeszt"
+        "titel-pl": "Young Jazz",
+        "untertitel-pl": "Hołd dla sprawiedliwości twórczej poprzez muzykę",
+        "content-pl": "Jazz Youngs, Młodzieżowy Zespół Jazzowy Luterańskich Szkół Średnich, Budapeszt",
+        "lang": []
     },
     "30": {
         "tag": 1,
         "zeit": "15.00-15.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Wciąż używane, nigdy nie wyjaśnione: czym jest dwumiasto?\nBurmistrzowie Frankfurtu nad Odrą i Słubic opowiadają o tym, jak oba miasta rozwinęły się razem oraz o sukcesach i przeszkodach we współpracy transgranicznej.",
+        "titel-pl": "Wciąż używane, nigdy nie wyjaśnione: czym jest dwumiasto?",
+        "untertitel-pl": "Burmistrzowie Frankfurtu nad Odrą i Słubic opowiadają o tym, jak oba miasta rozwinęły się razem oraz o sukcesach i przeszkodach we współpracy transgranicznej.",
         "content-pl": "Burmistrz Frankfurtu nad Odrą i Burmistrz Słubic",
         "lang": [
             "PL"
@@ -355,40 +381,47 @@
         "tag": 1,
         "zeit": "15.30-16.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Muzyka z Czech\nBrzmienia i pieśni na instrumentach historycznych i ludowych",
-        "content-pl": "Tomáš Najbrt, multiinstrumentalista, Praga"
+        "titel-pl": "Muzyka z Czech",
+        "untertitel-pl": "Brzmienia i pieśni na instrumentach historycznych i ludowych",
+        "content-pl": "Tomáš Najbrt, multiinstrumentalista, Praga",
+        "lang": []
     },
     "32": {
         "tag": 1,
         "zeit": "16.00-16.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Jak kościół może stać się bardziej inkluzywny?\nWedług Biblii wszyscy ludzie mają taką samą godność. Ale dyskryminacja i przemoc w Kościele są realne. Jak Kościoły mogą stać się bezpiecznym miejscem dla wszystkich? ",
-        "content-pl": "Prezes Anna-Nicole Heinrich, Hanower\nks. Anne Linden, duszpasterz szpitalny, Bad Saarow"
+        "titel-pl": "Jak kościół może stać się bardziej inkluzywny?",
+        "untertitel-pl": "Według Biblii wszyscy ludzie mają taką samą godność. Ale dyskryminacja i przemoc w Kościele są realne. Jak Kościoły mogą stać się bezpiecznym miejscem dla wszystkich?",
+        "content-pl": "Prezes Anna-Nicole Heinrich, Hanower\nks. Anne Linden, duszpasterz szpitalny, Bad Saarow",
+        "lang": []
     },
     "33": {
         "tag": 1,
         "zeit": "16.30-17.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Sercem i duszą\nTańce ludowe w strojach węgierskich",
-        "content-pl": "Zespół tańca ludowego z Ewangelicko-Luterańskiej Szkoły Średniej w Aszód, pod kierunkiem Erzsébet Lányi, Aszód"
+        "titel-pl": "Sercem i duszą",
+        "untertitel-pl": "Tańce ludowe w strojach węgierskich",
+        "content-pl": "Zespół tańca ludowego z Ewangelicko-Luterańskiej Szkoły Średniej w Aszód, pod kierunkiem Erzsébet Lányi, Aszód",
+        "lang": []
     },
     "34": {
         "tag": 1,
         "zeit": "17.00-17.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Czerpać siłę z diaspory?\nEwangelicy w Polsce i Niemczech Wschodnich są mniejszością - i właśnie dlatego koncentrują się na współpracy",
+        "titel-pl": "Czerpać siłę z diaspory?",
+        "untertitel-pl": "Ewangelicy w Polsce i Niemczech Wschodnich są mniejszością - i właśnie dlatego koncentrują się na współpracy",
         "content-pl": "Generalna Superintendent Theresa Rinecker, Görlitz\nBiskup Waldemar Pytel, Wrocław",
         "lang": [
             "PL"
@@ -398,70 +431,82 @@
         "tag": 1,
         "zeit": "17.30-18.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Pieśni dla pokoju",
-        "content-pl": "Rodzina & Przyjaciele, dyrygent: Jochen Silex, Seelow"
+        "untertitel-pl": "1. Swing-Go-Pop Chor Brandenburgs",
+        "content-pl": "Rodzina & Przyjaciele, dyrygent: Jochen Silex, Seelow",
+        "lang": []
     },
     "36": {
         "tag": 1,
         "zeit": "20.00-21.45",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Niebezpiecznie dziwna muzyka dęta\nWielki koncert",
-        "content-pl": "Muzycy z Niemiec, Syrii, Palestyny, Izraela, Brazylii, Włoch, Bawarii, Rosji, Polski i Iraku (z pochodzeniem uchodźczym i bez) są zjednoczeni pragnieniem przełamywania uprzedzeń i budowania mostów między kulturami, religiami i grupami etnicznymi. Reinterpretują swoją rodzimą muzykę i porywają wszystkich do tańca dźwiękami instrumentów dętych blaszanych i szerokim repertuarem afro funk, bałkańskich instrumentów blaszanych, muzyki klezmerskiej, cumbii i orientalnych hitów.\nBanda Comunale, Drezno"
+        "titel-pl": "Niebezpiecznie dziwna muzyka dęta",
+        "untertitel-pl": "Wielki koncert",
+        "content-pl": "Muzycy z Niemiec, Syrii, Palestyny, Izraela, Brazylii, Włoch, Bawarii, Rosji, Polski i Iraku (z pochodzeniem uchodźczym i bez) są zjednoczeni pragnieniem przełamywania uprzedzeń i budowania mostów między kulturami, religiami i grupami etnicznymi. Reinterpretują swoją rodzimą muzykę i porywają wszystkich do tańca dźwiękami instrumentów dętych blaszanych i szerokim repertuarem afro funk, bałkańskich instrumentów blaszanych, muzyki klezmerskiej, cumbii i orientalnych hitów.\nBanda Comunale, Drezno",
+        "lang": []
     },
     "37": {
         "tag": 1,
         "zeit": "21.45-22.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Modlitwa wieczorna w języku niemieckim",
-        "content-pl": "Generalny Superintendent Kristóf Bálint, Poczdam\nMuzyka: Orkiestry dęte z uczestniczących kościołów, pod dyrekcją Ulrike Gäbel, Frankfurt nad Odrą\nModeracja dnia: Attila Weidemann, Berlin i ks. Paweł Meler, Wrocław\nOd Rynku, przez Bischofsstraße, do promenady nad Odrą"
+        "untertitel-pl": "",
+        "content-pl": "Generalny Superintendent Kristóf Bálint, Poczdam\nMuzyka: Orkiestry dęte z uczestniczących kościołów, pod dyrekcją Ulrike Gäbel, Frankfurt nad Odrą\nModeracja dnia: Attila Weidemann, Berlin i ks. Paweł Meler, Wrocław\nOd Rynku, przez Bischofsstraße, do promenady nad Odrą",
+        "lang": []
     },
     "38": {
         "tag": 1,
         "zeit": "18.30-19.30",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
         "titel-pl": "Wieczerza 4000",
-        "content-pl": "Wspólna kolacja przy wspólnym stole\nDo wspólnej kolacji zasiądziemy przy gigantycznym, kilometrowym!, stole rozłożonym od Marktplatz po promenadę nad Odrą. Ten wyjątkowy wspólny posiłek będzie niewątpliwie okazją do integracji z ludźmi mówiącymi różnymi językami i pochodzącymi z różnych krajów. Będzie to czas poznawania się, rozmów, doświadczania jak ważne jest bycie w społeczności. Przynieście ze sobą dzwonki, najważniejsze, by było głośno!"
+        "untertitel-pl": "Wspólna kolacja przy wspólnym stole",
+        "content-pl": "Do wspólnej kolacji zasiądziemy przy gigantycznym, kilometrowym!, stole rozłożonym od Marktplatz po promenadę nad Odrą. Ten wyjątkowy wspólny posiłek będzie niewątpliwie okazją do integracji z ludźmi mówiącymi różnymi językami i pochodzącymi z różnych krajów. Będzie to czas poznawania się, rozmów, doświadczania jak ważne jest bycie w społeczności. Przynieście ze sobą dzwonki, najważniejsze, by było głośno!\nOd Rynku, przez Bischofsstraße, do promenady nad Odrą",
+        "lang": []
     },
     "39": {
         "tag": 1,
-        "zeit": "12.30-13.30",
+        "zeit": "10.00-12.00 oraz 14.00-18.00",
         "location-pl": {
-            "name": "W samym centrum miasta",
-            "address": "Scena główna, Brunnenplatz"
+            "name": "Scena główna, Brunnenplatz",
+            "bezeichnung": "W samym centrum miasta"
         },
-        "titel-pl": "Odetchnijmy głęboko razem z Bogiem na świeżym powietrzu\nNabożeństwo dla rodzin",
-        "content-pl": "Zapraszamy rodziny i wszystkich, którzy chcą odkrywać Boga w naturze. Wspólnie przygotujemy miejsce uwielbienia, do którego potrzebujemy tylko tego, co daje nam natura. Wyruszymy na poszukiwanie i odnajdziemy Boga i wspólnotę.\nks. Susanne Noack, Frankfurt nad Odrą\nPółwysep Ziegenwerder, ognisko za placem zabaw na wyspie\nCollegium Polonicum, ul. Kościuszki 1, Słubice"
+        "titel-pl": "Kto pyta, staje się bardziej mobilny w Biblii",
+        "untertitel-pl": "",
+        "content-pl": "Mobilne społeczeństwo sprawia, że bardziej niż kiedykolwiek ważne jest, aby kościół sam stał się mobilny. W piętrowym autobusie można znaleźć wiele informacji, salę wystawową, księgarnię ze wszystkim, co ma związek z Biblią oraz prasę drukarską. Warsztaty trwają po 30 minut:\nBibliobus w Transylwanii: relacje z wizyt w węgierskich zborach reformowanych i zborach Kościoła Ewangelickiego Wyznania Augsburskiego w Rumunii\nBibliobus w Polsce: relacja z podróży w zdjęciach\nDruk Gutenberga: Kim był Gutenberg? Co zrewolucjonizował? Jak wyglądało drukowanie w tamtych czasach\nReformacja i rola, jaką odegrał w niej Marcin Luter",
+        "lang": []
     },
     "40": {
         "tag": 1,
-        "zeit": "9.00-10.00",
+        "zeit": "12.30-13.30",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Półwysep Ziegenwerder, ognisko za placem zabaw na wyspie"
         },
-        "titel-pl": "Dialogowe rozważania biblijne w języku polskim i niemieckim",
-        "content-pl": "Zob. strona"
+        "titel-pl": "Odetchnijmy głęboko razem z Bogiem na świeżym powietrzu",
+        "untertitel-pl": "Nabożeństwo dla rodzin",
+        "content-pl": "Zapraszamy rodziny i wszystkich, którzy chcą odkrywać Boga w naturze. Wspólnie przygotujemy miejsce uwielbienia, do którego potrzebujemy tylko tego, co daje nam natura. Wyruszymy na poszukiwanie i odnajdziemy Boga i wspólnotę.\nks. Susanne Noack, Frankfurt nad Odrą",
+        "lang": []
     },
     "41": {
         "tag": 1,
         "zeit": "10.30-12.00",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
-        "titel-pl": "Pokonywanie granic, promowanie wspólnoty, szukanie odpowiedzi\nPanel dyskusyjny na temat stosunków polsko-niemieckich",
+        "titel-pl": "Pokonywanie granic, promowanie wspólnoty, szukanie odpowiedzi",
+        "untertitel-pl": "Panel dyskusyjny na temat stosunków polsko-niemieckich",
         "content-pl": "Polskę i Niemcy łączy wiele pytań o przyszłość. Kwestie zmian klimatycznych i odpowiedzialności za ekosystem Odry, obrona liberalnej demokracji, wsparcie dla Ukrainy, sposoby postępowania z Rosją. W ramach dialogu ludzie polityki i Kościoła wspólnie poszukują odpowiedzi na te pytania.\nbp Jerzy Samiec, Warszawa\nbp Semko Koroza, Warszawa\nbp dr Christian Stäblein, Berlin\nGoście z kręgów politycznych i społecznych\nModeracja: Stephan Bickhardt, dyrektor Evangelische Akademie Sachsen, Drezno",
         "lang": [
             "PL"
@@ -471,20 +516,23 @@
         "tag": 1,
         "zeit": "12.00-12.15",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
         "titel-pl": "Modlitwa w południe w języku polskim",
-        "content-pl": "ks. Marcin Orawski, Wrocław\nMuzyka: Chór Parafii Ewangelicko-Augsburskiej Opatrzności Bożej we Wrocławiu, dyrygent: Mikołaj Szczęsny, Wrocław"
+        "untertitel-pl": "",
+        "content-pl": "ks. Marcin Orawski, Wrocław\nMuzyka: Chór Parafii Ewangelicko-Augsburskiej Opatrzności Bożej we Wrocławiu, dyrygent: Mikołaj Szczęsny, Wrocław",
+        "lang": []
     },
     "43": {
         "tag": 1,
         "zeit": "14.00-15.30",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
-        "titel-pl": "„Bóg obrócił to w dobro“ (I Księga Mojżeszowa 50,20)\nSąsiedzkie historie z Polski i Niemiec",
+        "titel-pl": "„Bóg obrócił to w dobro“ (I Księga Mojżeszowa 50,20)",
+        "untertitel-pl": "Sąsiedzkie historie z Polski i Niemiec",
         "content-pl": "Nasze pogranicze to obszar kultury i wiary, który chcemy wspólnie kształtować. Panel dyskusyjny przedstawia historię inicjatyw na rzecz pojednania oraz prezentuje konkretne inicjatywy i aktualne wyzwania oraz projekty na rzecz pokoju w Europie Środkowo-Wschodniej.\nbp Kristina Kühnbaum-Schmidt, Schwerin\nbp Waldemar Pytel, Wrocław\nbp Adrian Put, Gorzów\nGeneralna Superintendent Theresa Rinecker, Görlitz\ndr Robert Żurek, Fundacji Krzyżowa, Krzyżowa\ndr Annemarie Franke, kierownik Sekretariatu Kultury Regionu Kulturalnego Górnych Łużyc i Dolnego Śląska, Krzyżowa oraz Görlitz\nks. dr Piotr Gaś, Warszawa\nks. em. Markus Meckel, były minister spraw zagranicznych NRD, Berlin\nMuzyka: Berliner Staats- und Domchor, dyrygent: prof. Kai-Uwe Jirka, Berlin\nModeracja: Superintendent Frank Schürer-Behrmann oraz Adrianna Rosa-Zarzycka, Frankfurt nad Odrą",
         "lang": [
             "PL"
@@ -494,10 +542,11 @@
         "tag": 1,
         "zeit": "16.00-17.30",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
-        "titel-pl": "Czy wciąż można nas ocalić? Rola Kościołów w transformacji ekologicznej\nWykład i panel dyskusyjny",
+        "titel-pl": "Czy wciąż można nas ocalić? Rola Kościołów w transformacji ekologicznej",
+        "untertitel-pl": "Wykład i panel dyskusyjny",
         "content-pl": "\"Epoka ludzkości\" znajduje się na rozdrożu. Jak wygląda udane życie w coraz ciaśniejszych granicach ekologicznych? I jaki wkład mogą wnieść Kościoły?\nprof. dr Wolfgang Lucht, Instytut Badań nad Wpływem Klimatu, Potsdam\nbp Michael Chalupka, Wiedeń\nbp Adrian Put, Gorzów\nks. dr Christina-Maria Bammel, Berlin\nModeracja: Hans-Joachim Ditz, Berlin",
         "lang": [
             "PL"
@@ -507,30 +556,35 @@
         "tag": 1,
         "zeit": "19.30-21.45",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
-        "titel-pl": "Zjednoczeni w muzyce\nKoncert chórów z pięciu krajów",
-        "content-pl": "Chór Czechosłowackiego Kościoła Husyckiego, dyrygent: LKMD ks. Zdeněk Kovalčík, Zlín/Czechy\nECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Zlín/Czechy\nPax et Bonum, dyrygent: Boldizsár Kiss, Budapeszt\nJubilate Deo, dyrygent: Joanna Bliwert-Hoderna, Mysłowice\nChór Collegium Canorum Lobaviense dyrygent: dyrektor muzyki kościelnej Christian Kühne, Löbau\nModeracja: LKMD Markus Leidenberger, Drezno"
+        "titel-pl": "Zjednoczeni w muzyce",
+        "untertitel-pl": "Koncert chórów z pięciu krajów",
+        "content-pl": "Chór Czechosłowackiego Kościoła Husyckiego, dyrygent: LKMD ks. Zdeněk Kovalčík, Zlín/Czechy\nECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Zlín/Czechy\nPax et Bonum, dyrygent: Boldizsár Kiss, Budapeszt\nJubilate Deo, dyrygent: Joanna Bliwert-Hoderna, Mysłowice\nChór Collegium Canorum Lobaviense dyrygent: dyrektor muzyki kościelnej Christian Kühne, Löbau\nModeracja: LKMD Markus Leidenberger, Drezno",
+        "lang": []
     },
     "46": {
         "tag": 1,
         "zeit": "21.45-22.00",
         "location-pl": {
-            "name": "Centrum Przyjaźni Polsko-Niemieckiej",
-            "address": "Collegium Polonicum, ul. Kościuszki 1, Słubice"
+            "name": "Collegium Polonicum, ul. Kościuszki 1, Słubice",
+            "bezeichnung": "Centrum Przyjaźni Polsko-Niemieckiej"
         },
         "titel-pl": "Wieczorna modlitwa w języku polskim",
-        "content-pl": "Chór Sola Fide, dyrygent: Małgorzata Konarzewska, Goleszów\nAudimax, Europa-Universität Viadrina, Logenstraße 4"
+        "untertitel-pl": "",
+        "content-pl": "Chór Sola Fide, dyrygent: Małgorzata Konarzewska, Goleszów",
+        "lang": []
     },
     "47": {
         "tag": 1,
         "zeit": "10.30-12.00",
         "location-pl": {
-            "name": "Centrum Pokoju i Demokracji w Europie",
-            "address": "Audimax, Europa-Universität Viadrina, Logenstraße 4"
+            "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
+            "bezeichnung": "Centrum Pokoju i Demokracji w Europie"
         },
-        "titel-pl": "Wkład kościołów w przyszłość Europy\nPanel dyskusyjny na temat religii i demokracji",
+        "titel-pl": "Wkład kościołów w przyszłość Europy",
+        "untertitel-pl": "Panel dyskusyjny na temat religii i demokracji",
         "content-pl": "W Europie Środkowej i Wschodniej na nowo podejmuje się kwestię relacji między religią a demokracją. Po demokratycznym przebudzeniu po roku 1989, mamy obecnie do czynienia z silnymi tendencjami nacjonalistycznymi i polaryzacją społeczną. W jaki sposób kościoły ewangelickie angażują się w dyskusje polityczne i społeczne?\nprof. dr Eduard Mühle, Prezydent Uniwersytetu Europejskiego Viadrina, Frankfurt nad Odrą\nprof. Detlef Pollack, socjolog religii, Universität Münster\nbp Tamás Fabiny, Budapeszt\nprof. Hanna Suchocka, była Premier Polski, Poznań\nbp Tomáš Tyrlík, Český Těšín\nPrezes Anna-Nicole Heinrich, Hannover\nModeracja: Konsul Generalna Cornelia Pieper, Gdańsk oraz Carsten Rentzing, Drezno",
         "lang": [
             "PL",
@@ -542,11 +596,12 @@
         "tag": 1,
         "zeit": "14.00-15.30",
         "location-pl": {
-            "name": "Centrum Pokoju i Demokracji w Europie",
-            "address": "Audimax, Europa-Universität Viadrina, Logenstraße 4"
+            "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
+            "bezeichnung": "Centrum Pokoju i Demokracji w Europie"
         },
-        "titel-pl": "Między wojną a pokojem\nPanel dyskusyjny na temat Kościoła i wojny na Ukrainie",
-        "content-pl": "Kościoły ewangelickie na Ukrainie również zostały dotknięte rosyjską agresją. Jakie wyzwania i zadania stoją przed kościołami tego regionu? Wnioski zostaną uzupełnione o zagadnienia etyki pokoju i perspektywy naukowe.\nbp Pavlo Shvarts, Charków\nbp Sándor Zán Fábián, Berehowe/Ukraina\nbp Friedrich Kramer, Magdeburg\ndr Anne Holper, Instytut Zarządzania Konfliktami i Centrum Mediacji Pokojowej, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\ndr Ana Raffai, teolożka katolicka i działaczka na rzecz pokoju, Zagrzeb\nModeracja: Anna Wrzesińska, Warszawa i Jens Lattke, pełnomocnik ds. pokoju, Kościół Ewangelicki w Środkowych Niemczech, Magdeburg\nMuzyka: Lukáš Michel, pianista, Praga\nWydarzenia organizowane przez Europejskie Centrum Ekumeniczne we Frankfurcie nad Odrą we współpracy z Centrum Interdyscyplinarnych Studiów o Polsce, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\nKleist Forum, Großer Saal, Platz der Einheit 1\nRozważania biblijne w języku węgierskim zob.str",
+        "titel-pl": "Między wojną a pokojem",
+        "untertitel-pl": "Panel dyskusyjny na temat Kościoła i wojny na Ukrainie",
+        "content-pl": "Kościoły ewangelickie na Ukrainie również zostały dotknięte rosyjską agresją. Jakie wyzwania i zadania stoją przed kościołami tego regionu? Wnioski zostaną uzupełnione o zagadnienia etyki pokoju i perspektywy naukowe.\nbp Pavlo Shvarts, Charków\nbp Sándor Zán Fábián, Berehowe/Ukraina\nbp Friedrich Kramer, Magdeburg\ndr Anne Holper, Instytut Zarządzania Konfliktami i Centrum Mediacji Pokojowej, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\ndr Ana Raffai, teolożka katolicka i działaczka na rzecz pokoju, Zagrzeb\nModeracja: Anna Wrzesińska, Warszawa i Jens Lattke, pełnomocnik ds. pokoju, Kościół Ewangelicki w Środkowych Niemczech, Magdeburg\nMuzyka: Lukáš Michel, pianista, Praga",
         "lang": [
             "PL",
             "HU"
@@ -556,11 +611,12 @@
         "tag": 1,
         "zeit": "10.30-12.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
+            "bezeichnung": "Centrum Pokoju i Demokracji w Europie"
         },
-        "titel-pl": "Wielowymiarowa ścieżka\nPanel dyskusyjny na temat wyjątkowej historii ordynacji kobiet w poszczególnych krajach ",
-        "content-pl": "Co doprowadziło do wprowadzenia ordynacji kobiet i jak wyglądały początki? Jakie wyzwania stoją obecnie przed kobietami księżmi?\nGeneralna Superintendent Ulrike Trautwein, Berlin\nks. dr Helena Smolová, Tábor/Czechy\nks. Mária Hroboňová, Lučenec/Słowacja\ndr Klára Tarr Cselovszky, Budapeszt\nks. dr Elfriede Dörr, Sibiu/Rumunia\nks. Marta Zachraj-Mikołajczyk, Wrocław\nModeracja: Lenka Janotková, Żylina/Słowacja\nDistelkinder   zob. str.",
+        "titel-pl": "Wielowymiarowa ścieżka",
+        "untertitel-pl": "Panel dyskusyjny na temat wyjątkowej historii ordynacji kobiet w poszczególnych krajach",
+        "content-pl": "Co doprowadziło do wprowadzenia ordynacji kobiet i jak wyglądały początki? Jakie wyzwania stoją obecnie przed kobietami księżmi?\nGeneralna Superintendent Ulrike Trautwein, Berlin\nks. dr Helena Smolová, Tábor/Czechy\nks. Mária Hroboňová, Lučenec/Słowacja\ndr Klára Tarr Cselovszky, Budapeszt\nks. dr Elfriede Dörr, Sibiu/Rumunia\nks. Marta Zachraj-Mikołajczyk, Wrocław\nModeracja: Lenka Janotková, Żylina/Słowacja",
         "lang": [
             "PL",
             "CS",
@@ -570,95 +626,87 @@
     },
     "50": {
         "tag": 1,
-        "zeit": "14.00-15.00 oraz 16.30-17.30",
+        "zeit": "12.00-12.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Foyer"
         },
-        "titel-pl": "Musical autorstwa Henrike Thies-Gebauer",
-        "content-pl": "Kleist Forum, Foyer\nRozważania biblijne na temat krytycznych wobec antysemityzmu interpretacji Biblii: Jezus i cudzołożnica zob. str."
+        "titel-pl": "Nabożeństwo młodzieżowe w języku niemieckim",
+        "untertitel-pl": "Muzyka: ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt/Węgry",
+        "content-pl": "Prowadząca: Julia Daser, regionalna duszpasterz młodzieży, Berlin",
+        "lang": []
     },
     "51": {
         "tag": 1,
-        "zeit": "12.00-12.30",
+        "zeit": "15.30-16.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Foyer"
         },
-        "titel-pl": "Nabożeństwo młodzieżowe w języku niemieckim\nMuzyka: ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt/Węgry",
-        "content-pl": "Prowadząca: Julia Daser, regionalna duszpasterz młodzieży, Berlin"
+        "titel-pl": "Semmi sem választhat el minket",
+        "untertitel-pl": "Koncert",
+        "content-pl": "ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt",
+        "lang": []
     },
     "52": {
         "tag": 1,
-        "zeit": "15.30-16.00",
-        "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
-        },
-        "titel-pl": "Semmi sem választhat el minket\nKoncert",
-        "content-pl": "ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt\nKleist Forum, Studiobühne"
-    },
-    "53": {
-        "tag": 1,
         "zeit": "14.00-15.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Studiobühne"
         },
         "titel-pl": "Warsztaty: Być chrześcijaninem w świeckim społeczeństwie",
+        "untertitel-pl": "",
         "content-pl": "Kościoły w kontekście różnorodności światopoglądów, stylów życia i duchowości stoją przed wyzwaniem przekazywania Ewangelii w pluralistycznym świecie.\nPrezes Synodu Pavel Pokorný, Praga\nbp Lukáš Bujna, Plzeň/Czechy\nks. Jiří Šamšula, Třebenice/Czechy\nks. Bettine Reichelt, Leipzig\nGabriele Oehme, pedagożka społeczna, Dresden\nFriedemann Oehme, referent ds. stosunków ekumenicznych, Dresden\nModeracja: Gerhard Frey-Reininghaus, referent ds. stosunków ekumenicznych w stanie spoczynku, Praga",
         "lang": [
             "CS"
         ]
     },
-    "54": {
+    "53": {
         "tag": 1,
         "zeit": "16.00-17.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Studiobühne"
         },
         "titel-pl": "Warsztaty: Przekazywanie wiary - w dialogu z młodymi duszpasterzami",
-        "content-pl": "W jaki sposób można przekazywać wiarę następnemu pokoleniu i jak rekrutować młodych ludzi do służby? Co motywuje młodych ludzi do angażowania się w życie Kościoła i studiowania teologii?Będziemy pracować w grupach roboczych w Foyer i Galerii.\nks. Mitja Andrejek, Križevci/Słowenia\nks. dr Mario Fischer, sekretarz generalny Wspólnoty Kościołów Ewangelickich w Europie, Wiedeń\nJohanna Kluge,pedagożka społeczna, Fürth\nks. Kitti Németh, Boba/Węgry\ndr András Szabó, Budapeszt\ndr Patrick Todjeras, Attersee/Austria\nModeracja: dr Klára Tarr Cselovszky, Budapeszt\nKleist Forum, Konferenzraum 2\nRozważania biblijne w języku czeskim zob.str.",
+        "untertitel-pl": "",
+        "content-pl": "W jaki sposób można przekazywać wiarę następnemu pokoleniu i jak rekrutować młodych ludzi do służby? Co motywuje młodych ludzi do angażowania się w życie Kościoła i studiowania teologii?Będziemy pracować w grupach roboczych w Foyer i Galerii.\nks. Mitja Andrejek, Križevci/Słowenia\nks. dr Mario Fischer, sekretarz generalny Wspólnoty Kościołów Ewangelickich w Europie, Wiedeń\nJohanna Kluge,pedagożka społeczna, Fürth\nks. Kitti Németh, Boba/Węgry\ndr András Szabó, Budapeszt\ndr Patrick Todjeras, Attersee/Austria\nModeracja: dr Klára Tarr Cselovszky, Budapeszt",
         "lang": [
             "HU"
         ]
     },
-    "55": {
+    "54": {
         "tag": 1,
         "zeit": "10.30-12.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Konferenzraum 2"
         },
         "titel-pl": "Warsztaty: Życie Kościoła w mieście i na wsi",
+        "untertitel-pl": "",
         "content-pl": "W całej Europie istnieją trafne pomysły i przykłady tego, w jaki sposób Kościół może dawać impulsy adekwatne do poszczególnych wyzwań.\nks. György Gregersen-Labossa, Präsident Diakonischer Ausschuss, Budapeszt\nbp Mirosław Wola, Gorzów\ndr Christoph Theilemann, Direktor Berliner Missionswerk, Berlin\nModeracja: ks. Jens Peter Erichsen, Frankfurt nad Odrą",
         "lang": [
             "HU",
             "PL"
         ]
     },
-    "56": {
+    "55": {
         "tag": 1,
         "zeit": "14.00-15.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Konferenzraum 2"
         },
-        "titel-pl": "\"Obcy będzie wśród was jak tubylec\" ( Trzecia Księga Mojżeszowa 19,34)\nPanel dyskusyjny na temat pracy z uchodźcami",
+        "titel-pl": "\"Obcy będzie wśród was jak tubylec\" ( Trzecia Księga Mojżeszowa 19,34)",
+        "untertitel-pl": "Panel dyskusyjny na temat pracy z uchodźcami",
         "content-pl": "Co wspólnoty chrześcijańskie mogą wnieść w przyjęcie uchodźców? Jaką rolę pełnią w tym, by uchodźcy czuli się u nas jak w domu?\nks. Christiane Schulz, Neuruppin\nks. Jana Tabačková, Košice/Słowacja\nClaudia Lui, Centrum Doradztwa Diakonii, Wiedeń\nVera Yakovenko, uchodźczyni z Kijowa/Ukraina, obecnie w Rheinsbergu\nModeracja: Matthias Puppe, Berlin",
         "lang": [
             "SK"
         ]
     },
-    "57": {
+    "56": {
         "tag": 1,
         "zeit": "16.00-18.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Konferenzraum 2"
         },
-        "titel-pl": "United4Rescue?Sytuacja na zewnętrznych granicach UE\nPanel dyskusyjny na temat wyzwań związanych z migracją",
+        "titel-pl": "United4Rescue?Sytuacja na zewnętrznych granicach UE",
+        "untertitel-pl": "Panel dyskusyjny na temat wyzwań związanych z migracją",
         "content-pl": "Kraje Europy Wschodniej graniczące z zewnętrznymi granicami UE są szczególnie dotknięte napływem uchodźców. Jak Kościoły ewangelickie w tych krajach radzą sobie z tą kwestią? Jak pomagają i wspierają? Czego oczekują?\nbp dr Christian Stäblein, Berlin\nbp Peter Mihoč, Prešov/Słowacja\nWanda Falk, dyrektor Diakonii Polskiej, Warszawa\ndr Ursula Schoen, dyrektorka Diakonisches Werk, Berlin\nGergely Prőhle, Wiceprezes Konsystorza, Budapeszt\nModeracja: Dagmar Apel, Berlin",
         "lang": [
             "PL",
@@ -666,504 +714,558 @@
             "HU"
         ]
     },
-    "58": {
+    "57": {
         "tag": 1,
-        "zeit": "16.00-18.00",
+        "zeit": "8.00-10.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Konferenzraum 2"
         },
-        "titel-pl": "Centrum Młodzieży: ÜBERBRÜCKEN – BRIDGING –POKONAĆ\nEkumeniczny polsko-niemiecki festiwal dla dzieci i młodzieży",
-        "content-pl": "Kleist Forum, Raum 4a\nŚniadanie z Biblią z ks. Kitti Németh, Boba/Węgry\nw miejscu zakwaterowania młodzieży"
+        "titel-pl": "Śniadanie z Biblią z ks. Kitti Németh, Boba/Węgry",
+        "untertitel-pl": "",
+        "content-pl": "w miejscu zakwaterowania młodzieży",
+        "lang": []
     },
-    "59": {
+    "58": {
         "tag": 1,
         "zeit": "10.30-12.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4a",
+            "bezeichnung": "Ekumeniczny polsko-niemiecki festiwal dla dzieci i młodzieży"
         },
         "titel-pl": "Warsztaty: Kolorowi jako Boże dzieło",
-        "content-pl": "Seksualność to zagadnienie, które dotyczy nas wszystkich, niezależnie od tego, czy jesteśmy homoseksualni, heteroseksualni, biseksualni czy aseksualni. Tożsamość płciowa również kształtuje wszystkich ludzi. Mimo to ludzie, którzy wykraczają poza heteronormatywność, są dyskryminowani. Jest to również temat poruszany w Kościołach.\nProwadząca: Julia Daser, regionalna duszpasterz młodzieży, Berlin"
+        "untertitel-pl": "",
+        "content-pl": "Seksualność to zagadnienie, które dotyczy nas wszystkich, niezależnie od tego, czy jesteśmy homoseksualni, heteroseksualni, biseksualni czy aseksualni. Tożsamość płciowa również kształtuje wszystkich ludzi. Mimo to ludzie, którzy wykraczają poza heteronormatywność, są dyskryminowani. Jest to również temat poruszany w Kościołach.\nProwadząca: Julia Daser, regionalna duszpasterz młodzieży, Berlin",
+        "lang": []
     },
-    "60": {
+    "59": {
         "tag": 1,
         "zeit": "10.30-16.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4a",
+            "bezeichnung": "Ekumeniczny polsko-niemiecki festiwal dla dzieci i młodzieży"
         },
         "titel-pl": "Bibliolog: Nic nas nie rozdzieli",
-        "content-pl": "Za tym pojęciem, składającym się ze słów Biblia i dialog, kryje się metodologia wspólnego interpretowania tekstów biblijnych w grupie. W ten sposób Biblię można inaczej doświadczać. Uczestnictwo jest możliwe o godz. 10.30, 13. 00, 14. 00, 15.30.\nThDr Eva Vymětalová Hrabáková, Th.D., Praga"
+        "untertitel-pl": "",
+        "content-pl": "Za tym pojęciem, składającym się ze słów Biblia i dialog, kryje się metodologia wspólnego interpretowania tekstów biblijnych w grupie. W ten sposób Biblię można inaczej doświadczać. Uczestnictwo jest możliwe o godz. 10.30, 13. 00, 14. 00, 15.30.\nThDr Eva Vymětalová Hrabáková, Th.D., Praga",
+        "lang": []
     },
-    "61": {
+    "60": {
         "tag": 1,
         "zeit": "16.00-18.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4a",
+            "bezeichnung": "Ekumeniczny polsko-niemiecki festiwal dla dzieci i młodzieży"
         },
         "titel-pl": "Warsztat: Kościół a LGBT",
-        "content-pl": "Podstawą jest projekt \"Wiara w kolorach tęczy\" na temat LGBT i Kościoła. Za swój film nagrodę otrzymał Tobiáš Frýdl.\nTobiáš Frýdl, student Wydziału Filmu i Telewizji Akademii Sztuk Scenicznych, Praga"
+        "untertitel-pl": "",
+        "content-pl": "Podstawą jest projekt \"Wiara w kolorach tęczy\" na temat LGBT i Kościoła. Za swój film nagrodę otrzymał Tobiáš Frýdl.\nTobiáš Frýdl, student Wydziału Filmu i Telewizji Akademii Sztuk Scenicznych, Praga",
+        "lang": []
     },
-    "62": {
+    "61": {
         "tag": 1,
         "zeit": "10.30-18.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4a",
+            "bezeichnung": "Ekumeniczny polsko-niemiecki festiwal dla dzieci i młodzieży"
         },
         "titel-pl": "Z muzyką przez cały dzień",
-        "content-pl": "Lobpreisband, Czechy\nKleist Forum, Raum 4b"
+        "untertitel-pl": "",
+        "content-pl": "Lobpreisband, Czechy",
+        "lang": []
     },
-    "63": {
+    "62": {
         "tag": 1,
         "zeit": "14-15.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4b"
         },
         "titel-pl": "Warsztaty taneczne: Taniec współczesny",
-        "content-pl": "Młodzież, Mamlaka Hill Chapel, Nairobi/Kenia"
+        "untertitel-pl": "",
+        "content-pl": "Młodzież, Mamlaka Hill Chapel, Nairobi/Kenia",
+        "lang": []
     },
-    "64": {
+    "63": {
         "tag": 1,
         "zeit": "16.30-18.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4b"
         },
         "titel-pl": "Gaming – Jugger & Empowerment",
-        "content-pl": "Jugger to ekscytujący, pełen akcji sport drużynowy, w którym celem jest przechwycenie piłki meczowej i trzymanie drużyny przeciwnej z dala od jej posiadacza. W tym celu używa się sprzętu do gry wyściełanego pianką, znanego jako pompfen.\nThomas Schüßler, okręgowy duszpasterz młodzieży, Fürstenwalde\nKleist Forum, Raum 4c"
+        "untertitel-pl": "",
+        "content-pl": "Jugger to ekscytujący, pełen akcji sport drużynowy, w którym celem jest przechwycenie piłki meczowej i trzymanie drużyny przeciwnej z dala od jej posiadacza. W tym celu używa się sprzętu do gry wyściełanego pianką, znanego jako pompfen.\nThomas Schüßler, okręgowy duszpasterz młodzieży, Fürstenwalde",
+        "lang": []
     },
-    "65": {
+    "64": {
         "tag": 1,
         "zeit": "10.30-12.30",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4c"
         },
         "titel-pl": "Otwórz Biblię, nos do środka, serce pełne!",
-        "content-pl": "Odkrywamy teksty biblijne w formie dialogu. Podczas uwielbienia trwamy w obecności Boga. Nasze szczere troski spotykają się z biciem serca Boga. Możliwość kreatywnej modlitwy pozwala nam wspólnie rozmawiać z Bogiem.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nrównież w języku angielskim"
+        "untertitel-pl": "",
+        "content-pl": "Odkrywamy teksty biblijne w formie dialogu. Podczas uwielbienia trwamy w obecności Boga. Nasze szczere troski spotykają się z biciem serca Boga. Możliwość kreatywnej modlitwy pozwala nam wspólnie rozmawiać z Bogiem.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nrównież w języku angielskim",
+        "lang": []
     },
-    "66": {
+    "65": {
         "tag": 1,
         "zeit": "14.00-18.00",
         "location-pl": {
-            "name": "Program tematyczny w Kleist Forum",
-            "address": "Kleist Forum, Großer Saal, Platz der Einheit 1"
+            "name": "Kleist Forum, Raum 4c"
         },
         "titel-pl": "Miejsce spotkania: Livepodcast",
-        "content-pl": "Wspólnie twórzmy posty na blog, podcasty i wideo\nThomas Schüßler, okręgowy duszpasterz młodzieży, Fürstenwalde\nks. Collins Kiborek, referent ds. młodzieży, Erkner i Strausberg\nrównież w języku angielskim\nKleist Forum"
+        "untertitel-pl": "",
+        "content-pl": "Wspólnie twórzmy posty na blog, podcasty i wideo\nThomas Schüßler, okręgowy duszpasterz młodzieży, Fürstenwalde\nks. Collins Kiborek, referent ds. młodzieży, Erkner i Strausberg\nrównież w języku angielskim",
+        "lang": []
     },
-    "67": {
+    "66": {
         "tag": 1,
         "zeit": "9.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum, Darstellbar"
         },
         "titel-pl": "Kawiarenka rodzinna",
-        "content-pl": "Podaruj sobie przerwę!\nKleist Forum, Darstellbar\nPrzestrzeń dla rodziców zob.str.\nKleist Forum, parter, sala 1d"
+        "untertitel-pl": "",
+        "content-pl": "Podaruj sobie przerwę!",
+        "lang": []
+    },
+    "67": {
+        "tag": 1,
+        "zeit": "10.00-18.00",
+        "location-pl": {
+            "name": "Kleist Forum, parter, sala 1c"
+        },
+        "titel-pl": "Warsztaty: Ożywione sceny biblijne",
+        "untertitel-pl": "",
+        "content-pl": "Stwórzmy coś kreatywnego z klocków Lego! Każdy może się przyłączyć! Indywidualnie lub wspólnie zbudujemy historie biblijne, które pod postacią zdjęcia zabierzemy do domu.\nMareike Witt, Laboratorium biblijne z von Cansteinschen Bibelanstalt, Berlin",
+        "lang": []
     },
     "68": {
         "tag": 1,
         "zeit": "10.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum, Darstellbar (Kawiarenka rodzinna)"
         },
-        "titel-pl": "Warsztaty: Ożywione sceny biblijne",
-        "content-pl": "Stwórzmy coś kreatywnego z klocków Lego! Każdy może się przyłączyć! Indywidualnie lub wspólnie zbudujemy historie biblijne, które pod postacią zdjęcia zabierzemy do domu.\nMareike Witt, Laboratorium biblijne z von Cansteinschen Bibelanstalt, Berlin\nKleist Forum, parter, sala 1c"
+        "titel-pl": "Warsztaty: Zostań twórcą filmów animowanych",
+        "untertitel-pl": "",
+        "content-pl": "Stwórz swój własny klip biblijny!\nPedagodzy z okręgu kościelnego Oderland-Spree",
+        "lang": []
     },
     "69": {
         "tag": 1,
         "zeit": "10.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum, parter, Sala konferencyjna 1a"
         },
-        "titel-pl": "Warsztaty: Zostań twórcą filmów animowanych",
-        "content-pl": "Stwórz swój własny klip biblijny!\nPedagodzy z okręgu kościelnego Oderland-Spree\nKleist Forum, Darstellbar (Kawiarenka rodzinna)"
+        "titel-pl": "Warsztaty: Biblia + Minecraft = <3",
+        "untertitel-pl": "",
+        "content-pl": "Wspólnie zbudujemy tekst biblijny w grze Minecraft, od 7 roku życia\nLaboratorium biblijne von Cansteinsche Bibelanstalt, Berlin",
+        "lang": []
     },
     "70": {
         "tag": 1,
         "zeit": "10.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Laboratorium biblijne von Cansteinsche Bibelanstalt, Berlin"
         },
-        "titel-pl": "Warsztaty: Biblia + Minecraft = <3",
-        "content-pl": "Wspólnie zbudujemy tekst biblijny w grze Minecraft, od 7 roku życia\nLaboratorium biblijne von Cansteinsche Bibelanstalt, Berlin\nKleist Forum, parter, Sala konferencyjna 1a"
+        "titel-pl": "Poznaj Biblie dla dzieci z różnych krajów",
+        "untertitel-pl": "",
+        "content-pl": "Przeglądaj, odpoczywaj, odkrywaj! Biblie dla dzieci w różnych językach zapraszają do ich odkrywania.",
+        "lang": []
     },
     "71": {
         "tag": 1,
         "zeit": "10.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum, Galeria"
         },
-        "titel-pl": "Poznaj Biblie dla dzieci z różnych krajów",
-        "content-pl": "Przeglądaj, odpoczywaj, odkrywaj! Biblie dla dzieci w różnych językach zapraszają do ich odkrywania.\nLaboratorium biblijne von Cansteinsche Bibelanstalt, Berlin"
+        "titel-pl": "Zapraszamy do międzynarodowej sali lekcyjnej",
+        "untertitel-pl": "",
+        "content-pl": "Ciekawi Cię, jak żyją dzieci w sąsiednich krajach? Przyjdź i przejrzyj tornistry z sześciu różnych krajów. Jakie przybory szkolne, pluszaki, książki i ulubione kolory mają uczniowie w sąsiadujących krajach? Wystawę możesz uzupełnić arkuszami informacyjnymi.",
+        "lang": []
     },
     "72": {
         "tag": 1,
-        "zeit": "10.00-18.00",
+        "zeit": "10.00-12.00 oraz 13.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum,parter, Sala konferencyjna 1b"
         },
-        "titel-pl": "Zapraszamy do międzynarodowej sali lekcyjnej",
-        "content-pl": "Ciekawi Cię, jak żyją dzieci w sąsiednich krajach? Przyjdź i przejrzyj tornistry z sześciu różnych krajów. Jakie przybory szkolne, pluszaki, książki i ulubione kolory mają uczniowie w sąsiadujących krajach? Wystawę możesz uzupełnić arkuszami informacyjnymi.\nKleist Forum, Galeria"
+        "titel-pl": "Namalujmy książkę o stworzeniu świata",
+        "untertitel-pl": "",
+        "content-pl": "Jak Żydzi, Muzułmanie i Chrześcijanie mówią o stworzeniu świata? Rano usłyszymy historię stworzenia, a w porze lunchu dzieci będą mogły rysować obrazki, aby stworzyć książkę obrazkową o stworzeniu świata. Dla dzieci w wieku od 6 do 12 lat.\nProwadząca: Carmen Khan, Berlin",
+        "lang": []
     },
     "73": {
         "tag": 1,
-        "zeit": "10.00-12.00 oraz 13.00-18.00",
+        "zeit": "14.00-15.00 oraz 16.30-17.30",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kleist Forum, Großer Saal"
         },
-        "titel-pl": "Namalujmy książkę o stworzeniu świata",
-        "content-pl": "Jak Żydzi, Muzułmanie i Chrześcijanie mówią o stworzeniu świata? Rano usłyszymy historię stworzenia, a w porze lunchu dzieci będą mogły rysować obrazki, aby stworzyć książkę obrazkową o stworzeniu świata. Dla dzieci w wieku od 6 do 12 lat.\nProwadząca: Carmen Khan, Berlin\nKleist Forum,parter, Sala konferencyjna 1b"
+        "titel-pl": "Distelkinder",
+        "untertitel-pl": "Musical autorstwa Henrike Thies-Gebauer",
+        "content-pl": "Historia Johanna Hinricha Wicherna i Amandy Böhme: z wielką energią i dobroczynnością pracowali na rzecz dzieci znajdujących się w trudnej sytuacji społecznej. Wichern założył dla nich \"Rauhe Haus\" w Hamburgu i wynalazł dla swoich podopiecznych wieniec adwentowy.\nKurrende und Kinder- und Jugendkantorei Frankfurt, Frankfurt nad Odrą\nReżyseria i muzyka: Heike Hardt, Peggy Einenkel, Hildegard Anlauff,Frankfurt nad Odrą",
+        "lang": []
     },
     "74": {
         "tag": 1,
-        "zeit": "14.00-15.00 oraz 16.30-17.30",
+        "zeit": "10.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Wokół Kleist Forum, Lennépark, Marktplatz, Brunnenplatz"
         },
-        "titel-pl": "Distelkinder\nMusical autorstwa Henrike Thies-Gebauer",
-        "content-pl": "Historia Johanna Hinricha Wicherna i Amandy Böhme: z wielką energią i dobroczynnością pracowali na rzecz dzieci znajdujących się w trudnej sytuacji społecznej. Wichern założył dla nich \"Rauhe Haus\" w Hamburgu i wynalazł dla swoich podopiecznych wieniec adwentowy.\nKurrende und Kinder- und Jugendkantorei Frankfurt, Frankfurt nad Odrą\nReżyseria i muzyka: Heike Hardt, Peggy Einenkel, Hildegard Anlauff,Frankfurt nad Odrą\nKleist Forum, Großer Saal\nProgram open-air dla dzieci i młodzieży"
+        "titel-pl": "Aktywności dla dzieci (... i wszystkich innych)",
+        "untertitel-pl": "",
+        "content-pl": "Każdy może być aktywny: na torze dla wózków inwalidzkich, w mobilnym centrum młodzieżowym \"Niebieski autobus\", na warsztatach graffiti, podczas gry w piłkarzyki, na pikniku w Lennépark, na zlocie dmuchanych piłek, na wyścigu bobby carów, balansując w cukierkowej kuli, grając w bubble ball i piłkarskie rzutki. Oferujemy dzieciom, rodzinom, młodym i starszym aktywne i kreatywne spędzanie czasu, inspirowanie się, obserwowanie, relaksowanie i piknikowanie. Zrelaksujcie się w rodzinnej oazie, bawcie się na huśtawce i gigantycznym globusie, dmuchajcie bańki i dziergajcie. Przystrójcie się w własnoręcznie uplecione wianki, przebierajcie się i róbcie zdjęcia, muzykujcie.\nPedagodzy i wolontariusze z okręgów kościelnych Oderland-Spree, Barnim i Berlin Nordost, CVJM Frankfurt (Oder), VCP Strausberg i Wriezen, Korczak Schule Fürstenwalde oraz gościnnie pedagodzy z Polski, Czech i Węgier.",
+        "lang": []
     },
     "75": {
         "tag": 1,
-        "zeit": "10.00-18.00",
+        "zeit": "10.30-12.00 oraz 14.00-15.30",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Miejsce zbiórki: wejście do Kleist Forum"
         },
-        "titel-pl": "Aktywności dla dzieci (... i wszystkich innych)",
-        "content-pl": "Każdy może być aktywny: na torze dla wózków inwalidzkich, w mobilnym centrum młodzieżowym \"Niebieski autobus\", na warsztatach graffiti, podczas gry w piłkarzyki, na pikniku w Lennépark, na zlocie dmuchanych piłek, na wyścigu bobby carów, balansując w cukierkowej kuli, grając w bubble ball i piłkarskie rzutki. Oferujemy dzieciom, rodzinom, młodym i starszym aktywne i kreatywne spędzanie czasu, inspirowanie się, obserwowanie, relaksowanie i piknikowanie. Zrelaksujcie się w rodzinnej oazie, bawcie się na huśtawce i gigantycznym globusie, dmuchajcie bańki i dziergajcie. Przystrójcie się w własnoręcznie uplecione wianki, przebierajcie się i róbcie zdjęcia, muzykujcie.\nPedagodzy i wolontariusze z okręgów kościelnych Oderland-Spree, Barnim i Berlin Nordost, CVJM Frankfurt (Oder), VCP Strausberg i Wriezen, Korczak Schule Fürstenwalde oraz gościnnie pedagodzy z Polski, Czech i Węgier.\nWokół Kleist Forum, Lennépark, Marktplatz, Brunnenplatz"
+        "titel-pl": "Słownik uliczny na chodnikach",
+        "untertitel-pl": "Akcja z farbami, pędzlami i szablonami na ulicach Frankfurtu i Słubic",
+        "content-pl": "Wiosną 2022 r. dwujęzyczny słownik stał się słownikiem trójjęzycznym, do którego dodano również język ukraińskich uchodźców wojennych. Sprawdźmy, jakie języki zostaną dodane do słownika w 2024 roku? Nie tylko dla młodych ludzi!\nRené Pachmann, Duszpasterz uniwersytecki, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą",
+        "lang": []
     },
     "76": {
         "tag": 1,
-        "zeit": "10.30-12.00 oraz 14.00-15.30",
+        "zeit": "14.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "MKH 13, Karl-Marx-Straße 13"
         },
-        "titel-pl": "Słownik uliczny na chodnikach\nAkcja z farbami, pędzlami i szablonami na ulicach Frankfurtu i Słubic",
-        "content-pl": "Wiosną 2022 r. dwujęzyczny słownik stał się słownikiem trójjęzycznym, do którego dodano również język ukraińskich uchodźców wojennych. Sprawdźmy, jakie języki zostaną dodane do słownika w 2024 roku? Nie tylko dla młodych ludzi!\nRené Pachmann, Duszpasterz uniwersytecki, Uniwersytet Europejski Viadrina, Frankfurt nad Odrą\nMiejsce zbiórki: wejście do Kleist Forum"
+        "titel-pl": "Przekraczanie granic ze sztuką",
+        "untertitel-pl": "Wystawa uliczna o granicach, połączeniach i kontaktach",
+        "content-pl": "Młodzi ludzie skupieni wokół artysty Iluscha (16) zapraszają do odwiedzenia wystawy w centrum miasta. Wycieczka rozpoczyna się w Kunsthalle MKH13. Stamtąd niewielki szlak sztuki prowadzi do kościoła św. Gertraudy. Wyposażeni w artystyczną mapę miasta rozpoczynamy zwiedzanie. Każdy ma tyle czasu, ile chce.\nIlusch, artysta, Frankfurt nad Odrą\nks. Susanne Noack, Frankfurt nad Odrą",
+        "lang": []
     },
     "77": {
         "tag": 1,
-        "zeit": "14.00-18.00",
+        "zeit": "16.00-18.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Lennépark, łączka przy placu zabaw dla dzieci"
         },
-        "titel-pl": "Przekraczanie granic ze sztuką\nWystawa uliczna o granicach, połączeniach i kontaktach",
-        "content-pl": "Młodzi ludzie skupieni wokół artysty Iluscha (16) zapraszają do odwiedzenia wystawy w centrum miasta. Wycieczka rozpoczyna się w Kunsthalle MKH13. Stamtąd niewielki szlak sztuki prowadzi do kościoła św. Gertraudy. Wyposażeni w artystyczną mapę miasta rozpoczynamy zwiedzanie. Każdy ma tyle czasu, ile chce.\nIlusch, artysta, Frankfurt nad Odrą\nks. Susanne Noack, Frankfurt nad Odrą\nMKH 13, Karl-Marx-Straße 13"
+        "titel-pl": "Together beneath the sky",
+        "untertitel-pl": "Przygody grupowe w plenerze",
+        "content-pl": "Razem doświadczamy tego, czego nikt nie może osiągnąć w pojedynkę! Grając w gry i zabawy w dużych grupach, doświadczamy siły MY.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nrównież w języku angielskim",
+        "lang": []
     },
     "78": {
         "tag": 1,
-        "zeit": "16.00-18.00",
+        "zeit": "10.30-12.00",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kościół Pokoju, Schulstraße 4A",
+            "bezeichnung": "Centrum Różnorodności w Pokoju"
         },
-        "titel-pl": "Together beneath the sky\nPrzygody grupowe w plenerze",
-        "content-pl": "Razem doświadczamy tego, czego nikt nie może osiągnąć w pojedynkę! Grając w gry i zabawy w dużych grupach, doświadczamy siły MY.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nLennépark, łączka przy placu zabaw dla dzieci\nrównież w języku angielskim\nInterakcja i informacje: Kto pyta, staje się bardziej mobilny w Biblii  zob.str.\nTargi Możliwości, Marktplatz\nOdetchnijmy głęboko razem z Bogiem na świeżym powietrzu zob.str."
+        "titel-pl": "Kicsi Macska",
+        "untertitel-pl": "Mołdawsko-węgierskie utwory taneczne",
+        "content-pl": "Zespół \"Kicsi Macska\" (Mały Kot) został założony latem 2022 roku. Nawet bez doświadczenia z tańcem ludowym można nauczyć się podstawowych kroków.\nKicsi Macska, Komárno/Słowacja\nProwadząca: Anna Gyurgyík, Komárno/Słowacja",
+        "lang": []
     },
     "79": {
         "tag": 1,
-        "zeit": "12.30-13.30",
+        "zeit": "12.00-12.15",
         "location-pl": {
-            "name": "Centrum Dzieci i Rodziny",
-            "address": "Kleist Forum"
+            "name": "Kościół Pokoju, Schulstraße 4A",
+            "bezeichnung": "Centrum Różnorodności w Pokoju"
         },
-        "titel-pl": "Nabożeństwo dla rodzin",
-        "content-pl": "Półwysep Ziegenwerder, ognisko za placem zabaw na wyspie\nKościół Pokoju, Schulstraße 4A\nDialogowe rozważania biblijne w języku niemieckim zob.str."
+        "titel-pl": "Modlitwa w języku węgierskim",
+        "untertitel-pl": "",
+        "content-pl": "bp Róbert Géresi, Komárno/Słowacja\nMuzyka: LKMD Kinga Süll, Komárno/Słowacja",
+        "lang": []
     },
     "80": {
         "tag": 1,
-        "zeit": "10.30-12.00",
+        "zeit": "16.30-18.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Pokoju, Schulstraße 4A",
+            "bezeichnung": "Centrum Różnorodności w Pokoju"
         },
-        "titel-pl": "Kicsi Macska\nMołdawsko-węgierskie utwory taneczne",
-        "content-pl": "Zespół \"Kicsi Macska\" (Mały Kot) został założony latem 2022 roku. Nawet bez doświadczenia z tańcem ludowym można nauczyć się podstawowych kroków.\nKicsi Macska, Komárno/Słowacja\nProwadząca: Anna Gyurgyík, Komárno/Słowacja"
+        "titel-pl": "Czym jest pokój?",
+        "untertitel-pl": "Sprawiedliwość i pokój w obliczu wojny",
+        "content-pl": "Koncepcja pokoju jest tak różnorodna jak my, ludzie. Co oznacza pokój dla każdego z nas? Co nas łączy? Co możemy zrobić razem, aby uczynić świat bardziej pokojowym miejscem?\nJens Lattke, Komisarz ds. Pokoju Kościoła Ewangelickiego w Środkowych Niemczech, Magdeburg\nEva Balcarová, Ewangelicki Kościół Braci Czeskich, Praga\nWykład w EN, warsztaty w EN, DE, CS, PL",
+        "lang": []
     },
     "81": {
         "tag": 1,
-        "zeit": "12.00-12.15",
-        "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
-        },
-        "titel-pl": "Modlitwa w języku węgierskim",
-        "content-pl": "bp Róbert Géresi, Komárno/Słowacja\nMuzyka: LKMD Kinga Süll, Komárno/Słowacja"
-    },
-    "82": {
-        "tag": 1,
-        "zeit": "16.30-18.00",
-        "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
-        },
-        "titel-pl": "Czym jest pokój?\nSprawiedliwość i pokój w obliczu wojny",
-        "content-pl": "Koncepcja pokoju jest tak różnorodna jak my, ludzie. Co oznacza pokój dla każdego z nas? Co nas łączy? Co możemy zrobić razem, aby uczynić świat bardziej pokojowym miejscem?\nJens Lattke, Komisarz ds. Pokoju Kościoła Ewangelickiego w Środkowych Niemczech, Magdeburg\nEva Balcarová, Ewangelicki Kościół Braci Czeskich, Praga\nWykład w EN, warsztaty w EN, DE, CS, PL"
-    },
-    "83": {
-        "tag": 1,
         "zeit": "20.30-22.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Pokoju, Schulstraße 4A",
+            "bezeichnung": "Centrum Różnorodności w Pokoju"
         },
-        "titel-pl": "Mały płomień to wielkie światło\nNabożeństwo Taizé",
-        "content-pl": "Pieśni śpiewane są do modlitwy i tworzą dźwiękową przestrzeń do spotkania z Bogiem. Śpiewamy na kilka głosów i w wielu językach. Pomiędzy nimi jest miejsce na ciszę, światło i tylko trochę tekstu. Zapraszamy wszystkich, którzy szukają kontemplacji i modlitwy po ekscytującym i urozmaiconym dniu.\nks. dr Helena Smolová, Th.D., Tabor/Czechy\nks. Susanne Noack, Frankfurt nad Odrą\nProwadzenie i muzyka: LKMD ks. Zdeněk Kovalčík, Zlín/Czechy\nKościół Pokoju, sala chóralna, 1. piętro",
+        "titel-pl": "Mały płomień to wielkie światło",
+        "untertitel-pl": "Nabożeństwo Taizé",
+        "content-pl": "Pieśni śpiewane są do modlitwy i tworzą dźwiękową przestrzeń do spotkania z Bogiem. Śpiewamy na kilka głosów i w wielu językach. Pomiędzy nimi jest miejsce na ciszę, światło i tylko trochę tekstu. Zapraszamy wszystkich, którzy szukają kontemplacji i modlitwy po ekscytującym i urozmaiconym dniu.\nks. dr Helena Smolová, Th.D., Tabor/Czechy\nks. Susanne Noack, Frankfurt nad Odrą\nProwadzenie i muzyka: LKMD ks. Zdeněk Kovalčík, Zlín/Czechy",
         "lang": [
             "CS",
             "PL"
         ]
     },
-    "84": {
+    "82": {
         "tag": 1,
         "zeit": "12.30-14.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Pokoju, sala chóralna, 1. piętro"
         },
-        "titel-pl": "Wiara oznacza poznawanie - Karl Barth, po prostu przeczytaj\nWarsztaty",
+        "titel-pl": "Wiara oznacza poznawanie - Karl Barth, po prostu przeczytaj",
+        "untertitel-pl": "Warsztaty",
         "content-pl": "Anna Lena Schwarz, Katedra Teologii Systemowej i Ekumenicznej, Uniwersytet w Siegen/Niemcy\nÁbel Veres, Kościół Reformowany na Węgrzech, Szigetszentmiklós/Węgry",
         "lang": [
             "HU"
         ]
     },
-    "85": {
+    "83": {
         "tag": 1,
         "zeit": "14.30-16.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Pokoju, sala chóralna, 1. piętro"
         },
-        "titel-pl": "Jak radzimy sobie z różnorodnością?\nWarsztaty z wykorzystaniem krótkich impulsów i interakcji",
+        "titel-pl": "Jak radzimy sobie z różnorodnością?",
+        "untertitel-pl": "Warsztaty z wykorzystaniem krótkich impulsów i interakcji",
         "content-pl": "Różnorodność jest cechą charakterystyczną naszego współczesnego społeczeństwa. Różne tradycje, opinie i wizje przyszłości ścierają się w Kościele, a także w życiu publicznym i polityce. Każdy nowy rozwój przynosi nowe konflikty. Jak możemy radzić sobie z różnicami, konstruktywnie rozwiązywać konflikty i tworzyć wspólnotę?\nJak przedstawiane są kontrowersje? Dóra Laborczi, dziennikarka, Szentendre/Węgry\nJak przebiega mediacja? dr Joanna Koleff-Pracka, mediator, Warszawa\nEdukacja zamiast walki - reakcje Kościoła na prawicowy ekstremizm: Harald Lamprecht, pełnomocnik ds. światopoglądowych i sekt, Drezno\nDemokracja i Kościół - wnioski z procesu badawczego Wspólnoty Kościołów Ewangelickich w Europie: Raphael Quandt, referent ds. ekumenizmu i Europy Środkowo-Wschodniej, Monachium\nModeracja: Oliver Engelhardt, Wiedeń",
         "lang": [
             "EN"
         ]
     },
-    "86": {
+    "84": {
         "tag": 1,
         "zeit": "16.30-18.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Pokoju, sala chóralna, 1. piętro"
         },
         "titel-pl": "Ochrona uchodźców w Europie wymaga współpracy i sieci kościelnych",
-        "content-pl": "Podczas tego warsztatu przyjrzymy się różnym strategiom Kościoła i społeczeństwa obywatelskiego na rzecz ochrony uchodźców w obliczu nasilającej się debaty skierowanej przeciwko osobom ubiegającym się o azyl.\nks. em. Bernhard Fricke, Azyl Kościoła Berlin-Brandenburg, Berlin\nks. Christiane Schulz, Neuruppin\nMagda Aida Qandil, niemiecko-polski projekt dla uchodźców, Poczdam"
+        "untertitel-pl": "",
+        "content-pl": "Podczas tego warsztatu przyjrzymy się różnym strategiom Kościoła i społeczeństwa obywatelskiego na rzecz ochrony uchodźców w obliczu nasilającej się debaty skierowanej przeciwko osobom ubiegającym się o azyl.\nks. em. Bernhard Fricke, Azyl Kościoła Berlin-Brandenburg, Berlin\nks. Christiane Schulz, Neuruppin\nMagda Aida Qandil, niemiecko-polski projekt dla uchodźców, Poczdam",
+        "lang": []
     },
-    "87": {
+    "85": {
         "tag": 1,
         "zeit": "19.45-21.00",
         "location-pl": {
-            "name": "Centrum Różnorodności w Pokoju",
-            "address": "Kościół Pokoju, Schulstraße 4A"
+            "name": "Kościół Świętego Krzyża (Heilig-Kreuz-Kirche), Franz-Mehring-Straße 4"
         },
         "titel-pl": "Wręczenie Nagrody im. Karla Bartha przyznawanej przez Unię Kościołów Ewangelickich (UEK) w Kościele Ewangelickim w Niemczech (EKD)",
-        "content-pl": "W 2024 r. Unia Kościołów Ewangelickich uhonoruje pełne dzieło teologiczne Sándora Fazakasa, które opiera się na myśli Karla Bartha i opowiada się za głębokim zrozumieniem i pojednaniem w Europie. Ceremonia wręczenia nagród jest otwarta dla publiczności.\nprof. dr. dr h.c. Sándor Fazakas, Profesor etyki społecznej na Reformowanym Uniwersytecie Teologicznym, Debreczyn/Węgry\ndr. dr. h.c. Volker Jung, przewodniczący UEK i prezydent Kościoła, Hannover\nprof. em. dr. dr h.c. Michael Beintker, Laudator, Universität Münster\nKościół Świętego Krzyża (Heilig-Kreuz-Kirche), Franz-Mehring-Straße 4\nKościół Mariacki"
+        "untertitel-pl": "",
+        "content-pl": "W 2024 r. Unia Kościołów Ewangelickich uhonoruje pełne dzieło teologiczne Sándora Fazakasa, które opiera się na myśli Karla Bartha i opowiada się za głębokim zrozumieniem i pojednaniem w Europie. Ceremonia wręczenia nagród jest otwarta dla publiczności.\nprof. dr. dr h.c. Sándor Fazakas, Profesor etyki społecznej na Reformowanym Uniwersytecie Teologicznym, Debreczyn/Węgry\ndr. dr. h.c. Volker Jung, przewodniczący UEK i prezydent Kościoła, Hannover\nprof. em. dr. dr h.c. Michael Beintker, Laudator, Universität Münster",
+        "lang": []
     },
-    "88": {
+    "86": {
         "tag": 1,
         "zeit": "12.00-12.15",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
         "titel-pl": "Modlitwa w języku czeskim",
-        "content-pl": "Liturgia: Prezes Synodu Pavel Pokorný, Praga\nMuzyka: ECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Chvalčov/Czechy"
+        "untertitel-pl": "",
+        "content-pl": "Liturgia: Prezes Synodu Pavel Pokorný, Praga\nMuzyka: ECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Chvalčov/Czechy",
+        "lang": []
     },
-    "89": {
+    "87": {
         "tag": 1,
         "zeit": "12.15-13.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
-        "titel-pl": "Koncert z udziałem Berliner Staats- und Domchor\nPsalmy F. Mendelssohna, L. Lewandowskiego i in.",
-        "content-pl": "Staats- und Domchor Berlin, Chór Chłopięcy Berlińskiego Uniwersytetu Sztuk Pięknych, dyrygent: Kai-Uwe Jirka, Berlin\nModeracja: ks. em. dr Justus Werdin, Frankfurt nad Odrą"
+        "titel-pl": "Koncert z udziałem Berliner Staats- und Domchor",
+        "untertitel-pl": "Psalmy F. Mendelssohna, L. Lewandowskiego i in.",
+        "content-pl": "Staats- und Domchor Berlin, Chór Chłopięcy Berlińskiego Uniwersytetu Sztuk Pięknych, dyrygent: Kai-Uwe Jirka, Berlin\nModeracja: ks. em. dr Justus Werdin, Frankfurt nad Odrą",
+        "lang": []
     },
-    "90": {
+    "88": {
         "tag": 1,
         "zeit": "14.00-16.30",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
-        "titel-pl": "“Okno na chór „Stowarzyszenia Chórów Kościoła Ewangelickiego Berlina, Brandenburgii i śląskich Górnych Łużyc\nŚpiewy chóralne i Small Talk z chórzystami",
-        "content-pl": "Chóry uczestniczące w festiwalu oraz chóry gościnne z sąsiednich krajów wykonują swoje własne kwadransowe programy. Program \"Open Singing\" stanowi dopełnienie popołudnia.\nECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Chvalčov/Czechy\nChór Návsí (Jablunkov), Śląski Kościół Ewangelicki Augsburskiego Wyznania,dyrygent: ks. Roman Raszka, Návsí/Czechy\nPax et Bonum, dyrygent: Boldizsár Kiss, Budapeszt\nJugendchor Reutlingen, dyrygent: Michaela Frind, Reutlingen\nGospelchor Heavenly Voices, dyrygent: Holger Pätzeldt, Frankfurt nad Odrą\nKonzert Kantorei Templin, dyrygent: Helge Pfläging, Templin\nMoabiter Kinder- und Jugendkantorei, dyrygent: Almut Stümke, Berlin\nModeracja: dr Antje Ruhbaum, Berlin"
+        "titel-pl": "“Okno na chór „Stowarzyszenia Chórów Kościoła Ewangelickiego Berlina, Brandenburgii i śląskich Górnych Łużyc",
+        "untertitel-pl": "Śpiewy chóralne i Small Talk z chórzystami",
+        "content-pl": "Chóry uczestniczące w festiwalu oraz chóry gościnne z sąsiednich krajów wykonują swoje własne kwadransowe programy. Program \"Open Singing\" stanowi dopełnienie popołudnia.\nECHO Zlín, dyrygent: LKMD Ladislav Moravetz, Chvalčov/Czechy\nChór Návsí (Jablunkov), Śląski Kościół Ewangelicki Augsburskiego Wyznania,dyrygent: ks. Roman Raszka, Návsí/Czechy\nPax et Bonum, dyrygent: Boldizsár Kiss, Budapeszt\nJugendchor Reutlingen, dyrygent: Michaela Frind, Reutlingen\nGospelchor Heavenly Voices, dyrygent: Holger Pätzeldt, Frankfurt nad Odrą\nKonzert Kantorei Templin, dyrygent: Helge Pfläging, Templin\nMoabiter Kinder- und Jugendkantorei, dyrygent: Almut Stümke, Berlin\nModeracja: dr Antje Ruhbaum, Berlin",
+        "lang": []
     },
-    "91": {
+    "89": {
         "tag": 1,
         "zeit": "17.00-18.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
-        "titel-pl": "Wspólne śpiewanie z 250 uczestnikami\nKoncert chóru symfonicznego",
-        "content-pl": "César Franck \"Psalm 150\", Felix Mendelssohn \"Psalm 42\" (chór otwierający i zamykający), Andreas Schmittberger \"Missa Kwela\" (wybrane części), Georg Friedrich Händel \"Halleluja\" (z filmu Mesjasz)\nChór projektu SCh i Polsko-Niemiecka Orkiestra Młodzieżowa, Frankfurt nad Odrą\nDyrygenci:\nMatthias Alward, Beeskow\nHelge Pfläging, Templin\nLandessingwartin Almut Stümke, Berlin"
+        "titel-pl": "Wspólne śpiewanie z 250 uczestnikami",
+        "untertitel-pl": "Koncert chóru symfonicznego",
+        "content-pl": "César Franck \"Psalm 150\", Felix Mendelssohn \"Psalm 42\" (chór otwierający i zamykający), Andreas Schmittberger \"Missa Kwela\" (wybrane części), Georg Friedrich Händel \"Halleluja\" (z filmu Mesjasz)\nChór projektu SCh i Polsko-Niemiecka Orkiestra Młodzieżowa, Frankfurt nad Odrą\nDyrygenci:\nMatthias Alward, Beeskow\nHelge Pfläging, Templin\nLandessingwartin Almut Stümke, Berlin",
+        "lang": []
     },
-    "92": {
+    "90": {
         "tag": 1,
         "zeit": "19.30-20.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
         "titel-pl": "Muzyka instrumentów dętych z Czech",
-        "content-pl": "Kwartet dęty, Oldřichovice/Czechy"
+        "untertitel-pl": "",
+        "content-pl": "Kwartet dęty, Oldřichovice/Czechy",
+        "lang": []
     },
-    "93": {
+    "91": {
         "tag": 1,
         "zeit": "20.00-21.45",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
         },
-        "titel-pl": "Wyciszenie i medytacja przy świecach\nWieczorna modlitwa w języku słowackim i niemieckim",
-        "content-pl": "Muzyka: Ján Hegeduš, Zvolen/Słowacja\nPrzewodnictwo: bp Ján Hroboň, Zvolen/Słowacja i ks. prałat Gabriele Wulz, Ulm\nKościół św. Gertrudy\nDialogowe rozważania biblijne zob. str."
+        "titel-pl": "Wyciszenie i medytacja przy świecach",
+        "untertitel-pl": "",
+        "content-pl": "",
+        "lang": []
+    },
+    "92": {
+        "tag": 1,
+        "zeit": "21.45-22.00",
+        "location-pl": {
+            "name": "Kościół Mariacki",
+            "bezeichnung": "Centrum Muzyki"
+        },
+        "titel-pl": "Wieczorna modlitwa w języku słowackim i niemieckim",
+        "untertitel-pl": "",
+        "content-pl": "Muzyka: Ján Hegeduš, Zvolen/Słowacja\nPrzewodnictwo: bp Ján Hroboň, Zvolen/Słowacja i ks. prałat Gabriele Wulz, Ulm",
+        "lang": []
+    },
+    "93": {
+        "tag": 1,
+        "zeit": "12.00-12.15",
+        "location-pl": {
+            "name": "Kościół św. Gertrudy"
+        },
+        "titel-pl": "Modlitwa w języku słowackim i niemieckim",
+        "untertitel-pl": "",
+        "content-pl": "Muzyka: Ján Hegeduš, Zvolen/Słowacja\nPrzewodniczy: biskup generalny Ivan Eľko, Bratysława i biskup regionalna dr Friederike Spengler, Erfurt",
+        "lang": []
     },
     "94": {
         "tag": 1,
-        "zeit": "12.00-12.15",
+        "zeit": "14.00-21.45",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół św. Gertrudy"
         },
-        "titel-pl": "Modlitwa w języku słowackim i niemieckim",
-        "content-pl": "Muzyka: Ján Hegeduš, Zvolen/Słowacja\nPrzewodniczy: biskup generalny Ivan Eľko, Bratysława i biskup regionalna dr Friederike Spengler, Erfurt"
+        "titel-pl": "Maraton organowy",
+        "untertitel-pl": "Koncert organistów z Niemiec, Polski, Czech, Słowacji i Węgier",
+        "content-pl": "14 Miroslav Misár, Opava/Czechy\n14.35 Duo ZAZA: Philipp Standera (organy), Cottbus i Florian Palowski (saksofon), Berlin\n15.10 Lukáš Rýdlo, Brno/Czechy\n15.45 dr Gunter Kennel, LKMD, Berlin\n16.20 Rudite Livmane, Berlin\n166.55 Kateřina Michlová (organy) i Lukáš Michel (fortepian), Karwina/Czechy\n17.30 Ester Moravetzová i Matyáš Moravetz, Kroměříž, Czechy\n19.15 Martin Schulze, Frankfurt nad Odrą\n19.50 Ján Hegeduš, Zvolen/Słowacja\n20.35 Florian Mauersberger, Drezno\n21.10 Adam Zaleski, Lublin\n21.45 Dr Gergely Finta, Budapeszt\nModeracja: Christian Scheffler i Martin Schulze, Frankfurt nad Odrą",
+        "lang": []
     },
     "95": {
         "tag": 1,
-        "zeit": "14.00-21.45",
+        "zeit": "22.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kościół św. Gertrudy"
         },
-        "titel-pl": "Maraton organowy\nKoncert organistów z Niemiec, Polski, Czech, Słowacji i Węgier ",
-        "content-pl": "Moderacja: Christian Scheffler i Martin Schulze, Frankfurt nad Odrą"
+        "titel-pl": "Wieczorna modlitwa w języku węgierskim",
+        "untertitel-pl": "",
+        "content-pl": "ks. dr András Szabó, Budapeszt\nMuzyka: dr Gergely Finta, Budapeszt",
+        "lang": []
     },
     "96": {
         "tag": 1,
-        "zeit": "22.00",
+        "zeit": "9.00-12.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Wichern-Diakonie - Luisenstraße 21-24, Netzwerkbüro - Marktplatz 4",
+            "bezeichnung": "Centrum Diakonii"
         },
-        "titel-pl": "Wieczorna modlitwa w języku węgierskim",
-        "content-pl": "ks. dr András Szabó, Budapeszt\nMuzyka: dr Gergely Finta, Budapeszt"
+        "titel-pl": "Serdecznie witamy!",
+        "untertitel-pl": "Café Luise jest otwarte",
+        "content-pl": "",
+        "lang": []
     },
     "97": {
         "tag": 1,
-        "zeit": "22.00",
+        "zeit": "10.00-11.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kaplica, Luisenstraße 21-24"
         },
-        "titel-pl": "Centrum Diakonii",
-        "content-pl": "Wichern-Diakonie - Luisenstraße 21-24, Netzwerkbüro - Marktplatz 4"
+        "titel-pl": "Z pasją!",
+        "untertitel-pl": "Teatr inkluzywny",
+        "content-pl": "Mieszkańcy Wichern Diakonie & Wichern Band, Frankfurt nad Odrą",
+        "lang": []
     },
     "98": {
         "tag": 1,
-        "zeit": "9.00-12.00",
+        "zeit": "11.00-12.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kaplica, Luisenstraße 21-24"
         },
-        "titel-pl": "Serdecznie witamy!\nCafé Luise jest otwarte",
-        "content-pl": "Poranna modlitwa zob.str. (Poranne nabożeństwo w Ogrodzie Biblijnym)"
+        "titel-pl": "Koncert",
+        "untertitel-pl": "",
+        "content-pl": "Zespół instrumentów dętych blaszanych \"Blechapostel\", pod dyrekcją Christiana Syperka, Poczdam",
+        "lang": []
     },
     "99": {
         "tag": 1,
-        "zeit": "10.00-11.00",
+        "zeit": "12.00-12.15",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Kaplica, Luisenstraße 21-24"
         },
-        "titel-pl": "Z pasją!\nTeatr inkluzywny",
-        "content-pl": "Mieszkańcy Wichern Diakonie & Wichern Band, Frankfurt nad Odrą\nKaplica, Luisenstraße 21-24"
+        "titel-pl": "Modlitwa południowa w języku niemieckim",
+        "untertitel-pl": "",
+        "content-pl": "Gabriele Floßmann, przewodnicząca Diakonii Wichern, Frankfurt nad Odrą\nMuzyka: Zespół dęty \"Blechapostel\" pod dyrekcją Christiana Syperka, Poczdam",
+        "lang": []
     },
     "100": {
         "tag": 1,
-        "zeit": "11.00-12.00",
+        "zeit": "10.00-17.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Netzwerkbüro, Marktplatz 4"
         },
-        "titel-pl": "Koncert",
-        "content-pl": "Zespół instrumentów dętych blaszanych \"Blechapostel\", pod dyrekcją Christiana Syperka, Poczdam\nKaplica, Luisenstraße 21-24"
+        "titel-pl": "Informacje i działania w i wokół sieci placówek Diakonii Wichern",
+        "untertitel-pl": "",
+        "content-pl": "Stoiska informacyjne, otwarte progi kawiarni diakonijnej z kulinarnymi przysmakami oraz przyjemną przestrzenią spotkania, występy zespołu Wichern, stoisko sprzedaży rękodzieł powstałych podczas warsztatów, spacery po okolicy – tak Diakonia Wichern zaprezentuje swoją wielopłaszczyznową działalność.Więcej informacji można znaleźć na stronie projektu \"Transgraniczna opieka zdrowotna na przykładzie Fundacji Naemi Wilke\".\nTransport autobusowy do warsztatów Gronefeld, miejsce spotkania przy stoisku o godz. 9.30, 11.00, 13.00, 14.30.",
+        "lang": []
     },
     "101": {
         "tag": 1,
-        "zeit": "12.00-12.15",
+        "zeit": "9.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Evangelische Schule, Luisenstraße 25D",
+            "bezeichnung": "Centrum Edukacji"
         },
-        "titel-pl": "Modlitwa południowa w języku niemieckim",
-        "content-pl": "Gabriele Floßmann, przewodnicząca Diakonii Wichern, Frankfurt nad Odrą\nMuzyka: Zespół dęty \"Blechapostel\" pod dyrekcją Christiana Syperka, Poczdam\nKaplica, Luisenstraße 21-24"
+        "titel-pl": "Poranna modlitwa",
+        "untertitel-pl": "",
+        "content-pl": "Ogród biblijny Ewangelickiej Szkoły Podstawowej, Frankfurt nad Odrą",
+        "lang": []
     },
     "102": {
         "tag": 1,
-        "zeit": "10.00-17.00",
+        "zeit": "10.00-12.00",
         "location-pl": {
-            "name": "Centrum Muzyki",
-            "address": "Kościół Mariacki"
+            "name": "Evangelische Schule, Luisenstraße 25D",
+            "bezeichnung": "Centrum Edukacji"
         },
-        "titel-pl": "Informacje i działania w i wokół sieci placówek Diakonii Wichern",
-        "content-pl": "Stoiska informacyjne, otwarte progi kawiarni diakonijnej z kulinarnymi przysmakami oraz przyjemną przestrzenią spotkania, występy zespołu Wichern, stoisko sprzedaży rękodzieł powstałych podczas warsztatów, spacery po okolicy – tak Diakonia Wichern zaprezentuje swoją wielopłaszczyznową działalność.Więcej informacji można znaleźć na stronie projektu \"Transgraniczna opieka zdrowotna na przykładzie Fundacji Naemi Wilke\".\nTransport autobusowy do warsztatów Gronefeld, miejsce spotkania przy stoisku o godz. 9.30, 11.00, 13.00, 14.30.\nNetzwerkbüro, Marktplatz 4\nEvangelische Schule, Luisenstraße 25D"
+        "titel-pl": "Szkoły ewangelickie = centra nauki chrześcijańskiej odpowiedzialności za świat\nDlaczego Kościół potrzebuje szkół ewangelickich? Dlaczego szkoły ewangelickie potrzebują Kościoła?",
+        "untertitel-pl": "",
+        "content-pl": "Szkoły prowadzone przez ewangelików są częścią misji Kościoła i tradycji Reformacji. Jak ta relacja wygląda w codziennej praktyce? Jak żyje się nam razem? Czy szkoły są przyjemnością czy ciężarem dla Kościołów?\nPrzemówienie inauguracyjne: PD dr Mónika Solymár, profesor Kirchliche Pädagogische Hochschule w Wiedniu-Krems/Austria\nWypowiedzi z kościelnej perspektywy na temat relacji między Kościołem a szkołą:\ndr Marián Damankoš, dyrektor Gimnazjum Protestanckiego, Preszów/Słowacja\nKai Gusek, przewodniczący zarządu Schulstiftung Nordkirche, Schwerin\nJudit Hallgatóné, referentka Bawarsko-Węgierskiego Partnerstwa Szkół, Győr/Węgry\nFrank Olie, Pädagogischer Vorstand Evangelische Schulstiftung, Berlin\nBurkart Pilz, Oberlandeskirchenrat , Drezno\nModeracja: Anke Adolph, Frankfurt nad Odrą, Enno Haaks, Drezno i Pascal Bullan, Berlin",
+        "lang": []
     },
     "103": {
         "tag": 1,
-        "zeit": "9.00",
-        "location-pl": {
-            "name": "Centrum Edukacji",
-            "address": "Evangelische Schule, Luisenstraße 25D"
-        },
-        "titel-pl": "Poranna modlitwa",
-        "content-pl": "Ogród biblijny Ewangelickiej Szkoły Podstawowej, Frankfurt nad Odrą"
-    },
-    "104": {
-        "tag": 1,
-        "zeit": "10.00-12.00",
-        "location-pl": {
-            "name": "Centrum Edukacji",
-            "address": "Evangelische Schule, Luisenstraße 25D"
-        },
-        "titel-pl": "Szkoły ewangelickie = centra nauki chrześcijańskiej odpowiedzialności za świat\nDlaczego Kościół potrzebuje szkół ewangelickich? Dlaczego szkoły ewangelickie potrzebują Kościoła?",
-        "content-pl": "Szkoły prowadzone przez ewangelików są częścią misji Kościoła i tradycji Reformacji. Jak ta relacja wygląda w codziennej praktyce? Jak żyje się nam razem? Czy szkoły są przyjemnością czy ciężarem dla Kościołów?\nPrzemówienie inauguracyjne: PD dr Mónika Solymár, profesor Kirchliche Pädagogische Hochschule w Wiedniu-Krems/Austria\nWypowiedzi z kościelnej perspektywy na temat relacji między Kościołem a szkołą:\ndr Marián Damankoš, dyrektor Gimnazjum Protestanckiego, Preszów/Słowacja\nKai Gusek, przewodniczący zarządu Schulstiftung Nordkirche, Schwerin\nJudit Hallgatóné, referentka Bawarsko-Węgierskiego Partnerstwa Szkół, Győr/Węgry\nFrank Olie, Pädagogischer Vorstand Evangelische Schulstiftung, Berlin\nBurkart Pilz, Oberlandeskirchenrat , Drezno\nModeracja: Anke Adolph, Frankfurt nad Odrą, Enno Haaks, Drezno i Pascal Bullan, Berlin"
-    },
-    "105": {
-        "tag": 1,
         "zeit": "12.00-12.30",
         "location-pl": {
-            "name": "Centrum Edukacji",
-            "address": "Evangelische Schule, Luisenstraße 25D"
+            "name": "Evangelische Schule, Luisenstraße 25D",
+            "bezeichnung": "Centrum Edukacji"
         },
         "titel-pl": "Spotkanie networkingowe",
-        "content-pl": "Serdeczne zapraszamy do udziału w spotkaniu przedstawicieli szkół ewangelickich z kościołów Europy Środkowo-Wschodniej.\nBrunnenplatz"
+        "untertitel-pl": "",
+        "content-pl": "Serdeczne zapraszamy do udziału w spotkaniu przedstawicieli szkół ewangelickich z kościołów Europy Środkowo-Wschodniej.",
+        "lang": []
     },
-    "106": {
+    "104": {
         "tag": 2,
         "zeit": "9.30",
         "location-pl": {
-            "name": "Scena główna",
-            "address": "Brunnenplatz"
+            "name": "Brunnenplatz",
+            "bezeichnung": "Scena główna"
         },
         "titel-pl": "Muzyka i słowa powitania",
+        "untertitel-pl": "",
         "content-pl": "Muzyka: Orkiestry dęte z Kościołów uczestniczących, pod dyrekcją Ulrike Gäbel, Frankfurt nad Odrą\nModeracja: Attila Weidemann, Berlin i ks. Dawid Mendrok, Włocławek",
         "lang": [
             "PL",
@@ -1172,14 +1274,15 @@
             "HU"
         ]
     },
-    "107": {
+    "105": {
         "tag": 2,
         "zeit": "10.00",
         "location-pl": {
-            "name": "Scena główna",
-            "address": "Brunnenplatz"
+            "name": "Brunnenplatz",
+            "bezeichnung": "Scena główna"
         },
-        "titel-pl": "Nic nas nie rozdzieli: \" Życie i śmierć\"\nNabożeństwo zamykające z Sakramentem Wieczerzy Pańskiej",
+        "titel-pl": "Nic nas nie rozdzieli: \" Życie i śmierć\"",
+        "untertitel-pl": "Nabożeństwo zamykające z Sakramentem Wieczerzy Pańskiej",
         "content-pl": "Kazanie:\nbp Pavlo Shvarts, Charków/Ukraina\nks. Marta Zachraj-Mikołajczyk, Wrocław\nLiturgia i przewodnictwo:\nbp Christian Stäblein, Berlin\nbp Jerzy Samiec, Warszawa\nbp Waldemar Pytel, Wrocław\nGeneralna Superintendent Theresa Rinecker, Görlitz\nLiturgia Wieczerzy Pańskiej: bp Sándor Zán Fábián, Berehowe/Ukraina\nCzytania i modlitwy: przedstawiciele uczestniczących Kościołów\nMuzyka:\nChóry dęte z uczestniczących Kościołów, dyrygent: Ulrike Gäbel, Frankfurt nad Odrą\nChór dziecięcy i młodzieżowy z Frankfurtu, dyrygent: Stephan Hardt, Frankfurt nad Odrą\nChór Młodzieżowy Reutlingen, dyrygent: Michaela Frind, Reutlingen",
         "lang": [
             "PL",
@@ -1188,14 +1291,28 @@
             "HU"
         ]
     },
-    "108": {
+    "106": {
         "tag": 2,
         "zeit": "11.20",
         "location-pl": {
-            "name": "Scena główna",
-            "address": "Brunnenplatz"
+            "name": "Brunnenplatz",
+            "bezeichnung": "Scena główna"
         },
         "titel-pl": "Słowo na zakończenie",
-        "content-pl": "Generalna Superintendent Theresa Rinecker, Görlitz\nbp Waldemar Pytel, Wrocław"
+        "untertitel-pl": "",
+        "content-pl": "Generalna Superintendent Theresa Rinecker, Görlitz\nbp Waldemar Pytel, Wrocław",
+        "lang": []
+    },
+    "107": {
+        "tag": 2,
+        "zeit": "11.30",
+        "location-pl": {
+            "name": "Brunnenplatz",
+            "bezeichnung": "Scena główna"
+        },
+        "titel-pl": "Śpiewajmy dalej - muzyczne echo",
+        "untertitel-pl": "",
+        "content-pl": "Dyrygent: regionalny dyrektor śpiewu Almut Stümke, Berlin",
+        "lang": []
     }
 }
