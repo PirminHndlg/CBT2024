@@ -1,17 +1,22 @@
 {
   "0": {
-    "de": "Eröffnungsgottesdienst"
+    "de": "Eröffnungsgottesdienst",
+    "cs": "Zahajovací bohoslužba"
   },
     "1": {
-        "de": "Bibelfrühstück"
+        "de": "Bibelfrühstück",
+        "cs": "Biblická snídaně"
     },
     "2": {
-        "de": "Mittagsandacht"
+        "de": "Mittagsandacht",
+        "cs": "Polední pobožnost"
     },
     "3": {
-        "de": "Abendsegen"
+        "de": "Abendsegen",
+        "cs": "Večerní požehnání"
     },
     "4": {
-        "de": "Abschlussgottesdienst"
+        "de": "Abschlussgottesdienst",
+        "cs": "Závěrečná bohoslužba"
     }
 }
