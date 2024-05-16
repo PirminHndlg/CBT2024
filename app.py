@@ -79,21 +79,21 @@ def not_found(e):
 def index(lang=None):
     lang = check_lang(lang)
 
-    my_programm_cookie = request.cookies.get('my-program')
+    # my_programm_cookie = request.cookies.get('my-program')
+    #
+    # my_programm = []
+    # more = False
+    # if my_programm_cookie:
+    #     my_programm_array = my_programm_cookie.split(',')
+    #     max_len = 3
+    #     for i in range(max_len):
+    #         if i < len(my_programm_array):
+    #             my_programm.append(get_element(int(my_programm_array[i])))
+    #     more = len(my_programm_array) > max_len
 
-    my_programm = []
-    more = False
-    if my_programm_cookie:
-        my_programm_array = my_programm_cookie.split(',')
-        max_len = 3
-        for i in range(max_len):
-            if i < len(my_programm_array):
-                my_programm.append(get_element(int(my_programm_array[i])))
-        more = len(my_programm_array) > max_len
+    my_programm_array = my_programm(lang, 3)
 
-    print(now(lang, 3))
-
-    return render_template('index.html', lang=lang, my_programm=my_programm, more=more, now=now(lang, 3))
+    return render_template('index.html', lang=lang, my_programm=my_programm_array[0], more=my_programm_array[1], now=now(lang, 3))
 
 
 @app.route('/<lang>/programm/<int:point>')
@@ -176,15 +176,21 @@ def programm(lang=None):
 @app.route('/my-program')
 @app.route('/<lang>/my-program')
 @app.route('/<lang>/my-program/')
-def my_programm(lang=None):
+def my_programm(lang=None, max=None):
     lang = check_lang(lang)
     my_programm_cookie = request.cookies.get('my-program')
 
     my_programm = {}
     if my_programm_cookie:
         my_programm_array = my_programm_cookie.split(',')
-        for i in my_programm_array:
-            my_programm[i] = get_element(int(i))
+        for i in range(len(my_programm_array)):
+            element = my_programm_array[i]
+            my_programm[element] = get_element(int(element))
+            if max and max <= i:
+                return my_programm, True
+
+    if max:
+        return my_programm, False
 
     return render_template('programm_list.html', lang=lang, headline=translate('my_program', lang), data=my_programm)
 

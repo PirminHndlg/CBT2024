@@ -24,20 +24,21 @@
     <hr>
 
     <div class="container">
-        <a href="{{ url_for('my_programm', lang=lang) }}" class="container-headline">
+        <a href="{{ url_for('my_programm', lang=lang) }}" class="a-link">
             <div class="container-inline-next">
                 <img style="width: 22px; height: auto; margin-right: 8px;"
                      src="/static/img/stern_filled.png">
                 <h2>{{ "my_program"|translate(lang) }}</h2>
             </div>
-        </a>
 
-        <div id="my_programm_div">
             {% if my_programm %}
-                {% for v in my_programm %}
+                </a>
+                <div id="my_programm_div">
+
                     <br>
+                {% for k, v in my_programm.items() %}
                     <div style="width: 100%">
-                        <a href="{{ url_for('programm_point', lang=lang, point=v['key']|to_int) }}" class="a-link">
+                        <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
                             <div class="container-inline-next" style="gap: 10px">
                                 <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
                                 <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
@@ -50,6 +51,8 @@
                             {% endif %}
                         </a>
                     </div>
+                        <hr style="margin: 10px 0">
+
                 {% endfor %}
 
                 {% if more %}
@@ -57,8 +60,14 @@
                     <a href="{{ url_for('my_programm', lang=lang) }}">{{ "more"|translate(lang) }}</a>
                 {% endif %}
 
+            {% else %}
+
+                <p>-wähle dein Programm aus-</p>
+                </a>
+
+
             {% endif %}
-        </div>
+            </div>
 
     </div>
 
