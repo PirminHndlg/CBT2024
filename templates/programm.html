@@ -200,18 +200,18 @@
                 img.src = v['my-program'] ? '/static/img/stern_filled.png' : '/static/img/stern.png';
                 div2.appendChild(img);
 
+                if (v['untertitel-' + lang]) {
+                    let h4 = document.createElement('h4');
+                    h4.innerHTML = v['untertitel-' + lang];
+                    a.appendChild(h4);
+                }
+
                 let p1 = document.createElement('p');
                 p1.className = "hidden-overflow"
                 p1.innerHTML = v['content-' + lang];
                 a.appendChild(p1);
 
                 div.appendChild(div2);
-
-                if (v['untertitel-' + lang]) {
-                    let h4 = document.createElement('h4');
-                    h4.innerHTML = v['untertitel-' + lang];
-                    a.appendChild(h4);
-                }
 
                 search_response.appendChild(div);
             }
