@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /static
-Disallow: /templates
-Sitemap: https://cbt2024.de/sitemap.xml
