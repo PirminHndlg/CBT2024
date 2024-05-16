@@ -112,7 +112,6 @@
     let default_file = '/static/img/stern.png'
 
     function change_my_programm(id, nr) {
-        console.log('click')
         let my_programm = getCookie('my-program')
         let key = nr
         let arr = my_programm.split(',')
@@ -120,7 +119,7 @@
 
         if (btn.src.endsWith(chosen_file)) {
             btn.src = default_file
-            arr.splice(arr.indexOf(key))
+            arr.splice(arr.indexOf(key), 1)
             setCookie('my-program', arr.join(','), 365)
             return
         } else {
