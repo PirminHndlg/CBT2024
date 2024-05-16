@@ -23,20 +23,15 @@
 
     <hr>
 
-    <div class="container">
-        <a href="{{ url_for('my_programm', lang=lang) }}" class="a-link">
-            <div class="container-inline-next">
-                <img style="width: 22px; height: auto; margin-right: 8px;"
-                     src="/static/img/stern_filled.png">
-                <h2>{{ "my_program"|translate(lang) }}</h2>
-            </div>
+    <a href="{{ url_for('my_programm', lang=lang) }}" class="a-link">
+        <div class="container">
+            <h2><img style="width: auto; height: 1em; margin-right: 8px; vertical-align: baseline"
+                     src="/static/img/stern_filled.png">{{ "my_program"|translate(lang) }}</h2>
 
             {% if my_programm %}
-                </a>
-                <div id="my_programm_div">
-
-                <br>
                 {% for k, v in my_programm.items() %}
+                    <hr style="margin: 10px 0">
+
                     <div style="width: 100%">
                         <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
                             <div class="container-inline-next" style="gap: 10px">
@@ -51,7 +46,6 @@
                             {% endif %}
                         </a>
                     </div>
-                    <hr style="margin: 10px 0">
 
                 {% endfor %}
 
@@ -62,44 +56,42 @@
 
             {% else %}
                 <p>-{{ "choose_my_program"|translate(lang) }} <img style="vertical-align: baseline; height: 1em"
-                                                                 src="/static/img/stern.png">-</p>
-                </a>
+                                                                   src="/static/img/stern.png">-</p>
             {% endif %}
-            </div>
+        </div>
+    </a>
 
-    </div>
 
     <a href="{{ url_for('now', lang=lang) }}" class="a-link">
         <div class="container">
             <h2>{{ "now"|translate(lang) }}</h2>
 
-            <div id="my_programm_div">
-                {% if now %}
-                    {% for k, v in now.items() %}
-                        <br>
-                        <div style="width: 100%">
-                            <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
-                                <div class="container-inline-next" style="gap: 10px">
-                                    <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
-                                    <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
-                                </div>
-                                <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
-                                {% if v['untertitel-' + lang] %}
-                                    <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
-                                {% else %}
-                                    <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
-                                {% endif %}
-                            </a>
-                        </div>
-                    {% endfor %}
+            {% if now %}
+                {% for k, v in now.items() %}
+                    <hr style="margin: 10px 0">
 
-                    <br>
-                    <a href="{{ url_for('now', lang=lang) }}">{{ "more"|translate(lang) }}</a>
+                    <div>
+                        <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
+                            <div class="container-inline-next" style="gap: 10px">
+                                <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
+                                <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
+                            </div>
+                            <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                            {% if v['untertitel-' + lang] %}
+                                <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                            {% else %}
+                                <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endfor %}
 
-                {% else %}
-                    <p>-{{ "no_now"|translate(lang) }}-</p>
-                {% endif %}
-            </div>
+                <br>
+                <a href="{{ url_for('now', lang=lang) }}">{{ "more"|translate(lang) }}</a>
+
+            {% else %}
+                <p>-{{ "no_now"|translate(lang) }}-</p>
+            {% endif %}
         </div>
     </a>
 
