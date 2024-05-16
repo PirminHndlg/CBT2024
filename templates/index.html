@@ -35,7 +35,7 @@
                 </a>
                 <div id="my_programm_div">
 
-                    <br>
+                <br>
                 {% for k, v in my_programm.items() %}
                     <div style="width: 100%">
                         <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
@@ -51,7 +51,7 @@
                             {% endif %}
                         </a>
                     </div>
-                        <hr style="margin: 10px 0">
+                    <hr style="margin: 10px 0">
 
                 {% endfor %}
 
@@ -61,11 +61,9 @@
                 {% endif %}
 
             {% else %}
-
-                <p>-wähle dein Programm aus-</p>
+                <p>-{{ "choose_my_program"|translate(lang) }} <img style="vertical-align: baseline; height: 1em"
+                                                                 src="/static/img/stern.png">-</p>
                 </a>
-
-
             {% endif %}
             </div>
 
