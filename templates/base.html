@@ -36,17 +36,16 @@
             <img id="lang" class="lang" src="/static/img/{{ lang or 'de' }}.png">
         </div>
     </div>
-
-    <nav class="container container-inline" style="gap: 5px">
-        <a class="a-link" href="{{ url_for('index', lang=lang) }}"><h3>Home</h3></a>
-        {#        <a class="a-link" href="{{ url_for('programm', lang=lang) }}"><h3>{{ "program"|translate(lang or 'de') }}</h3></a>#}
-        <a class="a-link" href="https://christlichebegegnungstage.de/programm/" target="_blank">
-            <h3>{{ "program_file"|translate(lang or 'de') }}</h3></a>
-        <a class="a-link" href="{{ url_for('map', lang=lang) }}"><h3>{{ "map"|translate(lang or 'de') }}</h3></a>
-    </nav>
 </div>
 
-<hr>
+<nav class="container-inline navbar">
+    <a class="a-link" href="{{ url_for('index', lang=lang) }}"><h3>Home</h3></a>
+    {#        <a class="a-link" href="{{ url_for('programm', lang=lang) }}"><h3>{{ "program"|translate(lang or 'de') }}</h3></a>#}
+    <a class="a-link" href="https://christlichebegegnungstage.de/programm/" target="_blank">
+        <h3>{{ "program_file"|translate(lang or 'de') }}</h3></a>
+    <a class="a-link" href="{{ url_for('map', lang=lang) }}"><h3>{{ "map"|translate(lang or 'de') }}</h3></a>
+</nav>
+
 
 {% block content %}
 {% endblock %}
