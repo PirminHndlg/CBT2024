@@ -300,6 +300,8 @@ def combine_jsons():
     for key in de.keys():
         combined[key] = de[key]
 
+        combined[key]['type'] = 0
+
         combined[key]['content-hu'] = hu[key]['content-hu']
         combined[key]['titel-hu'] = hu[key]['titel-hu']
         combined[key]['location-hu'] = hu[key]['location-hu']
