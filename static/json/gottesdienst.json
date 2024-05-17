@@ -2,26 +2,36 @@
   "0": {
     "de": "Eröffnungsgottesdienst",
     "cs": "Zahajovací bohoslužba",
-    "pl": "Nabożeństwo inauguracyjne"
+    "pl": "Nabożeństwo inauguracyjne",
+    "sk": "Otváracie Služby Božie",
+    "hu": "Nyitó istentisztelet"
   },
   "1": {
     "de": "Bibelfrühstück",
     "cs": "Biblická snídaně",
-    "pl": "Śniadanie z Biblią"
+    "pl": "Śniadanie z Biblią",
+    "sk": "Biblické raňajky",
+    "hu": "Bibliareggeli"
   },
   "2": {
     "de": "Mittagsandacht",
     "cs": "Polední pobožnost",
-    "pl": "Modlitwa w południe"
+    "pl": "Modlitwa w południe",
+    "sk": "Poludňajšia pobožnosť",
+    "hu": "Déli áhítat"
   },
   "3": {
     "de": "Abendsegen",
     "cs": "Večerní požehnání",
-    "pl": "Modlitwa wieczorna"
+    "pl": "Modlitwa wieczorna",
+    "sk": "Večerné požehnanie",
+    "hu": "Esti áldás"
   },
   "4": {
     "de": "Abschlussgottesdienst",
     "cs": "Závěrečná bohoslužba",
-    "pl": "Nabożeństwo na zakończenie"
+    "pl": "Nabożeństwo na zakończenie",
+    "sk": "Záverečné Služby Božie",
+    "hu": "Záró úrvacsorai istentisztelet"
   }
 }
