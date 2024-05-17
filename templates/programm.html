@@ -35,7 +35,7 @@
 
         </details>
 
-
+        <!--
         <details class="container">
             <summary class="container-headline">{{ 'location'|translate(lang) }}</summary>
             <a href="{{ url_for('programm_section', lang=lang, day=2) }}" class="container-headline">
@@ -44,6 +44,7 @@
                 </div>
             </a>
         </details>
+        -->
 
         <details class="container">
             <summary class="container-headline">Sprache</summary>
@@ -76,39 +77,50 @@
 
         <hr>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='bible') }}"
-               class="container-headline">{{ 'bible'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('programm_section', lang=lang, section='bible') }}" class="container-headline">
+            <div class="container">
+                {{ 'bible'|translate(lang) }}
+            </div>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='concerts') }}"
-               class="container-headline">{{ 'concerts'|translate(lang) }}</a>
-        </div>
+        </a>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='service2') }}"
-               class="container-headline">{{ 'service2'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('programm_section', lang=lang, section='concerts') }}" class="container-headline">
+            <div class="container">
+                {{ 'concerts'|translate(lang) }}
+            </div>
+        </a>
 
-        <div class="container">
-            <a href="{{ url_for('markt', lang=lang) }}" class="container-headline">{{ 'markt'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('programm_section', lang=lang, section='service2') }}" class="container-headline">
+            <div class="container">
+                {{ 'service2'|translate(lang) }}
+            </div>
+        </a>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='lectures') }}"
-               class="container-headline">{{ 'lectures'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('markt', lang=lang) }}" class="container-headline">
+            <div class="container">
+                {{ 'markt'|translate(lang) }}
+            </div>
+        </a>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='workshops') }}"
-               class="container-headline">{{ 'workshops'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('programm_section', lang=lang, section='lectures') }}" class="container-headline">
+            <div class="container">
+                {{ 'lectures'|translate(lang) }}
+            </div>
+        </a>
 
-        <div class="container">
-            <a href="{{ url_for('programm_section', lang=lang, section='exhibitions') }}"
-               class="container-headline">{{ 'exhibitions'|translate(lang) }}</a>
-        </div>
+        <a href="{{ url_for('programm_section', lang=lang, section='workshops') }}" class="container-headline">
+            <div class="container">
+                {{ 'workshops'|translate(lang) }}
+            </div>
+        </a>
+
+        <a href="{{ url_for('programm_section', lang=lang, section='exhibitions') }}"
+           class="container-headline">
+            <div class="container">
+                {{ 'exhibitions'|translate(lang) }}
+            </div>
+        </a>
+
     </div>
 
     <script>
