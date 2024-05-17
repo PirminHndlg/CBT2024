@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Christliche Begegnungstage 2024 - Programm für die CBT 2024</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/static/manifest.json">
 
     <meta name="theme-color" content="white">
 
@@ -149,6 +150,12 @@
         } catch (e) {
             console.log(e)
         }
+    }
+
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+        console.log("This is running as standalone.");
+    } else {
+        console.log("no")
     }
 </script>
 
