@@ -57,7 +57,7 @@ def get_element(nr):
 def get_day(day, lang):
     with open('static/json/day.json') as f:
         translate_day = json.load(f)
-    return translate_day[str(day)][lang]
+    return translate_day[str(day)][lang or 'de']
 
 
 @app.template_filter('get_cookie')
@@ -110,7 +110,7 @@ def programm_point(lang=None, point=None):
 @app.route('/<lang>/section')
 @app.route('/section')
 def programm_section(lang=None):
-    check_lang(lang)
+    lang = check_lang(lang)
 
     json_data = get_json()
     data = {}
