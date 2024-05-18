@@ -352,5 +352,10 @@ def search(lang=None):
 def robots():
     return send_from_directory(app.static_folder, request.path[1:])
 
+@app.route('/favicon.ico')
+@app.route('/apple-touch-icon.png')
+def icon():
+    return send_from_directory(app.static_folder, 'img/icon/' + request.path[1:])
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
