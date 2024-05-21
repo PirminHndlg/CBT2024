@@ -6,7 +6,7 @@
 
         <div class="container">
             <div class="container-inline">
-                <button class="button" onclick="history.back()">Go Back</button>
+                <button class="button" onclick="history.back()">{{ 'back'|translate(lang) }}</button>
                 <input class="my-programm-img-small" id="my_programm_{{ section['key'] }}"
                        onclick="change_my_programm(this.id, '{{ section['key'] }}', event)"
                        type="image"

@@ -1,4 +1,5 @@
 {
+  "back": {"de":  "Zurück", "cs": "Zpět", "pl": "Powrót", "hu": "Vissza", "sk": "Späť"},
   "program": {"de":  "Programm", "cs": "Program", "pl": "Program", "hu": "Program", "sk": "Program"},
   "my_program": {"de":  "Mein Programm", "cs": "Můj program", "pl": "Mój program", "hu": "Saját program", "sk": "Môj program"},
   "search_program": {"de":  "Programm suchen", "cs": "Hledat program", "pl": "Szukaj programu", "hu": "Program keresése", "sk": "Hľadať program"},

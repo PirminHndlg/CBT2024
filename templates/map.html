@@ -3,7 +3,7 @@
 {% block content %}
 
     <div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden">
-        <button class="button" onclick="history.back()" style="margin: 10px">Go Back</button>
+        <button class="button" onclick="history.back()" style="margin: 10px">{{ 'back'|translate(lang) }}</button>
         <br>
 
         {% if lang %}
