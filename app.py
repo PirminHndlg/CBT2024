@@ -94,7 +94,8 @@ def index(lang=None):
 
     my_programm_array = my_programm(lang, 3)
 
-    return render_template('index.html', lang=lang, my_programm=my_programm_array[0], more=my_programm_array[1], now=now(lang, 3))
+    return render_template('index.html', lang=lang, my_programm=my_programm_array[0], more=my_programm_array[1],
+                           now=now(lang, 3))
 
 
 @app.route('/<lang>/programm/<int:point>')
@@ -117,21 +118,20 @@ def programm_section(lang=None):
     data = {}
 
     day = request.args.get('day')
-    if day:
+    if day and day.isdigit():
         for k, v in json_data.items():
             if v['tag'] == int(day):
                 data[k] = v
 
     language = request.args.get('language')
-    if language:
+    if language and language in allowed_lang:
         for k, v in json_data.items():
             for l in v['lang']:
                 if l.lower() == language.lower():
                     data[k] = v
 
     section = request.args.get('section')
-    if section:
-        print(section.lower())
+    if section and bool(re.match('^[a-zA-Z0-9_]+$', section)):
         for k, v in json_data.items():
             if section.lower() == 'bible':
                 if 'bibelarbeit' in v['titel-de'].lower() or 'bibelarbeit' in v['untertitel-de'].lower():
@@ -142,6 +142,7 @@ def programm_section(lang=None):
                     data[k] = v
                 elif 'konzert' in v['titel-de'].lower() or 'konzert' in v['untertitel-de'].lower():
                     data[k] = v
+
             elif section.lower() == 'service2':
                 if 'gottesdienst' in v['titel-de'].lower() or 'gottesdienst' in v['untertitel-de'].lower():
                     data[k] = v
@@ -153,7 +154,8 @@ def programm_section(lang=None):
                 break
 
             elif section.lower() == 'workshops':
-                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith('workshop') or 'workshop' in v['content-de'].lower():
+                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith(
+                        'workshop') or 'workshop' in v['content-de'].lower():
                     data[k] = v
 
             elif section.lower() == 'exhibitions':
@@ -336,13 +338,12 @@ def search(lang=None):
             print('not allowed chars in search for value')
             return {}
 
-
     data = get_json()
     search_data = {}
     for k, v in data.items():
-        if day and v['tag'] != int(day):
+        if day and day.isdigit() and v['tag'] != int(day):
             continue
-        if section and not section.lower() in v['content-' + lang].lower():
+        if section and bool(re.match('^[a-zA-Z0-9_]+$', section)) and not section.lower() in v['content-' + lang].lower():
             continue
         if search_for.lower() in str(v['titel-' + lang]).lower():
             search_data[k] = v
@@ -356,15 +357,18 @@ def search(lang=None):
 
     return search_data
 
+
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
 def robots():
     return send_from_directory(app.static_folder, request.path[1:])
 
+
 @app.route('/favicon.ico')
 @app.route('/apple-touch-icon.png')
 def icon():
     return send_from_directory(app.static_folder, 'img/icon/' + request.path[1:])
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
