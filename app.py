@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, abort, send_from_directory
 from datetime import datetime, time
 import json
+import re
 
 app = Flask(__name__, static_folder='static')
 
@@ -327,6 +328,14 @@ def search(lang=None):
 
     if not search_for:
         return {}
+    else:
+        f = open('static/data/allowed_chars.txt', 'r')
+        allowed_chars = f.read()
+        f.close()
+        if not bool(re.match(allowed_chars, search_for)):
+            print('not allowed chars in search for value')
+            return {}
+
 
     data = get_json()
     search_data = {}

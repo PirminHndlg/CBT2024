@@ -202,6 +202,14 @@ li {
     border: 1px solid #4d9b8e;
 }
 
+.search-bar:invalid {
+    background:red !important;
+}
+
+.search-bar:valid {
+    background: white;
+}
+
 .search-button {
     background-color: #4d9b8e;
     color: white;
