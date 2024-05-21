@@ -343,7 +343,8 @@ def search(lang=None):
     for k, v in data.items():
         if day and day.isdigit() and v['tag'] != int(day):
             continue
-        if section and bool(re.match('^[a-zA-Z0-9_]+$', section)) and not section.lower() in v['content-' + lang].lower():
+        if section and bool(re.match('^[a-zA-Z0-9_]+$', section)) and not section.lower() in v[
+            'content-' + lang].lower():
             continue
         if search_for.lower() in str(v['titel-' + lang]).lower():
             search_data[k] = v
