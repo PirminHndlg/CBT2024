@@ -2,19 +2,19 @@
 
 {% block content %}
 
+    <div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden">
+        <button class="button" onclick="history.back()" style="margin: 10px">Go Back</button>
+        <br>
 
-<div class="container">
-    <button class="button" onclick="history.back()" style="margin: 10px">Go Back</button>
-</div>
+        {% if lang %}
+            <div  style="height: 100%; text-align: center;">
+                <img src="/static/img/legende_{{ lang }}.png" style="height: 90%">
+            </div>
+        {% endif %}
+    </div>
 
-<div class="container" style="height: 80vh; overflow-x: auto; overflow-y: hidden; text-align: center">
-    {% if lang %}
-    <img src="/static/img/legende_{{lang}}.png" style="height: 100%;">
-    {% endif %}
-</div>
-
-<div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden; text-align: center">
-    <img src="/static/img/map.png" style="height: 100%">
-</div>
+    <div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden; text-align: center">
+        <img src="/static/img/map.png" style="height: 100%">
+    </div>
 
 {% endblock %}
