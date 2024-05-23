@@ -30,7 +30,7 @@
 
             {% if my_programm %}
                 {% for k, v in my_programm.items() %}
-                    <hr style="margin: 10px 0">
+                    <hr class="underline-hr">
 
                     <div style="width: 100%">
                         <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
@@ -90,6 +90,7 @@
                 <a href="{{ url_for('now', lang=lang) }}">{{ "more"|translate(lang) }}</a>
 
             {% else %}
+                <hr style="margin: 10px 0">
                 <p>-{{ "no_now"|translate(lang) }}-</p>
             {% endif %}
         </div>
@@ -99,6 +100,7 @@
     <a href="{{ url_for('map', lang=lang) }}" class="a-link">
         <div class="container">
             <h2>{{ "map"|translate(lang) }}
+                <hr class="underline-hr">
                 <img src="/static/img/map.png" style="width: 100%">
             </h2>
         </div>
