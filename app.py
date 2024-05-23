@@ -286,11 +286,11 @@ def now(lang=None, max=None):
 
     day = 0
 
-    if date <= '2024-05-14':
+    if date == '2024-06-07':
         day = 0
-    elif date == '2024-05-15':
+    elif date == '2024-06-08':
         day = 1
-    elif date >= '2024-05-16':
+    elif date == '2024-06-09':
         day = 2
 
     json_data = get_json()
