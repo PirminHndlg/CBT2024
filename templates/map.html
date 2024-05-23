@@ -2,13 +2,14 @@
 
 {% block content %}
 
-    <div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden">
+    <div class="container" style="overflow-x: auto; overflow-y: hidden; padding-bottom: 10px">
         <button class="button" onclick="history.back()" style="margin: 10px">{{ 'back'|translate(lang) }}</button>
         <br><br>
 
         {% if lang %}
-            <div  style="height: 100%; text-align: center;">
-                <img src="/static/img/legende_{{ lang }}.png" style="height: 90%">
+            <div style="text-align: center;">
+                <img src="/static/img/legende_{{ lang }}.png"
+                     style="object-fit: contain; width: 90%; max-width: 500px; padding: 0 10px 0 10px">
             </div>
         {% endif %}
     </div>
