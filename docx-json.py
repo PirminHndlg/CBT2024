@@ -279,6 +279,10 @@ def create_json2(filename, lang='de'):
 
 
 def combine_jsons():
+    with open('static/json/cbt_programm.json') as f:
+        combined = json.load(f)
+        f.close()
+
     with open('static/json/cbt_programm_de.json') as f:
         de = json.load(f)
         f.close()
@@ -295,27 +299,29 @@ def combine_jsons():
         cs = json.load(f)
         f.close()
 
-    combined = {}
-
     for key in de.keys():
-        combined[key] = de[key]
+        #combined[key] = de[key]
 
         combined[key]['type'] = 0
 
         combined[key]['content-hu'] = hu[key]['content-hu']
         combined[key]['titel-hu'] = hu[key]['titel-hu']
+        combined[key]['untertitel-hu'] = hu[key]['untertitel-hu']
         combined[key]['location-hu'] = hu[key]['location-hu']
 
         combined[key]['content-sk'] = sk[key]['content-sk']
         combined[key]['titel-sk'] = sk[key]['titel-sk']
+        combined[key]['untertitel-sk'] = sk[key]['untertitel-sk']
         combined[key]['location-sk'] = sk[key]['location-sk']
 
         combined[key]['content-pl'] = pl[key]['content-pl']
         combined[key]['titel-pl'] = pl[key]['titel-pl']
+        combined[key]['untertitel-pl'] = pl[key]['untertitel-pl']
         combined[key]['location-pl'] = pl[key]['location-pl']
 
         combined[key]['content-cs'] = cs[key]['content-cs']
         combined[key]['titel-cs'] = cs[key]['titel-cs']
+        combined[key]['untertitel-cs'] = cs[key]['untertitel-cs']
         combined[key]['location-cs'] = cs[key]['location-cs']
 
     with open('static/json/cbt_programm.json', 'w') as f:

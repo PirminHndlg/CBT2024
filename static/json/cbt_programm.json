@@ -29,7 +29,11 @@
         "titel-cs": "Modlitba za mír u zvonu",
         "location-cs": {
             "name": "Zvon míru, Uferstraße 1"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "2": {
         "tag": 0,
@@ -63,7 +67,11 @@
         "titel-cs": "Víra znamená poznání – Karl Barth, stačí číst",
         "location-cs": {
             "name": "Friedenskirche, presbytář 1. patro, Schulstraße 4A"
-        }
+        },
+        "untertitel-hu": "Workshop",
+        "untertitel-sk": "Workshop",
+        "untertitel-pl": "Warsztaty",
+        "untertitel-cs": "Workshop"
     },
     "3": {
         "tag": 0,
@@ -95,7 +103,11 @@
         "titel-cs": "Nic nas njebuźo wótźěliś wót Bóžeje lubosći – Nic nás nemůže odloučit",
         "location-cs": {
             "name": "Kostel sv. Jiří (St. Georg-Kirche), Bergstraße 156"
-        }
+        },
+        "untertitel-hu": "Vend istentisztelet",
+        "untertitel-sk": "Vendská bohoslužba",
+        "untertitel-pl": "Nabożeństwo Wendyjskie",
+        "untertitel-cs": "Bohoslužba v lužické srbštině"
     },
     "4": {
         "tag": 0,
@@ -129,7 +141,11 @@
         "titel-cs": "Setkat se nově",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2, Platz der Einheit 1"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés: A gyülekezeti napoktól a közép- és kelet-európai egyházi napokig",
+        "untertitel-sk": "Panelová diskusia: od komunitných dní k stredoeurópskemu a východoeurópskemu dňu cirkvi",
+        "untertitel-pl": "Panel dyskusyjny: od spotkań parafialnych do środkowo i wschodnioeuropejskiego Spotkania Chrześcijan",
+        "untertitel-cs": "Panelová diskuse: od sborových dnů ke Kirchentagu střední a východní Evropy"
     },
     "5": {
         "tag": 0,
@@ -166,7 +182,11 @@
         "titel-cs": "Willkommen/Witamy/Vitajte/Vítejte/Üdvözöljük",
         "location-cs": {
             "name": "Open-Air podium, Brunnenplatz"
-        }
+        },
+        "untertitel-hu": "Zenei és igei felütés",
+        "untertitel-sk": "Hudba a slová na úvod",
+        "untertitel-pl": "Muzyka i słowa na początek",
+        "untertitel-cs": "Hudba a slovo na úvod"
     },
     "6": {
         "tag": 0,
@@ -203,7 +223,11 @@
         "titel-cs": "Nic nás nemůže odloučit: Současnost a budoucnost",
         "location-cs": {
             "name": "Open-Air podium, Brunnenplatz"
-        }
+        },
+        "untertitel-hu": "Nyitóistentisztelet",
+        "untertitel-sk": "Otváracia bohoslužba",
+        "untertitel-pl": "Nabożeństwo inauguracyjne",
+        "untertitel-cs": "Zahajovací bohoslužba"
     },
     "7": {
         "tag": 0,
@@ -240,7 +264,11 @@
         "titel-cs": "Zahájení večera setkání",
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "8": {
         "tag": 0,
@@ -272,7 +300,11 @@
         "titel-cs": "Večer setkání v ulicích města",
         "location-cs": {
             "name": "Marktplatz, Bischofsstraße, Promenáda u řeky Odry až na náměstí před Collegiem Polonicem"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "9": {
         "tag": 0,
@@ -304,7 +336,11 @@
         "titel-cs": "Hudební projekt Keňa",
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz"
-        }
+        },
+        "untertitel-hu": "Nagykoncert afrikai zenével",
+        "untertitel-sk": "Veľký koncert s hudbou z Afriky",
+        "untertitel-pl": "Wielki koncert muzyki z Afryki",
+        "untertitel-cs": "Velký koncert s hudbou z Afriky"
     },
     "10": {
         "tag": 0,
@@ -338,7 +374,11 @@
         "titel-cs": "Sjednoceni v hudbě",
         "location-cs": {
             "name": "Kostel míru – Friedenskirche, Schulstraße 4A"
-        }
+        },
+        "untertitel-hu": "Techno-istentisztelet",
+        "untertitel-sk": "Techno bohoslužba",
+        "untertitel-pl": "Nabożeństwo Techno",
+        "untertitel-cs": "Technobohoslužba"
     },
     "11": {
         "tag": 0,
@@ -370,7 +410,11 @@
         "titel-cs": "Večerní požehnání a společné zakončení",
         "location-cs": {
             "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "12": {
         "tag": 1,
@@ -407,7 +451,11 @@
         "titel-cs": "Začněme den společně",
         "location-cs": {
             "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "13": {
         "tag": 1,
@@ -441,7 +489,11 @@
         "titel-cs": "Biblická snídaně",
         "location-cs": {
             "name": "Promenáda u řeky Odry, Městský most, 1 Maja, Słubice"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "14": {
         "tag": 1,
@@ -475,7 +527,11 @@
         "titel-cs": "Dialogická biblická prácev polštině a němčině",
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "15": {
         "tag": 1,
@@ -509,7 +565,11 @@
         "titel-cs": "Biblická práce v maďarštině",
         "location-cs": {
             "name": "Kleist Forum, Velký sál, Platz der Einheit 1"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "16": {
         "tag": 1,
@@ -543,7 +603,11 @@
         "titel-cs": "Biblická práce v češtině",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2, 2. patro, Platz der Einheit 1"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "17": {
         "tag": 1,
@@ -577,7 +641,11 @@
         "titel-cs": "Biblická práce ve slovenštině",
         "location-cs": {
             "name": "Kostel sv. Jiří (St.-Georg-Kirche), Bergstraße 156"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "18": {
         "tag": 1,
@@ -609,7 +677,11 @@
         "titel-cs": "Biblická práce v češtině a němčině",
         "location-cs": {
             "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche), Gertraudenplatz 6"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "19": {
         "tag": 1,
@@ -641,7 +713,11 @@
         "titel-cs": "Dialogická biblická práce vněmčině",
         "location-cs": {
             "name": "Kostel míru (Friedenskirche), Schulstraße 4A"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "20": {
         "tag": 1,
@@ -673,7 +749,11 @@
         "titel-cs": "Biblická práce s antisemitsko-kritickým výkladem: Ježíš a cizoložnice",
         "location-cs": {
             "name": "Kleist Forum, Foyer, Platz der Einheit 1"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "21": {
         "tag": 1,
@@ -706,7 +786,11 @@
         "titel-cs": "Ranní pobožnost v biblické zahradě",
         "location-cs": {
             "name": "Luisenstrasse 25D"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "22": {
         "tag": 1,
@@ -742,7 +826,11 @@
         "titel-cs": "Ranní pobožnost",
         "location-cs": {
             "name": "Diakonia Wichern, kaple, Luisenstraße 21-24"
-        }
+        },
+        "untertitel-hu": "Mit tehet az egyház egy jól működő, szociális és békés Európáért",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "23": {
         "tag": 1,
@@ -781,7 +869,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Tánc és dalok Lengyelországból",
+        "untertitel-sk": "Ako môže Cirkev prispieť k prosperujúcej, sociálnej a mierovej Európe",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "24": {
         "tag": 1,
@@ -818,7 +910,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Tanec a piesne z Poľska",
+        "untertitel-pl": "",
+        "untertitel-cs": "Jak může církev přispět k prosperující, sociální a pokojné Evropě"
     },
     "25": {
         "tag": 1,
@@ -855,7 +951,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Kihívások, utak és impulzusok a tartós békéhez",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Tanec a písně z Polska"
     },
     "26": {
         "tag": 1,
@@ -895,7 +995,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Közös éneklés",
+        "untertitel-sk": "O výzvach, cestách a podnetoch pre udržateľné budovanie mieru",
+        "untertitel-pl": "O wyzwaniach, ścieżkach i impulsach dla zrównoważonego budowania pokoju",
+        "untertitel-cs": ""
     },
     "27": {
         "tag": 1,
@@ -932,7 +1036,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Egyházak kisebbségben. Hogyan legyünk társadalmilag relevánsak és mindenki számára nyitottak?",
+        "untertitel-sk": "Spoločný spev",
+        "untertitel-pl": "Wspólne śpiewanie",
+        "untertitel-cs": "O výzvách, cestách a impulsech pro udržitelné budování míru"
     },
     "28": {
         "tag": 1,
@@ -971,7 +1079,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Zenés tisztelgés az esélyegyenlőség előtt",
+        "untertitel-sk": "Cirkev v menšine, medzi sociálnym významom a cirkvou pre všetkých",
+        "untertitel-pl": "Kościół w mniejszości, między znaczeniem społecznym a Kościołem dla wszystkich",
+        "untertitel-cs": "Společné zpívání"
     },
     "29": {
         "tag": 1,
@@ -1008,7 +1120,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Odera-Frankfurt és Słubice városvezetői beszélnek a két város összenövéséről, a határokon átívelő együttműködés sikereiről és nehézségeiről",
+        "untertitel-sk": "Pocta tvorivej spravodlivosti prostredníctvom hudby",
+        "untertitel-pl": "Hołd dla sprawiedliwości twórczej poprzez muzykę",
+        "untertitel-cs": "Církev v menšině, mezi společenským významem a církví pro všechny"
     },
     "30": {
         "tag": 1,
@@ -1047,7 +1163,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Hangok és dalok történelmi és népi hangszereken",
+        "untertitel-sk": "Predstavitelia miest Frankfurt nad Odrou a Słubice hovoria o tom, ako sa obe mestá spoločne rozvíjali a o úspechoch a prekážkach cezhraničnej spolupráce.",
+        "untertitel-pl": "Burmistrzowie Frankfurtu nad Odrą i Słubic opowiadają o tym, jak oba miasta rozwinęły się razem oraz o sukcesach i przeszkodach we współpracy transgranicznej.",
+        "untertitel-cs": "Pocta kreativní spravedlnosti skrze hudbu"
     },
     "31": {
         "tag": 1,
@@ -1084,7 +1204,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "A Biblia szerint ugyanaz a méltóság illet meg minden embert. A hátrányos megkülönböztetés és az erőszak azonban az egyházban is valóságos. Hogyan lesznek az egyházak mindenki számára biztonságos hellyé?",
+        "untertitel-sk": "Zvuky a piesne na historických a ľudových nástrojoch",
+        "untertitel-pl": "Brzmienia i pieśni na instrumentach historycznych i ludowych",
+        "untertitel-cs": "Zástupci měst Frankfurt nad Odrou a Słubice hovoří o tom, jak se obě města společně rozvíjela, a o úspěších i překážkách přeshraniční spolupráce."
     },
     "32": {
         "tag": 1,
@@ -1121,7 +1245,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Magyar néptáncok népviseletben",
+        "untertitel-sk": "Podľa Biblie majú všetci ľudia rovnakú dôstojnosť. Ale diskriminácia a násilie v cirkvi sú skutočné. Ako sa môžu kostoly stať bezpečným miestom pre každého?",
+        "untertitel-pl": "Według Biblii wszyscy ludzie mają taką samą godność. Ale dyskryminacja i przemoc w Kościele są realne. Jak Kościoły mogą stać się bezpiecznym miejscem dla wszystkich?",
+        "untertitel-cs": "Tóny a písně s historickými a lidovými nástroji"
     },
     "33": {
         "tag": 1,
@@ -1158,7 +1286,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "A protestáns keresztények Lengyelországban és Kelet-Németországban is kisebbségben vannak – éppen ezért törekednek az együttműködésre.",
+        "untertitel-sk": "Ľudové tance v maďarskom kroji",
+        "untertitel-pl": "Tańce ludowe w strojach węgierskich",
+        "untertitel-cs": "Podle Bible mají všichni lidé stejnou důstojnost. Ale diskriminace a násilí v církvi jsou skutečné. Jak se mohou církve stát bezpečnými místy pro všechny?"
     },
     "34": {
         "tag": 1,
@@ -1197,7 +1329,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Brandenburg elsőszámú Swing-Go-Pop kórusa",
+        "untertitel-sk": "Protestantskí kresťania v Poľsku a východnom Nemecku sú v menšine - a práve preto sa zameriavajú na spoluprácu",
+        "untertitel-pl": "Ewangelicy w Polsce i Niemczech Wschodnich są mniejszością - i właśnie dlatego koncentrują się na współpracy",
+        "untertitel-cs": "Lidové tance v maďarském kroji"
     },
     "35": {
         "tag": 1,
@@ -1234,7 +1370,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "Nagykoncert",
+        "untertitel-sk": "1. Swing-Go-Popový zbor z Brandenburgska",
+        "untertitel-pl": "1. Swing-Go-Pop Chor Brandenburgs",
+        "untertitel-cs": "Protestantští křesťané v Polsku a východním Německu jsou v menšině, a proto se zaměřují na spolupráci"
     },
     "36": {
         "tag": 1,
@@ -1271,7 +1411,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Veľký koncert",
+        "untertitel-pl": "Wielki koncert",
+        "untertitel-cs": "1. Swing-Go-Pop sbor z Braniborska"
     },
     "37": {
         "tag": 1,
@@ -1307,7 +1451,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Koncert"
     },
     "38": {
         "tag": 1,
@@ -1341,7 +1489,11 @@
         "location-cs": {
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "Wspólna kolacja przy wspólnym stole",
+        "untertitel-cs": ""
     },
     "39": {
         "tag": 1,
@@ -1374,7 +1526,11 @@
         "titel-cs": "Nasycení 4 000",
         "location-cs": {
             "name": "Z náměstí Marktplatz přes Bischofsstraße na promenádu u řeky Odry"
-        }
+        },
+        "untertitel-hu": "Családi istentisztelet a természetben",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "40": {
         "tag": 1,
@@ -1407,7 +1563,11 @@
         "titel-cs": "Kdo se ptá, ten se dozví v BibelMobilu",
         "location-cs": {
             "name": "Z náměstí Marktplatz přes Bischofsstraße na promenádu u řeky Odry"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés a német-lengyel kapcsolatokról",
+        "untertitel-sk": "Rodinné bohoslužby v prírode",
+        "untertitel-pl": "Nabożeństwo dla rodzin",
+        "untertitel-cs": ""
     },
     "41": {
         "tag": 1,
@@ -1445,7 +1605,11 @@
         "titel-cs": "S Bohem venku – společně pod širým nebem dýcháme zhluboka na čerstvém vzduchu",
         "location-cs": {
             "name": "Poloostrov Ziegenwerder, kemp za dětským hřištěm"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Panelová diskusia o nemecko-poľských vzťahoch",
+        "untertitel-pl": "Panel dyskusyjny na temat stosunków polsko-niemieckich",
+        "untertitel-cs": "Rodinné bohoslužby v přírodě"
     },
     "42": {
         "tag": 1,
@@ -1482,7 +1646,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "Szomszédok történetei a lengyel–német határról",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Panelová diskuse o německo-polských vztazích"
     },
     "43": {
         "tag": 1,
@@ -1521,7 +1689,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "Előadás és pódiumbeszélgetés",
+        "untertitel-sk": "Susedské príbehy z Poľska a Nemecka",
+        "untertitel-pl": "Sąsiedzkie historie z Polski i Niemiec",
+        "untertitel-cs": ""
     },
     "44": {
         "tag": 1,
@@ -1560,7 +1732,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "Öt ország kórusai",
+        "untertitel-sk": "Prednáška a panelová diskusia",
+        "untertitel-pl": "Wykład i panel dyskusyjny",
+        "untertitel-cs": "Příběhy sousedství Polska a Německa"
     },
     "45": {
         "tag": 1,
@@ -1597,7 +1773,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Koncert zborov z piatich krajín",
+        "untertitel-pl": "Koncert chórów z pięciu krajów",
+        "untertitel-cs": "Přednáška a panelová diskuse"
     },
     "46": {
         "tag": 1,
@@ -1636,7 +1816,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés vallásról és demokráciáról",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Koncert pěveckých sborů z pěti zemí"
     },
     "47": {
         "tag": 1,
@@ -1677,7 +1861,11 @@
         "location-cs": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés: Az egyházak és az ukrajnai háború",
+        "untertitel-sk": "Panelová diskusia o náboženstve a demokracii",
+        "untertitel-pl": "Panel dyskusyjny na temat religii i demokracji",
+        "untertitel-cs": ""
     },
     "48": {
         "tag": 1,
@@ -1717,7 +1905,11 @@
         "location-cs": {
             "name": "Audimax, Evropská univerzita Viadrina, Logenstraße 4",
             "bezeichnung": "Centrum pro mír a demokracii v Evropě"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés a nők lelkésszé szentelésének országspecifikus vonásairól",
+        "untertitel-sk": "Panelová diskusia: Cirkvi a vojna na Ukrajine",
+        "untertitel-pl": "Panel dyskusyjny na temat Kościoła i wojny na Ukrainie",
+        "untertitel-cs": "Panelová diskuse o náboženství a demokracii"
     },
     "49": {
         "tag": 1,
@@ -1758,7 +1950,11 @@
         "location-cs": {
             "name": "Audimax, Evropská univerzita Viadrina, Logenstraße 4",
             "bezeichnung": "Centrum pro mír a demokracii v Evropě"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Živý rozhovor o jedinečnej histórii svätenia žien v jednotlivých krajinách",
+        "untertitel-pl": "Panel dyskusyjny na temat wyjątkowej historii ordynacji kobiet w poszczególnych krajach",
+        "untertitel-cs": "Panelová diskuse: Kostely a válka na Ukrajině"
     },
     "50": {
         "tag": 1,
@@ -1791,7 +1987,11 @@
         "location-cs": {
             "name": "Kleist Forum, Velký sál, Platz der Einheit 1",
             "bezeichnung": "Tematický program – Kleist Forum"
-        }
+        },
+        "untertitel-hu": "Koncert",
+        "untertitel-sk": "",
+        "untertitel-pl": "Muzyka: ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt/Węgry",
+        "untertitel-cs": "Živý rozhovor o jedinečné historii ordinace žen v jednotlivých zemích"
     },
     "51": {
         "tag": 1,
@@ -1823,7 +2023,11 @@
         "titel-cs": "Pobožnost s mládeží v němčině",
         "location-cs": {
             "name": "Kleist Forum, foyer"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Koncert",
+        "untertitel-pl": "Koncert",
+        "untertitel-cs": ""
     },
     "52": {
         "tag": 1,
@@ -1857,7 +2061,11 @@
         "titel-cs": "Semmi sem választhat el minket",
         "location-cs": {
             "name": "Kleist Forum, foyer"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Koncert"
     },
     "53": {
         "tag": 1,
@@ -1891,7 +2099,11 @@
         "titel-cs": "Seminář: Být křesťanem v sekulární společnosti",
         "location-cs": {
             "name": "Kleist Forum, studiová scéna"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "54": {
         "tag": 1,
@@ -1926,7 +2138,11 @@
         "titel-cs": "Seminář: Předávání víry – V dialogu s mladými faráři a farářkami",
         "location-cs": {
             "name": "Kleist Forum, studiová scéna"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés a menekültek között végzett munkáról",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "55": {
         "tag": 1,
@@ -1960,7 +2176,11 @@
         "titel-cs": "Seminář: Církevní život ve městě a na venkově",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
-        }
+        },
+        "untertitel-hu": "Pódiumbeszélgetés a migráció kihívásairól",
+        "untertitel-sk": "Panelová diskusia o práci s utečencami",
+        "untertitel-pl": "Panel dyskusyjny na temat pracy z uchodźcami",
+        "untertitel-cs": ""
     },
     "56": {
         "tag": 1,
@@ -1996,7 +2216,11 @@
         "titel-cs": "„K přistěhovalci žijícímu mezi vámi se budete chovat jako k vlastnímu.“ (Lv 19,34)",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "Panelová diskusia o výzvach migrácie",
+        "untertitel-pl": "Panel dyskusyjny na temat wyzwań związanych z migracją",
+        "untertitel-cs": "Panelová diskuse o práci s uprchlíky"
     },
     "57": {
         "tag": 1,
@@ -2029,7 +2253,11 @@
         "titel-cs": "United4Rescue? Situace na vnějších hranicích EU",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Panelová diskuse o výzvách migrace"
     },
     "58": {
         "tag": 1,
@@ -2065,7 +2293,11 @@
         "titel-cs": "Biblická snídaně s farářkou Kitti Németh, Boba/Maďarsko",
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "59": {
         "tag": 1,
@@ -2102,7 +2334,11 @@
         "location-cs": {
             "name": "Kleist Forum, místnost 4a",
             "bezeichnung": "Ekumenický německo-polský festival dětí a mládeže"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "60": {
         "tag": 1,
@@ -2139,7 +2375,11 @@
         "location-cs": {
             "name": "Kleist Forum, místnost 4a",
             "bezeichnung": "Ekumenický německo-polský festival dětí a mládeže"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "61": {
         "tag": 1,
@@ -2175,7 +2415,11 @@
         "location-cs": {
             "name": "Kleist Forum, místnost 4a",
             "bezeichnung": "Ekumenický německo-polský festival dětí a mládeže"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "62": {
         "tag": 1,
@@ -2207,7 +2451,11 @@
         "titel-cs": "Workshop: Pestré jako Boží stvoření",
         "location-cs": {
             "name": "Kleist Forum, místnost 4b"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": "Taneční workshop: Moderní tanec"
     },
     "63": {
         "tag": 1,
@@ -2239,7 +2487,11 @@
         "titel-cs": "Hry – Jugger a Empowerment",
         "location-cs": {
             "name": "Kleist Forum, místnost 4b"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "64": {
         "tag": 1,
@@ -2271,7 +2523,11 @@
         "titel-cs": "Bibli otevřít, nos do ní, srdce plné!",
         "location-cs": {
             "name": "Kleist Forum, místnost 4c"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "65": {
         "tag": 1,
@@ -2303,7 +2559,11 @@
         "titel-cs": "Místo setkání: Livepodcast",
         "location-cs": {
             "name": "Kleist Forum, místnost 4c"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "66": {
         "tag": 1,
@@ -2335,7 +2595,11 @@
         "titel-cs": "Rodinná kavárna",
         "location-cs": {
             "name": "Kleist Forum"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "67": {
         "tag": 1,
@@ -2367,7 +2631,11 @@
         "titel-cs": "Workshop: Biblické výjevy ožívají",
         "location-cs": {
             "name": "Kleist Forum, přízemí, místnost 1c"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "68": {
         "tag": 1,
@@ -2399,7 +2667,11 @@
         "titel-cs": "Workshop: Staňte se filmovým animátorem",
         "location-cs": {
             "name": "Kleist Forum, rodinná kavárna"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "69": {
         "tag": 1,
@@ -2431,7 +2703,11 @@
         "titel-cs": "Workshop: Bible + Minecraft = <3",
         "location-cs": {
             "name": "Kleist Forum, přízemí, konferenční místnost 1a"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "70": {
         "tag": 1,
@@ -2463,7 +2739,11 @@
         "titel-cs": "Objevte dětské Bible z různých zemí",
         "location-cs": {
             "name": "Biblická laboratoř Cansteinova biblického institutu, Berlín/Německo"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "71": {
         "tag": 1,
@@ -2495,7 +2775,11 @@
         "titel-cs": "Pozvánka do mezinárodní třídy",
         "location-cs": {
             "name": "Kleist Forum, foyer"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "72": {
         "tag": 1,
@@ -2527,7 +2811,11 @@
         "titel-cs": "Malování obrázkové knihy o stvoření",
         "location-cs": {
             "name": "Kleist Forum, přízemí, konferenční místnost 1b"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "73": {
         "tag": 1,
@@ -2559,7 +2847,11 @@
         "titel-cs": "Distelkinder (Bodlákové děti)",
         "location-cs": {
             "name": "Kleist Forum, Velký sál"
-        }
+        },
+        "untertitel-hu": "Henrike Thies-Gebauer musicalje",
+        "untertitel-sk": "Muzikál Henrike Thies-Gebauerovej",
+        "untertitel-pl": "Musical autorstwa Henrike Thies-Gebauer",
+        "untertitel-cs": "Muzikál autorky Henrike Thies-Gebauer"
     },
     "74": {
         "tag": 1,
@@ -2591,7 +2883,11 @@
         "titel-cs": "Společné akce pro děti (... a všechny ostatní)",
         "location-cs": {
             "name": "Okolí Kleist Forum, Lennépark, Marktplatz, Brunnenplatz"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "75": {
         "tag": 1,
@@ -2623,7 +2919,11 @@
         "titel-cs": "Pouliční slovník na chodnících",
         "location-cs": {
             "name": "Sraz: Vchod do Kleist Forum"
-        }
+        },
+        "untertitel-hu": "Akció festékkel, ecsettel és sablonokkal Frankfurt és Słubice utcáin",
+        "untertitel-sk": "Akcia s farbami, štetcami a šablónami v uliciach Frankfurtu a Słubice",
+        "untertitel-pl": "Akcja z farbami, pędzlami i szablonami na ulicach Frankfurtu i Słubic",
+        "untertitel-cs": "Akce s barvami, štětci a šablonami v ulicích Frankfurtu a Słubic"
     },
     "76": {
         "tag": 1,
@@ -2655,7 +2955,11 @@
         "titel-cs": "Uměním překračovat hranice",
         "location-cs": {
             "name": "MKH 13, Karl-Marx-Straße 13"
-        }
+        },
+        "untertitel-hu": "Utcai kiállítás határokról, kötelékekről, kapcsolatokról",
+        "untertitel-sk": "Výstava na chodníku o hraniciach, spojeniach a kontaktoch",
+        "untertitel-pl": "Wystawa uliczna o granicach, połączeniach i kontaktach",
+        "untertitel-cs": "Výstava na chodníku o hranicích, souvislostech a kontaktech"
     },
     "77": {
         "tag": 1,
@@ -2687,7 +2991,11 @@
         "titel-cs": "Together beneath the sky",
         "location-cs": {
             "name": "Lennépark, na louce u dětského hřiště"
-        }
+        },
+        "untertitel-hu": "Csoportos kaland a szabad ég alatt",
+        "untertitel-sk": "Skupinové dobrodružstvá pod holým nebom",
+        "untertitel-pl": "Przygody grupowe w plenerze",
+        "untertitel-cs": "Skupinová dobrodružství pod širým nebem"
     },
     "78": {
         "tag": 1,
@@ -2724,7 +3032,11 @@
         "location-cs": {
             "name": "Kostel míru ( Friedenskirche), Schulstraße 4A",
             "bezeichnung": "Centrum rozmanitosti v míru"
-        }
+        },
+        "untertitel-hu": "Moldvai magyar táncház",
+        "untertitel-sk": "Moldavsko-maďarské tanečné piesne",
+        "untertitel-pl": "Mołdawsko-węgierskie utwory taneczne",
+        "untertitel-cs": "Moldavsko-maďarské taneční písně"
     },
     "79": {
         "tag": 1,
@@ -2761,7 +3073,11 @@
         "location-cs": {
             "name": "Kostel míru ( Friedenskirche), Schulstraße 4A",
             "bezeichnung": "Centrum rozmanitosti v míru"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "80": {
         "tag": 1,
@@ -2798,7 +3114,11 @@
         "location-cs": {
             "name": "Kostel míru ( Friedenskirche), Schulstraße 4A",
             "bezeichnung": "Centrum rozmanitosti v míru"
-        }
+        },
+        "untertitel-hu": "Igazságosság és béke a háború árnyékában",
+        "untertitel-sk": "Spravodlivosť a mier v súvislosti s vojnou",
+        "untertitel-pl": "Sprawiedliwość i pokój w obliczu wojny",
+        "untertitel-cs": "Spravedlnost a mír v kontextu války"
     },
     "81": {
         "tag": 1,
@@ -2838,7 +3158,11 @@
         "location-cs": {
             "name": "Kostel míru ( Friedenskirche), Schulstraße 4A",
             "bezeichnung": "Centrum rozmanitosti v míru"
-        }
+        },
+        "untertitel-hu": "Taizéi istentisztelet",
+        "untertitel-sk": "Bohoslužba Taizé",
+        "untertitel-pl": "Nabożeństwo Taizé",
+        "untertitel-cs": "Liturgie Taizé"
     },
     "82": {
         "tag": 1,
@@ -2872,7 +3196,11 @@
         "titel-cs": "Víra znamená důvěru – Karl Barth snadno čtený",
         "location-cs": {
             "name": "Kostel míru (Friedenskirche), presbytář 1. patro"
-        }
+        },
+        "untertitel-hu": "Workshop",
+        "untertitel-sk": "Workshop",
+        "untertitel-pl": "Warsztaty",
+        "untertitel-cs": "Workshop"
     },
     "83": {
         "tag": 1,
@@ -2906,7 +3234,11 @@
         "titel-cs": "Jak se vypořádáváme s naší rozmanitostí?",
         "location-cs": {
             "name": "Kostel míru (Friedenskirche), presbytář 1. patro"
-        }
+        },
+        "untertitel-hu": "Workshop rövid impulzusokkal és interakcióval",
+        "untertitel-sk": "Workshop s krátkymi podnetmi a interakciou",
+        "untertitel-pl": "Warsztaty z wykorzystaniem krótkich impulsów i interakcji",
+        "untertitel-cs": "Workshop s krátkými podněty a interakcí\nJak prezentovat kontroverzní témata? Dóra Laborczi, novinářka, Szentendre/Maďarsko\nJak probíhá mediace? Dr. Joanna Koleff-Pracka, mediátorka, Varšava/Polsko\nOsvěta místo boje – reakce církve na pravicový extremismus: Harald Lamprecht, zástupce pro světonázor a sekty, Drážďany/Německo\nDemokracie a církev – závěry ze studijního procesuprovedeného Společenstvím evangelických církví v Evropě: Raphael Quandt, referent pro ekumenu a střední a východní Evropu, Mnichov/Německo"
     },
     "84": {
         "tag": 1,
@@ -2938,7 +3270,11 @@
         "titel-cs": "Ochrana uprchlíků v Evropě vyžaduje církevní sítě a spolupráci",
         "location-cs": {
             "name": "Kostel míru (Friedenskirche), presbytář 1. patro"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "85": {
         "tag": 1,
@@ -2970,7 +3306,11 @@
         "titel-cs": "Udělení Ceny Karla Bartha Svazu evangelických církví (UEK) v EKD (Evangelické církvi Německa)",
         "location-cs": {
             "name": "Katolický kostel, Franz-Mehring-Straße 4"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "86": {
         "tag": 1,
@@ -3007,7 +3347,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "87": {
         "tag": 1,
@@ -3044,7 +3388,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "F. Mendelssohn, L. Lewandowski és egyéb zeneszerzők zsoltárszerzeményei",
+        "untertitel-sk": "Žalmy od F. Mendelssohna, L. Lewandowského a ďalších.",
+        "untertitel-pl": "Psalmy F. Mendelssohna, L. Lewandowskiego i in.",
+        "untertitel-cs": "Žalmy F. Mendelssohna, L. Lewandowského a dalších."
     },
     "88": {
         "tag": 1,
@@ -3081,7 +3429,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "Karének és beszélgetés a karnagyokkal",
+        "untertitel-sk": "Zborový spev a rozhovor s riaditeľmi zborov",
+        "untertitel-pl": "Śpiewy chóralne i Small Talk z chórzystami",
+        "untertitel-cs": "Sborový zpěv a rozhovor s vedoucími sborů"
     },
     "89": {
         "tag": 1,
@@ -3118,7 +3470,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "Szimfonikus kórushangverseny",
+        "untertitel-sk": "Koncert symfonického zboru",
+        "untertitel-pl": "Koncert chóru symfonicznego",
+        "untertitel-cs": "Symfonický koncert"
     },
     "90": {
         "tag": 1,
@@ -3155,7 +3511,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "91": {
         "tag": 1,
@@ -3192,7 +3552,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "92": {
         "tag": 1,
@@ -3229,7 +3593,11 @@
         "location-cs": {
             "name": "Kostel Panny Marie (St.-Marien-Kirche)",
             "bezeichnung": "Centrum hudby"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "93": {
         "tag": 1,
@@ -3261,7 +3629,11 @@
         "titel-cs": "Pobožnost ve slovenštině a němčině",
         "location-cs": {
             "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche)"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "94": {
         "tag": 1,
@@ -3293,7 +3665,11 @@
         "titel-cs": "Varhanní maraton",
         "location-cs": {
             "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche)"
-        }
+        },
+        "untertitel-hu": "Német, lengyel, cseh, magyar és szlovák orgonaművészek hangversenye",
+        "untertitel-sk": "Koncert organistov z Nemecka, Poľska, Českej republiky, Slovenska a Maďarska",
+        "untertitel-pl": "Koncert organistów z Niemiec, Polski, Czech, Słowacji i Węgier",
+        "untertitel-cs": "Koncert varhaníků z Německa, Polska, Česka, Slovenska a Maďarska"
     },
     "95": {
         "tag": 1,
@@ -3325,7 +3701,11 @@
         "titel-cs": "Večerní požehnání v maďarštině",
         "location-cs": {
             "name": "Kostel sv. Gertrudy (St.-Gertraud-Kirche)"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "96": {
         "tag": 1,
@@ -3361,7 +3741,11 @@
         "location-cs": {
             "name": "Wichern-Diakonie – Luisenstraße 21-24, Netzwerkbüro – Marktplatz 4",
             "bezeichnung": "Centrum Diakonie"
-        }
+        },
+        "untertitel-hu": "Várjuk a Café Luise-ban",
+        "untertitel-sk": "Café Luise je otvorená",
+        "untertitel-pl": "Café Luise jest otwarte",
+        "untertitel-cs": "Café Luise je otevřeno"
     },
     "97": {
         "tag": 1,
@@ -3393,7 +3777,11 @@
         "titel-cs": "S vášní!",
         "location-cs": {
             "name": "Kaple, Luisenstraße 21-24"
-        }
+        },
+        "untertitel-hu": "Inkluzív színház",
+        "untertitel-sk": "Inkluzívne divadlo",
+        "untertitel-pl": "Teatr inkluzywny",
+        "untertitel-cs": "Inkluzivní divadlo"
     },
     "98": {
         "tag": 1,
@@ -3425,7 +3813,11 @@
         "titel-cs": "Koncert",
         "location-cs": {
             "name": "Kaple, Luisenstraße 21-24"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "99": {
         "tag": 1,
@@ -3457,7 +3849,11 @@
         "titel-cs": "Polední pobožnost v němčině",
         "location-cs": {
             "name": "Kaple, Luisenstraße 21-24"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "100": {
         "tag": 1,
@@ -3489,7 +3885,11 @@
         "titel-cs": "Informace a akce v Netzwerkbüro Diakonie Wichern a okolí",
         "location-cs": {
             "name": "Netzwerkbüro, Marktplatz 4"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "101": {
         "tag": 1,
@@ -3526,7 +3926,11 @@
         "location-cs": {
             "name": "Evangelická škola, Luisenstraße 25D",
             "bezeichnung": "Centrum vzdělávání"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "102": {
         "tag": 1,
@@ -3563,7 +3967,11 @@
         "location-cs": {
             "name": "Evangelická škola, Luisenstraße 25D",
             "bezeichnung": "Centrum vzdělávání"
-        }
+        },
+        "untertitel-hu": "Miért kellenek az egyháznak protestáns iskolák? Miért kell a protestáns iskoláknak az egyház?",
+        "untertitel-sk": "Prečo cirkev potrebuje evanjelické školy? Prečo evanjelické školy potrebujú kostol?",
+        "untertitel-pl": "",
+        "untertitel-cs": "Proč církev potřebuje evangelické školy? Proč evangelické školy potřebují církev?"
     },
     "103": {
         "tag": 1,
@@ -3600,7 +4008,11 @@
         "location-cs": {
             "name": "Evangelická škola, Luisenstraße 25D",
             "bezeichnung": "Centrum vzdělávání"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "104": {
         "tag": 2,
@@ -3642,7 +4054,11 @@
         "location-cs": {
             "name": "Brunnenplatz",
             "bezeichnung": "Open-Air pódium"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "105": {
         "tag": 2,
@@ -3684,7 +4100,11 @@
         "location-cs": {
             "name": "Brunnenplatz",
             "bezeichnung": "Open-Air pódium"
-        }
+        },
+        "untertitel-hu": "Záró úrvacsorai istentisztelet",
+        "untertitel-sk": "Záverečná bohoslužba so svätým prijímaním",
+        "untertitel-pl": "Nabożeństwo zamykające z Sakramentem Wieczerzy Pańskiej",
+        "untertitel-cs": "Závěrečná bohoslužba s večeří Páně Kázání:"
     },
     "106": {
         "tag": 2,
@@ -3721,7 +4141,11 @@
         "location-cs": {
             "name": "Brunnenplatz",
             "bezeichnung": "Open-Air pódium"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     },
     "107": {
         "tag": 2,
@@ -3758,6 +4182,10 @@
         "location-cs": {
             "name": "Brunnenplatz",
             "bezeichnung": "Open-Air pódium"
-        }
+        },
+        "untertitel-hu": "",
+        "untertitel-sk": "",
+        "untertitel-pl": "",
+        "untertitel-cs": ""
     }
 }
