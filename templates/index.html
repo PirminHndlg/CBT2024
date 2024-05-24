@@ -106,4 +106,32 @@
         </div>
     </a>
 
+    <div id="webapp-tutorial" class="container">
+        Advice:
+        For better experience add this Website to your Homescreen
+        <ol>
+            <li>
+                Go to <img id="menu-icon" src="/static/img/webapp-tutorial/android-menu.png" alt="Share Button"
+                           class="webapp-icon">
+            </li>
+            <li>
+                Select <strong>"Add to Home Screen"</strong>.
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        if (!window.matchMedia('(display-mode: standalone)').matches) {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                document.getElementById('menu-icon').src = "/static/img/webapp-tutorial/safari-menu.png"
+            } else if (!/android/i.test(userAgent)) {
+                document.getElementById('webapp-tutorial').remove()
+            }
+        } else {
+            document.getElementById('webapp-tutorial').remove()
+        }
+    </script>
+
 {% endblock %}
