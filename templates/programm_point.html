@@ -19,7 +19,7 @@
             <h2>{{ section['titel-'+lang] }}</h2>
 
             {% if section['untertitel-' + lang] %}
-                <h3 class="hidden-overflow">{{ section['untertitel-' + lang] }}</h3>
+                <h3>{{ section['untertitel-' + lang] }}</h3>
             {% endif %}
 
             <p>📍 <a href="{{ url_for('map', lang=lang) }}" class="location"
