@@ -16,6 +16,15 @@
     {% endif %}
 
     {% if data != None %}
+        {#<div class="container">
+            <img src="/static/img/filter_icon.png" alt="filter" style="width: 20px; height: 20px">
+            <a>Sortieren nach</a>
+            <select>
+                <option value="1">Zeit</option>
+                <option value="2">Ort</option>
+            </select>
+        </div>#}
+        {% set data = data|sort_dict %}
         {% for k,v in data.items() %}
             <div class="container">
 
