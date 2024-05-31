@@ -69,6 +69,31 @@ def get_cookie(cookie_name, value=None):
     return cookie
 
 
+def sort_day_dict(value):
+    dic = {k: v for k, v in sorted(value.items(), key=lambda item: item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0])}
+    return dic
+
+@app.template_filter('sort_dict')
+def sort_dict(value):
+    d0 = {}
+    d1 = {}
+    d2 = {}
+    for k, v in value.items():
+        if v['tag'] == 0:
+            d0[k] = v
+        elif v['tag'] == 1:
+            d1[k] = v
+        elif v['tag'] == 2:
+            d2[k] = v
+
+    d0 = sort_day_dict(d0)
+    d1 = sort_day_dict(d1)
+    d2 = sort_day_dict(d2)
+
+    joined_dict = {**d0, **d1, **d2}
+    return joined_dict
+
+
 @app.errorhandler(404)
 def not_found(e):
     return render_template('404.html'), 404
