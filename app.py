@@ -1,14 +1,18 @@
-from flask import Flask, render_template, request, redirect, url_for, abort, send_from_directory
+import pytz
+from flask import Flask, render_template, request, redirect, url_for, abort, send_from_directory, send_file, \
+    make_response
 from datetime import datetime, time
 import json
 import re
+from ics import Calendar, Event
+import io
 
 app = Flask(__name__, static_folder='static')
 
 allowed_lang = ['de', 'hu', 'pl', 'cs', 'sk']
 
 
-def check_lang(lang):
+def check_lang(lang=None):
     if lang and not lang in allowed_lang:
         abort(404)
     if not lang:
@@ -70,12 +74,15 @@ def get_cookie(cookie_name, value=None):
 
 
 def sort_dict_by_time(value):
-    dic = {k: v for k, v in sorted(value.items(), key=lambda item: item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0])}
+    dic = {k: v for k, v in
+           sorted(value.items(), key=lambda item: item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0])}
     return dic
+
 
 def sort_dict_by_location(value):
     dic = {k: v for k, v in sorted(value.items(), key=lambda item: item[1]['location-de']['name'])}
     return dic
+
 
 @app.template_filter('sort_dict')
 def sort_dict(value, filter):
@@ -391,6 +398,78 @@ def search(lang=None):
             search_data[k]['my-program'] = True
 
     return search_data
+
+
+
+@app.route('/ics/<int:event_id>')
+def download_ics(event_id):
+    lang = check_lang()
+    event_point = get_element(event_id)
+
+    # Initialize the date and time
+    cet = pytz.timezone('CET')
+
+    date_and_time = datetime(year=2024, month=6, day=1)
+    date_and_time = cet.localize(date_and_time)
+    print(date_and_time)
+    if event_point['tag'] == 0:
+        date_and_time = date_and_time.replace(day=7)
+    elif event_point['tag'] == 1:
+        date_and_time = date_and_time.replace(day=8)
+    elif event_point['tag'] == 2:
+        date_and_time = date_and_time.replace(day=9)
+
+    # Split the time into begin and end parts
+    time_split = event_point['zeit'].split('und')[0].split('-')
+    begin_time = time_split[0].split('.')
+    end_time = time_split[1].split('.') if len(time_split) > 1 else [int(begin_time[0]) + 1, begin_time[1] if len(begin_time) > 1 else 0]
+
+    # Create a naive datetime object for begin time
+    date_and_time_begin = date_and_time.replace(
+        hour=int(begin_time[0]),
+        minute=int(begin_time[1] if len(begin_time) > 1 else 0)
+    )
+
+    # Create a naive datetime object for end time
+    date_and_time_end = date_and_time.replace(
+        hour=int(end_time[0]),
+        minute=int(end_time[1] if len(end_time) > 1 else 0)
+    )
+
+    print(date_and_time_begin, date_and_time_end)
+
+    # Format the begin and end times
+    event_begin = date_and_time_begin.strftime('%Y-%m-%d %H:%M:%S')
+    event_begin_offset = date_and_time_begin.strftime('%z')
+    event_begin = f"{event_begin}{event_begin_offset[:3]}:{event_begin_offset[3:]}"
+
+    event_end = date_and_time_end.strftime('%Y-%m-%d %H:%M:%S')
+    event_end_offset = date_and_time_end.strftime('%z')
+    event_end = f"{event_end}{event_end_offset[:3]}:{event_end_offset[3:]}"
+
+    print(event_begin, event_end)
+
+    # Create the ICS file content
+    cal = Calendar()
+    event = Event()
+    event.name = event_point['titel-' + lang]
+    event.description = (event_point['untertitel-' + lang] + '\n') if event_point['untertitel-' + lang] else ''
+    event.description += event_point['content-' + lang]
+    event.begin = event_begin
+    event.end = event_end
+    event.location = event_point['location-' + lang]['name']
+    cal.events.add(event)
+    ics_file = io.BytesIO()
+    ics_file.write(cal.serialize().encode('utf-8'))
+    ics_file.seek(0)
+
+    # Send the ICS file as a response
+    return send_file(
+        ics_file,
+        as_attachment=True,
+        download_name=f'{event_point["titel-" + lang]}.ics',
+        mimetype='text/calendar'
+    )
 
 
 @app.route('/robots.txt')

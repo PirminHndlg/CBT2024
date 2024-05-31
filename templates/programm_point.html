@@ -7,10 +7,15 @@
         <div class="container">
             <div class="container-inline">
                 <button class="button" onclick="history.back()">{{ 'back'|translate(lang) }}</button>
-                <input class="my-programm-img-small" id="my_programm_{{ section['key'] }}"
-                       onclick="change_my_programm(this.id, '{{ section['key'] }}', event)"
-                       type="image"
-                       src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(section['key']) else '/static/img/stern_filled.png' }}">
+                <div class="container-inline-next-center" style="gap: 10px">
+                    <a href="{{ url_for('download_ics', event_id=section['key']) }}">
+                        <input class="my-programm-img-small" type="image" src="/static/img/calender_icon.png">
+                    </a>
+                    <input class="my-programm-img-small" id="my_programm_{{ section['key'] }}"
+                           onclick="change_my_programm(this.id, '{{ section['key'] }}', event)"
+                           type="image"
+                           src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(section['key']) else '/static/img/stern_filled.png' }}">
+                </div>
             </div>
 
             <br>
@@ -32,9 +37,9 @@
             {% if section['lang'] %}
                 <br>
                 <div class="container-inline-next" style="gap: 5px; align-items: center">
-                {% for l in section['lang'] %}
-                    <img class="lang-small" src="/static/img/{{ l.lower() }}.png" alt="flag for {{ l }}">
-                {% endfor %}
+                    {% for l in section['lang'] %}
+                        <img class="lang-small" src="/static/img/{{ l.lower() }}.png" alt="flag for {{ l }}">
+                    {% endfor %}
                 </div>
             {% endif %}
 
