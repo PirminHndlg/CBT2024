@@ -16,15 +16,17 @@
     {% endif %}
 
     {% if data != None %}
-        {#<div class="container">
-            <img src="/static/img/filter_icon.png" alt="filter" style="width: 20px; height: 20px">
-            <a>Sortieren nach</a>
-            <select>
-                <option value="1">Zeit</option>
-                <option value="2">Ort</option>
+        {% set filter_arg = request.args.get('f') %}
+
+        <div class="container container-inline-next-center">
+            <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
+            <select id="filter" onchange="filter_changed()">
+                <option value="t" {{ 'selected' if filter_arg == 't' }}>{{ "time"|translate(lang) }}</option>
+                <option value="l" {{ 'selected' if filter_arg == 'l' }}>{{ "location"|translate(lang) }}</option>
             </select>
-        </div>#}
-        {% set data = data|sort_dict %}
+        </div>
+
+        {% set data = data|sort_dict(filter_arg) %}
         {% for k,v in data.items() %}
             <div class="container">
 
@@ -57,4 +59,21 @@
             <p>Will be added later...</p>
         </div>
     {% endif %}
+
+    <script>
+        function filter_changed() {
+            let url = window.location.href
+            console.log(url)
+            if (url.includes('f=')) {
+                url = url.replace(/f=[^&]+/, 'f=' + document.getElementById('filter').value)
+            } else {
+                if (url.includes('?')) {
+                    url += '&f=' + document.getElementById('filter').value
+                } else {
+                    url += '?f=' + document.getElementById('filter').value
+                }
+            }
+            window.location.href = url
+        }
+    </script>
 {% endblock %}

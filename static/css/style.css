@@ -178,6 +178,13 @@ li {
     white-space: nowrap
 }
 
+.container-inline-next-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap
+}
+
 .container-inline > * {
     /* Ensuring no two elements are farther apart than 100px */
     margin-right: 10px; /* Adjust this value based on your requirements */

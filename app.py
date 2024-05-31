@@ -69,12 +69,16 @@ def get_cookie(cookie_name, value=None):
     return cookie
 
 
-def sort_day_dict(value):
+def sort_dict_by_time(value):
     dic = {k: v for k, v in sorted(value.items(), key=lambda item: item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0])}
     return dic
 
+def sort_dict_by_location(value):
+    dic = {k: v for k, v in sorted(value.items(), key=lambda item: item[1]['location-de']['name'])}
+    return dic
+
 @app.template_filter('sort_dict')
-def sort_dict(value):
+def sort_dict(value, filter):
     d0 = {}
     d1 = {}
     d2 = {}
@@ -86,9 +90,14 @@ def sort_dict(value):
         elif v['tag'] == 2:
             d2[k] = v
 
-    d0 = sort_day_dict(d0)
-    d1 = sort_day_dict(d1)
-    d2 = sort_day_dict(d2)
+    if filter == 'l':
+        d0 = sort_dict_by_location(d0)
+        d1 = sort_dict_by_location(d1)
+        d2 = sort_dict_by_location(d2)
+    else:
+        d0 = sort_dict_by_time(d0)
+        d1 = sort_dict_by_time(d1)
+        d2 = sort_dict_by_time(d2)
 
     joined_dict = {**d0, **d1, **d2}
     return joined_dict
