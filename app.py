@@ -408,10 +408,8 @@ def download_ics(event_id):
 
     # Initialize the date and time
     cet = pytz.timezone('CET')
-
     date_and_time = datetime(year=2024, month=6, day=1)
     date_and_time = cet.localize(date_and_time)
-    print(date_and_time)
     if event_point['tag'] == 0:
         date_and_time = date_and_time.replace(day=7)
     elif event_point['tag'] == 1:
@@ -436,8 +434,6 @@ def download_ics(event_id):
         minute=int(end_time[1] if len(end_time) > 1 else 0)
     )
 
-    print(date_and_time_begin, date_and_time_end)
-
     # Format the begin and end times
     event_begin = date_and_time_begin.strftime('%Y-%m-%d %H:%M:%S')
     event_begin_offset = date_and_time_begin.strftime('%z')
@@ -446,8 +442,6 @@ def download_ics(event_id):
     event_end = date_and_time_end.strftime('%Y-%m-%d %H:%M:%S')
     event_end_offset = date_and_time_end.strftime('%z')
     event_end = f"{event_end}{event_end_offset[:3]}:{event_end_offset[3:]}"
-
-    print(event_begin, event_end)
 
     # Create the ICS file content
     cal = Calendar()
