@@ -191,8 +191,10 @@ def programm_section(lang=None):
                     data[k] = v
 
             elif section.lower() == 'lectures':
-                data = None
-                break
+                if v['type'] == 1:
+                    data[k] = v
+                elif v['titel-de'].lower().startswith('podium'):
+                    data[k] = v
 
             elif section.lower() == 'workshops':
                 if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith(
