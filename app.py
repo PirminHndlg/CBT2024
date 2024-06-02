@@ -197,8 +197,7 @@ def programm_section(lang=None):
                     data[k] = v
 
             elif section.lower() == 'workshops':
-                if v['titel-de'].lower().startswith('workshop') or v['untertitel-de'].lower().startswith(
-                        'workshop') or 'workshop' in v['content-de'].lower():
+                if 'workshop' in v['titel-de'].lower() or 'workshop' in v['untertitel-de'].lower() or 'workshop' in v['content-de'].lower():
                     data[k] = v
 
             elif section.lower() == 'exhibitions':
@@ -327,7 +326,7 @@ def now(lang=None, max=None):
 
     current_time = get_time(current_time)
 
-    day = 0
+    day = -1
 
     if date == '2024-06-07':
         day = 0
