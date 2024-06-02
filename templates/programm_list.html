@@ -10,13 +10,7 @@
     {% endif %}
 
     <br>
-    <div class="container container-inline">
-        {% if title %}
-            <div>
-                <h2>{{ title }}</h2>
-            </div>
-        {% endif %}
-
+    <div class="container container-inline" style="flex-direction: row-reverse">
         <div class="container-inline-next-center">
             <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
 
@@ -27,6 +21,12 @@
                 <option value="l" {{ 'selected' if filter_arg == 'l' }}>{{ "location"|translate(lang) }}</option>
             </select>
         </div>
+
+        {% if title %}
+            <div>
+                <h2>{{ title }}</h2>
+            </div>
+        {% endif %}
     </div>
 
     {% if data != None %}
