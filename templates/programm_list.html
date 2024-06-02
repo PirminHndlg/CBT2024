@@ -9,22 +9,27 @@
         </div>
     {% endif %}
 
-    {% if title %}
-        <div class="container">
-            <h2>{{ title }}</h2>
-        </div>
-    {% endif %}
+    <br>
+    <div class="container container-inline">
+        {% if title %}
+            <div>
+                <h2>{{ title }}</h2>
+            </div>
+        {% endif %}
 
-    {% if data != None %}
-        {% set filter_arg = request.args.get('f') %}
-
-        <div class="container container-inline-next-center">
+        <div class="container-inline-next-center">
             <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
+
+            {% set filter_arg = request.args.get('f') %}
+
             <select id="filter" onchange="filter_changed()">
                 <option value="t" {{ 'selected' if filter_arg == 't' }}>{{ "time"|translate(lang) }}</option>
                 <option value="l" {{ 'selected' if filter_arg == 'l' }}>{{ "location"|translate(lang) }}</option>
             </select>
         </div>
+    </div>
+
+    {% if data != None %}
 
         {% set data = data|sort_dict(filter_arg) %}
         {% for k,v in data.items() %}
