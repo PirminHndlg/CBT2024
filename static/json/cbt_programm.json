@@ -432,10 +432,10 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Kristina Kühnbaum-Schmidt tartományi püspök, Schwerin/Németo.\nAdrian Korczago püspök, Bielsko-Biała/Lengyelo.\nZene: énekkar, vezényel: Piotr Sztwiertnia lelkész, Goleszów/Lengyelo.",
-        "titel-hu": "Dialógus-bibliatanulmány lengyel és német nyelven",
+        "content-hu": "Bibliareggeli\nSzeretettel hívjuk bibliareggelire azokat a vendégeinket, akik magánlakásokban vagy gyülekezeti helyiségekben szállnak meg, A liturgia lengyel, magyar, cseh, szlovák és német nyelvű. (L. a Bibliareggeli/Liturgia oldalt.)",
+        "titel-hu": "Kezdjük együtt a napot",
         "location-hu": {
-            "name": "Collegium Polonicum, Kościuszki 1, Słubice/Lengyelo."
+            "name": "Oder-Promenade, Stadtbrücke, 1 Maja Słubice"
         },
         "content-sk": "Srdečne pozývame našich hostí, ktorí sú ubytovaní v súkromí a v spoločných izbách na spoločné biblické raňajky. Liturgia je pripravená v poľštine, maďarčine, češtine, slovenčine a nemčine. Pozri stránku (Biblické raňajky/liturgia)",
         "titel-sk": "Biblické raňajky",
@@ -470,10 +470,10 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Gregersen-Labossa György lelkész, Budapest",
-        "titel-hu": "Bibliatanulmány magyar nyelven",
+        "content-hu": "Kristina Kühnbaum-Schmidt tartományi püspök, Schwerin/Németo.\nAdrian Korczago püspök, Bielsko-Biała/Lengyelo.\nZene: énekkar, vezényel: Piotr Sztwiertnia lelkész, Goleszów/Lengyelo.",
+        "titel-hu": "Dialógus-bibliatanulmány lengyel és német nyelven",
         "location-hu": {
-            "name": "Kleist Forum, Nagyterem (Großer Saal), Platz der Einheit 1"
+            "name": "Collegium Polonicum, Kościuszki 1, Słubice/Lengyelo."
         },
         "content-sk": "Krajinská biskupka Kristina Kühnbaum-Schmidt, Schwerin\nBiskup Adrian Korczago, Bielsko-Biała/Poľsko\nHudba: Zbor, vedúca: Farár Piotr Sztwiertnia, Goleszów/Poľsko",
         "titel-sk": "Dialógové štúdium Biblie v poľštine a nemčine",
@@ -508,10 +508,10 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Jiří Tengler lelkész, Polička/Cseho.\nZene: ECHO kórus Zlín, vezényel: Ladislav Moravetz egyházzenei igazgató, Zlín/Cseho.",
-        "titel-hu": "Bibliatanulmány cseh nyelven",
+        "content-hu": "Gregersen-Labossa György lelkész, Budapest",
+        "titel-hu": "Bibliatanulmány magyar nyelven",
         "location-hu": {
-            "name": "Kleist Forum, II. emelet, 2-es konferenciaterem (Konferenzraum 2), Platz der Einheit 1"
+            "name": "Kleist Forum, Nagyterem (Großer Saal), Platz der Einheit 1"
         },
         "content-sk": "Pastor György Gregersen-Labossa, Budapešť/Maďarsko",
         "titel-sk": "Štúdium Biblie v maďarčine",
@@ -546,10 +546,10 @@
             "CS"
         ],
         "type": 0,
-        "content-hu": "Tomáš German lelkész, Blatnica/Szlovákia\nZene: Ján Hegeduš, Zólyom/Szlovákia",
-        "titel-hu": "Bibliatanulmány szlovák nyelven",
+        "content-hu": "Jiří Tengler lelkész, Polička/Cseho.\nZene: ECHO kórus Zlín, vezényel: Ladislav Moravetz egyházzenei igazgató, Zlín/Cseho.",
+        "titel-hu": "Bibliatanulmány cseh nyelven",
         "location-hu": {
-            "name": "St.-Georg-Kirche, Bergstraße 156"
+            "name": "Kleist Forum, II. emelet, 2-es konferenciaterem (Konferenzraum 2), Platz der Einheit 1"
         },
         "content-sk": "Farár Jiří Tengler, Polička/Česká republika\nHudba: Spevácky zbor ECHO Zlín, Vedúci: Regionálny riaditeľ cirkevnej hudby Ladislav Moravetz, Zlín/Česká republika",
         "titel-sk": "Štúdium Biblie v češtine",
@@ -584,10 +584,10 @@
             "SK"
         ],
         "type": 0,
-        "content-hu": "Lukáš Bujna püspök Plzeň/Cseho.\nBálint Kristóf fő szuperintendens, Potsdam/Németo.\nZene: PaedDr. Zdeněk Kovalčík egyházzenei igazgató, Zlín/Cseho.",
-        "titel-hu": "Dialógus-bibliatanulmány cseh és német nyelven",
+        "content-hu": "Tomáš German lelkész, Blatnica/Szlovákia\nZene: Ján Hegeduš, Zólyom/Szlovákia",
+        "titel-hu": "Bibliatanulmány szlovák nyelven",
         "location-hu": {
-            "name": "St.-Gertraud-Kirche, Gertraudenplatz 6"
+            "name": "St.-Georg-Kirche, Bergstraße 156"
         },
         "content-sk": "Farár Tomáš German, Blatnica/Slovensko\nHudba: Ján Hegeduš, Zvolen/Slovensko",
         "titel-sk": "Štúdium Biblie v slovenčine",
@@ -622,10 +622,10 @@
             "CS"
         ],
         "type": 0,
-        "content-hu": "Dr. Christina-Maria Bammel esperes, Berlin/Németo.\nMsgr. Dr. Hansjörg Günther, Berlin/Németo.",
-        "titel-hu": "Dialógus-bibliatanulmány német nyelven",
+        "content-hu": "Lukáš Bujna püspök Plzeň/Cseho.\nBálint Kristóf fő szuperintendens, Potsdam/Németo.\nZene: PaedDr. Zdeněk Kovalčík egyházzenei igazgató, Zlín/Cseho.",
+        "titel-hu": "Dialógus-bibliatanulmány cseh és német nyelven",
         "location-hu": {
-            "name": "Friedenskirche, Schulstraße 4A"
+            "name": "St.-Gertraud-Kirche, Gertraudenplatz 6"
         },
         "content-sk": "Biskup Lukáš Bujna, Plzeň/Česká republika\nGenerálny superintendant Kristóf Bálint, Postupim\nHudba: Riaditeľ cirkevnej hudby Kňaz PaedDr. Zdeněk Kovalčík, Zlín/Česká republika",
         "titel-sk": "Dialógové štúdium Biblie v češtine a nemčine",
@@ -658,10 +658,10 @@
         "content-de": "Pröpstin Dr. Christina-Maria Bammel, Berlin\nMonsignore Dr. Hansjörg Günther, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "Dr. Katharina von Kellenbach ny. egyetemi tanár, Berlin/Németo.",
-        "titel-hu": "Biblitanulmány antiszemitizmus-kritikai megközelítésben: Jézus és a házasságtörő asszony",
+        "content-hu": "Dr. Christina-Maria Bammel esperes, Berlin/Németo.\nMsgr. Dr. Hansjörg Günther, Berlin/Németo.",
+        "titel-hu": "Dialógus-bibliatanulmány német nyelven",
         "location-hu": {
-            "name": "Kleist Forum, Foyer, Platz der Einheit 1"
+            "name": "Friedenskirche, Schulstraße 4A"
         },
         "content-sk": "Prepošt Dr. Christina-Maria Bammel, Berlín\nMons. Dr. Hansjörg Günther, Berlín",
         "titel-sk": "Dialógové štúdium Biblie v nemčine",
@@ -694,10 +694,10 @@
         "content-de": "Prof. em. Katharina von Kellenbach PhD, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "Bibelgarten Evangelische Grundschule (Bibliakert Protestáns Általános Iskola) Frankfurt (Oder)/Németo.\nZene: Markus Nicolaus kántor, Frankfurt (Oder)/Németo.",
-        "titel-hu": "Reggeli áhítat az evangélikus iskolában",
+        "content-hu": "Dr. Katharina von Kellenbach ny. egyetemi tanár, Berlin/Németo.",
+        "titel-hu": "Biblitanulmány antiszemitizmus-kritikai megközelítésben: Jézus és a házasságtörő asszony",
         "location-hu": {
-            "name": "Luisenstraße 25D"
+            "name": "Kleist Forum, Foyer, Platz der Einheit 1"
         },
         "content-sk": "Prof. em. Katharina von Kellenbach PhD, Berlín",
         "titel-sk": "Štúdium Biblie o výkladoch Biblie, ktoré sú kritické voči antisemitizmu: Ježiš a cudzoložnica",
@@ -730,10 +730,10 @@
         "content-de": "Evangelische Grundschule, Frankfurt (Oder)\nMusik: Markus Nicolaus, Organist, Frankfurt (Oder)",
         "lang": [],
         "type": 0,
-        "content-hu": "Dr. Ursula Schoen igazgató, Diakonisches Werk, Berlin/Németo.",
-        "titel-hu": "Reggeli áhítat",
+        "content-hu": "Bibelgarten Evangelische Grundschule (Bibliakert Protestáns Általános Iskola) Frankfurt (Oder)/Németo.\nZene: Markus Nicolaus kántor, Frankfurt (Oder)/Németo.",
+        "titel-hu": "Reggeli áhítat az evangélikus iskolában",
         "location-hu": {
-            "name": "Wichern-Diakonie, Kapelle (Kápolna), Luisenstraße 21-24"
+            "name": "Luisenstraße 25D"
         },
         "content-sk": "Evanjelická základná škola, Frankfurt nad Odrou\nHudba: Markus Nicolaus, organista, Frankfurt nad Odrou",
         "titel-sk": "Ranná bohoslužba v biblickej záhrade",
@@ -766,11 +766,10 @@
         "content-de": "Dr. Ursula Schoen, Direktorin Diakonisches Werk, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "Közös zene és tánc kreatívan. Ne hagyd ki! Ten Sing Projekt, Prága/Cseho.",
-        "titel-hu": "Life´n´Rhythm",
+        "content-hu": "Dr. Ursula Schoen igazgató, Diakonisches Werk, Berlin/Németo.",
+        "titel-hu": "Reggeli áhítat",
         "location-hu": {
-            "name": "Szabadtéri színpad, Brunnenplatz",
-            "bezeichnung": "Szabadtéri városi programok"
+            "name": "Wichern-Diakonie, Kapelle (Kápolna), Luisenstraße 21-24"
         },
         "content-sk": "Dr. Ursula Schoen, riaditeľka Diakonisches Werk, Berlín",
         "titel-sk": "Ranná bohoslužba",
@@ -804,8 +803,8 @@
         "content-de": "Kreative Musik und Tanz für alle. Unbedingt Mitmachen und Mitsingen!\nTen Sing Projekt, Praha/Tschechien",
         "lang": [],
         "type": 0,
-        "content-hu": "Harald Geywitz zsinati elnök, Berlin/Németo.\nAdam Malina zsinati elnök, Katowice-Szopienice/Lengyelo.",
-        "titel-hu": "Megújítják Európát az egyházak!?",
+        "content-hu": "Közös zene és tánc kreatívan. Ne hagyd ki! Ten Sing Projekt, Prága/Cseho.",
+        "titel-hu": "Life´n´Rhythm",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -827,7 +826,7 @@
         "location-cs": {
             "name": "Diakonia Wichern, kaple, Luisenstraße 21-24"
         },
-        "untertitel-hu": "Mit tehet az egyház egy jól működő, szociális és békés Európáért",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": ""
@@ -846,8 +845,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Színpompás legyezős tánc és dalok, gyermekek és fiatalok előadásában\nLengyelországi Evangélikus Színjátszó- és Tánccsoport, vezető: Agnieszka Borski, Skoczów/Lengyelo.",
-        "titel-hu": "Minden dolgotok szeretetben menjen végbe!",
+        "content-hu": "Harald Geywitz zsinati elnök, Berlin/Németo.\nAdam Malina zsinati elnök, Katowice-Szopienice/Lengyelo.",
+        "titel-hu": "Megújítják Európát az egyházak!?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -870,7 +869,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Tánc és dalok Lengyelországból",
+        "untertitel-hu": "Mit tehet az egyház egy jól működő, szociális és békés Európáért",
         "untertitel-sk": "Ako môže Cirkev prispieť k prosperujúcej, sociálnej a mierovej Európe",
         "untertitel-pl": "",
         "untertitel-cs": ""
@@ -887,8 +886,8 @@
         "content-de": "Farbenfroher Tanz und Lieder mit Fächerschleiern, aufgeführt von Kindern und Jugendlichen\nTheater- und Tanzgruppe Evangelisch-Augsburgische Kirche, Leitung: Agnieszka Borski, Skoczów/Polen",
         "lang": [],
         "type": 0,
-        "content-hu": "Harald Geywitz zsinati elnök, Berlin/Németo.\nMsgr. Dr. Hansjörg Günther, Berlin/Németo.\nZene: A résztvevő egyházak rézfúvószenekarai, vezényel: Ulrike Gäbel, egyházmegyei rézfúvószenekari megbízott, Frankfurt (Oder)/Németo.",
-        "titel-hu": "Napközbeni áhítat német nyelven",
+        "content-hu": "Színpompás legyezős tánc és dalok, gyermekek és fiatalok előadásában\nLengyelországi Evangélikus Színjátszó- és Tánccsoport, vezető: Agnieszka Borski, Skoczów/Lengyelo.",
+        "titel-hu": "Minden dolgotok szeretetben menjen végbe!",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -911,7 +910,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Tánc és dalok Lengyelországból",
         "untertitel-sk": "Tanec a piesne z Poľska",
         "untertitel-pl": "",
         "untertitel-cs": "Jak může církev přispět k prosperující, sociální a pokojné Evropě"
@@ -928,8 +927,8 @@
         "content-de": "Präses Harald Geywitz, Berlin\nMonsignore Dr. Hansjörg Günther, Berlin\nMusik: Posaunenchor der beteiligten Kirchen, Leitung: Ulrike Gäbel, Kreisposaunenbeauftragte, Frankfurt (Oder)",
         "lang": [],
         "type": 0,
-        "content-hu": "Zán Fábián Sándor püspök, Beregszász/Ukrajna\nJerzy Samiec püspök, Varsó/Lengyelo.\nDr. Christian Stäblein püspök, Berlin/Németo.",
-        "titel-hu": "Béke, de hogyan?",
+        "content-hu": "Harald Geywitz zsinati elnök, Berlin/Németo.\nMsgr. Dr. Hansjörg Günther, Berlin/Németo.\nZene: A résztvevő egyházak rézfúvószenekarai, vezényel: Ulrike Gäbel, egyházmegyei rézfúvószenekari megbízott, Frankfurt (Oder)/Németo.",
+        "titel-hu": "Napközbeni áhítat német nyelven",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -952,7 +951,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Kihívások, utak és impulzusok a tartós békéhez",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": "Tanec a písně z Polska"
@@ -972,8 +971,8 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Vezényel: Tobias Brommann kántor, Berlin/Németo.",
-        "titel-hu": "Énekeljünk a Találkozón résztvevő országok nyelvén!",
+        "content-hu": "Zán Fábián Sándor püspök, Beregszász/Ukrajna\nJerzy Samiec püspök, Varsó/Lengyelo.\nDr. Christian Stäblein püspök, Berlin/Németo.",
+        "titel-hu": "Béke, de hogyan?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -996,7 +995,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Közös éneklés",
+        "untertitel-hu": "Kihívások, utak és impulzusok a tartós békéhez",
         "untertitel-sk": "O výzvach, cestách a podnetoch pre udržateľné budovanie mieru",
         "untertitel-pl": "O wyzwaniach, ścieżkach i impulsach dla zrównoważonego budowania pokoju",
         "untertitel-cs": ""
@@ -1013,8 +1012,8 @@
         "content-de": "Leitung: Kantor Tobias Brommann, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "Mateusz Sikora, ifjúsági képviselő, Szczecin/Lengyelo.\nDr. Viola Vogel egyházi irodaigazgató, Berlin/Németo.",
-        "titel-hu": "Van-e jövője az egyháznak?",
+        "content-hu": "Vezényel: Tobias Brommann kántor, Berlin/Németo.",
+        "titel-hu": "Énekeljünk a Találkozón résztvevő országok nyelvén!",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1037,7 +1036,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Egyházak kisebbségben. Hogyan legyünk társadalmilag relevánsak és mindenki számára nyitottak?",
+        "untertitel-hu": "Közös éneklés",
         "untertitel-sk": "Spoločný spev",
         "untertitel-pl": "Wspólne śpiewanie",
         "untertitel-cs": "O výzvách, cestách a impulsech pro udržitelné budování míru"
@@ -1056,8 +1055,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Jazz Youngs, az Evangélikus Középiskolai Kollégium zenekara, Budapest",
-        "titel-hu": "Young Jazz",
+        "content-hu": "Mateusz Sikora, ifjúsági képviselő, Szczecin/Lengyelo.\nDr. Viola Vogel egyházi irodaigazgató, Berlin/Németo.",
+        "titel-hu": "Van-e jövője az egyháznak?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1080,7 +1079,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Zenés tisztelgés az esélyegyenlőség előtt",
+        "untertitel-hu": "Egyházak kisebbségben. Hogyan legyünk társadalmilag relevánsak és mindenki számára nyitottak?",
         "untertitel-sk": "Cirkev v menšine, medzi sociálnym významom a cirkvou pre všetkých",
         "untertitel-pl": "Kościół w mniejszości, między znaczeniem społecznym a Kościołem dla wszystkich",
         "untertitel-cs": "Společné zpívání"
@@ -1097,8 +1096,8 @@
         "content-de": "Zither-Ensemble Podmaniczky János Evangelisch-Lutherische Grundschule, Budapest/Ungarn",
         "lang": [],
         "type": 0,
-        "content-hu": "Frankfurt (Oder)/Németo. és Słubice/Lengyelo. polgármestereinek részvételével",
-        "titel-hu": "Mindig mondják, de sohasem magyarázzák meg: Mi az az ikerváros?",
+        "content-hu": "Jazz Youngs, az Evangélikus Középiskolai Kollégium zenekara, Budapest",
+        "titel-hu": "Young Jazz",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1121,7 +1120,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Odera-Frankfurt és Słubice városvezetői beszélnek a két város összenövéséről, a határokon átívelő együttműködés sikereiről és nehézségeiről",
+        "untertitel-hu": "Zenés tisztelgés az esélyegyenlőség előtt",
         "untertitel-sk": "Pocta tvorivej spravodlivosti prostredníctvom hudby",
         "untertitel-pl": "Hołd dla sprawiedliwości twórczej poprzez muzykę",
         "untertitel-cs": "Církev v menšině, mezi společenským významem a církví pro všechny"
@@ -1140,8 +1139,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Tomáš Najbrt, sokhangszeres zenész, Prága/Cseho.",
-        "titel-hu": "Zene Csehországból",
+        "content-hu": "Frankfurt (Oder)/Németo. és Słubice/Lengyelo. polgármestereinek részvételével",
+        "titel-hu": "Mindig mondják, de sohasem magyarázzák meg: Mi az az ikerváros?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1164,7 +1163,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Hangok és dalok történelmi és népi hangszereken",
+        "untertitel-hu": "Odera-Frankfurt és Słubice városvezetői beszélnek a két város összenövéséről, a határokon átívelő együttműködés sikereiről és nehézségeiről",
         "untertitel-sk": "Predstavitelia miest Frankfurt nad Odrou a Słubice hovoria o tom, ako sa obe mestá spoločne rozvíjali a o úspechoch a prekážkach cezhraničnej spolupráce.",
         "untertitel-pl": "Burmistrzowie Frankfurtu nad Odrą i Słubic opowiadają o tym, jak oba miasta rozwinęły się razem oraz o sukcesach i przeszkodach we współpracy transgranicznej.",
         "untertitel-cs": "Pocta kreativní spravedlnosti skrze hudbu"
@@ -1181,8 +1180,8 @@
         "content-de": "Tomáš Najbrt, Multiinstrumentalist, Praha/Tschechien",
         "lang": [],
         "type": 0,
-        "content-hu": "Anna-Nicole Heinrich zsinati elnök, Hannover/Németo.\nAnne Linden kórházlelkész, Bad Saarow/Németo.",
-        "titel-hu": "Hogyan válhat az egyház befogadóbbá?",
+        "content-hu": "Tomáš Najbrt, sokhangszeres zenész, Prága/Cseho.",
+        "titel-hu": "Zene Csehországból",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1205,7 +1204,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "A Biblia szerint ugyanaz a méltóság illet meg minden embert. A hátrányos megkülönböztetés és az erőszak azonban az egyházban is valóságos. Hogyan lesznek az egyházak mindenki számára biztonságos hellyé?",
+        "untertitel-hu": "Hangok és dalok történelmi és népi hangszereken",
         "untertitel-sk": "Zvuky a piesne na historických a ľudových nástrojoch",
         "untertitel-pl": "Brzmienia i pieśni na instrumentach historycznych i ludowych",
         "untertitel-cs": "Zástupci měst Frankfurt nad Odrou a Słubice hovoří o tom, jak se obě města společně rozvíjela, a o úspěších i překážkách přeshraniční spolupráce."
@@ -1222,8 +1221,8 @@
         "content-de": "Präses Anna-Nicole Heinrich, Hannover\nPfarrerin Anne Linden, Krankenhausseelsorgerin, Bad Saarow",
         "lang": [],
         "type": 0,
-        "content-hu": "Az Aszódi Evangélikus Gimnázium néptánc-csoportja, Vezető: Lányi Erzsébet, Aszód",
-        "titel-hu": "Szívvel-lélekkel",
+        "content-hu": "Anna-Nicole Heinrich zsinati elnök, Hannover/Németo.\nAnne Linden kórházlelkész, Bad Saarow/Németo.",
+        "titel-hu": "Hogyan válhat az egyház befogadóbbá?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1246,7 +1245,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Magyar néptáncok népviseletben",
+        "untertitel-hu": "A Biblia szerint ugyanaz a méltóság illet meg minden embert. A hátrányos megkülönböztetés és az erőszak azonban az egyházban is valóságos. Hogyan lesznek az egyházak mindenki számára biztonságos hellyé?",
         "untertitel-sk": "Podľa Biblie majú všetci ľudia rovnakú dôstojnosť. Ale diskriminácia a násilie v cirkvi sú skutočné. Ako sa môžu kostoly stať bezpečným miestom pre každého?",
         "untertitel-pl": "Według Biblii wszyscy ludzie mają taką samą godność. Ale dyskryminacja i przemoc w Kościele są realne. Jak Kościoły mogą stać się bezpiecznym miejscem dla wszystkich?",
         "untertitel-cs": "Tóny a písně s historickými a lidovými nástroji"
@@ -1263,8 +1262,8 @@
         "content-de": "Volkstanzgruppe Evangelisch-Lutherisches Gymnasium in Aszód, Leitung: Erzsébet Lányi, Aszód/Ungarn",
         "lang": [],
         "type": 0,
-        "content-hu": "Theresa Rinecker fő szuperintendens, Görlitz/Németo.\nWaldemar Pytel püspök, Wrocław/Lengyelo.",
-        "titel-hu": "Erő a szórványban?",
+        "content-hu": "Az Aszódi Evangélikus Gimnázium néptánc-csoportja, Vezető: Lányi Erzsébet, Aszód",
+        "titel-hu": "Szívvel-lélekkel",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1287,7 +1286,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "A protestáns keresztények Lengyelországban és Kelet-Németországban is kisebbségben vannak – éppen ezért törekednek az együttműködésre.",
+        "untertitel-hu": "Magyar néptáncok népviseletben",
         "untertitel-sk": "Ľudové tance v maďarskom kroji",
         "untertitel-pl": "Tańce ludowe w strojach węgierskich",
         "untertitel-cs": "Podle Bible mají všichni lidé stejnou důstojnost. Ale diskriminace a násilí v církvi jsou skutečné. Jak se mohou církve stát bezpečnými místy pro všechny?"
@@ -1306,8 +1305,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Parents & Friends (gyerekek és szülők), Vezető: Jochen Silex, Seelow/Németo.",
-        "titel-hu": "Dalok a békéért",
+        "content-hu": "Theresa Rinecker fő szuperintendens, Görlitz/Németo.\nWaldemar Pytel püspök, Wrocław/Lengyelo.",
+        "titel-hu": "Erő a szórványban?",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1330,7 +1329,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Brandenburg elsőszámú Swing-Go-Pop kórusa",
+        "untertitel-hu": "A protestáns keresztények Lengyelországban és Kelet-Németországban is kisebbségben vannak – éppen ezért törekednek az együttműködésre.",
         "untertitel-sk": "Protestantskí kresťania v Poľsku a východnom Nemecku sú v menšine - a práve preto sa zameriavajú na spoluprácu",
         "untertitel-pl": "Ewangelicy w Polsce i Niemczech Wschodnich są mniejszością - i właśnie dlatego koncentrują się na współpracy",
         "untertitel-cs": "Lidové tance v maďarském kroji"
@@ -1347,8 +1346,8 @@
         "content-de": "Parents & Friends, Leitung: Jochen Silex, Seelow",
         "lang": [],
         "type": 0,
-        "content-hu": "Németországból, Szíriából, Palesztinából, Izraelből, Brasiliából, Olaszországból, Bajorországból, Oroszországból, Lengyelországból és Irakból származó zenészeket (menekült-háttérrel vagy anélkül) egyesít az a kívánság, hogy lebontsák az előítéleteket, és hidakat építsenek a kultúrák, vallások és népek között. Új módon tolmácsolják hazájuk zenéjét, és fúvós hangzásukkal, zenei sokszínűségükkel (afrofunk, balkáni fúvószene, klezmer, cumbia és orientális slágerek) minden(ki)t táncra perdítenek.\nBanda Comunale, Drezda/Németo.",
-        "titel-hu": "Veszélyesen idegen fúvószene",
+        "content-hu": "Parents & Friends (gyerekek és szülők), Vezető: Jochen Silex, Seelow/Németo.",
+        "titel-hu": "Dalok a békéért",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1371,7 +1370,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "Nagykoncert",
+        "untertitel-hu": "Brandenburg elsőszámú Swing-Go-Pop kórusa",
         "untertitel-sk": "1. Swing-Go-Popový zbor z Brandenburgska",
         "untertitel-pl": "1. Swing-Go-Pop Chor Brandenburgs",
         "untertitel-cs": "Protestantští křesťané v Polsku a východním Německu jsou v menšině, a proto se zaměřují na spolupráci"
@@ -1388,8 +1387,8 @@
         "content-de": "Musiker:innen aus Deutschland, Syrien, Palästina, Israel, Brasilien, Italien, Bayern, Russland, Polen und dem Irak (mit und ohne Fluchthintergrund) vereint der Wunsch, Vorurteile ab- und Brücken zwischen Kulturen, Religionen und Ethnien aufzubauen. Sie interpretieren ihre Heimatmusik neu und bringen mit Brass Sounds und einem breiten Repertoire aus Afrofunk, Balkan-Brass, Klezmer, Cumbia und orientalischen Hits alle(s) zum Tanzen.\nBanda Comunale, Dresden",
         "lang": [],
         "type": 0,
-        "content-hu": "Bálint Kristóf fő szuperintendens, Potsdam/Németo.\nZene: A résztvevő egyházak rézfúvós zenekara, vezényel: Ulrike Gäbel, egyházmegyei rézfúvószenekari megbízott, Frankfurt (Oder)/Németo.\nA nap moderátora: Attila Weidemann, Berlin/Németo. és Paweł Meler lelkész, Wrocław/Lengyelo.",
-        "titel-hu": "Esti áldás németül",
+        "content-hu": "Németországból, Szíriából, Palesztinából, Izraelből, Brasiliából, Olaszországból, Bajorországból, Oroszországból, Lengyelországból és Irakból származó zenészeket (menekült-háttérrel vagy anélkül) egyesít az a kívánság, hogy lebontsák az előítéleteket, és hidakat építsenek a kultúrák, vallások és népek között. Új módon tolmácsolják hazájuk zenéjét, és fúvós hangzásukkal, zenei sokszínűségükkel (afrofunk, balkáni fúvószene, klezmer, cumbia és orientális slágerek) minden(ki)t táncra perdítenek.\nBanda Comunale, Drezda/Németo.",
+        "titel-hu": "Veszélyesen idegen fúvószene",
         "location-hu": {
             "name": "Szabadtéri színpad, Brunnenplatz",
             "bezeichnung": "Szabadtéri városi programok"
@@ -1412,7 +1411,7 @@
             "name": "Open-Air pódium, Brunnenplatz",
             "bezeichnung": "Centrum města"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Nagykoncert",
         "untertitel-sk": "Veľký koncert",
         "untertitel-pl": "Wielki koncert",
         "untertitel-cs": "1. Swing-Go-Pop sbor z Braniborska"
@@ -1429,10 +1428,11 @@
         "content-de": "Generalsuperintendent Kristóf Bálint, Potsdam\nMusik: Posaunenchor der beteiligten Kirchen, Leitung: Ulrike Gäbel, Kreisposaunenbeauftragte, Frankfurt (Oder)\nTagesmoderation: Attila Weidemann, Berlin und Pfarrer Paweł Meler, Wrocław/Polen",
         "lang": [],
         "type": 0,
-        "content-hu": "Közös szeretetvendégség\nA Marktplatztól az Odera-sétányig egy kilométer hosszú terített asztal vár, hogy együtt együnk-igyunk, ismerkedjünk és tanuljunk, a lehető legtöbb anyanyelv és érzékszerv bevonásával. Csengőt hozzanak, fő, hogy hangos legyen!",
-        "titel-hu": "A 4.000 ember megvendégelése",
+        "content-hu": "Bálint Kristóf fő szuperintendens, Potsdam/Németo.\nZene: A résztvevő egyházak rézfúvós zenekara, vezényel: Ulrike Gäbel, egyházmegyei rézfúvószenekari megbízott, Frankfurt (Oder)/Németo.\nA nap moderátora: Attila Weidemann, Berlin/Németo. és Paweł Meler lelkész, Wrocław/Lengyelo.",
+        "titel-hu": "Esti áldás németül",
         "location-hu": {
-            "name": "Marktplatz – Bischofsstraße – Oder-Promenade"
+            "name": "Szabadtéri színpad, Brunnenplatz",
+            "bezeichnung": "Szabadtéri városi programok"
         },
         "content-sk": "Generálny superintendent Kristóf Bálint, Postupim\nHudba: Trombitášsky zbor zúčastnených cirkví, vedenie: Ulrike Gäbel, zástupkyňa obvodného výboru pre trombón, Frankfurt nad Odrou\nModerovanie dňa: Attila Weidemann, Berlín a kňaz Paweł Meler, Vroclav/Poľsko",
         "titel-sk": "Večerné požehnanie v nemčine",
@@ -1468,8 +1468,8 @@
         "content-de": "Gemeinsame Abendessen-Tafel\nVom Marktplatz bis zur Oder-Promenade werden wir gemeinsam an einer ein Kilometer langen Tafel essen, trinken, einander kennenlernen und voneinander erfahren – in allen Sprachen und mit allen Sinnen. Bringen Sie Glöckchen mit, Hauptsache laut!",
         "lang": [],
         "type": 0,
-        "content-hu": "Egy mobil társadalomban minden korábbinál fontosabb, hogy az egyház is az legyen. Az emeletes buszban rengeteg a Bibliával kapcsolatos információ, ezen kívül egy kiállítás, könyvesbolt és könyvnyomtató műhely is található. Workshopok 30 percenként:\nBibliamobil Erdélyben: beszámoló magyar református és szász evangélikus gyülekezetekben tett látogatásokról.\nBibliamobil Lengyelországban: képes beszámoló.\nGutenberg, könyvnyomtatás: Ki volt Gutenberg? Mit változtatott meg? Nyomtassunk úgy, mint akkoriban.\nA reformáció és benne Luther valódi szerepe.",
-        "titel-hu": "Kérdések és válaszok a Bibliamobilban",
+        "content-hu": "Közös szeretetvendégség\nA Marktplatztól az Odera-sétányig egy kilométer hosszú terített asztal vár, hogy együtt együnk-igyunk, ismerkedjünk és tanuljunk, a lehető legtöbb anyanyelv és érzékszerv bevonásával. Csengőt hozzanak, fő, hogy hangos legyen!",
+        "titel-hu": "A 4.000 ember megvendégelése",
         "location-hu": {
             "name": "Marktplatz – Bischofsstraße – Oder-Promenade"
         },
@@ -1506,10 +1506,10 @@
         "content-de": "In einer mobilen Gesellschaft ist es für die Kirche wichtiger denn je, selbst mobil zu werden. Im Doppeldeckerbus gibt es viele Infos, einen Ausstellungsraum, einem Buchladen rund um die Bibel und eine Druckerpresse. Workshops von je 30 Minuten zu:\nBibelmobil in Siebenbürgen: Berichte über Besuche in Ungarisch-Reformierten Gemeinden und Gemeinden der Ev. Kirche AB in Rumänien\nBibelmobil in Polen: ein Reisebericht in Bildern\nGutenbergs Buchdruck: Wer war Gutenberg? Was hat er verändert? Drucken wie damals\nReformation und welche Rolle Martin Luther dabei wirklich spielte",
         "lang": [],
         "type": 0,
-        "content-hu": "Várjuk mindazokat a családokat és résztvevőket, akiknek kedvük van hozzá, hogy felfedezzék Istent a természetben. Az istentisztelet helyszínét közösen rendezzük be a természet ajándékainak felhasználásával. Keresésre indulunk, hogy megtaláljuk Istent és egymást.\nSusanne Noack lelkész, Frankfurt (Oder)/Németo.",
-        "titel-hu": "Istennel a zöldben – közös fellélegzés a szabad ég alatt",
+        "content-hu": "Egy mobil társadalomban minden korábbinál fontosabb, hogy az egyház is az legyen. Az emeletes buszban rengeteg a Bibliával kapcsolatos információ, ezen kívül egy kiállítás, könyvesbolt és könyvnyomtató műhely is található. Workshopok 30 percenként:\nBibliamobil Erdélyben: beszámoló magyar református és szász evangélikus gyülekezetekben tett látogatásokról.\nBibliamobil Lengyelországban: képes beszámoló.\nGutenberg, könyvnyomtatás: Ki volt Gutenberg? Mit változtatott meg? Nyomtassunk úgy, mint akkoriban.\nA reformáció és benne Luther valódi szerepe.",
+        "titel-hu": "Kérdések és válaszok a Bibliamobilban",
         "location-hu": {
-            "name": "Ziegenwerder-sziget, játszótér mögötti tűzrakóhely"
+            "name": "Marktplatz – Bischofsstraße – Oder-Promenade"
         },
         "content-sk": "V mobilnej spoločnosti je dôležitejšie ako kedykoľvek predtým, aby sa cirkev sama stala mobilnou. V dvojposchodovom autobuse nájdete množstvo informácií, výstavnú miestnosť, kníhkupectvo venované Biblii a tlačiareň. Workshopy trvajúce po 30 minút:\nBibelMobil v Transylvánii: Správy o návštevách maďarských reformovaných zborov a zborov evanjelickej  cirkvi AB v Rumunsku\nBibelMobil v Poľsku: cestopis vo fotografiách\nGutenbergova typografická tlač: Kto bol Gutenberg? Čo zmenil? Tlač ako vtedy\nReformácia a akú úlohu v nej skutočne zohral Martin Luther",
         "titel-sk": "Kto sa pýta, dostane odpoveď v BibelMobile (Biblickom vozidle)",
@@ -1527,7 +1527,7 @@
         "location-cs": {
             "name": "Z náměstí Marktplatz přes Bischofsstraße na promenádu u řeky Odry"
         },
-        "untertitel-hu": "Családi istentisztelet a természetben",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": ""
@@ -1543,11 +1543,10 @@
         "content-de": "Eingeladen sind Familien und alle Menschen, die Lust haben, Gott in der Natur zu entdecken. Wir werden gemeinsam einen Gottesdienstraum herrichten, für den wir nur das brauchen, was die Natur uns schenkt. Dabei gehen wir auf die Suche und finden Gott und Gemeinschaft.\nPfarrerin Susanne Noack, Frankfurt (Oder)",
         "lang": [],
         "type": 0,
-        "content-hu": "A jövő sok kérdése közös Lengyelországban és Németországban. A klímaváltozás kérdései, az Odera-menti ökológiai rendszer iránti felelősség, a liberális demokrácia védelme, Ukrajna támogatása, az Oroszországhoz való viszony. A beszélgetés folyamán a politika és az egyház képviselői közösen igyekeznek távlatokat felvázolni.\nJerzy Samiec püspök, Varsó/Lengyelo.\nSemko Koroza püspök, Varsó/Lengyelo.\nDr. Christian Stäblein püspök, Berlin/Németo.\nKözéleti és politikai szereplők\nModerátor: Stephan Bickhardt, Evangelische Akademie Sachsen (Szász Evangélikus Akadémia), Drezda/Németo.",
-        "titel-hu": "A határok legyőzéséről, a közösségépítésről és a válaszkeresésről",
+        "content-hu": "Várjuk mindazokat a családokat és résztvevőket, akiknek kedvük van hozzá, hogy felfedezzék Istent a természetben. Az istentisztelet helyszínét közösen rendezzük be a természet ajándékainak felhasználásával. Keresésre indulunk, hogy megtaláljuk Istent és egymást.\nSusanne Noack lelkész, Frankfurt (Oder)/Németo.",
+        "titel-hu": "Istennel a zöldben – közös fellélegzés a szabad ég alatt",
         "location-hu": {
-            "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
-            "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
+            "name": "Ziegenwerder-sziget, játszótér mögötti tűzrakóhely"
         },
         "content-sk": "Pozývame rodiny a všetkých ľudí, ktorí chcú objavovať Boha v prírode. Spoločne pripravíme bohoslužobný priestor, na ktorý potrebujeme len to, čo nám dáva príroda. Vydávame sa na cestu hľadania a nachádzame Boha a spoločenstvo.\nFarárka Susanne Noack, Frankfurt nad Odrou",
         "titel-sk": "S Bohom na vidieku - spoločne hlboko dýchame na čerstvom vzduchu spolu",
@@ -1564,7 +1563,7 @@
         "location-cs": {
             "name": "Z náměstí Marktplatz přes Bischofsstraße na promenádu u řeky Odry"
         },
-        "untertitel-hu": "Pódiumbeszélgetés a német-lengyel kapcsolatokról",
+        "untertitel-hu": "Családi istentisztelet a természetben",
         "untertitel-sk": "Rodinné bohoslužby v prírode",
         "untertitel-pl": "Nabożeństwo dla rodzin",
         "untertitel-cs": ""
@@ -1583,8 +1582,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Marcin Orawski lelkész, Wrocław/Lengyelo.\nZene: Énekkar, vezényel: Mikołaj Szczęsny, Wrocław/Lerngyelo.",
-        "titel-hu": "Napközbeni áhítat lengyel nyelven",
+        "content-hu": "A jövő sok kérdése közös Lengyelországban és Németországban. A klímaváltozás kérdései, az Odera-menti ökológiai rendszer iránti felelősség, a liberális demokrácia védelme, Ukrajna támogatása, az Oroszországhoz való viszony. A beszélgetés folyamán a politika és az egyház képviselői közösen igyekeznek távlatokat felvázolni.\nJerzy Samiec püspök, Varsó/Lengyelo.\nSemko Koroza püspök, Varsó/Lengyelo.\nDr. Christian Stäblein püspök, Berlin/Németo.\nKözéleti és politikai szereplők\nModerátor: Stephan Bickhardt, Evangelische Akademie Sachsen (Szász Evangélikus Akadémia), Drezda/Németo.",
+        "titel-hu": "A határok legyőzéséről, a közösségépítésről és a válaszkeresésről",
         "location-hu": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
             "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
@@ -1606,7 +1605,7 @@
         "location-cs": {
             "name": "Poloostrov Ziegenwerder, kemp za dětským hřištěm"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Pódiumbeszélgetés a német-lengyel kapcsolatokról",
         "untertitel-sk": "Panelová diskusia o nemecko-poľských vzťahoch",
         "untertitel-pl": "Panel dyskusyjny na temat stosunków polsko-niemieckich",
         "untertitel-cs": "Rodinné bohoslužby v přírodě"
@@ -1623,8 +1622,8 @@
         "content-de": "Pfarrer Marcin Orawski, Wrocław/Polen\nMusik: Chor, Leitung: Mikołaj Szczęsny, Wrocław/Polen",
         "lang": [],
         "type": 0,
-        "content-hu": "Határvidékünk olyan kulturális és vallási tér, amelyet közösen szeretnénk alakítani. A pódiumbeszélgetés bemutatja a békekezdeményezések történelmi múltját, továbbá tudósít néhány közép- és kelet-európai békeépítő kezdeményezésről, azok aktuális kihívásairól és célkitűzéseiről.\nKristina Kühnbaum-Schmidt tartományi püspök, Schwerin/Németo.\nWaldemar Pytel püspök, Wrocław/Lengyelo.\nAdrian Put segédpüspök, Zielona Góra/Lengyelo.\nTheresa Rinecker fő szuperintendens, Görlitz/Németo.\nDr. Robert Żurek, Stiftung Kreisau, (Kreisau Alapítvány) Krzyżowa/Lengyelo.\nDr. Annemarie Franke, a felső-lausitzi és alsó-sziléziai kultúrrégió kulturális titkárságának vezetője, Krzyżowa/Lengyelo. és Görlitz/Németo.\nDr. Piotr Gaś lelkész, Varsó/Lengyelo.\nMarkus Meckel ny. lelkész, az NDK egykori külügyminisztere, Berlin/Németo.\nZene: Berliner Staats- und Domchor (Berlini Állami és Dómkórus), vezényel: Prof. Kai-Uwe Jirka, Berlin/Németo.\nModerátor: Frank Schürer-Behrmann szuperintendens és Adrianna Rosa-Zarzycka, Frankfurt (Oder)/Németo.",
-        "titel-hu": "„... de Isten terve jóra fordította” (1Móz 50,20)",
+        "content-hu": "Marcin Orawski lelkész, Wrocław/Lengyelo.\nZene: Énekkar, vezényel: Mikołaj Szczęsny, Wrocław/Lerngyelo.",
+        "titel-hu": "Napközbeni áhítat lengyel nyelven",
         "location-hu": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
             "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
@@ -1647,7 +1646,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "Szomszédok történetei a lengyel–német határról",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": "Panelová diskuse o německo-polských vztazích"
@@ -1666,8 +1665,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "„Az emberiség kora” (antropocén) válaszúthoz érkezett. Hogyan lehet sikeres az élet az egyre szűkülő ökológiai határok között? Mivel járulhatnak hozzá az egyházak?\nProf. Dr. Wolfgang Lucht, Institut für Klimafolgenforschung (Klímaváltozás Következményeit Kutató Intézet), Potsdam/Németo.\nMichael Chalupka püspök, Bécs/Ausztria\nAdrian Put segédpüspök, Zielona Góra/Lengyelo.\nDr. Christina-Maria Bammel esperes, Berlin/Németo.\nModerátor: Hans-Joachim Ditz, Berlin/Németo.",
-        "titel-hu": "Még megmenekülhetünk? Az egyházak szerepe az ökológiai átalakulásban",
+        "content-hu": "Határvidékünk olyan kulturális és vallási tér, amelyet közösen szeretnénk alakítani. A pódiumbeszélgetés bemutatja a békekezdeményezések történelmi múltját, továbbá tudósít néhány közép- és kelet-európai békeépítő kezdeményezésről, azok aktuális kihívásairól és célkitűzéseiről.\nKristina Kühnbaum-Schmidt tartományi püspök, Schwerin/Németo.\nWaldemar Pytel püspök, Wrocław/Lengyelo.\nAdrian Put segédpüspök, Zielona Góra/Lengyelo.\nTheresa Rinecker fő szuperintendens, Görlitz/Németo.\nDr. Robert Żurek, Stiftung Kreisau, (Kreisau Alapítvány) Krzyżowa/Lengyelo.\nDr. Annemarie Franke, a felső-lausitzi és alsó-sziléziai kultúrrégió kulturális titkárságának vezetője, Krzyżowa/Lengyelo. és Görlitz/Németo.\nDr. Piotr Gaś lelkész, Varsó/Lengyelo.\nMarkus Meckel ny. lelkész, az NDK egykori külügyminisztere, Berlin/Németo.\nZene: Berliner Staats- und Domchor (Berlini Állami és Dómkórus), vezényel: Prof. Kai-Uwe Jirka, Berlin/Németo.\nModerátor: Frank Schürer-Behrmann szuperintendens és Adrianna Rosa-Zarzycka, Frankfurt (Oder)/Németo.",
+        "titel-hu": "„... de Isten terve jóra fordította” (1Móz 50,20)",
         "location-hu": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
             "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
@@ -1690,7 +1689,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "Előadás és pódiumbeszélgetés",
+        "untertitel-hu": "Szomszédok történetei a lengyel–német határról",
         "untertitel-sk": "Susedské príbehy z Poľska a Nemecka",
         "untertitel-pl": "Sąsiedzkie historie z Polski i Niemiec",
         "untertitel-cs": ""
@@ -1709,8 +1708,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "A Cseh és Szlovák Huszita Egyház kórusa, vezényel: Zdeněk Kovalčík lelkész, egyházzenei igazgató, Zlín/Cseho.\nECHO Zlín, vezényel: Ladislav Moravetz egyházzenei igazgató, Zlín/Cseho.\nPax et Bonum Kamarakórus, vezényel: Kiss Boldizsár, Budapest\nJubilate Deo, vezényel: Joanna Bliwert-Hoderna, Mysłowice/Lengyelo.\nChor Collegium Canorum Lobaviense, vezényel: Christian Kühne egyházzenei igazgató, Löbau/Németo.\nModerátor: Markus Leidenberger egyházzenei igazgató, Drezda/Németo.",
-        "titel-hu": "Együtt a zenében",
+        "content-hu": "„Az emberiség kora” (antropocén) válaszúthoz érkezett. Hogyan lehet sikeres az élet az egyre szűkülő ökológiai határok között? Mivel járulhatnak hozzá az egyházak?\nProf. Dr. Wolfgang Lucht, Institut für Klimafolgenforschung (Klímaváltozás Következményeit Kutató Intézet), Potsdam/Németo.\nMichael Chalupka püspök, Bécs/Ausztria\nAdrian Put segédpüspök, Zielona Góra/Lengyelo.\nDr. Christina-Maria Bammel esperes, Berlin/Németo.\nModerátor: Hans-Joachim Ditz, Berlin/Németo.",
+        "titel-hu": "Még megmenekülhetünk? Az egyházak szerepe az ökológiai átalakulásban",
         "location-hu": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
             "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
@@ -1733,7 +1732,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "Öt ország kórusai",
+        "untertitel-hu": "Előadás és pódiumbeszélgetés",
         "untertitel-sk": "Prednáška a panelová diskusia",
         "untertitel-pl": "Wykład i panel dyskusyjny",
         "untertitel-cs": "Příběhy sousedství Polska a Německa"
@@ -1750,8 +1749,8 @@
         "content-de": "Chor der Tschechoslowakischen Hussitischen Kirche, Leitung: Landeskirchenmusikdirektor Pfarrer Zdeněk Kovalčík, Zlín/Tschechien\nECHO Zlín, Leitung: Landeskirchenmusikdirektor Ladislav Moravetz, Zlín/Tschechien\nPax et Bonum, Leitung: Boldizsár Kiss, Budapest/Ungarn\nJubilate Deo, Leitung: Joanna Bliwert-Hoderna, Mysłowice/Polen\nChor Collegium Canorum Lobaviense, Leitung: Kirchenmusikdirektor Christian Kühne, Löbau\nModeration: Landeskirchenmusikdirektor Markus Leidenberger, Dresden",
         "lang": [],
         "type": 0,
-        "content-hu": "Énekkar, vezényel: Piotr Sztwiertnia lelkész, Goleszów/Lengyelo.",
-        "titel-hu": "Esti áldás lengyel nyelven",
+        "content-hu": "A Cseh és Szlovák Huszita Egyház kórusa, vezényel: Zdeněk Kovalčík lelkész, egyházzenei igazgató, Zlín/Cseho.\nECHO Zlín, vezényel: Ladislav Moravetz egyházzenei igazgató, Zlín/Cseho.\nPax et Bonum Kamarakórus, vezényel: Kiss Boldizsár, Budapest\nJubilate Deo, vezényel: Joanna Bliwert-Hoderna, Mysłowice/Lengyelo.\nChor Collegium Canorum Lobaviense, vezényel: Christian Kühne egyházzenei igazgató, Löbau/Németo.\nModerátor: Markus Leidenberger egyházzenei igazgató, Drezda/Németo.",
+        "titel-hu": "Együtt a zenében",
         "location-hu": {
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
             "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
@@ -1774,7 +1773,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Öt ország kórusai",
         "untertitel-sk": "Koncert zborov z piatich krajín",
         "untertitel-pl": "Koncert chórów z pięciu krajów",
         "untertitel-cs": "Přednáška a panelová diskuse"
@@ -1793,11 +1792,11 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Közép- és Kelet-Európában újra felmerül a vallás és a demokrácia viszonyának kérdése. Az 1989-es demokratikus átalakulás után ma jelentős nemzeti/nacionalista erők vannak jelen, és a társadalmak polarizálódnak. Hogyan működhetnek közre az egyházak a politikai vitákban és a társadalomban?\nProf. Dr. Eduard Mühle, elnök, Europa-Universität Viadrina (Viadrina Egyetem), Frankfurt (Oder)/Németo.\nProf. Detlef Pollack, vallásszociológus, Universität Münster (Münsteri Egyetem), Münster/Németo.\nFabiny Tamás püspök, Budapest\nProf. Hanna Suchocka, volt lengyel miniszterelnök, Poznań/Lengyelo.\nTomáš Tyrlík püspök, Český Těšín/Cseho.\nAnna-Nicole Heinrich zsinati elnök, Hannover/Németo.\nModerátor: Cornelia Pieper főkonzul, Gdansk/Lengyelo. és Carsten Rentzing lelkész, Drezda/Németo.",
-        "titel-hu": "Az egyházak szerepe a jövő Európájában",
+        "content-hu": "Énekkar, vezényel: Piotr Sztwiertnia lelkész, Goleszów/Lengyelo.",
+        "titel-hu": "Esti áldás lengyel nyelven",
         "location-hu": {
-            "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
-            "bezeichnung": "Európai Béke- és Demokrácia-Központ (Zentrum Frieden und Demokratie in Europa)"
+            "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polen",
+            "bezeichnung": "Német-lengyel Barátság Központ (Zentrum deutsch-polnische Freundschaft)"
         },
         "content-sk": "Zbor, dirigent: Farár Piotr Sztwiertnia, Goleszów/Poľsko",
         "titel-sk": "Večerné požehnanie v poľštine",
@@ -1817,7 +1816,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "Pódiumbeszélgetés vallásról és demokráciáról",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": "Koncert pěveckých sborů z pěti zemí"
@@ -1838,8 +1837,8 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Az orosz támadó háború az ukrajnai protestáns egyházakat is sújtja. Milyen kihívások érik az egyházakat, és melyek a feladataik ebben a régióban? Helyzetelemzés béke-etikai és tudományos szempontokkal kiegészítve.\nPavlo Shvarts püspök, Harkiv/Ukrajna\nZán Fábián Sándor püspök, Beregszász/Ukrajna\nFriedrich Kramer tartományi püspök, Magdeburg\nDr. Anne Holper, Institut für Konfliktmanagement & Center for Peace Mediation Europa-Universität Viadrina (Konfliktuskezelési Intézet és Békeközvetítő Központ, Európa Egyetem), Frankfurt (Oder)/Németo.\nDr. Ana Raffai katolikus teológus és békeaktivista, Zágráb/Horváto.\nModerátor: Anna Wrzesińska, Varsó/Lengyelo. és Jens Lattke, békereferens, Evangelische Kirche in Mitteldeutschland, (Közép-Németországi Protestáns Egyház), Magdeburg/Németo.\nZene: Lukáš Michel, zongoraművész, Prága/Cseho.",
-        "titel-hu": "Háború és béke között",
+        "content-hu": "Közép- és Kelet-Európában újra felmerül a vallás és a demokrácia viszonyának kérdése. Az 1989-es demokratikus átalakulás után ma jelentős nemzeti/nacionalista erők vannak jelen, és a társadalmak polarizálódnak. Hogyan működhetnek közre az egyházak a politikai vitákban és a társadalomban?\nProf. Dr. Eduard Mühle, elnök, Europa-Universität Viadrina (Viadrina Egyetem), Frankfurt (Oder)/Németo.\nProf. Detlef Pollack, vallásszociológus, Universität Münster (Münsteri Egyetem), Münster/Németo.\nFabiny Tamás püspök, Budapest\nProf. Hanna Suchocka, volt lengyel miniszterelnök, Poznań/Lengyelo.\nTomáš Tyrlík püspök, Český Těšín/Cseho.\nAnna-Nicole Heinrich zsinati elnök, Hannover/Németo.\nModerátor: Cornelia Pieper főkonzul, Gdansk/Lengyelo. és Carsten Rentzing lelkész, Drezda/Németo.",
+        "titel-hu": "Az egyházak szerepe a jövő Európájában",
         "location-hu": {
             "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
             "bezeichnung": "Európai Béke- és Demokrácia-Központ (Zentrum Frieden und Demokratie in Europa)"
@@ -1862,7 +1861,7 @@
             "name": "Collegium Polonicum, Kościuszki 1, Słubice/Polsko",
             "bezeichnung": "Centrum německo-polského přátelství"
         },
-        "untertitel-hu": "Pódiumbeszélgetés: Az egyházak és az ukrajnai háború",
+        "untertitel-hu": "Pódiumbeszélgetés vallásról és demokráciáról",
         "untertitel-sk": "Panelová diskusia o náboženstve a demokracii",
         "untertitel-pl": "Panel dyskusyjny na temat religii i demokracji",
         "untertitel-cs": ""
@@ -1882,11 +1881,11 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Mi vezetett a nők lelkésszé szenteléséhez, és hogyan? Milyen kihívásokkal néznek szembe a női lelkészek?\nUlrike Trautwein fő szuperintendens, Berlin/Németo.\nDr. Helena Smolová lelkész, Tábor/Cseho.\nMária Hroboňová lelkész, Losonc/Szlovákia\nCselovszkyné dr. Tarr Klára külügyi osztályvezető, Budapest\nDr. Elfriede Dörr lelkész, Nagyszeben/Románia\nMarta Zachraj-Mikołajczyk lelkész, Wrocław/Lengyelo.\nModerátor: Lenka Janotková, Zsolna/ Szlovákia",
-        "titel-hu": "Változatos utak",
+        "content-hu": "Az orosz támadó háború az ukrajnai protestáns egyházakat is sújtja. Milyen kihívások érik az egyházakat, és melyek a feladataik ebben a régióban? Helyzetelemzés béke-etikai és tudományos szempontokkal kiegészítve.\nPavlo Shvarts püspök, Harkiv/Ukrajna\nZán Fábián Sándor püspök, Beregszász/Ukrajna\nFriedrich Kramer tartományi püspök, Magdeburg\nDr. Anne Holper, Institut für Konfliktmanagement & Center for Peace Mediation Europa-Universität Viadrina (Konfliktuskezelési Intézet és Békeközvetítő Központ, Európa Egyetem), Frankfurt (Oder)/Németo.\nDr. Ana Raffai katolikus teológus és békeaktivista, Zágráb/Horváto.\nModerátor: Anna Wrzesińska, Varsó/Lengyelo. és Jens Lattke, békereferens, Evangelische Kirche in Mitteldeutschland, (Közép-Németországi Protestáns Egyház), Magdeburg/Németo.\nZene: Lukáš Michel, zongoraművész, Prága/Cseho.",
+        "titel-hu": "Háború és béke között",
         "location-hu": {
-            "name": "Kleist Forum, Nagyterem (Großer Saal), Platz der Einheit 1",
-            "bezeichnung": "Tematikus program, Kleist Forum"
+            "name": "Audimax, Europa-Universität Viadrina, Logenstraße 4",
+            "bezeichnung": "Európai Béke- és Demokrácia-Központ (Zentrum Frieden und Demokratie in Europa)"
         },
         "content-sk": "Ruská agresívna vojna sa dotýka aj protestantských cirkví na Ukrajine. Akým výzvam a úlohám musia čeliť cirkvi v regióne? Zistenia sú doplnené o etiku mieru a vedecké hľadiská.\nBiskup Pavlo Švarc, Charkov/Ukrajina\nBiskup Sándor Zán Fábián, Berehove/Ukrajina\nBiskup Friedrich Kramer, Magdeburg\nDr. Anne Holper, Inštitút pre riadenie konfliktov a Centrum pre mierovú mediáciu, Európska univerzita Viadrina, Frankfurt nad Odrou\nDr. Ana Raffai, katolícka teologička a mierová aktivistka, Záhreb/Chorvátsko\nModerovanie: Anna Wrzesińska, Varšava /Poľsko a Jens Lattke, mierový zástupca Evanjelickej cirkvi v strednom Nemecku, Magdeburg\nHudba: Lukáš Michel, klavirista, Praha/Česká republika",
         "titel-sk": "Medzi vojnou a mierom",
@@ -1906,7 +1905,7 @@
             "name": "Audimax, Evropská univerzita Viadrina, Logenstraße 4",
             "bezeichnung": "Centrum pro mír a demokracii v Evropě"
         },
-        "untertitel-hu": "Pódiumbeszélgetés a nők lelkésszé szentelésének országspecifikus vonásairól",
+        "untertitel-hu": "Pódiumbeszélgetés: Az egyházak és az ukrajnai háború",
         "untertitel-sk": "Panelová diskusia: Cirkvi a vojna na Ukrajine",
         "untertitel-pl": "Panel dyskusyjny na temat Kościoła i wojny na Ukrainie",
         "untertitel-cs": "Panelová diskuse o náboženství a demokracii"
@@ -1928,10 +1927,11 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Zene: ZELZAH Ifjúsági Zenekar, Budapest, Deák tér\nAz áhítatot vezeti: Julia Daser egyházi ifjúsági lelkész, Berlin/Németo.",
-        "titel-hu": "Ifjúsági áhítat német nyelven",
+        "content-hu": "Mi vezetett a nők lelkésszé szenteléséhez, és hogyan? Milyen kihívásokkal néznek szembe a női lelkészek?\nUlrike Trautwein fő szuperintendens, Berlin/Németo.\nDr. Helena Smolová lelkész, Tábor/Cseho.\nMária Hroboňová lelkész, Losonc/Szlovákia\nCselovszkyné dr. Tarr Klára külügyi osztályvezető, Budapest\nDr. Elfriede Dörr lelkész, Nagyszeben/Románia\nMarta Zachraj-Mikołajczyk lelkész, Wrocław/Lengyelo.\nModerátor: Lenka Janotková, Zsolna/ Szlovákia",
+        "titel-hu": "Változatos utak",
         "location-hu": {
-            "name": "Kleist Forum, Foyer (Előcsarnok)"
+            "name": "Kleist Forum, Nagyterem (Großer Saal), Platz der Einheit 1",
+            "bezeichnung": "Tematikus program, Kleist Forum"
         },
         "content-sk": "Čo viedlo k zavedeniu zasvätenia žien a ako vyzerali začiatky? Aké sú súčasné výzvy, ktorým čelia ženy farárky?\nGenerálna superintendentka Ulrike Trautwein, Berlín\nFarárka ThDr. Helena Smolová, Th.D., Tábor/Česká republika\nFarárka Mária Hroboňová, Lučenec/Slovensko\nDr. Klára Tarr Cselovszky, Budapešť/Maďarsko\nFarárka Dr. Elfriede Dörr, Hermannstadt l Sibiu/Rumunsko\nFarárka Marta Zachraj-Mikołajczyk, Vroclav/Poľsko\nModerovanie: Lenka Janotková, Žilina/Slovensko",
         "titel-sk": "Rôznorodá cesta",
@@ -1951,7 +1951,7 @@
             "name": "Audimax, Evropská univerzita Viadrina, Logenstraße 4",
             "bezeichnung": "Centrum pro mír a demokracii v Evropě"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Pódiumbeszélgetés a nők lelkésszé szentelésének országspecifikus vonásairól",
         "untertitel-sk": "Živý rozhovor o jedinečnej histórii svätenia žien v jednotlivých krajinách",
         "untertitel-pl": "Panel dyskusyjny na temat wyjątkowej historii ordynacji kobiet w poszczególnych krajach",
         "untertitel-cs": "Panelová diskuse: Kostely a válka na Ukrajině"
@@ -1967,8 +1967,8 @@
         "content-de": "Musik: ZELZAH, Jugendband der Ev.-Luth. Kirchengemeinde Deák tér, Budapest/Ungarn\nLeitung: Julia Daser, Landesjugendpfarrerin, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "ZELZAH Ifjúsági Zenekar, Budapest, Deák tér",
-        "titel-hu": "Semmi sem választhat el minket",
+        "content-hu": "Zene: ZELZAH Ifjúsági Zenekar, Budapest, Deák tér\nAz áhítatot vezeti: Julia Daser egyházi ifjúsági lelkész, Berlin/Németo.",
+        "titel-hu": "Ifjúsági áhítat német nyelven",
         "location-hu": {
             "name": "Kleist Forum, Foyer (Előcsarnok)"
         },
@@ -1988,7 +1988,7 @@
             "name": "Kleist Forum, Velký sál, Platz der Einheit 1",
             "bezeichnung": "Tematický program – Kleist Forum"
         },
-        "untertitel-hu": "Koncert",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "Muzyka: ZELZAH, zespół młodzieżowy parafii luterańskiej Deák tér, Budapeszt/Węgry",
         "untertitel-cs": "Živý rozhovor o jedinečné historii ordinace žen v jednotlivých zemích"
@@ -2004,10 +2004,10 @@
         "content-de": "ZELZAH, Jugendband der Ev.-Luth. Kirchengemeinde Deák tér, Budapest/Ungarn",
         "lang": [],
         "type": 0,
-        "content-hu": "Az egyházak sokféle világnézettel, életstílussal, lelkiséggel szembesülnek, és azzal a kihívással kell megküzdeniük, hogy miként kommunikálják az evangéliumot ebben a plurális világban.\nPavel Pokorný püspök, Prága/Cseho.\nLukáš Bujna püspök, Plzeň/Cseho.\nJiří Šamšula lelkész, Třebenice/Cseho.\nBettine Reichelt lelkész, Lipcse/Németo.\nGabriele Oehme szociálpedagógus, Drezda/Németo.\nFriedemann Oehme ökumené-referens, Drezda/Németo.\nModerátor: Gerhard Frey-Reininghaus ny. ökumené-referens, Prága/Cseho.",
-        "titel-hu": "Workshop: Keresztényként a szekuláris társadalomban",
+        "content-hu": "ZELZAH Ifjúsági Zenekar, Budapest, Deák tér",
+        "titel-hu": "Semmi sem választhat el minket",
         "location-hu": {
-            "name": "Kleist Forum, Studiobühne (Stúdiószínpad)"
+            "name": "Kleist Forum, Foyer (Előcsarnok)"
         },
         "content-sk": "ZELZAH, mládežnícka skupina Ev.-Luth. Farnosť Deák tér, Budapešť/Maďarsko",
         "titel-sk": "Semmi sem választhat el minket",
@@ -2024,7 +2024,7 @@
         "location-cs": {
             "name": "Kleist Forum, foyer"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Koncert",
         "untertitel-sk": "Koncert",
         "untertitel-pl": "Koncert",
         "untertitel-cs": ""
@@ -2042,8 +2042,8 @@
             "CS"
         ],
         "type": 0,
-        "content-hu": "Hogyan sikerül továbbadni a hitet a következő nemzedékeknek, és gondoskodni a lelkészutánpótlásról? Mi indítja a fiatalokat arra, hogy az egyházban tevékenykedjenek, és teológiát tanuljanak? Munkacsoportokban dolgozunk az előcsarnokban és a kerengőben.\nMitja Andrejek lelkész, Križevci (Tótkeresztúr)/Szlovénia\nDr. Mario Fischer lelkész, az Európai Protestáns Egyházak Közösségének főtitkára, Bécs/Ausztria\nJohanna Kluge szociálpedagógus, Fürth/Németo.\nNémeth Kitti lelkész, Boba\nDr. Szabó András, Budapest\nDr. Patrick Todjeras lelkész, a Missziói Kutatóintézet igazgatója, Attersee/Ausztria\nModerátor: Cselovszkyné dr. Tarr Klára külügyi osztályvezető, Budapest",
-        "titel-hu": "Workshop: A hit továbbadása – Beszélgetés fiatal lelkészekkel",
+        "content-hu": "Az egyházak sokféle világnézettel, életstílussal, lelkiséggel szembesülnek, és azzal a kihívással kell megküzdeniük, hogy miként kommunikálják az evangéliumot ebben a plurális világban.\nPavel Pokorný püspök, Prága/Cseho.\nLukáš Bujna püspök, Plzeň/Cseho.\nJiří Šamšula lelkész, Třebenice/Cseho.\nBettine Reichelt lelkész, Lipcse/Németo.\nGabriele Oehme szociálpedagógus, Drezda/Németo.\nFriedemann Oehme ökumené-referens, Drezda/Németo.\nModerátor: Gerhard Frey-Reininghaus ny. ökumené-referens, Prága/Cseho.",
+        "titel-hu": "Workshop: Keresztényként a szekuláris társadalomban",
         "location-hu": {
             "name": "Kleist Forum, Studiobühne (Stúdiószínpad)"
         },
@@ -2080,10 +2080,10 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "Európa-szerte találunk jó ötleteket és tapasztalatokat vannak arra vonatkozóan, hogyan nyilvánulhat meg vonzóan az egyház a mindenkori kihívások között.\nGregersen-Labossa György lelkész, diakóniai bizottsági elnök, Budapest\nMirosław Wola püspök, Gorzów/Lengyelo.\nDr. Christoph Theilemann igazgató, Berliner Missionswerk, Berlin/Németo.\nModerátor: Jens Peter Erichsen lelkész, Frankfurt (Oder)/Németo.",
-        "titel-hu": "Workshop: Egyházi élet városban és vidéken",
+        "content-hu": "Hogyan sikerül továbbadni a hitet a következő nemzedékeknek, és gondoskodni a lelkészutánpótlásról? Mi indítja a fiatalokat arra, hogy az egyházban tevékenykedjenek, és teológiát tanuljanak? Munkacsoportokban dolgozunk az előcsarnokban és a kerengőben.\nMitja Andrejek lelkész, Križevci (Tótkeresztúr)/Szlovénia\nDr. Mario Fischer lelkész, az Európai Protestáns Egyházak Közösségének főtitkára, Bécs/Ausztria\nJohanna Kluge szociálpedagógus, Fürth/Németo.\nNémeth Kitti lelkész, Boba\nDr. Szabó András, Budapest\nDr. Patrick Todjeras lelkész, a Missziói Kutatóintézet igazgatója, Attersee/Ausztria\nModerátor: Cselovszkyné dr. Tarr Klára külügyi osztályvezető, Budapest",
+        "titel-hu": "Workshop: A hit továbbadása – Beszélgetés fiatal lelkészekkel",
         "location-hu": {
-            "name": "Kleist Forum, 2-es konferenciaterem (Konferenzraum 2)"
+            "name": "Kleist Forum, Studiobühne (Stúdiószínpad)"
         },
         "content-sk": "Ako možno odovzdať vieru ďalšej generácii a získať novú generáciu pastorov? Čo motivuje mladých ľudí, aby sa zapojili do cirkvi a študovali teológiu? Pracujeme v skupinách vo foyer a vo vstupnej hale.\nFarár Mitja Andrejek, Križevci/Slovinsko\nPastor Dr. Mario Fischer, generálny tajomník Spoločenstva protestantských cirkví v Európe, Viedeň/Rakúsko\nJohanna Kluge, sociálna pedagogička, Fürth\nFarárka Kitti Németh, Boba/Maďarsko\nDr. András Szabó, Budapešť/Maďarsko\nDr. Patrick Todjeras, Attersee/Rakúsko\nModerovanie: Dr. Klára Tarr Cselovszky, Budapešť/Maďarsko",
         "titel-sk": "Seminár: Odovzdávanie viery - V dialógu s mladými pastormi",
@@ -2119,8 +2119,8 @@
             "PL"
         ],
         "type": 0,
-        "content-hu": "Mit tehetnek a keresztény gyülekezetek a menekültek befogadása terén? Mi az egyházak szerepe az új otthon megteremtésében?\nChristiane Schulz lelkész, Neuruppin/Németo.\nJana Tabačková lelkész, Kassa/Szlovákia\nClaudia Lui tanácsadó, diakóniai munkás, Bécs/Ausztria\nVera Jakovenko, menekült, Kijev/Ukrajna, jelenleg Rheinsberg/Németo.\nModerátor: Matthias Puppe lelkész, Berlin/Németo.",
-        "titel-hu": "„Olyan legyen a közöttetek tartózkodó jövevény, mint a közületek való...” (3Móz 19,34)",
+        "content-hu": "Európa-szerte találunk jó ötleteket és tapasztalatokat vannak arra vonatkozóan, hogyan nyilvánulhat meg vonzóan az egyház a mindenkori kihívások között.\nGregersen-Labossa György lelkész, diakóniai bizottsági elnök, Budapest\nMirosław Wola püspök, Gorzów/Lengyelo.\nDr. Christoph Theilemann igazgató, Berliner Missionswerk, Berlin/Németo.\nModerátor: Jens Peter Erichsen lelkész, Frankfurt (Oder)/Németo.",
+        "titel-hu": "Workshop: Egyházi élet városban és vidéken",
         "location-hu": {
             "name": "Kleist Forum, 2-es konferenciaterem (Konferenzraum 2)"
         },
@@ -2139,7 +2139,7 @@
         "location-cs": {
             "name": "Kleist Forum, studiová scéna"
         },
-        "untertitel-hu": "Pódiumbeszélgetés a menekültek között végzett munkáról",
+        "untertitel-hu": "",
         "untertitel-sk": "",
         "untertitel-pl": "",
         "untertitel-cs": ""
@@ -2157,8 +2157,8 @@
             "SK"
         ],
         "type": 0,
-        "content-hu": "Az EU külső határait adó közép- és kelet-európai államokat különösen is érinti a menekültek beáramlása. Hogyan kezelik a kérdést a protestáns egyházak ezekben az országokban? Hogyan segítenek és támogatnak? Mi a kívánságuk?\nDr. Christian Stäblein püspök, Berlin/Németo.\nPeter Mihoč püspök, Eperjes/Szlovákia\nWanda Falk diakóniai igazgató, Varsó/Lengyelo.\nDr. Ursula Schoen diakóniai igazgató, Berlin/Németo.\nPrőhle Gergely országos felügyelő, Budapest\nModerátor: Dagmar Apel lelkész, Berlin",
-        "titel-hu": "United4Rescue? Az EU külső határainak helyzete",
+        "content-hu": "Mit tehetnek a keresztény gyülekezetek a menekültek befogadása terén? Mi az egyházak szerepe az új otthon megteremtésében?\nChristiane Schulz lelkész, Neuruppin/Németo.\nJana Tabačková lelkész, Kassa/Szlovákia\nClaudia Lui tanácsadó, diakóniai munkás, Bécs/Ausztria\nVera Jakovenko, menekült, Kijev/Ukrajna, jelenleg Rheinsberg/Németo.\nModerátor: Matthias Puppe lelkész, Berlin/Németo.",
+        "titel-hu": "„Olyan legyen a közöttetek tartózkodó jövevény, mint a közületek való...” (3Móz 19,34)",
         "location-hu": {
             "name": "Kleist Forum, 2-es konferenciaterem (Konferenzraum 2)"
         },
@@ -2177,7 +2177,7 @@
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
         },
-        "untertitel-hu": "Pódiumbeszélgetés a migráció kihívásairól",
+        "untertitel-hu": "Pódiumbeszélgetés a menekültek között végzett munkáról",
         "untertitel-sk": "Panelová diskusia o práci s utečencami",
         "untertitel-pl": "Panel dyskusyjny na temat pracy z uchodźcami",
         "untertitel-cs": ""
@@ -2197,8 +2197,8 @@
             "HU"
         ],
         "type": 0,
-        "content-hu": "a fiatalok szálláshelyén",
-        "titel-hu": "Bibliareggeli Németh Kitti lelkésszel, Boba",
+        "content-hu": "Az EU külső határait adó közép- és kelet-európai államokat különösen is érinti a menekültek beáramlása. Hogyan kezelik a kérdést a protestáns egyházak ezekben az országokban? Hogyan segítenek és támogatnak? Mi a kívánságuk?\nDr. Christian Stäblein püspök, Berlin/Németo.\nPeter Mihoč püspök, Eperjes/Szlovákia\nWanda Falk diakóniai igazgató, Varsó/Lengyelo.\nDr. Ursula Schoen diakóniai igazgató, Berlin/Németo.\nPrőhle Gergely országos felügyelő, Budapest\nModerátor: Dagmar Apel lelkész, Berlin",
+        "titel-hu": "United4Rescue? Az EU külső határainak helyzete",
         "location-hu": {
             "name": "Kleist Forum, 2-es konferenciaterem (Konferenzraum 2)"
         },
@@ -2217,7 +2217,7 @@
         "location-cs": {
             "name": "Kleist Forum, konferenční místnost 2"
         },
-        "untertitel-hu": "",
+        "untertitel-hu": "Pódiumbeszélgetés a migráció kihívásairól",
         "untertitel-sk": "Panelová diskusia o výzvach migrácie",
         "untertitel-pl": "Panel dyskusyjny na temat wyzwań związanych z migracją",
         "untertitel-cs": "Panelová diskuse o práci s uprchlíky"
@@ -2233,11 +2233,10 @@
         "content-de": "mit Pfarrerin Kitti Németh, Boba/Ungarn",
         "lang": [],
         "type": 0,
-        "content-hu": "A szexualitás témája mindnyájunkat érint, akár hetero-, homo-, bi- vagy aszexuális legyen valaki. A nemi identitás is meghatározó minden ember számára. A heteronormativitáson kívül eső embereket hátrányos megkülönböztetés éri. Az egyház is foglalkozik ezekkel a kérdésekkel.\nVezető: Julia Daser, egyházi ifjúsági lelkész, Berlin/Németo.",
-        "titel-hu": "Workshop: Színes, mint Isten teremtett világa",
+        "content-hu": "a fiatalok szálláshelyén",
+        "titel-hu": "Bibliareggeli Németh Kitti lelkésszel, Boba",
         "location-hu": {
-            "name": "Kleist Forum, 4a terem (Raum 4a)",
-            "bezeichnung": "Ökumenikus német-lengyel gyermek- és ifjúsági fesztivál"
+            "name": "Kleist Forum, 2-es konferenciaterem (Konferenzraum 2)"
         },
         "content-sk": "v ubytovacích zariadeniach pre mladých ľudí",
         "titel-sk": "Biblické raňajky s farárkou Kitti Némethom, Boba/Maďarsko",
@@ -2271,8 +2270,8 @@
         "content-de": "Sexualität ist ein Thema, das uns alle betrifft, egal ob homo-, hetero-, bi- oder asexuell. Und auch die geschlechtliche Identität ist für alle Menschen prägend. Dennoch werden Menschen, die sich außerhalb der Heteronormativität bewegen, diskriminiert. Auch in Kirchen ist der Umgang damit ein Thema.\nLeitung: Julia Daser, Landesjugendpfarrerin, Berlin",
         "lang": [],
         "type": 0,
-        "content-hu": "A Bibliából és a dialógusból képzett szó mögött egy módszer rejtőzik: a bibliai szövegek közös, csoportos magyarázata. Így a Biblia másképp is átélhető lesz. Csatlakozási időpontok: 10.30, 13.00, 14.00, 15.30.\nDr. Eva Vymětalová Hrabáková teológus, Prága/Cseho.",
-        "titel-hu": "Bibliológ: Semmi sem választhat el minket",
+        "content-hu": "A szexualitás témája mindnyájunkat érint, akár hetero-, homo-, bi- vagy aszexuális legyen valaki. A nemi identitás is meghatározó minden ember számára. A heteronormativitáson kívül eső embereket hátrányos megkülönböztetés éri. Az egyház is foglalkozik ezekkel a kérdésekkel.\nVezető: Julia Daser, egyházi ifjúsági lelkész, Berlin/Németo.",
+        "titel-hu": "Workshop: Színes, mint Isten teremtett világa",
         "location-hu": {
             "name": "Kleist Forum, 4a terem (Raum 4a)",
             "bezeichnung": "Ökumenikus német-lengyel gyermek- és ifjúsági fesztivál"
@@ -2311,8 +2310,8 @@
         "content-de": "Hinter dem Kunstwort aus Bibel und Dialog steckt eine Methode, biblische Texte in einer Gruppe gemeinsam auszulegen. So wird die Bibel anders erlebbar. Mitmachen ist möglich jeweils um 10.30, 13, 14, 15.30.\nThDr. Eva Vymětalová Hrabáková, Th.D., Praha/Tschechien",
         "lang": [],
         "type": 0,
-        "content-hu": "A téma kiindulópontjául Tobiáš Frýdl „Hit a szivárvány színeiben” című, díjazott filmje szolgál.\nTobiáš Frýdl, a prágai Elaőadóművészeti Akadémia Film- és Televízióprodukciós Karának hallgatója Prága/Cseho.",
-        "titel-hu": "Workshop: Egyház és az LMBT",
+        "content-hu": "A Bibliából és a dialógusból képzett szó mögött egy módszer rejtőzik: a bibliai szövegek közös, csoportos magyarázata. Így a Biblia másképp is átélhető lesz. Csatlakozási időpontok: 10.30, 13.00, 14.00, 15.30.\nDr. Eva Vymětalová Hrabáková teológus, Prága/Cseho.",
+        "titel-hu": "Bibliológ: Semmi sem választhat el minket",
         "location-hu": {
             "name": "Kleist Forum, 4a terem (Raum 4a)",
             "bezeichnung": "Ökumenikus német-lengyel gyermek- és ifjúsági fesztivál"
@@ -2352,8 +2351,8 @@
         "content-de": "Grundlage ist das Projekt „Glaube in den Farben des Regenbogens“ zum Thema LGBT und Kirche. Für seinen Film wurde Tobiáš Frýdl ausgezeichnet.\nTobiáš Frýdl, Student der Film- und Fernsehfakultät der Akademie darstellender Künste, Praha/Tschechien",
         "lang": [],
         "type": 0,
-        "content-hu": "Dicsőítő zenekar, Cseho.",
-        "titel-hu": "Egész napos zene",
+        "content-hu": "A téma kiindulópontjául Tobiáš Frýdl „Hit a szivárvány színeiben” című, díjazott filmje szolgál.\nTobiáš Frýdl, a prágai Elaőadóművészeti Akadémia Film- és Televízióprodukciós Karának hallgatója Prága/Cseho.",
+        "titel-hu": "Workshop: Egyház és az LMBT",
         "location-hu": {
             "name": "Kleist Forum, 4a terem (Raum 4a)",
             "bezeichnung": "Ökumenikus német-lengyel gyermek- és ifjúsági fesztivál"
@@ -2393,10 +2392,11 @@
         "content-de": "Lobpreisband, Tschechien",
         "lang": [],
         "type": 0,
-        "content-hu": "Ifjúság, Mamlaka Hill Chapel, Nairobi/Kenya",
-        "titel-hu": "Táncműhely: modern tánc",
+        "content-hu": "Dicsőítő zenekar, Cseho.",
+        "titel-hu": "Egész napos zene",
         "location-hu": {
-            "name": "Kleist Forum, 4b terem (Raum 4b)"
+            "name": "Kleist Forum, 4a terem (Raum 4a)",
+            "bezeichnung": "Ökumenikus német-lengyel gyermek- és ifjúsági fesztivál"
         },
         "content-sk": "Chválová kapela, Česká republika",
         "titel-sk": "Cez deň s hudbou",
@@ -2432,8 +2432,8 @@
         "content-de": "Jugendliche, Mamlaka Hill Chapel, Nairobi/Kenia",
         "lang": [],
         "type": 0,
-        "content-hu": "A jugger egy izgalmas, akciós csapatsport, ahol a labdát meg kell szerezni, és az ellenfél csapatát a labda birtoklójától távol kell tartani. Ehhez habbal kipárnázott játékszereket, ú.n. husángokat használunk.\nThomas Schüßler, egyházmegyei ifjúsági lelkész, Fürstenwalde/Németo.",
-        "titel-hu": "Játék – Jugger",
+        "content-hu": "Ifjúság, Mamlaka Hill Chapel, Nairobi/Kenya",
+        "titel-hu": "Táncműhely: modern tánc",
         "location-hu": {
             "name": "Kleist Forum, 4b terem (Raum 4b)"
         },
@@ -2468,10 +2468,10 @@
         "content-de": "Jugger ist ein spannender, actiongeladener Mannschaftsport, bei dem es darum geht, den Spielball zu erobern und die gegnerische Mannschaft vom Ballträger fernzuhalten. Dazu finden mit Schaumstoff gepolsterte Spielgeräte, sogenannte Pompfen, ihre Anwendung.\nThomas Schüßler, Kreisjugendpfarrer, Fürstenwalde",
         "lang": [],
         "type": 0,
-        "content-hu": "Párbeszéd formájában fedezünk fel egy textust. Dicséretet mondva lépünk Isten elé. Szívünk kívánságai Isten szívverésével találkoznak. Az imádság kreatív lehetőségei hívnak az Istennel való beszélgetésre.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V. (Protestáns Ifjúsági Szolgálat, Élet Háza), Hoyerswerda/Németo.\nWaldemar Buttler, CVJM (KIE), Görlitz/Németo.\nAngolul is",
-        "titel-hu": "Bibliát felnyitni, orrot beleütni, szívet megtölteni!",
+        "content-hu": "A jugger egy izgalmas, akciós csapatsport, ahol a labdát meg kell szerezni, és az ellenfél csapatát a labda birtoklójától távol kell tartani. Ehhez habbal kipárnázott játékszereket, ú.n. husángokat használunk.\nThomas Schüßler, egyházmegyei ifjúsági lelkész, Fürstenwalde/Németo.",
+        "titel-hu": "Játék – Jugger",
         "location-hu": {
-            "name": "Kleist Forum, 4c terem (Raum 4c)"
+            "name": "Kleist Forum, 4b terem (Raum 4b)"
         },
         "content-sk": "Jugger je vzrušujúci tímový šport plný akcie, ktorého cieľom je umiestniť loptu do súperovej bránky, ale loptu môže držať len jeden hráč. Ostatní ho bránia a používajú na to špeciálne plastové palice z penovej hmoty.\nThomas Schüßler, okresný pastor mládeže, Fürstenwalde",
         "titel-sk": "Hry - Jugger a Empowerment",
@@ -2504,8 +2504,8 @@
         "content-de": "Wir entdecken im Dialogformat einen Bibeltext. Im Lobpreis treten wir ein in die Gegenwart Gottes. Unsere Herzensanliegen treffen auf den Herzschlag Gottes. Kreative Gebetsmöglichkeiten laden ein, gemeinsam mit Gott zu reden.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V., Hoyerswerda\nWaldemar Buttler, CVJM Schlesische Oberlausitz, Görlitz\nauch in Englisch",
         "lang": [],
         "type": 0,
-        "content-hu": "Blogbejegyzések, podcastok és videók közös elkészítése\nThomas Schüßler egyházmegyei ifjúsági lelkész, Fürstenwalde/Németo.\nRev. Collins Kiborek ifjúsági referens, Erkner és Strausberg/Németo.\nAngolul is",
-        "titel-hu": "Találkozási pont: Élő podcast",
+        "content-hu": "Párbeszéd formájában fedezünk fel egy textust. Dicséretet mondva lépünk Isten elé. Szívünk kívánságai Isten szívverésével találkoznak. Az imádság kreatív lehetőségei hívnak az Istennel való beszélgetésre.\nLydia Renz, Lebenshaus der Evangelischen Jugendarbeit e.V. (Protestáns Ifjúsági Szolgálat, Élet Háza), Hoyerswerda/Németo.\nWaldemar Buttler, CVJM (KIE), Görlitz/Németo.\nAngolul is",
+        "titel-hu": "Bibliát felnyitni, orrot beleütni, szívet megtölteni!",
         "location-hu": {
             "name": "Kleist Forum, 4c terem (Raum 4c)"
         },
@@ -2540,10 +2540,10 @@
         "content-de": "Blogbeiträge, Podcasts und Videos gemeinsam erstellen\nThomas Schüßler, Kreisjugendpfarrer, Fürstenwalde\nRev. Collins Kiborek, Jugendreferent, Erkner und Strausberg\nauch in Englisch",
         "lang": [],
         "type": 0,
-        "content-hu": "Lazítson egy kicsit!",
-        "titel-hu": "Családi kávézó",
+        "content-hu": "Blogbejegyzések, podcastok és videók közös elkészítése\nThomas Schüßler egyházmegyei ifjúsági lelkész, Fürstenwalde/Németo.\nRev. Collins Kiborek ifjúsági referens, Erkner és Strausberg/Németo.\nAngolul is",
+        "titel-hu": "Találkozási pont: Élő podcast",
         "location-hu": {
-            "name": "Kleist Forum, Darstellbar"
+            "name": "Kleist Forum, 4c terem (Raum 4c)"
         },
         "content-sk": "Spoločne vytváranie príspevkov na blog, podcastov a videí\nThomas Schüßler, okresný pastor mládeže, Fürstenwalde\nRev. Collins Kiborek, poradca pre mládež, Erkner a Strausberg\naj v angličtine",
         "titel-sk": "Miesto stretnutia: Livepodcast",
@@ -2576,8 +2576,8 @@
         "content-de": "Gönnen Sie sich eine Pause!",
         "lang": [],
         "type": 0,
-        "content-hu": "Kleist Forum, földszint, 1d terem (Raum 1d)",
-        "titel-hu": "Szülői tér  L.  ... o.",
+        "content-hu": "Lazítson egy kicsit!",
+        "titel-hu": "Családi kávézó",
         "location-hu": {
             "name": "Kleist Forum, Darstellbar"
         },
