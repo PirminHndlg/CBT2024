@@ -173,6 +173,11 @@ def programm_section(lang=None):
 
     section = request.args.get('section')
     if section and bool(re.match('^[a-zA-Z0-9_]+$', section)):
+
+        if section.lower() == 'exhibitions':
+            return render_template('img_viewer.html', lang=lang, title=translate('exhibitions', lang),
+                                   file=f'/static/img/exhibition/exhibition-{lang}.jpg', show_title=True)
+
         for k, v in json_data.items():
             if section.lower() == 'bible':
                 if 'bibelarbeit' in v['titel-de'].lower() or 'bibelarbeit' in v['untertitel-de'].lower():
@@ -197,16 +202,12 @@ def programm_section(lang=None):
                     data[k] = v
 
             elif section.lower() == 'workshops':
-                if 'workshop' in v['titel-de'].lower() or 'workshop' in v['untertitel-de'].lower() or 'workshop' in v['content-de'].lower():
+                if 'workshop' in v['titel-de'].lower() or 'workshop' in v['untertitel-de'].lower() or 'workshop' in v[
+                    'content-de'].lower():
                     data[k] = v
-
-            elif section.lower() == 'exhibitions':
-                data = None
-                break
 
             else:
                 break
-
     return render_template(f'programm_list.html', lang=lang, title=translate(section, lang), data=data)
 
 
@@ -239,7 +240,8 @@ def my_programm(lang=None, max=None):
     if max:
         return my_programm, False
 
-    return render_template('programm_list.html', lang=lang, headline=translate('my_program', lang), data=my_programm)
+    return render_template('programm_list.html', lang=lang, headline=translate('my_program', lang), data=my_programm,
+                           error_msg=f'-{translate("choose_my_program", lang)}-' if my_programm == {} else None)
 
 
 @app.route('/gottesdienst/')
@@ -256,7 +258,7 @@ def gottesdienst(lang=None, id=None):
         f.close()
 
     if id != None and str(id) in data.keys():
-        return render_template('gottesdienst.html', lang=lang,
+        return render_template('img_viewer.html', lang=lang,
                                file=f'/static/img/gottesdienst/{id}-{lang}.jpg')
 
     return render_template('gottesdienst_list.html', lang=lang, data=data)
@@ -360,7 +362,8 @@ def now(lang=None, max=None):
     if max:
         return data
 
-    return render_template('programm_list.html', lang=lang, headline='Jetzt', data=data)
+    return render_template('programm_list.html', lang=lang, headline='Jetzt', data=data,
+                           error_msg=f'-{translate("no_now", lang)}-' if data == {} else None)
 
 
 @app.route('/search')
@@ -401,7 +404,6 @@ def search(lang=None):
     return search_data
 
 
-
 @app.route('/ics/<int:event_id>')
 def download_ics(event_id):
     lang = check_lang()
@@ -421,7 +423,8 @@ def download_ics(event_id):
     # Split the time into begin and end parts
     time_split = event_point['zeit'].split('und')[0].split('-')
     begin_time = time_split[0].split('.')
-    end_time = time_split[1].split('.') if len(time_split) > 1 else [int(begin_time[0]) + 1, begin_time[1] if len(begin_time) > 1 else 0]
+    end_time = time_split[1].split('.') if len(time_split) > 1 else [int(begin_time[0]) + 1,
+                                                                     begin_time[1] if len(begin_time) > 1 else 0]
 
     # Create a naive datetime object for begin time
     date_and_time_begin = date_and_time.replace(

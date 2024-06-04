@@ -9,60 +9,64 @@
         </div>
     {% endif %}
 
-    <br>
-    <div class="container container-inline" style="flex-direction: row-reverse">
-        <div class="container-inline-next-center">
-            <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
+    {% if error_msg %}
 
-            {% set filter_arg = request.args.get('f') %}
-
-            <select id="filter" onchange="filter_changed()">
-                <option value="t" {{ 'selected' if filter_arg == 't' }}>{{ "time"|translate(lang) }}</option>
-                <option value="l" {{ 'selected' if filter_arg == 'l' }}>{{ "location"|translate(lang) }}</option>
-            </select>
+        <div class="container" style="text-align: center">
+            <p>{{ error_msg }}</p>
         </div>
 
-        {% if title %}
-            <div>
-                <h2>{{ title }}</h2>
-            </div>
-        {% endif %}
-    </div>
-
-    {% if data != None %}
-
-        {% set data = data|sort_dict(filter_arg) %}
-        {% for k,v in data.items() %}
-            <div class="container">
-
-                <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
-                    <div class="container-inline">
-                        <div style="width: 90%">
-                            <div class="container-inline-next" style="gap: 10px">
-                                <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
-                                <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
-                            </div>
-                            <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
-                            {% if v['untertitel-' + lang] %}
-                                <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
-                            {% endif %}
-                        </div>
-
-                        <input class="my-programm-img-small" id="my_programm_{{ k }}"
-                               onclick="event.preventDefault(); change_my_programm(this.id, {{ k }})"
-                               type="image"
-                               src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(k) else '/static/img/stern_filled.png' }}">
-                    </div>
-                    {#            <small class="">📍 {{ v['location-' + lang]['name'] }}</small>#}
-                    <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
-                </a>
-
-            </div>
-        {% endfor %}
     {% else %}
-        <div style="text-align: center">
-            <p>Will be added later...</p>
+
+        <div class="container container-inline" style="flex-direction: row-reverse; background-color: transparent">
+            <div class="container-inline-next-center">
+                <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
+
+                {% set filter_arg = request.args.get('f') %}
+
+                <select id="filter" onchange="filter_changed()">
+                    <option value="t" {{ 'selected' if filter_arg == 't' }}>{{ "time"|translate(lang) }}</option>
+                    <option value="l" {{ 'selected' if filter_arg == 'l' }}>{{ "location"|translate(lang) }}</option>
+                </select>
+            </div>
+
+            {% if title %}
+                <div>
+                    <h2>{{ title }}</h2>
+                </div>
+            {% endif %}
         </div>
+
+        {% if data != None %}
+
+            {% set data = data|sort_dict(filter_arg) %}
+            {% for k,v in data.items() %}
+                <div class="container">
+
+                    <a href="{{ url_for('programm_point', lang=lang, point=k|to_int) }}" class="a-link">
+                        <div class="container-inline">
+                            <div style="width: 90%">
+                                <div class="container-inline-next" style="gap: 10px">
+                                    <small>{{ (v['tag']|get_day(lang))['short'] }} {{ v['zeit'] }}</small>
+                                    <small class="hidden-overflow">📍 {{ v['location-' + lang]['name'] }}</small>
+                                </div>
+                                <h3 style="" class="">{{ v['titel-' + lang] }}</h3>
+                                {% if v['untertitel-' + lang] %}
+                                    <h4 class="hidden-overflow">{{ v['untertitel-' + lang] }}</h4>
+                                {% endif %}
+                            </div>
+
+                            <input class="my-programm-img-small" id="my_programm_{{ k }}"
+                                   onclick="event.preventDefault(); change_my_programm(this.id, {{ k }})"
+                                   type="image"
+                                   src="{{ '/static/img/stern.png' if not 'my-program'|get_cookie(k) else '/static/img/stern_filled.png' }}">
+                        </div>
+                        {#            <small class="">📍 {{ v['location-' + lang]['name'] }}</small>#}
+                        <p class="hidden-overflow">{{ v['content-' + lang] }}</p>
+                    </a>
+
+                </div>
+            {% endfor %}
+        {% endif %}
     {% endif %}
 
     <script>

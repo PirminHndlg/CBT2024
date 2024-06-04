@@ -4,6 +4,11 @@
 
     {% if file %}
         <div class="container">
+            {% if show_title %}
+
+                <h2>{{ title }}</h2>
+            {% endif %}
+
             <div class="spinner" id="spinner"></div>
             <img src="" id="image" alt="{{ title }}" style="width:100%;" onload="hideSpinner()">
         </div>
