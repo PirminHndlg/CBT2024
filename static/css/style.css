@@ -166,7 +166,6 @@ li {
 }
 
 .container-inline {
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
