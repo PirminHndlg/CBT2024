@@ -339,25 +339,26 @@ def now(lang=None, max=None):
 
     json_data = get_json()
     data = {}
-    for k, v in json_data.items():
-        if v['tag'] == day:
-            def check_time(start, end):
-                start_time = get_time(start)
-                end_time = get_time(end)
-                if start_time and end_time:
-                    if is_time_between(start_time, end_time, current_time) or start_time_half_hour(start_time,
-                                                                                                   current_time):
-                        return True
+    if day >= 0:
+        for k, v in json_data.items():
+            if v['tag'] == day:
+                def check_time(start, end):
+                    start_time = get_time(start)
+                    end_time = get_time(end)
+                    if start_time and end_time:
+                        if is_time_between(start_time, end_time, current_time) or start_time_half_hour(start_time,
+                                                                                                       current_time):
+                            return True
 
-            time_split = v['zeit'].split('und')
-            for time in time_split:
-                if '-' in time:
-                    start, end = time.split('-')
-                    if check_time(str(start).strip(), str(end).strip()):
-                        data[k] = v
+                time_split = v['zeit'].split('und')
+                for time in time_split:
+                    if '-' in time:
+                        start, end = time.split('-')
+                        if check_time(str(start).strip(), str(end).strip()):
+                            data[k] = v
 
-        if max and len(data.keys()) >= max:
-            return data
+            if max and len(data.keys()) >= max:
+                return data
 
     if max:
         return data
