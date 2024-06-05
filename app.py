@@ -362,7 +362,7 @@ def now(lang=None, max=None):
     if max:
         return data
 
-    return render_template('programm_list.html', lang=lang, headline='Jetzt', data=data,
+    return render_template('programm_list.html', lang=lang, headline=translate('now', lang), data=data,
                            error_msg=f'-{translate("no_now", lang)}-' if data == {} else None)
 
 
