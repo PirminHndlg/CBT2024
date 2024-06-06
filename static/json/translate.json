@@ -23,5 +23,6 @@
   "lectures": {"de":  "Vorträge & Diskussionen", "cs": "Přednášky a diskuze", "pl": "Wykłady i dyskusje", "hu": "Előadások és beszélgetések", "sk": "Prednášky a diskusie"},
   "service2": {"de":  "Gottesdienste und Andachten", "cs": "Bohoslužby a modlitby", "pl": "Nabożeństwa i modlitwy", "hu": "Istentiszteletek és áhítatok", "sk": "Bohoslužby a modlitby"},
   "bible": {"de":  "Bibelarbeiten", "cs": "Biblické studium", "pl": "Studium biblijne", "hu": "Bibliai munkák", "sk": "Biblické štúdie"},
-  "time": {"de":  "Zeit", "cs": "Čas", "pl": "Czas", "hu": "Idő", "sk": "Čas"}
+  "time": {"de":  "Zeit", "cs": "Čas", "pl": "Czas", "hu": "Idő", "sk": "Čas"},
+  "legende": {"de":  "Legende", "cs": "Legenda", "pl": "Legenda", "hu": "Jelmagyarázat", "sk": "Legenda"}
 }

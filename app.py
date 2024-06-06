@@ -270,7 +270,11 @@ def gottesdienst(lang=None, id=None):
 @app.route('/<lang>/map')
 def map(lang=None):
     lang = check_lang(lang)
-    return render_template('map.html', lang=lang)
+    with open(f'static/json/location.json') as f:
+        location = json.load(f)
+        f.close()
+    print(location)
+    return render_template('map.html', lang=lang, location=location)
 
 
 @app.route('/markt/')
