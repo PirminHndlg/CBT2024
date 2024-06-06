@@ -341,4 +341,5 @@ select {
 #map-container img {
     height: 100%;
     display: inline-block;
+    border-radius: 10px;
 }
