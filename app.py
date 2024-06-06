@@ -273,7 +273,6 @@ def map(lang=None):
     with open(f'static/json/location.json') as f:
         location = json.load(f)
         f.close()
-    print(location)
     return render_template('map.html', lang=lang, location=location)
 
 
