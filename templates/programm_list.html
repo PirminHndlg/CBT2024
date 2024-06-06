@@ -17,7 +17,7 @@
 
     {% else %}
 
-        <div class="container container-inline" style="flex-direction: row-reverse; background-color: transparent">
+        <div class="container container-inline" style="flex-direction: row-reverse; background-color: {{ 'transparent' if not title else 'white' }}">
             <div class="container-inline-next-center">
                 <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
 
