@@ -9,7 +9,21 @@
                 <button class="button" style="margin: 10px">{{ 'legende'|translate(lang) }}</button>
             </a>
         </div>
-        <br><br>
+
+        <div id="map-container">
+            <img id="map-image" src="/static/img/map.png" alt="Map">
+        </div>
+
+        <script>
+            document.getElementById('map-image').onload = function () {
+                let container = document.getElementById('map-container');
+                let targetScroll = (container.scrollWidth - container.clientWidth) / 2;
+                container.scrollTo({left: targetScroll});
+            };
+        </script>
+
+        <br>
+
         {% if lang %}
 
             {% if location %}
@@ -41,10 +55,6 @@
             {% endif %}
 
         {% endif %}
-    </div>
-
-    <div class="container" style="height: 100vh; overflow-x: auto; overflow-y: hidden; text-align: center">
-        <img src="/static/img/map.png" style="height: 100%">
     </div>
 
 {% endblock %}

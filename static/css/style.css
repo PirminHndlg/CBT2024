@@ -329,3 +329,16 @@ select {
     vertical-align: middle;
     margin-left: 8px;
 }
+
+#map-container {
+    height: 90vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#map-container img {
+    height: 100%;
+    display: inline-block;
+}
