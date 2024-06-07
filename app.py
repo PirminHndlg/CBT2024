@@ -75,7 +75,7 @@ def get_cookie(cookie_name, value=None):
 
 def sort_dict_by_time(value):
     dic = {k: v for k, v in
-           sorted(value.items(), key=lambda item: item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0])}
+           sorted(value.items(), key=lambda item: int(item[1]['zeit'].split('und')[0].split('-')[0].split('.')[0]))}
     return dic
 
 
