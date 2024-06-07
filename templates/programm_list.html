@@ -17,9 +17,9 @@
 
     {% else %}
 
-        <div class="container container-inline" style="flex-direction: row-reverse; {{ 'background-color: transparent; margin: 0' if not title else 'background-color: white' }}">
+        <div class="container container-inline" style="flex-direction: row-reverse; gap: 10px; {{ 'background-color: transparent; margin: 0' if not title else 'background-color: white' }}">
             <div class="container-inline-next-center">
-                <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px">
+                <img src="/static/img/sort_icon.png" alt="filter" style="width: 18px; height: 18px; margin-right: 3px">
 
                 {% set filter_arg = request.args.get('f') %}
 
