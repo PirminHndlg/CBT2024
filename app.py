@@ -469,7 +469,7 @@ def download_ics(event_id):
     return send_file(
         ics_file,
         as_attachment=True,
-        download_name=f'{event_point["titel-" + lang]}.ics',
+        download_name=event_point["titel-" + lang].split("\n")[0] + '.ics',
         mimetype='text/calendar'
     )
 
